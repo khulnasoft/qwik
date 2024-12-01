@@ -45,7 +45,7 @@
   "qwik": "./lib/index.qwik.mjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/QwikDev/qwik.git",
+    "url": "https://github.com/KhulnaSoft/qwik.git",
     "directory": "packages/qwik-react"
   },
   "scripts": {

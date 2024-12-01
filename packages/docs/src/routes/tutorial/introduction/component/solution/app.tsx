@@ -12,7 +12,7 @@ export default component$(() => {
       <section>
         <ul>
           <li>
-            <a href="https://github.com/QwikDev/qwik">Qwik</a>
+            <a href="https://github.com/KhulnaSoft/qwik">Qwik</a>
           </li>
           <li>
             <a href="https://github.com/BuilderIO/partytown">Partytown</a>

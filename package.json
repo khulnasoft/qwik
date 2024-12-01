@@ -7,7 +7,7 @@
     "03": "devDependencies can't include reference to @builder.io/qwik-city or e2e test will fail."
   },
   "config": {
-    "syncpack": {
+    "synopkg": {
       "versionGroups": [
         {
           "label": "Be lenient in vite versions for prod. v4 is broken, v5 is good",
@@ -153,7 +153,7 @@
     "snoop": "1.0.4",
     "source-map": "0.7.4",
     "svgo": "3.3.2",
-    "syncpack": "12.3.3",
+    "synopkg": "13.0.0",
     "terser": "5.31.3",
     "tmp": "0.2.3",
     "tree-kill": "1.2.2",
@@ -213,12 +213,12 @@
     "cli": "pnpm build.cli && node packages/create-qwik/dist/create-qwik.cjs && tsx --require ./scripts/runBefore.ts scripts/validate-cli.ts --copy-local-qwik-dist",
     "cli.qwik": "pnpm build.cli && node packages/qwik/dist/qwik-cli.cjs",
     "cli.validate": "tsx --require ./scripts/runBefore.ts scripts/validate-cli.ts",
-    "deps": "corepack pnpm upgrade -i -r --latest && syncpack fix-mismatches && corepack pnpm dedupe",
+    "deps": "corepack pnpm upgrade -i -r --latest && synopkg fix-mismatches && corepack pnpm dedupe",
     "docs.dev": "cd packages/docs && pnpm build.repl-sw && pnpm dev",
     "docs.preview": "cd packages/docs && pnpm preview",
     "docs.sync": "tsx --require ./scripts/runBefore.ts scripts/docs_sync/index.ts && pnpm fmt",
     "eslint.update": "tsx --require ./scripts/runBefore.ts scripts/eslint-docs.ts",
-    "fmt": "pnpm prettier.fix && pnpm syncpack format",
+    "fmt": "pnpm prettier.fix && pnpm synopkg format",
     "fmt.staged": "pretty-quick --staged",
     "link.dist": "cd packages/qwik && pnpm link --global && cd ../qwik-city && pnpm link --global && cd ../eslint-plugin-qwik && pnpm link --global && cd ../qwik-react && pnpm link --global",
     "link.dist.npm": "cd packages/qwik && npm link && cd ../qwik-city && npm link && cd ../eslint-plugin-qwik && npm link && cd ../qwik-react && npm link",
@@ -228,13 +228,13 @@
     "lint.fix": "eslint --fix \"**/*.ts*\" && pnpm prettier.fix",
     "lint.prettier": "prettier --cache --check .",
     "lint.rust": "make lint",
-    "lint.syncpack": "syncpack list-mismatches",
+    "lint.synopkg": "synopkg list-mismatches",
     "preinstall": "npx only-allow pnpm",
     "prepare": "simple-git-hooks",
     "prettier.fix": "prettier --cache --write .",
     "qwik-push-build-repos": "tsx --require ./scripts/runBefore.ts ./scripts/qwik-push-build-repos.ts",
     "release": "changeset publish",
-    "release.fixup-package-json": "syncpack fix-mismatches --config syncpack-release-conf.json",
+    "release.fixup-package-json": "synopkg fix-mismatches --config synopkg-release-conf.json",
     "release.pkg-pr-new": "pnpm dlx pkg-pr-new@^0.0.9 publish --compact --pnpm ./packages/qwik ./packages/qwik-city ./packages/eslint-plugin-qwik ./packages/create-qwik",
     "release.prepare": "pnpm build --prepare-release",
     "serve": "tsx --require ./scripts/runBefore.ts --inspect --conditions=development starters/dev-server.ts 3300",

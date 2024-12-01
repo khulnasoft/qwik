@@ -11,7 +11,7 @@
     {
       "name": "Miško Hevery",
       "email": "misko@hevery.com",
-      "url": "https://github.com/QwikDev/qwik"
+      "url": "https://github.com/KhulnaSoft/qwik"
     },
     {
       "name": "Adam Bradley",
@@ -163,7 +163,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/QwikDev/qwik.git",
+    "url": "https://github.com/KhulnaSoft/qwik.git",
     "directory": "packages/qwik"
   },
   "type": "module",

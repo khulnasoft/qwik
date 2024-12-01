@@ -786,9 +786,9 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - name: SyncPack Check
+      - name: SynoPkg Check
         if: always()
-        run: pnpm run lint.syncpack
+        run: pnpm run lint.synopkg
 
       - name: Prettier Check
         if: always()

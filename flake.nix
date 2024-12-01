@@ -5,7 +5,7 @@
 
 # To update the dependencies, run `nix flake update`.
 
-# Note: keep the playwright version in package.json syncpack the same as the nix version
+# Note: keep the playwright version in package.json synopkg the same as the nix version
 # We don't need to have the latest playwright all the time so not having to download
 # all the browsers on every version bump is a good thing.
 {
