@@ -107,7 +107,7 @@ export const QwikCityProvider = component$<QwikCityProps>((props) => {
   const env = useQwikCityEnv();
   if (!env?.params) {
     throw new Error(
-      `Missing Qwik City Env Data for help visit https://github.com/QwikDev/qwik/issues/6237`
+      `Missing Qwik City Env Data for help visit https://github.com/KhulnaSoft/qwik/issues/6237`
     );
   }
 

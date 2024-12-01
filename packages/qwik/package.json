@@ -6,7 +6,7 @@
   "bin": {
     "qwik": "./qwik-cli.cjs"
   },
-  "bugs": "https://github.com/QwikDev/qwik/issues",
+  "bugs": "https://github.com/KhulnaSoft/qwik/issues",
   "contributors": [
     {
       "name": "Miško Hevery",

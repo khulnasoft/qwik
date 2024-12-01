@@ -18,7 +18,7 @@ export type Action<
 
 **References:** [ActionStore](#actionstore)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## ActionConstructor
 
@@ -138,7 +138,7 @@ export type ActionConstructor = {
 
 **References:** [TypedDataValidator](#typeddatavalidator), [DataValidator](#datavalidator), [GetValidatorOutputType](#getvalidatoroutputtype), [Action](#action), [StrictUnion](#strictunion), [FailReturn](#failreturn), [ValidatorErrorType](#validatorerrortype), [GetValidatorInputType](#getvalidatorinputtype), [FailOfRest](#failofrest), [JSONObject](#jsonobject)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## ActionReturn
 
@@ -149,7 +149,7 @@ export type ActionReturn<RETURN> = {
 };
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## ActionStore
 
@@ -171,7 +171,7 @@ export type ActionStore<RETURN, INPUT, OPTIONAL extends boolean = true> = {
 
 **References:** [ActionReturn](#actionreturn)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## ContentHeading
 
@@ -243,7 +243,7 @@ string
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## ContentMenu
 
@@ -319,7 +319,7 @@ string
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## DataValidator
 
@@ -331,7 +331,7 @@ export type DataValidator<T extends Record<string, any> = {}> = {
 
 **References:** [ValidatorReturn](#validatorreturn)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## DocumentHead
 
@@ -343,7 +343,7 @@ export type DocumentHead =
 
 **References:** [DocumentHeadValue](#documentheadvalue), [DocumentHeadProps](#documentheadprops)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## DocumentHeadProps
 
@@ -417,7 +417,7 @@ ResolveSyncValue
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## DocumentHeadValue
 
@@ -546,7 +546,7 @@ _(Optional)_ Sets `document.title`.
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## DocumentLink
 
@@ -828,7 +828,7 @@ _(Optional)_
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## DocumentMeta
 
@@ -974,7 +974,7 @@ _(Optional)_
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## DocumentScript
 
@@ -1054,7 +1054,7 @@ string
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## DocumentStyle
 
@@ -1130,7 +1130,7 @@ string
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## FailOfRest
 
@@ -1141,7 +1141,7 @@ export type FailOfRest<REST extends readonly DataValidator[]> =
 
 **References:** [DataValidator](#datavalidator)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## FailReturn
 
@@ -1149,7 +1149,7 @@ export type FailOfRest<REST extends readonly DataValidator[]> =
 export type FailReturn<T> = T & Failed;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## Form
 
@@ -1200,7 +1200,7 @@ string \| null
 
 import("@builder.io/qwik").JSXOutput
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/form-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/form-component.tsx)
 
 ## FormProps
 
@@ -1321,7 +1321,7 @@ Defaults to `false`
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/form-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/form-component.tsx)
 
 ## FormSubmitSuccessDetail
 
@@ -1374,7 +1374,7 @@ T
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/form-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/form-component.tsx)
 
 ## GetValidatorInputType
 
@@ -1389,7 +1389,7 @@ export type GetValidatorInputType<VALIDATOR extends TypedDataValidator> =
 
 **References:** [TypedDataValidator](#typeddatavalidator)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## GetValidatorOutputType
 
@@ -1404,7 +1404,7 @@ export type GetValidatorOutputType<VALIDATOR extends TypedDataValidator> =
 
 **References:** [TypedDataValidator](#typeddatavalidator)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## GetValidatorType
 
@@ -1415,7 +1415,7 @@ export type GetValidatorType<VALIDATOR extends TypedDataValidator> =
 
 **References:** [TypedDataValidator](#typeddatavalidator), [GetValidatorOutputType](#getvalidatoroutputtype)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## globalAction$
 
@@ -1423,7 +1423,7 @@ export type GetValidatorType<VALIDATOR extends TypedDataValidator> =
 globalAction$: ActionConstructor;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## globalActionQrl
 
@@ -1431,7 +1431,7 @@ globalAction$: ActionConstructor;
 globalActionQrl: ActionConstructorQRL;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## JSONObject
 
@@ -1443,7 +1443,7 @@ export type JSONObject = {
 
 **References:** [JSONValue](#jsonvalue)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## JSONValue
 
@@ -1460,7 +1460,7 @@ export type JSONValue =
 
 **References:** [JSONValue](#jsonvalue)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## Link
 
@@ -1468,7 +1468,7 @@ export type JSONValue =
 Link: import("@builder.io/qwik").Component<LinkProps>;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/link-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/link-component.tsx)
 
 ## LinkProps
 
@@ -1567,7 +1567,7 @@ _(Optional)_
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/link-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/link-component.tsx)
 
 ## Loader_2
 
@@ -1579,7 +1579,7 @@ export type Loader<RETURN> = {
 
 **References:** [LoaderSignal](#loadersignal)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## LoaderSignal
 
@@ -1591,7 +1591,7 @@ export type LoaderSignal<TYPE> = TYPE extends () => ValueOrPromise<
   : ReadonlySignal<TYPE>;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## MenuData
 
@@ -1599,7 +1599,7 @@ export type LoaderSignal<TYPE> = TYPE extends () => ValueOrPromise<
 export type MenuData = [pathname: string, menuLoader: MenuModuleLoader];
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## NavigationType
 
@@ -1607,7 +1607,7 @@ export type MenuData = [pathname: string, menuLoader: MenuModuleLoader];
 export type NavigationType = "initial" | "form" | "link" | "popstate";
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## PageModule
 
@@ -1702,7 +1702,7 @@ _(Optional)_
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## PathParams
 
@@ -1710,7 +1710,7 @@ _(Optional)_
 export declare type PathParams = Record<string, string>;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## PreventNavigateCallback
 
@@ -1720,7 +1720,7 @@ export type PreventNavigateCallback = (
 ) => ValueOrPromise<boolean>;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## QWIK_CITY_SCROLLER
 
@@ -1728,7 +1728,7 @@ export type PreventNavigateCallback = (
 QWIK_CITY_SCROLLER = "_qCityScroller";
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
 
 ## QwikCityMockProps
 
@@ -1800,7 +1800,7 @@ _(Optional)_
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
 
 ## QwikCityMockProvider
 
@@ -1808,7 +1808,7 @@ _(Optional)_
 QwikCityMockProvider: import("@builder.io/qwik").Component<QwikCityMockProps>;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
 
 ## QwikCityPlan
 
@@ -1935,7 +1935,7 @@ _(Optional)_
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## QwikCityProps
 
@@ -1979,7 +1979,7 @@ Default: `true`
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
 
 ## QwikCityProvider
 
@@ -1987,7 +1987,7 @@ Default: `true`
 QwikCityProvider: import("@builder.io/qwik").Component<QwikCityProps>;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
 
 ## ResolvedDocumentHead
 
@@ -1999,7 +1999,7 @@ export type ResolvedDocumentHead<
 
 **References:** [DocumentHeadValue](#documentheadvalue)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## routeAction$
 
@@ -2007,7 +2007,7 @@ export type ResolvedDocumentHead<
 routeAction$: ActionConstructor;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## routeActionQrl
 
@@ -2015,7 +2015,7 @@ routeAction$: ActionConstructor;
 routeActionQrl: ActionConstructorQRL;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## RouteData
 
@@ -2030,7 +2030,7 @@ export type RouteData =
     ];
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## routeLoader$
 
@@ -2038,7 +2038,7 @@ export type RouteData =
 routeLoader$: LoaderConstructor;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## routeLoaderQrl
 
@@ -2046,7 +2046,7 @@ routeLoader$: LoaderConstructor;
 routeLoaderQrl: LoaderConstructorQRL;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## RouteLocation
 
@@ -2133,7 +2133,7 @@ URL
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## RouteNavigate
 
@@ -2155,7 +2155,7 @@ export type RouteNavigate = QRL<
 
 **References:** [NavigationType](#navigationtype)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## RouterOutlet
 
@@ -2163,7 +2163,7 @@ export type RouteNavigate = QRL<
 RouterOutlet: import("@builder.io/qwik").Component<unknown>;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/router-outlet-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/router-outlet-component.tsx)
 
 ## server$
 
@@ -2216,7 +2216,7 @@ _(Optional)_
 
 [ServerQRL](#serverqrl)&lt;T&gt;
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## ServerFunction
 
@@ -2227,7 +2227,7 @@ export type ServerFunction = {
 };
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## serverQrl
 
@@ -2242,7 +2242,7 @@ export type ServerQRL<T extends ServerFunction> = QRL<
 
 **References:** [ServerFunction](#serverfunction)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## ServerQRL
 
@@ -2257,7 +2257,7 @@ export type ServerQRL<T extends ServerFunction> = QRL<
 
 **References:** [ServerFunction](#serverfunction)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## ServiceWorkerRegister
 
@@ -2295,7 +2295,7 @@ props
 
 import("@builder.io/qwik").JSXNode&lt;"script"&gt;
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/sw-component.tsx)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/sw-component.tsx)
 
 ## StaticGenerate
 
@@ -2337,7 +2337,7 @@ _(Optional)_
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## StaticGenerateHandler
 
@@ -2351,7 +2351,7 @@ export type StaticGenerateHandler = ({
 
 **References:** [StaticGenerate](#staticgenerate)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## StrictUnion
 
@@ -2359,7 +2359,7 @@ export type StaticGenerateHandler = ({
 export type StrictUnion<T> = Prettify<StrictUnionHelper<T, T>>;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## TypedDataValidator
 
@@ -2367,7 +2367,7 @@ export type StrictUnion<T> = Prettify<StrictUnionHelper<T, T>>;
 export type TypedDataValidator = ValibotDataValidator | ZodDataValidator;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## useContent
 
@@ -2379,7 +2379,7 @@ useContent: () => import("./types").ContentState;
 
 import("./types").ContentState
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
 
 ## useDocumentHead
 
@@ -2395,7 +2395,7 @@ useDocumentHead: <
 
 Required&lt;[ResolvedDocumentHead](#resolveddocumenthead)&lt;FrontMatter&gt;&gt;
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
 
 ## useLocation
 
@@ -2407,7 +2407,7 @@ useLocation: () => RouteLocation;
 
 [RouteLocation](#routelocation)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
 
 ## useNavigate
 
@@ -2419,7 +2419,7 @@ useNavigate: () => RouteNavigate;
 
 [RouteNavigate](#routenavigate)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
 
 ## usePreventNavigate$
 
@@ -2476,7 +2476,7 @@ qrl
 
 void
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/use-functions.ts)
 
 ## valibot$
 
@@ -2486,7 +2486,7 @@ void
 valibot$: ValibotConstructor;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## valibotQrl
 
@@ -2496,7 +2496,7 @@ valibot$: ValibotConstructor;
 valibotQrl: ValibotConstructorQRL;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## validator$
 
@@ -2504,7 +2504,7 @@ valibotQrl: ValibotConstructorQRL;
 validator$: ValidatorConstructor;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## ValidatorErrorKeyDotNotation
 
@@ -2533,7 +2533,7 @@ export type ValidatorErrorKeyDotNotation<T, Prefix extends string = ""> =
 
 **References:** [ValidatorErrorKeyDotNotation](#validatorerrorkeydotnotation)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## ValidatorErrorType
 
@@ -2550,7 +2550,7 @@ export type ValidatorErrorType<T, U = string> = {
 
 **References:** [ValidatorErrorKeyDotNotation](#validatorerrorkeydotnotation)
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## validatorQrl
 
@@ -2558,7 +2558,7 @@ export type ValidatorErrorType<T, U = string> = {
 validatorQrl: ValidatorConstructorQRL;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## ValidatorReturn
 
@@ -2568,7 +2568,7 @@ export type ValidatorReturn<T extends Record<string, any> = {}> =
   | ValidatorReturnFail<T>;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## zod$
 
@@ -2576,7 +2576,7 @@ export type ValidatorReturn<T extends Record<string, any> = {}> =
 zod$: ZodConstructor;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
 
 ## ZodConstructor
 
@@ -2593,7 +2593,7 @@ export type ZodConstructor = {
 };
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/types.ts)
 
 ## zodQrl
 
@@ -2601,4 +2601,4 @@ export type ZodConstructor = {
 zodQrl: ZodConstructorQRL;
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/server-functions.ts)
