@@ -1,4 +1,4 @@
-import { component$ } from '@khulnasoft.com/qwik';
+import { component$ } from '@builder.io/qwik';
 import BuilderContentComp from '../components/builder-content';
 import { Header } from '../components/header/header';
 import { QWIK_PUBLIC_API_KEY } from '../constants';

@@ -29,7 +29,7 @@ on:
   workflow_dispatch:
     inputs:
       disttag:
-        description: 'Publish "@khulnasoft.com/qwik" to NPM using this dist-tag, push the git-tag to the repo and create a GitHub release. The "latest" and "next" dist-tags will use the version number already committed in package.json.'
+        description: 'Publish "@builder.io/qwik" to NPM using this dist-tag, push the git-tag to the repo and create a GitHub release. The "latest" and "next" dist-tags will use the version number already committed in package.json.'
         required: true
         type: choice
         default: 'dev'
@@ -816,7 +816,7 @@ jobs:
     # don't run on forks
     if: |
       always() && 
-      github.repository == 'KhulnaSoft/qwik' && (
+      github.repository == 'QwikDev/qwik' && (
         github.ref == 'refs/heads/upcoming' ||
         needs.test-unit.result == 'success'
       )

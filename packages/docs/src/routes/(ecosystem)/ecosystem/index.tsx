@@ -1,6 +1,6 @@
-import { component$, useStyles$, type FunctionComponent } from '@khulnasoft.com/qwik';
-import type { DocumentHead } from '@khulnasoft.com/qwik-city';
-import { Link } from '@khulnasoft.com/qwik-city';
+import { component$, useStyles$, type FunctionComponent } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
+import { Link } from '@builder.io/qwik-city';
 import ImgQwikNewsletter from '~/media/ecosystem/qwik-newsletter.svg?jsx';
 import styles from '../ecosystem.css?inline';
 import data from '../ecosystem.json';
@@ -143,7 +143,7 @@ export default component$(() => {
               ))}
               <AddIntegrationItem
                 title="Add A Course"
-                href="https://github.com/KhulnaSoft/qwik/blob/main/packages/docs/src/routes/(ecosystem)/media/index.tsx"
+                href="https://github.com/QwikDev/qwik/blob/main/packages/docs/src/routes/(ecosystem)/media/index.tsx"
               />
             </ul>
           </section>
@@ -200,7 +200,7 @@ export default component$(() => {
               ))}
               <AddIntegrationItem
                 title="Add A Podcast"
-                href="https://github.com/KhulnaSoft/qwik/blob/main/packages/docs/src/routes/(ecosystem)/media/index.tsx"
+                href="https://github.com/QwikDev/qwik/blob/main/packages/docs/src/routes/(ecosystem)/media/index.tsx"
               />
             </ul>
           </section>
@@ -229,7 +229,7 @@ export default component$(() => {
               ))}
               <AddIntegrationItem
                 title="Add A Showcase"
-                href="https://github.com/KhulnaSoft/qwik/edit/main/packages/docs/scripts/pages.json"
+                href="https://github.com/QwikDev/qwik/edit/main/packages/docs/scripts/pages.json"
               />
             </ul>
           </section>
@@ -258,7 +258,7 @@ export default component$(() => {
               ))}
               <AddIntegrationItem
                 title="Add A Presentation"
-                href="https://github.com/KhulnaSoft/qwik/blob/main/packages/docs/src/routes/(ecosystem)/media/index.tsx"
+                href="https://github.com/QwikDev/qwik/blob/main/packages/docs/src/routes/(ecosystem)/media/index.tsx"
               />
             </ul>
           </section>

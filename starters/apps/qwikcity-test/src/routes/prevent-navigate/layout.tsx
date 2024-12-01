@@ -1,9 +1,5 @@
-import { Slot, component$, useSignal } from "@khulnasoft.com/qwik";
-import {
-  Link,
-  useNavigate,
-  usePreventNavigate$,
-} from "@khulnasoft.com/qwik-city";
+import { Slot, component$, useSignal } from "@builder.io/qwik";
+import { Link, useNavigate, usePreventNavigate$ } from "@builder.io/qwik-city";
 
 export default component$(() => {
   const okToNavigate = useSignal(true);

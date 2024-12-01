@@ -5,7 +5,7 @@ import {
   useResource$,
   Resource,
   useSignal,
-} from "@khulnasoft.com/qwik";
+} from "@builder.io/qwik";
 import { delay } from "./resource";
 
 export const ResourceSerialization = component$(() => {

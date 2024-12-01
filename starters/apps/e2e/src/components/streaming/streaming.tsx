@@ -6,7 +6,7 @@ import {
   useResource$,
   useStore,
   useStyles$,
-} from "@khulnasoft.com/qwik";
+} from "@builder.io/qwik";
 
 export function delay(time: number) {
   return new Promise<void>((resolve) => {

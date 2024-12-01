@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { $, component$, useStyles$ } from '@khulnasoft.com/qwik';
+import { $, component$, useStyles$ } from '@builder.io/qwik';
 
 export const Foo = component$(() => {
     useStyles$('.class {}');
@@ -45,8 +45,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 */
 ============================= test.tsx_Foo_component_HTDRsvUbLiE.tsx (ENTRY POINT)==
 
-import { qrl } from "@khulnasoft.com/qwik";
-import { useStylesQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@builder.io/qwik";
+import { useStylesQrl } from "@builder.io/qwik";
 export const Foo_component_HTDRsvUbLiE = ()=>{
     useStylesQrl(/*#__PURE__*/ qrl(()=>import("./test.tsx_Foo_component_useStyles_pV9TSCBIhw8"), "Foo_component_useStyles_pV9TSCBIhw8"));
     return <div class="class"/>;
@@ -76,8 +76,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 */
 ============================= test.tsx ==
 
-import { componentQrl } from "@khulnasoft.com/qwik";
-import { qrl } from "@khulnasoft.com/qwik";
+import { componentQrl } from "@builder.io/qwik";
+import { qrl } from "@builder.io/qwik";
 export const Foo = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./test.tsx_Foo_component_HTDRsvUbLiE"), "Foo_component_HTDRsvUbLiE"), {
     tagName: "my-foo"
 });

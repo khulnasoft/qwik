@@ -1,4 +1,4 @@
-import { render } from "@khulnasoft.com/qwik";
+import { render } from "@builder.io/qwik";
 import { Root } from "./root";
 
 /**

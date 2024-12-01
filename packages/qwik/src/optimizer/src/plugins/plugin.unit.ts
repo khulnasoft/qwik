@@ -275,13 +275,13 @@ describe('resolveId', () => {
   });
   test('libs', async () => {
     const plugin = await mockPlugin();
-    expect(await plugin.resolveId(null!, '@khulnasoft.com/qwik/build', undefined)).toHaveProperty(
+    expect(await plugin.resolveId(null!, '@builder.io/qwik/build', undefined)).toHaveProperty(
       'id',
-      '@khulnasoft.com/qwik/build'
+      '@builder.io/qwik/build'
     );
-    expect(await plugin.resolveId(null!, '/@khulnasoft.com/qwik/build', undefined)).toHaveProperty(
+    expect(await plugin.resolveId(null!, '/@builder.io/qwik/build', undefined)).toHaveProperty(
       'id',
-      '@khulnasoft.com/qwik/build'
+      '@builder.io/qwik/build'
     );
     expect(await plugin.resolveId(null!, '@qwik-client-manifest', '/foo/bar')).toHaveProperty(
       'id',

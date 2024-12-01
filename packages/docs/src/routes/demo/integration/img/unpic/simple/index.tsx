@@ -1,4 +1,4 @@
-import { component$ } from '@khulnasoft.com/qwik';
+import { component$ } from '@builder.io/qwik';
 import { Image } from '@unpic/qwik';
 
 export default component$(() => {

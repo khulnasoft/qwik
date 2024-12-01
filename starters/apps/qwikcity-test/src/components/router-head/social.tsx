@@ -1,7 +1,7 @@
 import type {
   ResolvedDocumentHead,
   RouteLocation,
-} from "@khulnasoft.com/qwik-city";
+} from "@builder.io/qwik-city";
 
 export const Social = ({ head, loc }: SocialProps) => {
   return (

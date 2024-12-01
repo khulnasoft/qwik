@@ -1,4 +1,4 @@
-import { isBrowser } from '@khulnasoft.com/qwik/build';
+import { isBrowser } from '@builder.io/qwik/build';
 import { qTest } from './qdev';
 
 export const emitEvent = (

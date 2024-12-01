@@ -3,7 +3,7 @@ import {
   useResource$,
   Resource,
   useSignal,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 export default component$(() => {
   const query = useSignal('busy');

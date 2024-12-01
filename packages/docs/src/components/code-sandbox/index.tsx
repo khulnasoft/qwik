@@ -1,4 +1,4 @@
-import { component$, useContext, useStylesScoped$, Slot, useSignal } from '@khulnasoft.com/qwik';
+import { component$, useContext, useStylesScoped$, Slot, useSignal } from '@builder.io/qwik';
 import CSS from './index.css?inline';
 import { GlobalStore } from '../../context';
 import { EditIcon } from '../svgs/edit-icon';
@@ -63,7 +63,7 @@ export default component$<{
           <ul>
             <li class="edit">
               <a
-                href={'https://github.com/KhulnaSoft/qwik/blob/main/packages/docs/' + (url || src)}
+                href={'https://github.com/QwikDev/qwik/blob/main/packages/docs/' + (url || src)}
                 rel="noopener"
                 target="_blank"
                 title="edit this snippet"

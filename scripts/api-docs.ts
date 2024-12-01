@@ -271,13 +271,13 @@ function getEditUrl(config: BuildConfig, fileUrlPath: string | undefined) {
 
     const tsxPath = join(config.rootDir, rootRelPath).replace(`.d.ts`, `.tsx`);
     if (existsSync(tsxPath)) {
-      const url = new URL(rootRelPath, `https://github.com/KhulnaSoft/qwik/tree/main/`);
+      const url = new URL(rootRelPath, `https://github.com/QwikDev/qwik/tree/main/`);
       return url.href.replace(`.d.ts`, `.tsx`);
     }
 
     const tsPath = join(config.rootDir, rootRelPath).replace(`.d.ts`, `.ts`);
     if (existsSync(tsPath)) {
-      const url = new URL(rootRelPath, `https://github.com/KhulnaSoft/qwik/tree/main/`);
+      const url = new URL(rootRelPath, `https://github.com/QwikDev/qwik/tree/main/`);
       return url.href.replace(`.d.ts`, `.ts`);
     }
   }

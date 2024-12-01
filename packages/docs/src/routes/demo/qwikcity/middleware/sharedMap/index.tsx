@@ -1,9 +1,9 @@
-import { component$ } from '@khulnasoft.com/qwik';
+import { component$ } from '@builder.io/qwik';
 import {
   routeLoader$,
   type RequestHandler,
   type Cookie,
-} from '@khulnasoft.com/qwik-city';
+} from '@builder.io/qwik-city';
 
 interface User {
   username: string;

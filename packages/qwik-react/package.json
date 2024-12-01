@@ -1,10 +1,10 @@
 {
-  "name": "@khulnasoft.com/qwik-react",
+  "name": "@builder.io/qwik-react",
   "description": "QwikReact allows adding React components into existing Qwik application",
   "version": "0.5.5",
-  "bugs": "https://github.com/KhulnaSoft/qwik/issues",
+  "bugs": "https://github.com/QwikDev/qwik/issues",
   "devDependencies": {
-    "@khulnasoft.com/qwik": "workspace:^",
+    "@builder.io/qwik": "workspace:^",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "react": "18.3.1",
@@ -35,7 +35,7 @@
   "license": "MIT",
   "main": "./lib/index.qwik.mjs",
   "peerDependencies": {
-    "@khulnasoft.com/qwik": "workspace:^",
+    "@builder.io/qwik": "workspace:^",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "react": "^18",

@@ -1,19 +1,17 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.0.1/schema.json",
-  "changelog": ["./changelog-github-custom.cjs", { "repo": "KhulnaSoft/qwik" }],
+  "changelog": ["./changelog-github-custom.cjs", { "repo": "QwikDev/qwik" }],
   "commit": false,
-  "fixed": [
-    ["@khulnasoft.com/qwik", "@khulnasoft.com/qwik-city", "eslint-plugin-qwik", "create-qwik"]
-  ],
+  "fixed": [["@builder.io/qwik", "@builder.io/qwik-city", "eslint-plugin-qwik", "create-qwik"]],
   "linked": [],
   "access": "public",
   "baseBranch": "upcoming",
   "updateInternalDependencies": "minor",
   "ignore": [
     "qwik-docs",
-    "@khulnasoft.com/qwik-labs",
+    "@builder.io/qwik-labs",
     "insights",
-    "@khulnasoft.com/qwik-react",
+    "@builder.io/qwik-react",
     "@builder.io/qwik-worker",
     "qwik-cli-e2e"
   ],

@@ -38,7 +38,7 @@ Also make sure your PR follows all the guidelines in the [CONTRIBUTING.md](./CON
 * add items that are relevant and need to be done before merging
 -->
 
-- [ ] My code follows the [developer guidelines of this project](https://github.com/KhulnaSoft/qwik/blob/main/CONTRIBUTING.md)
+- [ ] My code follows the [developer guidelines of this project](https://github.com/QwikDev/qwik/blob/main/CONTRIBUTING.md)
 - [ ] I performed a self-review of my own code
 - [ ] I added a changeset with `pnpm change`
 - [ ] I made corresponding changes to the Qwik docs

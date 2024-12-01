@@ -1,4 +1,4 @@
-import { _deserializeData } from '@khulnasoft.com/qwik';
+import { _deserializeData } from '@builder.io/qwik';
 
 globalThis.document = {
   nodeType: 9,

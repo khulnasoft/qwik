@@ -1,4 +1,4 @@
-import { $, component$, useOn, useStore } from '@khulnasoft.com/qwik';
+import { $, component$, useOn, useStore } from '@builder.io/qwik';
 
 export default component$(() => {
   const store = useStore(

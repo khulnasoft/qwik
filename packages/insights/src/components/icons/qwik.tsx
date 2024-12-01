@@ -1,4 +1,4 @@
-import { type QwikIntrinsicElements } from '@khulnasoft.com/qwik';
+import { type QwikIntrinsicElements } from '@builder.io/qwik';
 
 export const QwikIcon = function FluentAnimalTurtle24Regular(
   props: QwikIntrinsicElements['svg'],

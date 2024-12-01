@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { component$, useStore, Slot, Fragment } from '@khulnasoft.com/qwik';
+import { component$, useStore, Slot, Fragment } from '@builder.io/qwik';
 import Image from './image.jpg?jsx';
 
 export function Fn1(props: Stuff) {
@@ -103,14 +103,14 @@ export const AppStatic = component$((props: Stuff) => {
 
 ============================= test.js ==
 
-import { _jsxQ } from "@khulnasoft.com/qwik";
-import { _jsxC } from "@khulnasoft.com/qwik";
-import { _jsxBranch } from "@khulnasoft.com/qwik";
-import { componentQrl } from "@khulnasoft.com/qwik";
-import { inlinedQrl } from "@khulnasoft.com/qwik";
-import { _fnSignal } from "@khulnasoft.com/qwik";
-import { Fragment as _Fragment } from "@khulnasoft.com/qwik/jsx-runtime";
-import { Slot, Fragment } from '@khulnasoft.com/qwik';
+import { _jsxQ } from "@builder.io/qwik";
+import { _jsxC } from "@builder.io/qwik";
+import { _jsxBranch } from "@builder.io/qwik";
+import { componentQrl } from "@builder.io/qwik";
+import { inlinedQrl } from "@builder.io/qwik";
+import { _fnSignal } from "@builder.io/qwik";
+import { Fragment as _Fragment } from "@builder.io/qwik/jsx-runtime";
+import { Slot, Fragment } from '@builder.io/qwik';
 import Image from './image.jpg?jsx';
 export function Fn1(props) {
     _jsxBranch();

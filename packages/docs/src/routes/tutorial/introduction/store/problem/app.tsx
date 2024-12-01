@@ -1,4 +1,4 @@
-import { component$ } from '@khulnasoft.com/qwik';
+import { component$ } from '@builder.io/qwik';
 
 export default component$(() => {
   // `github` is just a constant object.

@@ -1,9 +1,9 @@
-import type { Render, RenderOptions } from '@khulnasoft.com/qwik/server';
-import type { QwikCityPlan, FailReturn, Action, Loader } from '@khulnasoft.com/qwik-city';
+import type { Render, RenderOptions } from '@builder.io/qwik/server';
+import type { QwikCityPlan, FailReturn, Action, Loader } from '@builder.io/qwik-city';
 import type { ErrorResponse } from './error-handler';
 import type { AbortMessage, RedirectMessage } from './redirect-handler';
 import type { RequestEventInternal } from './request-event';
-import type { _deserializeData, _serializeData, _verifySerializable } from '@khulnasoft.com/qwik';
+import type { _deserializeData, _serializeData, _verifySerializable } from '@builder.io/qwik';
 
 /** @public */
 export interface EnvGetter {

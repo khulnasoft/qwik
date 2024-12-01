@@ -1,4 +1,4 @@
-import { component$, useTask$, useSignal } from '@khulnasoft.com/qwik';
+import { component$, useTask$, useSignal } from '@builder.io/qwik';
 enum Color {
   Red,
   Blue,

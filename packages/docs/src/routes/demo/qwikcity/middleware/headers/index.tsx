@@ -1,4 +1,4 @@
-import { type RequestHandler } from '@khulnasoft.com/qwik-city';
+import { type RequestHandler } from '@builder.io/qwik-city';
 
 export const onGet: RequestHandler = async ({ headers, json }) => {
   headers.set('X-SRF-TOKEN', Math.random().toString(36).replace('0.', ''));

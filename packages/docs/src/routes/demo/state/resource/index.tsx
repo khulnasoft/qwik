@@ -3,7 +3,7 @@ import {
   Resource,
   useResource$,
   useSignal,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 export default component$(() => {
   const postId = useSignal('23');

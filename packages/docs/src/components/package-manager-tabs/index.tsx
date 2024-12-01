@@ -1,4 +1,4 @@
-import { Slot, component$, useContext, useSignal, $, type PropsOf } from '@khulnasoft.com/qwik';
+import { Slot, component$, useContext, useSignal, $, type PropsOf } from '@builder.io/qwik';
 import { Tabs } from '@qwik-ui/headless';
 import { GlobalStore } from '~/context';
 

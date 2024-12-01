@@ -1,4 +1,4 @@
-import { component$ } from "@khulnasoft.com/qwik";
+import { component$ } from "@builder.io/qwik";
 import { ActionStandalone } from "../../../../components/action/action";
 
 export default component$(() => {

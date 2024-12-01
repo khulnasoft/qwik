@@ -1,5 +1,5 @@
-import { Slot, component$ } from '@khulnasoft.com/qwik';
-import { type RequestHandler } from '@khulnasoft.com/qwik-city';
+import { Slot, component$ } from '@builder.io/qwik';
+import { type RequestHandler } from '@builder.io/qwik-city';
 import { dbGetInsightUser, type InsightsUser } from '~/db/sql-user';
 import type { SessionData } from '../layout';
 

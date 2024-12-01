@@ -1,17 +1,17 @@
 import type {
   ServerRenderOptions,
   ServerRequestEvent,
-} from '@khulnasoft.com/qwik-city/middleware/request-handler';
+} from '@builder.io/qwik-city/middleware/request-handler';
 import {
   mergeHeadersCookies,
   requestHandler,
-} from '@khulnasoft.com/qwik-city/middleware/request-handler';
+} from '@builder.io/qwik-city/middleware/request-handler';
 import { getNotFound } from '@qwik-city-not-found-paths';
 import { isStaticPath } from '@qwik-city-static-paths';
-import { _deserializeData, _serializeData, _verifySerializable } from '@khulnasoft.com/qwik';
-import { setServerPlatform } from '@khulnasoft.com/qwik/server';
+import { _deserializeData, _serializeData, _verifySerializable } from '@builder.io/qwik';
+import { setServerPlatform } from '@builder.io/qwik/server';
 
-// @khulnasoft.com/qwik-city/middleware/vercel-edge
+// @builder.io/qwik-city/middleware/vercel-edge
 const COUNTRY_HEADER_NAME = 'x-vercel-ip-country';
 const IP_HEADER_NAME = 'x-real-ip';
 const VERCEL_COOKIE = '__vdpl';

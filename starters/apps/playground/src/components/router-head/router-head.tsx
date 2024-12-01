@@ -1,6 +1,6 @@
-import { useDocumentHead, useLocation } from "@khulnasoft.com/qwik-city";
+import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
 
-import { component$ } from "@khulnasoft.com/qwik";
+import { component$ } from "@builder.io/qwik";
 
 /**
  * The RouterHead component is placed inside of the document `<head>` element.

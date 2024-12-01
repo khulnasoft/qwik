@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { component$ as Component, $ as onRender, useStore } from '@khulnasoft.com/qwik';
+import { component$ as Component, $ as onRender, useStore } from '@builder.io/qwik';
 
 export const App = Component((props) => {
     const state = useStore({thing: 0});
@@ -18,24 +18,24 @@ export const App = Component((props) => {
 
 ============================= test.js ==
 
-import { componentQrl } from "@khulnasoft.com/qwik";
-import { qrl } from "@khulnasoft.com/qwik";
+import { componentQrl } from "@builder.io/qwik";
+import { qrl } from "@builder.io/qwik";
 export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./test.tsx_App_Component_NuXFTHRjvXE"), "App_Component_NuXFTHRjvXE"));
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AAGA,OAAO,MAAM,oBAAM,iHAMhB\"}")
 ============================= test.tsx_App_Component_1_A08tXHb9pEk.js (ENTRY POINT)==
 
-import { useLexicalScope } from "@khulnasoft.com/qwik";
-import { _fnSignal } from "@khulnasoft.com/qwik";
-import { _jsxQ } from "@khulnasoft.com/qwik";
+import { useLexicalScope } from "@builder.io/qwik";
+import { _fnSignal } from "@builder.io/qwik";
+import { _jsxQ } from "@builder.io/qwik";
 export const App_Component_1_A08tXHb9pEk = ()=>{
     const [state] = useLexicalScope();
     return /*#__PURE__*/ _jsxQ("div", null, null, _fnSignal((p0)=>p0.thing, [
         state
     ], "p0.thing"), 3, "u6_0");
 };
-export { _hW } from "@khulnasoft.com/qwik";
+export { _hW } from "@builder.io/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;;2CAMoB;;yBACZ,MAAC,mCAAK,GAAM,KAAK\"}")
@@ -61,8 +61,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 */
 ============================= test.tsx_App_Component_NuXFTHRjvXE.js (ENTRY POINT)==
 
-import { qrl } from "@khulnasoft.com/qwik";
-import { useStore } from "@khulnasoft.com/qwik";
+import { qrl } from "@builder.io/qwik";
+import { useStore } from "@builder.io/qwik";
 export const App_Component_NuXFTHRjvXE = (props)=>{
     const state = useStore({
         thing: 0

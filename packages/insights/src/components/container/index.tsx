@@ -1,4 +1,4 @@
-import { Slot, component$ } from '@khulnasoft.com/qwik';
+import { Slot, component$ } from '@builder.io/qwik';
 
 type LayoutProps = {
   position?: 'left' | 'center';

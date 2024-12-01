@@ -1,4 +1,4 @@
-import { component$, useStore } from "@khulnasoft.com/qwik";
+import { component$, useStore } from "@builder.io/qwik";
 
 export const App = component$(() => {
   const state = useStore({ name: "World", running: true });
@@ -9,7 +9,7 @@ export const App = component$(() => {
       document:on-expensiveComputationDone$={() => (state.running = false)}
     >
       <p style={{ "text-align": "center" }}>
-        <a href="https://github.com/KhulnaSoft/qwik">
+        <a href="https://github.com/QwikDev/qwik">
           <img
             alt="Qwik Logo"
             width={400}
@@ -18,8 +18,8 @@ export const App = component$(() => {
         </a>
       </p>
       <p class="congrats">
-        Congratulations <a href="https://github.com/KhulnaSoft/qwik">Qwik</a>{" "}
-        with <a href="https://partytown.builder.io/">Partytown</a> is working!
+        Congratulations <a href="https://github.com/QwikDev/qwik">Qwik</a> with{" "}
+        <a href="https://partytown.builder.io/">Partytown</a> is working!
       </p>
 
       <p>

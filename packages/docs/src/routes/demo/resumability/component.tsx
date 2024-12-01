@@ -3,7 +3,7 @@ import {
   component$,
   useStylesScoped$,
   Slot,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 import CSS from './component.css?inline';
 import { type HoverEvent } from './index';
 

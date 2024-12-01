@@ -1,8 +1,8 @@
 ---
-title: \@khulnasoft.com/qwik-city/middleware/netlify-edge API Reference
+title: \@builder.io/qwik-city/middleware/netlify-edge API Reference
 ---
 
-# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/middleware/netlify-edge
+# [API](/api) &rsaquo; @builder.io/qwik-city/middleware/netlify-edge
 
 ## createQwikCity
 
@@ -41,7 +41,7 @@ opts
 
 (request: Request, context: Context) =&gt; Promise&lt;Response&gt;
 
-[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/middleware/netlify-edge/index.ts)
+[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/middleware/netlify-edge/index.ts)
 
 ## PlatformNetlify
 
@@ -51,7 +51,7 @@ export interface PlatformNetlify extends Partial<Omit<Context, 'next' | 'cookies
 
 **Extends:** Partial&lt;Omit&lt;Context, 'next' \| 'cookies'&gt;&gt;
 
-[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/middleware/netlify-edge/index.ts)
+[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/middleware/netlify-edge/index.ts)
 
 ## QwikCityNetlifyOptions
 
@@ -61,4 +61,4 @@ export interface QwikCityNetlifyOptions extends ServerRenderOptions
 
 **Extends:** ServerRenderOptions
 
-[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/middleware/netlify-edge/index.ts)
+[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/middleware/netlify-edge/index.ts)

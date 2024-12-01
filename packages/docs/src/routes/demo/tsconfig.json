@@ -5,7 +5,7 @@
     "module": "ES2020",
     "lib": ["es2020", "DOM", "WebWorker", "DOM.Iterable"],
     "jsx": "react-jsx",
-    "jsxImportSource": "@khulnasoft.com/qwik",
+    "jsxImportSource": "@builder.io/qwik",
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,

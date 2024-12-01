@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { component$, useStore } from '@khulnasoft.com/qwik';
+import { component$, useStore } from '@builder.io/qwik';
 
 export const App = component$((props: Stuff) => {
     return (
@@ -22,18 +22,18 @@ export const App = component$((props: Stuff) => {
 
 ============================= test.js ==
 
-import { componentQrl } from "@khulnasoft.com/qwik";
-import { qrl } from "@khulnasoft.com/qwik";
+import { componentQrl } from "@builder.io/qwik";
+import { qrl } from "@builder.io/qwik";
 export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./test.tsx_App_component_ckEPmXZlub0.js"), "App_component_ckEPmXZlub0"));
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AAGA,OAAO,MAAM,oBAAM,oHAUhB\"}")
 ============================= test.tsx_App_component_ckEPmXZlub0.js (ENTRY POINT)==
 
-import { Fragment as _Fragment } from "@khulnasoft.com/qwik/jsx-runtime";
-import { _IMMUTABLE } from "@khulnasoft.com/qwik";
-import { _jsxC } from "@khulnasoft.com/qwik";
-import { _jsxQ } from "@khulnasoft.com/qwik";
+import { Fragment as _Fragment } from "@builder.io/qwik/jsx-runtime";
+import { _IMMUTABLE } from "@builder.io/qwik";
+import { _jsxC } from "@builder.io/qwik";
+import { _jsxQ } from "@builder.io/qwik";
 export const App_component_ckEPmXZlub0 = (props)=>{
     return /*#__PURE__*/ _jsxC(_Fragment, {
         children: [

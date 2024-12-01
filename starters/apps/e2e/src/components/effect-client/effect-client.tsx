@@ -12,7 +12,7 @@ import {
   useTask$,
   useVisibleTask$,
   type Signal,
-} from "@khulnasoft.com/qwik";
+} from "@builder.io/qwik";
 import { delay } from "../streaming/streaming";
 
 export const EffectClient = component$(() => {

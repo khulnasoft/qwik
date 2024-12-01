@@ -1,4 +1,4 @@
-import { component$ } from '@khulnasoft.com/qwik';
+import { component$ } from '@builder.io/qwik';
 interface Value {
   value: 12;
 }

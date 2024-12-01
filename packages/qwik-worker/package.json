@@ -2,9 +2,9 @@
   "name": "@builder.io/qwik-worker",
   "description": "Qwik Worker allows to use Web Worker with worker$. Experimental.",
   "version": "0.0.1",
-  "bugs": "https://github.com/KhulnaSoft/qwik/issues",
+  "bugs": "https://github.com/QwikDev/qwik/issues",
   "devDependencies": {
-    "@khulnasoft.com/qwik": "workspace:^",
+    "@builder.io/qwik": "workspace:^",
     "vite": "5.3.5",
     "vite-plugin-static-copy": "1.0.6"
   },
@@ -24,7 +24,7 @@
   "license": "MIT",
   "main": "./lib/index.qwik.mjs",
   "peerDependencies": {
-    "@khulnasoft.com/qwik": "workspace:^"
+    "@builder.io/qwik": "workspace:^"
   },
   "qwik": "./lib/index.qwik.mjs",
   "repository": {

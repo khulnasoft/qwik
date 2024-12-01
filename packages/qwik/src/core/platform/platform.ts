@@ -1,4 +1,4 @@
-import { isServer } from '@khulnasoft.com/qwik/build';
+import { isServer } from '@builder.io/qwik/build';
 import { qError, QError_qrlMissingChunk, QError_qrlMissingContainer } from '../error/error';
 import { getSymbolHash } from '../qrl/qrl-class';
 import type { QwikElement } from '../render/dom/virtual-element';

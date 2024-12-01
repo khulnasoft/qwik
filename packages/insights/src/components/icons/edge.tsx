@@ -1,4 +1,4 @@
-import { type QwikIntrinsicElements } from '@khulnasoft.com/qwik';
+import { type QwikIntrinsicElements } from '@builder.io/qwik';
 
 export function EdgeIcon(props: QwikIntrinsicElements['svg'], key: string) {
   return (

@@ -1,8 +1,8 @@
 ---
-title: \@khulnasoft.com/qwik-city/vite/cloud-run API Reference
+title: \@builder.io/qwik-city/vite/cloud-run API Reference
 ---
 
-# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/vite/cloud-run
+# [API](/api) &rsaquo; @builder.io/qwik-city/vite/cloud-run
 
 ## cloudRunAdapter
 
@@ -41,7 +41,7 @@ _(Optional)_
 
 any
 
-[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/cloud-run/vite/index.ts)
+[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/cloud-run/vite/index.ts)
 
 ## CloudRunAdapterOptions
 
@@ -51,4 +51,4 @@ export interface CloudRunAdapterOptions extends ServerAdapterOptions
 
 **Extends:** ServerAdapterOptions
 
-[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/cloud-run/vite/index.ts)
+[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/cloud-run/vite/index.ts)

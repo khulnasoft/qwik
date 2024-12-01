@@ -2,46 +2,44 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "@khulnasoft.com/qwik-city": ["packages/qwik-city/src/runtime/src/index.ts"],
-      "@khulnasoft.com/qwik-city/service-worker": [
+      "@builder.io/qwik-city": ["packages/qwik-city/src/runtime/src/index.ts"],
+      "@builder.io/qwik-city/service-worker": [
         "packages/qwik-city/src/runtime/src/service-worker/index.ts"
       ],
-      "@khulnasoft.com/qwik-city/adapters/azure-swa/vite": [
+      "@builder.io/qwik-city/adapters/azure-swa/vite": [
         "packages/qwik-city/src/adapters/azure-swa/vite/index.ts"
       ],
-      "@khulnasoft.com/qwik-city/adapters/cloudflare-pages/vite": [
+      "@builder.io/qwik-city/adapters/cloudflare-pages/vite": [
         "packages/qwik-city/src/adapters/cloudflare-pages/vite/index.ts"
       ],
-      "@khulnasoft.com/qwik-city/adapters/node-server/vite": [
+      "@builder.io/qwik-city/adapters/node-server/vite": [
         "packages/qwik-city/src/adapters/node-server/vite/index.ts"
       ],
-      "@khulnasoft.com/qwik-city/adapters/netlify-edge/vite": [
+      "@builder.io/qwik-city/adapters/netlify-edge/vite": [
         "packages/qwik-city/src/adapters/netlify-edge/vite/index.ts"
       ],
-      "@khulnasoft.com/qwik-city/adapters/shared/vite": [
+      "@builder.io/qwik-city/adapters/shared/vite": [
         "packages/qwik-city/src/adapters/shared/vite/index.ts"
       ],
-      "@khulnasoft.com/qwik-city/adapters/static/vite": [
+      "@builder.io/qwik-city/adapters/static/vite": [
         "packages/qwik-city/src/adapters/static/vite/index.ts"
       ],
-      "@khulnasoft.com/qwik-city/middleware/azure-swa": [
-        "packages/qwik-city/src/middleware/azure-swa"
-      ],
-      "@khulnasoft.com/qwik-city/middleware/aws-lambda": [
+      "@builder.io/qwik-city/middleware/azure-swa": ["packages/qwik-city/src/middleware/azure-swa"],
+      "@builder.io/qwik-city/middleware/aws-lambda": [
         "packages/qwik-city/src/middleware/aws-lambda"
       ],
-      "@khulnasoft.com/qwik-city/middleware/cloudflare-pages": [
+      "@builder.io/qwik-city/middleware/cloudflare-pages": [
         "packages/qwik-city/src/middleware/cloudflare-pages"
       ],
-      "@khulnasoft.com/qwik-city/middleware/request-handler": [
+      "@builder.io/qwik-city/middleware/request-handler": [
         "packages/qwik-city/src/middleware/request-handler"
       ],
-      "@khulnasoft.com/qwik-city/middleware/node": ["packages/qwik-city/src/middleware/node"],
-      "@khulnasoft.com/qwik-city/middleware/netlify-edge": [
+      "@builder.io/qwik-city/middleware/node": ["packages/qwik-city/src/middleware/node"],
+      "@builder.io/qwik-city/middleware/netlify-edge": [
         "packages/qwik-city/src/middleware/netlify-edge"
       ],
-      "@khulnasoft.com/qwik-city/static": ["packages/qwik-city/src/static"],
-      "@khulnasoft.com/qwik-city/vite": ["packages/qwik-city/src/buildtime/vite"],
+      "@builder.io/qwik-city/static": ["packages/qwik-city/src/static"],
+      "@builder.io/qwik-city/vite": ["packages/qwik-city/src/buildtime/vite"],
 
       "@qwik-city-plan": ["packages/qwik-city/src/runtime/src/qwik-city-plan.ts"],
       "@qwik-city-sw-register-build": [

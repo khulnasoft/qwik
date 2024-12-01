@@ -7,7 +7,7 @@ import {
   Slot,
   useSignal,
   useVisibleTask$,
-} from "@khulnasoft.com/qwik";
+} from "@builder.io/qwik";
 
 export interface ContextI {
   displayName: string;

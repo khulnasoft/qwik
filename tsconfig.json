@@ -7,7 +7,7 @@
     "resolveJsonModule": true,
     "jsx": "react-jsx",
     "allowArbitraryExtensions": true,
-    "jsxImportSource": "@khulnasoft.com/qwik",
+    "jsxImportSource": "@builder.io/qwik",
     "declaration": true,
     "outDir": "./dist-dev/tsc-out",
     "declarationDir": "./dist-dev/dts-out",

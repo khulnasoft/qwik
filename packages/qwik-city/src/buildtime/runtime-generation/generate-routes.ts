@@ -1,4 +1,4 @@
-import type { QwikVitePlugin, QwikManifest } from '@khulnasoft.com/qwik/optimizer';
+import type { QwikVitePlugin, QwikManifest } from '@builder.io/qwik/optimizer';
 import type { BuildContext, BuildRoute } from '../types';
 import { isModuleExt, isPageExt, removeExtension } from '../../utils/fs';
 import { getImportPath } from './utils';

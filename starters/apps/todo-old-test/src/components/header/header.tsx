@@ -1,4 +1,4 @@
-import { component$, useStore } from "@khulnasoft.com/qwik";
+import { component$, useStore } from "@builder.io/qwik";
 import type { Todos } from "../../state/state";
 
 /**

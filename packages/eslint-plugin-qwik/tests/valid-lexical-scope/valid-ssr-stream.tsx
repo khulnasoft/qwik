@@ -1,4 +1,4 @@
-import { component$, SSRStream } from '@khulnasoft.com/qwik';
+import { component$, SSRStream } from '@builder.io/qwik';
 import { Readable } from 'stream';
 
 export const RemoteApp = component$(() => {

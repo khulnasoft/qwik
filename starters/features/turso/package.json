@@ -28,6 +28,6 @@
     "@libsql/client": "latest"
   },
   "devDependencies": {
-    "@khulnasoft.com/qwik-city": "latest"
+    "@builder.io/qwik-city": "latest"
   }
 }

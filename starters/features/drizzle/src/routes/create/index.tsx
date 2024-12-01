@@ -1,5 +1,5 @@
-import { component$ } from "@khulnasoft.com/qwik";
-import { routeAction$, zod$, z, Form } from "@khulnasoft.com/qwik-city";
+import { component$ } from "@builder.io/qwik";
+import { routeAction$, zod$, z, Form } from "@builder.io/qwik-city";
 import { drizzle } from "drizzle-orm/better-sqlite3";
 import Database from "better-sqlite3";
 import { schema } from "../../../drizzle/schema";

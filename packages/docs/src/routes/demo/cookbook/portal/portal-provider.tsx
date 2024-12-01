@@ -11,7 +11,7 @@ import {
   type QRL,
   type Signal,
   type JSXOutput,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 import CSS from './portal-provider.css?inline';
 
 // Define public API for opening up Portals
@@ -103,7 +103,7 @@ export const WrapJsxInContext = component$<{
   });
   return (
     <>
-      {/* Workaround: https://github.com/KhulnaSoft/qwik/issues/4966 */}
+      {/* Workaround: https://github.com/QwikDev/qwik/issues/4966 */}
       {/* {jsx} */}
       {[jsx].map((jsx) => jsx)}
     </>

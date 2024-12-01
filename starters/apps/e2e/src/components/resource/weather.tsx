@@ -6,7 +6,7 @@ import {
   Resource,
   useTask$,
   type ResourceReturn,
-} from "@khulnasoft.com/qwik";
+} from "@builder.io/qwik";
 
 export interface WeatherData {
   name: string;

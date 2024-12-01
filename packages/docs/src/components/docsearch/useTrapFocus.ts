@@ -1,4 +1,4 @@
-import { useTask$, type Signal } from '@khulnasoft.com/qwik';
+import { useTask$, type Signal } from '@builder.io/qwik';
 
 interface UseTrapFocusProps {
   containerRef: Signal<Element>;

@@ -2,7 +2,7 @@
 // Todo Application State Interfaces
 ////////////////////////////////////////////////////////////////////////
 
-import { createContextId } from "@khulnasoft.com/qwik";
+import { createContextId } from "@builder.io/qwik";
 
 export const TODOS = createContextId<Todos>("TodoApp");
 

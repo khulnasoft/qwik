@@ -1,4 +1,4 @@
-import { Link } from "@khulnasoft.com/qwik-city";
+import { Link } from "@builder.io/qwik-city";
 
 export default () => {
   return (

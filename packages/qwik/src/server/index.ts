@@ -1,6 +1,6 @@
-import { setPlatform } from '@khulnasoft.com/qwik';
+import { setPlatform } from '@builder.io/qwik';
 import { createPlatform } from './platform';
-import type { ResolvedManifest } from '@khulnasoft.com/qwik/optimizer';
+import type { ResolvedManifest } from '@builder.io/qwik/optimizer';
 import { resolveManifest } from './render';
 import type { QwikManifest } from './types';
 

@@ -1,5 +1,5 @@
-import { component$, useOn, $ } from "@khulnasoft.com/qwik";
-import { Link } from "@khulnasoft.com/qwik-city";
+import { component$, useOn, $ } from "@builder.io/qwik";
+import { Link } from "@builder.io/qwik-city";
 export const Navbar = component$(() => {
   useOn(
     "qvisible",

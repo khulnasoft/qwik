@@ -1,4 +1,4 @@
-import { component$, useSignal } from '@khulnasoft.com/qwik';
+import { component$, useSignal } from '@builder.io/qwik';
 import { ensureDefaultFiles, type TutorialStore } from './layout';
 
 export const TutorialContentFooter = component$(({ store }: TutorialContentFooterProps) => {

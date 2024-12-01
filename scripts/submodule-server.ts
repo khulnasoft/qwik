@@ -25,17 +25,17 @@ export async function submoduleServer(config: BuildConfig) {
     platform: 'node',
     target,
     external: [
-      /* no Node.js built-in externals allowed! */ '@khulnasoft.com/qwik-dom',
-      '@khulnasoft.com/qwik/build',
+      /* no Node.js built-in externals allowed! */ '@builder.io/qwik-dom',
+      '@builder.io/qwik/build',
     ],
   };
 
   const esm = build({
     ...opts,
     format: 'esm',
-    banner: { js: getBanner('@khulnasoft.com/qwik/server', config.distVersion) },
+    banner: { js: getBanner('@builder.io/qwik/server', config.distVersion) },
     outExtension: { '.js': '.mjs' },
-    plugins: [importPath(/^@builder\.io\/qwik$/, '@khulnasoft.com/qwik'), qwikDomPlugin],
+    plugins: [importPath(/^@builder\.io\/qwik$/, '@builder.io/qwik'), qwikDomPlugin],
     define: {
       ...(await inlineQwikScriptsEsBuild(config)),
       'globalThis.IS_CJS': 'false',
@@ -46,7 +46,7 @@ export async function submoduleServer(config: BuildConfig) {
   });
 
   const cjsBanner = [
-    getBanner('@khulnasoft.com/qwik/server', config.distVersion),
+    getBanner('@builder.io/qwik/server', config.distVersion),
     `globalThis.qwikServer = (function (module) {`,
     browserCjsRequireShim,
   ].join('\n');
@@ -61,7 +61,7 @@ export async function submoduleServer(config: BuildConfig) {
       js: `return module.exports; })(typeof module === 'object' && module.exports ? module : { exports: {} });`,
     },
     outExtension: { '.js': '.cjs' },
-    plugins: [importPath(/^@builder\.io\/qwik$/, '@khulnasoft.com/qwik'), qwikDomPlugin],
+    plugins: [importPath(/^@builder\.io\/qwik$/, '@builder.io/qwik'), qwikDomPlugin],
     target: nodeTarget,
     define: {
       ...(await inlineQwikScriptsEsBuild(config)),
@@ -117,13 +117,13 @@ const browserCjsRequireShim = `
 if (typeof require !== 'function' && typeof location !== 'undefined' && typeof navigator !== 'undefined') {
   // shim cjs require() for core.cjs within a browser
   globalThis.require = function(path) {
-    if (path === './core.cjs' || path === '@khulnasoft.com/qwik') {
+    if (path === './core.cjs' || path === '@builder.io/qwik') {
       if (!self.qwikCore) {
         throw new Error('Qwik Core global, "globalThis.qwikCore", must already be loaded for the Qwik Server to be used within a browser.');
       }
       return self.qwikCore;
     }
-    if (path === '@khulnasoft.com/qwik/build') {
+    if (path === '@builder.io/qwik/build') {
       if (!self.qwikBuild) {
         throw new Error('Qwik Build global, "globalThis.qwikBuild", must already be loaded for the Qwik Server to be used within a browser.');
       }

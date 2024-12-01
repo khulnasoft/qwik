@@ -1,4 +1,4 @@
-import { component$, Slot, useStyles$ } from "@khulnasoft.com/qwik";
+import { component$, Slot, useStyles$ } from "@builder.io/qwik";
 
 export default component$(() => {
   useStyles$(`

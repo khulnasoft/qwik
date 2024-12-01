@@ -7,7 +7,7 @@ import {
   _jsxBranch,
   useServerData,
   sync$,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 import { ContentInternalContext } from './contexts';
 import spaInit from './spa-init';

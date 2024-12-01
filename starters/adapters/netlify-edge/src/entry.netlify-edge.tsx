@@ -10,7 +10,7 @@
 import {
   createQwikCity,
   type PlatformNetlify,
-} from "@khulnasoft.com/qwik-city/middleware/netlify-edge";
+} from "@builder.io/qwik-city/middleware/netlify-edge";
 import qwikCityPlan from "@qwik-city-plan";
 import { manifest } from "@qwik-client-manifest";
 import render from "./entry.ssr";

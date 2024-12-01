@@ -14,8 +14,8 @@ import {
   useStyles$,
   _waitUntilRendered,
   type QRL,
-} from '@khulnasoft.com/qwik';
-import { isBrowser, isDev, isServer } from '@khulnasoft.com/qwik/build';
+} from '@builder.io/qwik';
+import { isBrowser, isDev, isServer } from '@builder.io/qwik/build';
 import * as qwikCity from '@qwik-city-plan';
 import { CLIENT_DATA_CACHE } from './constants';
 import {
@@ -107,7 +107,7 @@ export const QwikCityProvider = component$<QwikCityProps>((props) => {
   const env = useQwikCityEnv();
   if (!env?.params) {
     throw new Error(
-      `Missing Qwik City Env Data for help visit https://github.com/KhulnaSoft/qwik/issues/6237`
+      `Missing Qwik City Env Data for help visit https://github.com/QwikDev/qwik/issues/6237`
     );
   }
 

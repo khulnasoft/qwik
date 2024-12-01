@@ -1,9 +1,9 @@
-import { component$ } from "@khulnasoft.com/qwik";
+import { component$ } from "@builder.io/qwik";
 import {
   routeLoader$,
   validator$,
   type RequestEventAction,
-} from "@khulnasoft.com/qwik-city";
+} from "@builder.io/qwik-city";
 
 const dataValidator = validator$((ev) => {
   if (ev.query.get("secret") === "123") {

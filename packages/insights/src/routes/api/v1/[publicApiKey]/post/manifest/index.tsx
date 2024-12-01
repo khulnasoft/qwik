@@ -1,4 +1,4 @@
-import { type RequestHandler } from '@khulnasoft.com/qwik-city';
+import { type RequestHandler } from '@builder.io/qwik-city';
 import { and, eq } from 'drizzle-orm';
 import { getDB, symbolDetailTable } from '~/db';
 import { dbGetManifestInfo } from '~/db/sql-manifest';

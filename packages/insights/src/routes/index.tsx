@@ -1,4 +1,4 @@
-import { component$ } from '@khulnasoft.com/qwik';
+import { component$ } from '@builder.io/qwik';
 import Button from '~/components/button';
 import Container from '~/components/container';
 import GithubIcon from '~/components/icons/github';

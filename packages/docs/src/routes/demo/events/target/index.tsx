@@ -1,4 +1,4 @@
-import { component$, useSignal } from '@khulnasoft.com/qwik';
+import { component$, useSignal } from '@builder.io/qwik';
 
 export default component$(() => {
   const currentElm = useSignal<HTMLElement|null>(null);

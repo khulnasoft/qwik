@@ -6,7 +6,7 @@ on:
 
 jobs:
   close-issues:
-    if: github.repository == 'KhulnaSoft/qwik'
+    if: github.repository == 'QwikDev/qwik'
     runs-on: ubuntu-latest
     steps:
       - name: needs reproduction

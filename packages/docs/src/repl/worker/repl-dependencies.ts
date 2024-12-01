@@ -82,18 +82,18 @@ const _loadDependencies = async (replOptions: ReplInputOptions) => {
   if (!isSameQwikVersion(self.qwikOptimizer?.versions.qwik)) {
     await exec(QWIK_PKG_NAME, '/optimizer.cjs');
     if (self.qwikOptimizer) {
-      console.debug(`Loaded @khulnasoft.com/qwik/optimizer: ${self.qwikOptimizer.versions.qwik}`);
+      console.debug(`Loaded @builder.io/qwik/optimizer: ${self.qwikOptimizer.versions.qwik}`);
     } else {
-      throw new Error(`Unable to load @khulnasoft.com/qwik/optimizer ${qwikVersion}`);
+      throw new Error(`Unable to load @builder.io/qwik/optimizer ${qwikVersion}`);
     }
   }
 
   if (!isSameQwikVersion(self.qwikServer?.versions.qwik)) {
     await exec(QWIK_PKG_NAME, '/server.cjs');
     if (self.qwikServer) {
-      console.debug(`Loaded @khulnasoft.com/qwik/server: ${self.qwikServer.versions.qwik}`);
+      console.debug(`Loaded @builder.io/qwik/server: ${self.qwikServer.versions.qwik}`);
     } else {
-      throw new Error(`Unable to load @khulnasoft.com/qwik/server ${qwikVersion}`);
+      throw new Error(`Unable to load @builder.io/qwik/server ${qwikVersion}`);
     }
   }
 

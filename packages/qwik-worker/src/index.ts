@@ -4,7 +4,7 @@ import {
   type QRL,
   _getContextElement,
   _serializeData,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 //@ts-ignore
 import workerUrl from './worker.js?worker&url';

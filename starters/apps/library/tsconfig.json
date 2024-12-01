@@ -5,7 +5,7 @@
     "module": "ES2020",
     "lib": ["es2020", "DOM"],
     "jsx": "react-jsx",
-    "jsxImportSource": "@khulnasoft.com/qwik",
+    "jsxImportSource": "@builder.io/qwik",
     "strict": true,
     "declaration": true,
     "declarationDir": "lib-types",

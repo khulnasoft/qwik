@@ -1,4 +1,4 @@
-import { component$, useStyles$ } from '@khulnasoft.com/qwik';
+import { component$, useStyles$ } from '@builder.io/qwik';
 import styles from './panel-toggle.css?inline';
 
 export interface PanelToggleProps {

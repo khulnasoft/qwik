@@ -1,5 +1,5 @@
-import { component$, useTask$, useStore, useStyles$ } from '@khulnasoft.com/qwik';
-import { isServer } from '@khulnasoft.com/qwik/build';
+import { component$, useTask$, useStore, useStyles$ } from '@builder.io/qwik';
+import { isServer } from '@builder.io/qwik/build';
 import HackerNewsCSS from './hacker-news.css?inline';
 
 export const HackerNews = component$(() => {
@@ -41,12 +41,7 @@ export const Nav = component$(() => {
           <a href="/?type=job">
             <strong>Jobs</strong>
           </a>
-          <a
-            class="github"
-            href="http://github.com/KhulnaSoft/qwik"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a class="github" href="http://github.com/QwikDev/qwik" target="_blank" rel="noreferrer">
             Built with Qwik
           </a>
         </nav>

@@ -7,7 +7,7 @@ import {
   useTask$,
   useVisibleTask$,
   $,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 import { ReplInputPanel } from './repl-input-panel';
 import { ReplOutputPanel } from './repl-output-panel';
 import styles from './repl.css?inline';
@@ -16,7 +16,7 @@ import { ReplDetailPanel } from './repl-detail-panel';
 import { getReplVersion } from './repl-version';
 import { updateReplOutput } from './repl-output-update';
 import { QWIK_PKG_NAME, bundled, getNpmCdnUrl } from './bundled';
-import { isServer } from '@khulnasoft.com/qwik/build';
+import { isServer } from '@builder.io/qwik/build';
 
 export const Repl = component$((props: ReplProps) => {
   useStyles$(styles);

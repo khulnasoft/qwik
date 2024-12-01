@@ -1,5 +1,5 @@
-import { Slot, component$ } from '@khulnasoft.com/qwik';
-import { Link, useLocation, type RequestHandler } from '@khulnasoft.com/qwik-city';
+import { Slot, component$ } from '@builder.io/qwik';
+import { Link, useLocation, type RequestHandler } from '@builder.io/qwik-city';
 import { EdgeIcon } from '~/components/icons/edge';
 import { EditIcon } from '~/components/icons/edit';
 import { SymbolIcon } from '~/components/icons/symbol';

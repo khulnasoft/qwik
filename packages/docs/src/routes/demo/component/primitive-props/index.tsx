@@ -1,5 +1,5 @@
-import { component$, useSignal } from '@khulnasoft.com/qwik';
-import type { Signal } from '@khulnasoft.com/qwik';
+import { component$, useSignal } from '@builder.io/qwik';
+import type { Signal } from '@builder.io/qwik';
 
 interface ItemProps {
   name?: string;

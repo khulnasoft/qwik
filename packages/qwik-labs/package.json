@@ -1,9 +1,9 @@
 {
-  "name": "@khulnasoft.com/qwik-labs",
+  "name": "@builder.io/qwik-labs",
   "description": "Qwik Labs - Where you can try the latest Qwik ideas.",
   "version": "0.0.1",
   "devDependencies": {
-    "@khulnasoft.com/qwik": "workspace:^",
+    "@builder.io/qwik": "workspace:^",
     "@types/eslint": "8.56.10",
     "@types/node": "20.14.11",
     "@typescript-eslint/eslint-plugin": "7.16.1",
@@ -38,8 +38,8 @@
   ],
   "main": "./lib/index.qwik.mjs",
   "peerDependencies": {
-    "vite": "^5",
-    "zod": "3.22.4"
+    "zod": "3.22.4",
+    "vite": "^5"
   },
   "private": true,
   "qwik": "./lib/index.qwik.mjs",

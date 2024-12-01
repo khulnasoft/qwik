@@ -1,4 +1,4 @@
-import { component$, sync$, $ } from '@khulnasoft.com/qwik';
+import { component$, sync$, $ } from '@builder.io/qwik';
 
 export default component$(() => {
   return (

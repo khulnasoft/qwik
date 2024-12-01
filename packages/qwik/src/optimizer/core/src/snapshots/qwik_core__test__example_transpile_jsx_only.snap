@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { component$, useStore } from '@khulnasoft.com/qwik';
+import { component$, useStore } from '@builder.io/qwik';
 
 export const App = component$((props) => {
     return (
@@ -18,9 +18,9 @@ export const App = component$((props) => {
 
 ============================= test.tsx_App_component_ckEPmXZlub0.ts (ENTRY POINT)==
 
-import { _jsxC } from "@khulnasoft.com/qwik";
-import { _jsxQ } from "@khulnasoft.com/qwik";
-import { qrl } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@builder.io/qwik";
+import { _jsxQ } from "@builder.io/qwik";
+import { qrl } from "@builder.io/qwik";
 export const App_component_ckEPmXZlub0 = (props)=>{
     return /*#__PURE__*/ _jsxC(Cmp, {
         children: /*#__PURE__*/ _jsxQ("p", null, {
@@ -80,8 +80,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 */
 ============================= test.ts ==
 
-import { componentQrl } from "@khulnasoft.com/qwik";
-import { qrl } from "@khulnasoft.com/qwik";
+import { componentQrl } from "@builder.io/qwik";
+import { qrl } from "@builder.io/qwik";
 export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./test.tsx_App_component_ckEPmXZlub0.ts"), "App_component_ckEPmXZlub0"));
 
 

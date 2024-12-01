@@ -1,4 +1,4 @@
-import { component$ } from '@khulnasoft.com/qwik';
+import { component$ } from '@builder.io/qwik';
 import { QwikLogo } from '~/components/svgs/qwik-logo';
 import { DiscordLogo } from '~/components/svgs/discord-logo';
 import { GithubLogo } from '~/components/svgs/github-logo';
@@ -79,7 +79,7 @@ export const FooterLinks = component$(() => {
 export const FooterSocialLinks = component$(() => {
   const socialLinks = [
     { href: 'https://qwik.dev/chat', title: 'Discord', Logo: DiscordLogo },
-    { href: 'https://github.com/KhulnaSoft/qwik', title: 'GitHub', Logo: GithubLogo },
+    { href: 'https://github.com/QwikDev/qwik', title: 'GitHub', Logo: GithubLogo },
     { href: 'https://twitter.com/QwikDev', title: 'Twitter', Logo: TwitterLogo },
   ];
 

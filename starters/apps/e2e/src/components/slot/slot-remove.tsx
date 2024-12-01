@@ -6,7 +6,7 @@ import {
   type Signal,
   useContext,
   Slot,
-} from "@khulnasoft.com/qwik";
+} from "@builder.io/qwik";
 
 export const SlotCleanup = component$(() => {
   const rerender = useSignal(0);

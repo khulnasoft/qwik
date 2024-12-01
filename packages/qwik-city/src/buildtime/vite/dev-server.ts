@@ -1,4 +1,4 @@
-import type { QwikManifest, QwikViteDevResponse } from '@khulnasoft.com/qwik/optimizer';
+import type { QwikManifest, QwikViteDevResponse } from '@builder.io/qwik/optimizer';
 import fs from 'node:fs';
 import type { ServerResponse } from 'node:http';
 import { join, resolve } from 'node:path';

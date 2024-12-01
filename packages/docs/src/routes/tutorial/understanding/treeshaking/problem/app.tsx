@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { component$, useStore } from '@khulnasoft.com/qwik';
+import { component$, useStore } from '@builder.io/qwik';
 
 interface CountStore {
   count: number;

@@ -5,7 +5,7 @@ import {
   $,
   useOnWindow,
   useOn,
-} from "@khulnasoft.com/qwik";
+} from "@builder.io/qwik";
 
 export function useDocumentMouse() {
   const mousePosition = useStore({ x: 0, y: 0, inside: "false" });

@@ -3,7 +3,7 @@ import {
   useSignal,
   useVisibleTask$,
   type Signal,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 export default component$(() => {
   const isClockRunning = useSignal(false);

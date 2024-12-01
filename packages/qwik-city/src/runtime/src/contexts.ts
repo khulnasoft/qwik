@@ -1,4 +1,4 @@
-import { createContextId, type Signal } from '@khulnasoft.com/qwik';
+import { createContextId, type Signal } from '@builder.io/qwik';
 import type {
   ContentState,
   ContentStateInternal,

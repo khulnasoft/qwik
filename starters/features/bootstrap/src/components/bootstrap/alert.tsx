@@ -1,4 +1,4 @@
-import { component$ } from "@khulnasoft.com/qwik";
+import { component$ } from "@builder.io/qwik";
 import { type BsComponentProps } from "~/models/bootstrap";
 
 export const Alert = component$<BsComponentProps>(({ text, colorVariant }) => (

@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { $, component$, server$ } from '@khulnasoft.com/qwik';
+import { $, component$, server$ } from '@builder.io/qwik';
 import { foo } from './foo';
 export const Works = component$((props) => {
     const text = 'hola';
@@ -21,14 +21,14 @@ export const Works = component$((props) => {
 ============================= test.js ==
 
 import "./foo";
-import { componentQrl } from "@khulnasoft.com/qwik";
-import { serverQrl } from "@khulnasoft.com/qwik";
-import { _regSymbol } from "@khulnasoft.com/qwik";
-import { inlinedQrl } from "@khulnasoft.com/qwik";
-import { _jsxQ } from "@khulnasoft.com/qwik";
-import { _noopQrl } from "@khulnasoft.com/qwik";
-import { _jsxC } from "@khulnasoft.com/qwik";
-import { Fragment as _Fragment } from "@khulnasoft.com/qwik/jsx-runtime";
+import { componentQrl } from "@builder.io/qwik";
+import { serverQrl } from "@builder.io/qwik";
+import { _regSymbol } from "@builder.io/qwik";
+import { inlinedQrl } from "@builder.io/qwik";
+import { _jsxQ } from "@builder.io/qwik";
+import { _noopQrl } from "@builder.io/qwik";
+import { _jsxC } from "@builder.io/qwik";
+import { Fragment as _Fragment } from "@builder.io/qwik/jsx-runtime";
 export const Works = /*#__PURE__*/ componentQrl(/*#__PURE__*/ inlinedQrl((props)=>{
     return /*#__PURE__*/ _jsxC(_Fragment, {
         children: [

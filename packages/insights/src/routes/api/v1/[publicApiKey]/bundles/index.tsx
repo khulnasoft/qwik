@@ -1,4 +1,4 @@
-import { type RequestHandler } from '@khulnasoft.com/qwik-city';
+import { type RequestHandler } from '@builder.io/qwik-city';
 import { getBundleGrouping } from './bundles';
 import { getDB } from '../../../../../db';
 

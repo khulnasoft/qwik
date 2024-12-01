@@ -7,7 +7,7 @@ import {
   useSignal,
   useStore,
   useTask$,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 import type { IStandaloneCodeEditor } from './monaco';
 import {
   addQwikLibs,

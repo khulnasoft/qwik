@@ -4,11 +4,11 @@ import { workspaceRoot } from '.';
 import { existsSync, writeFileSync } from 'fs';
 
 const packageCfg = {
-  '@khulnasoft.com/qwik': {
+  '@builder.io/qwik': {
     packagePath: 'packages/qwik',
     distPath: 'packages/qwik/dist',
   },
-  '@khulnasoft.com/qwik-city': {
+  '@builder.io/qwik-city': {
     packagePath: 'packages/qwik-city',
     distPath: 'packages/qwik-city/lib',
   },

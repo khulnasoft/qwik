@@ -6,7 +6,7 @@ import {
   useStore,
   type NoSerialize,
   type JSXOutput,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 import {
   Portal,
   PortalAPI,

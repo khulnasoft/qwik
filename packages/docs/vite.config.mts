@@ -1,8 +1,8 @@
 import { partytownVite } from '@builder.io/partytown/utils';
-import { qwikCity } from '@khulnasoft.com/qwik-city/vite';
-import { qwikInsights } from '@khulnasoft.com/qwik-labs/vite';
-import { qwikReact } from '@khulnasoft.com/qwik-react/vite';
-import { qwikVite } from '@khulnasoft.com/qwik/optimizer';
+import { qwikCity } from '@builder.io/qwik-city/vite';
+import { qwikInsights } from '@builder.io/qwik-labs/vite';
+import { qwikReact } from '@builder.io/qwik-react/vite';
+import { qwikVite } from '@builder.io/qwik/optimizer';
 import path, { resolve } from 'node:path';
 import { defineConfig, loadEnv, type Plugin } from 'vite';
 import Inspect from 'vite-plugin-inspect';

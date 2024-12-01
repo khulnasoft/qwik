@@ -164,7 +164,7 @@ async function generatePrefetchSubmodule(config: BuildConfig) {
   await writeFile(join(prefetchDistDir, 'index.d.ts'), dtsCode.join('\n') + '\n');
 
   const prefetchPkg: PackageJSON = {
-    name: `@khulnasoft.com/qwik/prefetch`,
+    name: `@builder.io/qwik/prefetch`,
     version: config.distVersion,
     main: `index.mjs`,
     types: `index.d.ts`,

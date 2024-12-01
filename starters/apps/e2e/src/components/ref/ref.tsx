@@ -4,7 +4,7 @@ import {
   useVisibleTask$,
   useSignal,
   type PropsOf,
-} from "@khulnasoft.com/qwik";
+} from "@builder.io/qwik";
 
 export const RefRoot = component$(() => {
   const state = useStore({

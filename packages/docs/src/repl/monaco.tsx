@@ -1,11 +1,11 @@
-import { noSerialize } from '@khulnasoft.com/qwik';
-import type { Diagnostic } from '@khulnasoft.com/qwik/optimizer';
+import { noSerialize } from '@builder.io/qwik';
+import type { Diagnostic } from '@builder.io/qwik/optimizer';
 import type MonacoTypes from 'monaco-editor';
 import type { EditorProps, EditorStore } from './editor';
 import type { ReplStore } from './types';
 import { getColorPreference } from '../components/theme-toggle/theme-toggle';
 import { bundled, getNpmCdnUrl } from './bundled';
-import { isServer } from '@khulnasoft.com/qwik/build';
+import { isServer } from '@builder.io/qwik/build';
 // We cannot use this, it causes the repl to use imports
 // import { QWIK_REPL_DEPS_CACHE } from './worker/repl-constants';
 const QWIK_REPL_DEPS_CACHE = 'QwikReplDeps';
@@ -26,7 +26,7 @@ export const initMonacoEditor = async (
     esModuleInterop: true,
     isolatedModules: true,
     jsx: ts.JsxEmit.ReactJSX,
-    jsxImportSource: '@khulnasoft.com/qwik',
+    jsxImportSource: '@builder.io/qwik',
     moduleResolution: ts.ModuleResolutionKind.NodeJs,
     noEmit: true,
     skipLibCheck: true,
@@ -211,8 +211,8 @@ export const addQwikLibs = async (version: string) => {
     }
   });
   typescriptDefaults.addExtraLib(
-    `declare module '@khulnasoft.com/qwik/jsx-runtime' { export * from '@khulnasoft.com/qwik' }`,
-    '/node_modules/@khulnasoft.com/qwik/dist/jsx-runtime.d.ts'
+    `declare module '@builder.io/qwik/jsx-runtime' { export * from '@builder.io/qwik' }`,
+    '/node_modules/@builder.io/qwik/dist/jsx-runtime.d.ts'
   );
   typescriptDefaults.addExtraLib(CLIENT_LIB);
 };
@@ -226,21 +226,21 @@ const loadDeps = async (qwikVersion: string) => {
   const deps: NodeModuleDep[] = [
     // qwik
     {
-      pkgName: '@khulnasoft.com/qwik',
+      pkgName: '@builder.io/qwik',
       pkgVersion: qwikVersion,
       pkgPath: `${prefix}core.d.ts`,
       import: '',
     },
     // server API
     {
-      pkgName: '@khulnasoft.com/qwik',
+      pkgName: '@builder.io/qwik',
       pkgVersion: qwikVersion,
       pkgPath: `${prefix}server.d.ts`,
       import: '/server',
     },
     // build constants
     {
-      pkgName: '@khulnasoft.com/qwik',
+      pkgName: '@builder.io/qwik',
       pkgVersion: qwikVersion,
       pkgPath: `${prefix}build/index.d.ts`,
       import: '/build',

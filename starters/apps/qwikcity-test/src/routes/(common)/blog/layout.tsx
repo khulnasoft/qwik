@@ -1,5 +1,5 @@
-import { component$, Slot } from "@khulnasoft.com/qwik";
-import { Link } from "@khulnasoft.com/qwik-city";
+import { component$, Slot } from "@builder.io/qwik";
+import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (

@@ -1,4 +1,4 @@
-import { component$, useStyles$ } from '@khulnasoft.com/qwik';
+import { component$, useStyles$ } from '@builder.io/qwik';
 import sunAndMoonStyles from './sun-and-moon.css?inline';
 
 export const SunAndMoon = component$(() => {

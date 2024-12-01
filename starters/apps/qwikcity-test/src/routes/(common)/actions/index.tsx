@@ -1,9 +1,9 @@
-import { component$ } from "@khulnasoft.com/qwik";
+import { component$ } from "@builder.io/qwik";
 import {
   globalAction$,
   type DocumentHead,
   routeLoader$,
-} from "@khulnasoft.com/qwik-city";
+} from "@builder.io/qwik-city";
 import { SecretForm } from "./login";
 
 export const useDateLoader = routeLoader$(() => new Date());

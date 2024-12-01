@@ -1,6 +1,6 @@
-import { isDev } from '@khulnasoft.com/qwik/build';
+import { isDev } from '@builder.io/qwik/build';
 import { _jsxC } from '../internal';
-import type { JSXNode } from '@khulnasoft.com/qwik/jsx-runtime';
+import type { JSXNode } from '@builder.io/qwik/jsx-runtime';
 import { useServerData } from '../use/use-env-data';
 import type { JSXOutput } from '../render/jsx/types/jsx-node';
 

@@ -122,7 +122,7 @@ bun run build
 </span>
 </PackageManagerTabs>
 
-[Read the full guide here](https://github.com/KhulnaSoft/qwik/tree/main/starters/adapters/cloudflare-pages/README.md)
+[Read the full guide here](https://github.com/QwikDev/qwik/tree/main/starters/adapters/cloudflare-pages/README.md)
 
 ## Deploy to Cloudflare Pages
 
@@ -203,7 +203,7 @@ When the `cloudflare-pages` adapter is added, a new entry file will be created a
 import {
   createQwikCity,
   type PlatformCloudflarePages,
-} from '@khulnasoft.com/qwik-city/middleware/cloudflare-pages';
+} from '@builder.io/qwik-city/middleware/cloudflare-pages';
 import qwikCityPlan from '@qwik-city-plan';
 import { manifest } from '@qwik-client-manifest';
 import render from './entry.ssr';
@@ -221,7 +221,7 @@ import { fetch } from "../server/entry.cloudflare-pages";
 export default { fetch };
 ```
 
-- [Cloudflare Pages Middleware Source](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/middleware/cloudflare-pages/index.ts)
+- [Cloudflare Pages Middleware Source](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/middleware/cloudflare-pages/index.ts)
 - [Cloudflare Pages Advanced Mode](https://developers.cloudflare.com/pages/platform/functions/advanced-mode/)
 - [Function Invocation Route Config](https://developers.cloudflare.com/pages/platform/functions/routing/#functions-invocation-routes)
 
@@ -266,8 +266,8 @@ export const onRequest = async ({ platform }) => {
 Additionally, you may import the `RequestHandler` and `PlatformCloudflarePages` types to have type completions in your editor.
 
 ```tsx
-import { type RequestHandler } from '@khulnasoft.com/qwik-city';
-import { type PlatformCloudflarePages } from '@khulnasoft.com/qwik-city/middleware/cloudflare-pages';
+import { type RequestHandler } from '@builder.io/qwik-city';
+import { type PlatformCloudflarePages } from '@builder.io/qwik-city/middleware/cloudflare-pages';
 
 export const onGet: RequestHandler<PlatformCloudflarePages> = ({ platform }) => {
   //...

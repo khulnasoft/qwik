@@ -1,16 +1,9 @@
-import {
-  component$,
-  Slot,
-  type QwikIntrinsicElements,
-  untrack,
-  $,
-  sync$,
-} from '@khulnasoft.com/qwik';
+import { component$, Slot, type QwikIntrinsicElements, untrack, $, sync$ } from '@builder.io/qwik';
 import { getClientNavPath, shouldPrefetchData, shouldPrefetchSymbols } from './utils';
 import { loadClientData } from './use-endpoint';
 import { useLocation, useNavigate } from './use-functions';
 import { prefetchSymbols } from './client-navigate';
-import { isDev } from '@khulnasoft.com/qwik/build';
+import { isDev } from '@builder.io/qwik/build';
 
 /** @public */
 export const Link = component$<LinkProps>((props) => {

@@ -27,7 +27,7 @@ Before releasing, we merge `main` into a release branch, for testing purposes.
 
 ### Good first issue
 
-The issues marked with [_Good first issue_](https://github.com/KhulnaSoft/qwik/issues?q=is%3Aissue+is%3Aopen+label%3A%22COMMUNITY%3A++good+first+issue%22) are a good starting point to familiarize yourself with the project.
+The issues marked with [_Good first issue_](https://github.com/QwikDev/qwik/issues?q=is%3Aissue+is%3Aopen+label%3A%22COMMUNITY%3A++good+first+issue%22) are a good starting point to familiarize yourself with the project.
 
 Before solving the problem, please check with the maintainers that the issue is still relevant. Feel free to leave a comment on the issue to show your intention to work on it and prevent other people from unintentionally duplicating your effort.
 
@@ -234,9 +234,9 @@ pnpm link ../qwik/packages/qwik
 pnpm link ../qwik/packages/qwik-city
 ```
 
-Other package managers probably need to first be told about the packages. For example, with `bun` you need to `cd ../qwik/packages/qwik` and `bun link`, repeat for `qwik-city`. Then in your app run `bun link @builder.io/qwik @khulnasoft.com/qwik-city`.
+Other package managers probably need to first be told about the packages. For example, with `bun` you need to `cd ../qwik/packages/qwik` and `bun link`, repeat for `qwik-city`. Then in your app run `bun link @builder.io/qwik @builder.io/qwik-city`.
 
-If you can't use package linking, just copy the contents of `packages/qwik` into your projects' `node_modules/@khulnasoft.com/qwik` folder, and/or the contents of `packages/qwik-city` into your projects' `node_modules/@khulnasoft.com/qwik-city` folder.
+If you can't use package linking, just copy the contents of `packages/qwik` into your projects' `node_modules/@builder.io/qwik` folder, and/or the contents of `packages/qwik-city` into your projects' `node_modules/@builder.io/qwik-city` folder.
 
 ### Working on the docs site
 
@@ -290,11 +290,11 @@ This will show an interactive UI to update all dependencies. Be careful about pe
 
 ## Starter CLI `create-qwik`
 
-- [Starter CLI](https://github.com/KhulnaSoft/qwik/blob/main/starters/README.md)
+- [Starter CLI](https://github.com/QwikDev/qwik/blob/main/starters/README.md)
 
 ## Pull Requests
 
-- [Open Qwik in StackBlitz Codeflow](https://pr.new/github.com/KhulnaSoft/qwik/)
+- [Open Qwik in StackBlitz Codeflow](https://pr.new/github.com/QwikDev/qwik/)
 - Review PR in StackBlitz
   ![image](https://user-images.githubusercontent.com/4918140/195581745-8dfca1f9-2dcd-4f6a-b7aa-705f3627f8fa.png)
 

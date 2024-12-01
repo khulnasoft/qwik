@@ -1,7 +1,7 @@
 import "@angular/localize/init";
 import { loadTranslations } from "@angular/localize";
-import { $, getLocale, useOnDocument, withLocale } from "@khulnasoft.com/qwik";
-import type { RenderOptions } from "@khulnasoft.com/qwik/server";
+import { $, getLocale, useOnDocument, withLocale } from "@builder.io/qwik";
+import type { RenderOptions } from "@builder.io/qwik/server";
 
 // You must declare all your locales here
 import EN from "../../locales/message.en.json";

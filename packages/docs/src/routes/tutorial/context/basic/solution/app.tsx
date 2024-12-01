@@ -4,7 +4,7 @@ import {
   useContextProvider,
   useContext,
   useStore,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 interface TodosStore {
   items: string[];

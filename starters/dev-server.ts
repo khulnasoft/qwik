@@ -16,11 +16,8 @@ import {
   existsSync,
   readFileSync,
 } from "node:fs";
-import type { QwikManifest } from "@khulnasoft.com/qwik/optimizer";
-import type {
-  Render,
-  RenderToStreamOptions,
-} from "@khulnasoft.com/qwik/server";
+import type { QwikManifest } from "@builder.io/qwik/optimizer";
+import type { Render, RenderToStreamOptions } from "@builder.io/qwik/server";
 import type { PackageJSON } from "../scripts/util";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { getErrorHtml } from "../packages/qwik-city/src/middleware/request-handler/error-handler";
@@ -116,7 +113,7 @@ async function buildApp(
   appName: string,
   enableCityServer: boolean,
 ) {
-  const optimizer = await import("@khulnasoft.com/qwik/optimizer");
+  const optimizer = await import("@builder.io/qwik/optimizer");
   const appSrcDir = join(appDir, "src");
   const appDistDir = join(appDir, "dist");
   const appServerDir = join(appDir, "server");
@@ -145,7 +142,7 @@ async function buildApp(
       },
       load(id) {
         if (id.endsWith(qwikCityVirtualEntry)) {
-          return `import { createQwikCity } from '@khulnasoft.com/qwik-city/middleware/node';
+          return `import { createQwikCity } from '@builder.io/qwik-city/middleware/node';
 import qwikCityPlan from '@qwik-city-plan';
 import render from '${escapeChars(resolve(appSrcDir, "entry.ssr"))}';
 const { router, notFound } = createQwikCity({
@@ -170,7 +167,7 @@ export {
         }
       },
     });
-    const qwikCityVite = await import("@khulnasoft.com/qwik-city/vite");
+    const qwikCityVite = await import("@builder.io/qwik-city/vite");
 
     plugins.push(
       qwikCityVite.qwikCity({

@@ -6,7 +6,7 @@
     "module": "ES2020",
     "lib": ["es2021", "DOM"],
     "jsx": "react-jsx",
-    "jsxImportSource": "@khulnasoft.com/qwik",
+    "jsxImportSource": "@builder.io/qwik",
     "strict": true,
     "resolveJsonModule": true,
     "moduleResolution": "Bundler",

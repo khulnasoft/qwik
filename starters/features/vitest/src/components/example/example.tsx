@@ -1,4 +1,4 @@
-import { component$, useStore } from "@khulnasoft.com/qwik";
+import { component$, useStore } from "@builder.io/qwik";
 
 export const ExampleTest = component$((props: { flag: boolean }) => {
   const state = useStore({

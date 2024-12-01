@@ -1,4 +1,4 @@
-import type { QRL } from '@khulnasoft.com/qwik';
+import type { QRL } from '@builder.io/qwik';
 import { Editor } from './editor';
 import { ReplCommands } from './repl-commands';
 import { ReplTabButton } from './repl-tab-button';

@@ -3,8 +3,8 @@ import {
   useVisibleTask$,
   useStore,
   useStylesScoped$,
-} from "@khulnasoft.com/qwik";
-import { type DocumentHead, useLocation } from "@khulnasoft.com/qwik-city";
+} from "@builder.io/qwik";
+import { type DocumentHead, useLocation } from "@builder.io/qwik-city";
 import styles from "./flower.css?inline";
 
 export default component$(() => {

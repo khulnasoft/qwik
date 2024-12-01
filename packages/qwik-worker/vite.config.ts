@@ -1,4 +1,4 @@
-import { qwikVite } from '@khulnasoft.com/qwik/optimizer';
+import { qwikVite } from '@builder.io/qwik/optimizer';
 import { defineConfig } from 'vite';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
@@ -16,11 +16,7 @@ export default defineConfig(() => {
       rollupOptions: {
         external: (id) => {
           if (
-            [
-              '@khulnasoft.com/qwik',
-              '@khulnasoft.com/qwik-city',
-              '@khulnasoft.com/qwik/build',
-            ].includes(id)
+            ['@builder.io/qwik', '@builder.io/qwik-city', '@builder.io/qwik/build'].includes(id)
           ) {
             return true;
           }

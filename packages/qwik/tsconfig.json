@@ -2,13 +2,13 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "@khulnasoft.com/qwik": ["packages/qwik/src/core"],
-      "@khulnasoft.com/qwik/jsx-runtime": ["packages/qwik/src/jsx-runtime"],
-      "@khulnasoft.com/qwik/jsx-dev-runtime": ["packages/qwik/src/jsx-runtime"],
-      "@khulnasoft.com/qwik/build": ["packages/qwik/src/build"],
-      "@khulnasoft.com/qwik/optimizer": ["packages/qwik/src/optimizer/src"],
-      "@khulnasoft.com/qwik/server": ["packages/qwik/src/server"],
-      "@khulnasoft.com/qwik/testing": ["packages/qwik/src/testing"]
+      "@builder.io/qwik": ["packages/qwik/src/core"],
+      "@builder.io/qwik/jsx-runtime": ["packages/qwik/src/jsx-runtime"],
+      "@builder.io/qwik/jsx-dev-runtime": ["packages/qwik/src/jsx-runtime"],
+      "@builder.io/qwik/build": ["packages/qwik/src/build"],
+      "@builder.io/qwik/optimizer": ["packages/qwik/src/optimizer/src"],
+      "@builder.io/qwik/server": ["packages/qwik/src/server"],
+      "@builder.io/qwik/testing": ["packages/qwik/src/testing"]
     }
   },
   "include": ["src"],

@@ -1,11 +1,11 @@
-import { component$ } from "@khulnasoft.com/qwik";
+import { component$ } from "@builder.io/qwik";
 import {
   QwikCityProvider,
   RouterOutlet,
   ServiceWorkerRegister,
-} from "@khulnasoft.com/qwik-city";
+} from "@builder.io/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
-import { isDev } from "@khulnasoft.com/qwik/build";
+import { isDev } from "@builder.io/qwik/build";
 
 import "./global.css";
 

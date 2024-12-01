@@ -1,5 +1,5 @@
-import { $, component$, useOn, useSignal, useStore, useTask$ } from '@khulnasoft.com/qwik';
-import { isBrowser } from '@khulnasoft.com/qwik/build';
+import { $, component$, useOn, useSignal, useStore, useTask$ } from '@builder.io/qwik';
+import { isBrowser } from '@builder.io/qwik/build';
 import { toSnakeCase } from '../../utils/utils';
 
 // TODO: load the content of these files using fs instead of importing them

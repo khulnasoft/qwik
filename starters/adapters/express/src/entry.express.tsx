@@ -10,7 +10,7 @@
 import {
   createQwikCity,
   type PlatformNode,
-} from "@khulnasoft.com/qwik-city/middleware/node";
+} from "@builder.io/qwik-city/middleware/node";
 import "dotenv/config";
 import qwikCityPlan from "@qwik-city-plan";
 import { manifest } from "@qwik-client-manifest";

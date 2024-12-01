@@ -1,5 +1,5 @@
-import { component$, useSignal } from "@khulnasoft.com/qwik";
-import { zod$, z, Form, globalAction$ } from "@khulnasoft.com/qwik-city";
+import { component$, useSignal } from "@builder.io/qwik";
+import { zod$, z, Form, globalAction$ } from "@builder.io/qwik-city";
 import styles from "./actions.module.css";
 
 export function delay(nu: number) {

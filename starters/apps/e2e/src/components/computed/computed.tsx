@@ -4,7 +4,7 @@ import {
   useComputed$,
   useSignal,
   useTask$,
-} from "@khulnasoft.com/qwik";
+} from "@builder.io/qwik";
 
 export const ComputedRoot = component$(() => {
   const rerender = useSignal(0);

@@ -1,4 +1,4 @@
-import { ContextId, useContext } from '@khulnasoft.com/qwik';
+import { ContextId, useContext } from '@builder.io/qwik';
 export const ID: ContextId<{ value: any }> = null!;
 
 export function noUseSession() {

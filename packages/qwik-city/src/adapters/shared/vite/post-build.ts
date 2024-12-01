@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import { join } from 'node:path';
-import { getErrorHtml } from '@khulnasoft.com/qwik-city/middleware/request-handler';
+import { getErrorHtml } from '@builder.io/qwik-city/middleware/request-handler';
 
 export async function postBuild(
   clientOutDir: string,

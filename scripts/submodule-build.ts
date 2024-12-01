@@ -19,7 +19,7 @@ export async function submoduleBuild(config: BuildConfig) {
   await copyFile(join(buildSrcDtsDir, 'index.d.ts'), join(buildDestDir, 'index.d.ts'));
 
   const loaderPkg: PackageJSON = {
-    name: `@khulnasoft.com/qwik/build`,
+    name: `@builder.io/qwik/build`,
     version: config.distVersion,
     main: `index.mjs`,
     types: `index.d.ts`,

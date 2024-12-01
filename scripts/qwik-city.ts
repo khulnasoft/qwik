@@ -102,8 +102,8 @@ async function buildVite(config: BuildConfig) {
     format: 'esm',
     external,
     alias: {
-      '@khulnasoft.com/qwik': 'noop',
-      '@khulnasoft.com/qwik/optimizer': 'noop',
+      '@builder.io/qwik': 'noop',
+      '@builder.io/qwik/optimizer': 'noop',
     },
     plugins: [serviceWorkerRegisterBuild(swRegisterCode)],
   });
@@ -167,7 +167,7 @@ async function buildServiceWorker(config: BuildConfig) {
 async function buildAdapterAzureSwaVite(config: BuildConfig) {
   const entryPoints = [join(config.srcQwikCityDir, 'adapters', 'azure-swa', 'vite', 'index.ts')];
 
-  const external = ['vite', 'fs', 'path', '@khulnasoft.com/qwik-city/static'];
+  const external = ['vite', 'fs', 'path', '@builder.io/qwik-city/static'];
 
   await build({
     entryPoints,
@@ -653,9 +653,9 @@ async function buildStaticNode(config: BuildConfig) {
   const entryPoints = [join(config.srcQwikCityDir, 'static', 'node', 'index.ts')];
 
   const external = [
-    '@khulnasoft.com/qwik',
-    '@khulnasoft.com/qwik/optimizer',
-    '@khulnasoft.com/qwik-city',
+    '@builder.io/qwik',
+    '@builder.io/qwik/optimizer',
+    '@builder.io/qwik-city',
     'fs',
     'http',
     'https',
@@ -708,20 +708,20 @@ const ADAPTER_EXTERNALS = [
   'vite',
   'fs',
   'path',
-  '@khulnasoft.com/qwik',
-  '@khulnasoft.com/qwik/server',
-  '@khulnasoft.com/qwik/optimizer',
-  '@khulnasoft.com/qwik-city',
-  '@khulnasoft.com/qwik-city/static',
-  '@khulnasoft.com/qwik-city/middleware/request-handler',
+  '@builder.io/qwik',
+  '@builder.io/qwik/server',
+  '@builder.io/qwik/optimizer',
+  '@builder.io/qwik-city',
+  '@builder.io/qwik-city/static',
+  '@builder.io/qwik-city/middleware/request-handler',
 ];
 
 const MIDDLEWARE_EXTERNALS = [
-  '@khulnasoft.com/qwik',
-  '@khulnasoft.com/qwik/optimizer',
-  '@khulnasoft.com/qwik/server',
-  '@khulnasoft.com/qwik-city',
-  '@khulnasoft.com/qwik-city/static',
+  '@builder.io/qwik',
+  '@builder.io/qwik/optimizer',
+  '@builder.io/qwik/server',
+  '@builder.io/qwik-city',
+  '@builder.io/qwik-city/static',
   '@qwik-city-plan',
   '@qwik-city-not-found-paths',
   '@qwik-city-static-paths',

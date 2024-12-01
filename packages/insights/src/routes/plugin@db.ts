@@ -1,4 +1,4 @@
-import { type RequestHandler } from '@khulnasoft.com/qwik-city';
+import { type RequestHandler } from '@builder.io/qwik-city';
 import { createClient } from '@libsql/client/web';
 import { drizzle } from 'drizzle-orm/libsql';
 import { type Client } from '@libsql/client';

@@ -7,7 +7,7 @@
     "resolveJsonModule": true,
     "jsx": "react-jsx",
     "allowArbitraryExtensions": true,
-    "jsxImportSource": "@khulnasoft.com/qwik",
+    "jsxImportSource": "@builder.io/qwik",
     "noEmit": true,
     "strict": true,
     "verbatimModuleSyntax": true,

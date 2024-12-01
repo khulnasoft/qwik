@@ -1,6 +1,6 @@
-import { component$, useStyles$ } from '@khulnasoft.com/qwik';
+import { component$, useStyles$ } from '@builder.io/qwik';
 
-import { type DocumentHead } from '@khulnasoft.com/qwik-city';
+import { type DocumentHead } from '@builder.io/qwik-city';
 import styles from './media.css?inline';
 
 /***/
@@ -573,7 +573,7 @@ export default component$(() => {
         <p>This page missing any great resources or in need of an update?</p>
         <p>
           <a
-            href="https://github.com/KhulnaSoft/qwik/edit/main/packages/docs/src/routes/(ecosystem)/media/index.tsx"
+            href="https://github.com/QwikDev/qwik/edit/main/packages/docs/src/routes/(ecosystem)/media/index.tsx"
             target="_blank"
             class="edit-page"
           >

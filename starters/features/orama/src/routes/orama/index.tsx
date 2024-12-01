@@ -1,10 +1,5 @@
-import {
-  $,
-  component$,
-  useSignal,
-  useStylesScoped$,
-} from "@khulnasoft.com/qwik";
-import { server$ } from "@khulnasoft.com/qwik-city";
+import { $, component$, useSignal, useStylesScoped$ } from "@builder.io/qwik";
+import { server$ } from "@builder.io/qwik-city";
 import { search } from "@orama/orama";
 import { type Pokemon, oramaDb, createOramaDb } from "~/orama";
 

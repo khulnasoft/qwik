@@ -105,7 +105,7 @@ export async function validateBuild(config: BuildConfig) {
     await validateModuleTreeshake(
       config,
       join(config.packagesDir, 'qwik-city', 'lib', 'index.qwik.mjs'),
-      ['@qwik-city-plan', '@qwik-city-sw-register', 'zod', '@khulnasoft.com/qwik/jsx-runtime']
+      ['@qwik-city-plan', '@qwik-city-sw-register', 'zod', '@builder.io/qwik/jsx-runtime']
     );
   }
 
@@ -225,7 +225,7 @@ async function validateModuleTreeshake(
     treeshake: {
       moduleSideEffects: 'no-external',
     },
-    external: ['@khulnasoft.com/qwik/build', '@khulnasoft.com/qwik', ...external],
+    external: ['@builder.io/qwik/build', '@builder.io/qwik', ...external],
     plugins: [
       {
         name: 'resolver',

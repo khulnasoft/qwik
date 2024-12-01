@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { $, component$, useTask$ } from '@khulnasoft.com/qwik';
+import { $, component$, useTask$ } from '@builder.io/qwik';
 import { CONST } from 'const';
 export const Works = component$(({
     count,
@@ -49,15 +49,15 @@ export const NoWorks3 = component$(({count, stuff = hola()}) => {
 
 ============================= test.js ==
 
-import { _restProps } from "@khulnasoft.com/qwik";
-import { componentQrl } from "@khulnasoft.com/qwik";
-import { useTaskQrl } from "@khulnasoft.com/qwik";
-import { useLexicalScope } from "@khulnasoft.com/qwik";
-import { inlinedQrl } from "@khulnasoft.com/qwik";
-import { _fnSignal } from "@khulnasoft.com/qwik";
-import { _IMMUTABLE } from "@khulnasoft.com/qwik";
-import { _jsxS } from "@khulnasoft.com/qwik";
-import { _jsxQ } from "@khulnasoft.com/qwik";
+import { _restProps } from "@builder.io/qwik";
+import { componentQrl } from "@builder.io/qwik";
+import { useTaskQrl } from "@builder.io/qwik";
+import { useLexicalScope } from "@builder.io/qwik";
+import { inlinedQrl } from "@builder.io/qwik";
+import { _fnSignal } from "@builder.io/qwik";
+import { _IMMUTABLE } from "@builder.io/qwik";
+import { _jsxS } from "@builder.io/qwik";
+import { _jsxQ } from "@builder.io/qwik";
 export const Works = /*#__PURE__*/ componentQrl(/*#__PURE__*/ inlinedQrl((props)=>{
     const rest = _restProps(props, [
         "count",

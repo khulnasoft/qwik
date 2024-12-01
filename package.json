@@ -4,7 +4,7 @@
   "comments": {
     "01": "devDependencies includes reference to @builder.io/qwik: workspace: *. This is needed or e2e tests will fail",
     "02": "  It would be nice to be able to remove this dependency and fix the test.",
-    "03": "devDependencies can't include reference to @khulnasoft.com/qwik-city or e2e test will fail."
+    "03": "devDependencies can't include reference to @builder.io/qwik-city or e2e test will fail."
   },
   "config": {
     "syncpack": {
@@ -96,8 +96,8 @@
   },
   "devDependencies": {
     "@builder.io/partytown": "0.10.2",
-    "@khulnasoft.com/qwik": "workspace:^",
-    "@khulnasoft.com/qwik-city": "workspace:^",
+    "@builder.io/qwik": "workspace:^",
+    "@builder.io/qwik-city": "workspace:^",
     "@changesets/cli": "2.27.7",
     "@changesets/get-github-info": "0.6.0",
     "@changesets/types": "6.0.0",
@@ -242,10 +242,10 @@
     "start": "concurrently \"npm:build.watch\"  \"npm:tsc.watch\" -n build,tsc -c green,cyan",
     "test": "pnpm build.full && pnpm test.unit && pnpm test.e2e",
     "test.e2e": "pnpm test.e2e.chromium && pnpm test.e2e.webkit",
+    "test.e2e.cli": "pnpm --filter qwik-cli-e2e e2e",
     "test.e2e.chromium": "playwright test starters --browser=chromium --config starters/playwright.config.ts",
     "test.e2e.chromium.debug": "PWDEBUG=1 playwright test starters --browser=chromium --config starters/playwright.config.ts",
     "test.e2e.city": "playwright test starters/e2e/qwikcity --browser=chromium --config starters/playwright.config.ts",
-    "test.e2e.cli": "pnpm --filter qwik-cli-e2e e2e",
     "test.e2e.firefox": "playwright test starters --browser=firefox --config starters/playwright.config.ts",
     "test.e2e.webkit": "playwright test starters --browser=webkit --config starters/playwright.config.ts",
     "test.rust": "make test",

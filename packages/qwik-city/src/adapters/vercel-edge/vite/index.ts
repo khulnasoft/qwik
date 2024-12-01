@@ -1,4 +1,4 @@
-import type { StaticGenerateRenderOptions } from '@khulnasoft.com/qwik-city/static';
+import type { StaticGenerateRenderOptions } from '@builder.io/qwik-city/static';
 import { getParentDir, type ServerAdapterOptions, viteAdapter } from '../../shared/vite';
 import fs from 'node:fs';
 import { dirname, join } from 'node:path';

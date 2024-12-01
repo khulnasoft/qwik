@@ -3,7 +3,7 @@ import {
   useId,
   useSignal,
   useVisibleTask$,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 export default component$(() => {
   const elemIdSignal = useSignal<string | null>(null);

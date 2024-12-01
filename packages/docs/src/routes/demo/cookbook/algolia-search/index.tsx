@@ -1,9 +1,4 @@
-import {
-  $,
-  component$,
-  useSignal,
-  useStylesScoped$,
-} from '@khulnasoft.com/qwik';
+import { $, component$, useSignal, useStylesScoped$ } from '@builder.io/qwik';
 
 type AlgoliaResult = {
   hits: {

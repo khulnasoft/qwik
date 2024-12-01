@@ -1,5 +1,5 @@
-import { component$ } from "@khulnasoft.com/qwik";
-import type { DocumentHead } from "@khulnasoft.com/qwik-city";
+import { component$ } from "@builder.io/qwik";
+import type { DocumentHead } from "@builder.io/qwik-city";
 // @ts-ignore
 import ImageJpeg from "../../media/MyTest.jpeg?jsx";
 // @ts-ignore

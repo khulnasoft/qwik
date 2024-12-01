@@ -1,17 +1,17 @@
 {
-  "name": "@khulnasoft.com/qwik",
+  "name": "@builder.io/qwik",
   "description": "An Open-Source sub-framework designed with a focus on server-side-rendering, lazy-loading, and styling/animation.",
   "version": "1.11.0",
   "annotation": "This package.json is for internal use in the monorepo, the build actually makes a new package.json for the published package via scripts/package-json.ts",
   "bin": {
     "qwik": "./qwik-cli.cjs"
   },
-  "bugs": "https://github.com/KhulnaSoft/qwik/issues",
+  "bugs": "https://github.com/QwikDev/qwik/issues",
   "contributors": [
     {
       "name": "Miško Hevery",
       "email": "misko@hevery.com",
-      "url": "https://github.com/KhulnaSoft/qwik"
+      "url": "https://github.com/QwikDev/qwik"
     },
     {
       "name": "Adam Bradley",
@@ -28,11 +28,11 @@
     "csstype": "^3.1"
   },
   "devDependencies": {
-    "@khulnasoft.com/qwik": "workspace:^",
-    "@khulnasoft.com/qwik-dom": "workspace:^",
-    "ignore": "5.3.1",
+    "@builder.io/qwik": "workspace:^",
+    "@builder.io/qwik-dom": "workspace:^",
     "image-size": "1.1.1",
     "kleur": "4.1.5",
+    "ignore": "5.3.1",
     "ts-morph": "23.0.0"
   },
   "engines": {

@@ -7,7 +7,7 @@ import type {
 import { getBuildBase } from './utils';
 import { qDev } from '../core/util/qdev';
 
-import type { ResolvedManifest } from '@khulnasoft.com/qwik/optimizer';
+import type { ResolvedManifest } from '@builder.io/qwik/optimizer';
 import type { QRLInternal } from '../core/qrl/qrl-class';
 
 export function getPrefetchResources(

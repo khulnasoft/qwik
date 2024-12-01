@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@khulnasoft.com/qwik-city';
+import type { RequestHandler } from '@builder.io/qwik-city';
 
 export const onGet: RequestHandler = async ({ send, url }) => {
   const response = await fetch(

@@ -59,7 +59,7 @@ The reactive signal returned by `useSignal()` consists of an object with a singl
 
 <CodeSandbox src="/src/routes/demo/state/counter-signal/index.tsx" style={{ height: '6em' }}>
 ```tsx {4} /count/
-import { component$, useSignal } from '@khulnasoft.com/qwik';
+import { component$, useSignal } from '@builder.io/qwik';
 
 export default component$(() => {
   const count = useSignal(0);
@@ -102,7 +102,7 @@ Use `useStore(initialStateObject)` hook to create a reactive object. It takes an
 
 <CodeSandbox src="/src/routes/demo/state/counter-store/index.tsx" style={{ height: '6em' }} >
 ```tsx {4} /state/ /count/#a
-import { component$, useStore } from '@khulnasoft.com/qwik';
+import { component$, useStore } from '@builder.io/qwik';
 
 export default component$(() => {
   const state = useStore({ count: 0, name: 'Qwik' });
@@ -127,7 +127,7 @@ Because [`useStore()`](/docs/(qwik)/components/state/index.mdx#usestore) tracks 
 
 <CodeSandbox src="/src/routes/demo/state/counter-store-deep/index.tsx" style={{ height: '10em' }}>
 ```tsx
-import { component$, useStore } from '@khulnasoft.com/qwik';
+import { component$, useStore } from '@builder.io/qwik';
 
 export default component$(() => {
   const store = useStore({
@@ -196,7 +196,7 @@ const shallowStore = useStore(
 To provide methods on the store, you must make them into QRLs and refer to the store with `this`, like so:
 
 ```tsx
-import { component$, useStore, $, type QRL } from "@khulnasoft.com/qwik";
+import { component$, useStore, $, type QRL } from "@builder.io/qwik";
 
 type CountStore = { count: number; increment: QRL<(this: CountStore) => void> };
 
@@ -238,7 +238,7 @@ It is similar to `memo` in other frameworks, since it will only recompute the va
 
 <CodeSandbox src="/src/routes/demo/state/computed/index.tsx" style={{ height: '8em' }}>
 ```tsx {5} /useComputed$/
-import { component$, useComputed$, useSignal } from '@khulnasoft.com/qwik';
+import { component$, useComputed$, useSignal } from '@builder.io/qwik';
 
 export default component$(() => {
   const name = useSignal('Qwik');
@@ -275,7 +275,7 @@ import {
   Resource,
   useResource$,
   useSignal,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 export default component$(() => {
   const postId = useSignal('23');
@@ -333,7 +333,7 @@ import {
   useResource$,
   Resource,
   useSignal,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 export default component$(() => {
   const query = useSignal('busy');
@@ -419,7 +419,7 @@ import {
   useSignal,
   useResource$,
   Resource,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 export default component$(() => {
   const name = useSignal<string>();
@@ -483,7 +483,7 @@ The simplest way to pass the state to other components is to pass it through pro
 
 <CodeSandbox src="/src/routes/demo/state/passing-props/index.tsx" style={{ height: '6em' }}>
 ```tsx {9} /userData=/
-import { component$, useStore } from '@khulnasoft.com/qwik';
+import { component$, useStore } from '@builder.io/qwik';
 
 export default component$(() => {
   const userData = useStore({ count: 0 });
@@ -518,7 +518,7 @@ import {
   useContext,
   useContextProvider,
   useStore,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 
 // Declare a context ID
 export const CTX = createContextId<{ count: number }>('stuff');
@@ -562,7 +562,7 @@ import {
   noSerialize,
   useVisibleTask$,
   type NoSerialize,
-} from '@khulnasoft.com/qwik';
+} from '@builder.io/qwik';
 import type Monaco from './monaco';
 import { monacoEditor } from './monaco';
 

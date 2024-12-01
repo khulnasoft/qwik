@@ -1,4 +1,4 @@
-import type { PageModule, QwikCityPlan, RouteData, PathParams } from '@khulnasoft.com/qwik-city';
+import type { PageModule, QwikCityPlan, RouteData, PathParams } from '@builder.io/qwik-city';
 import type { StaticGenerateOptions, StaticGenerateResult, StaticRoute, System } from './types';
 import { createRouteTester } from './routes';
 import { generateNotFoundPages } from './not-found';

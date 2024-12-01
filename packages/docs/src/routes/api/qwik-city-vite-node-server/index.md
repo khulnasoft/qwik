@@ -1,8 +1,8 @@
 ---
-title: \@khulnasoft.com/qwik-city/vite/node-server API Reference
+title: \@builder.io/qwik-city/vite/node-server API Reference
 ---
 
-# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/vite/node-server
+# [API](/api) &rsaquo; @builder.io/qwik-city/vite/node-server
 
 ## nodeServerAdapter
 
@@ -43,7 +43,7 @@ _(Optional)_
 
 any
 
-[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/node-server/vite/index.ts)
+[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/node-server/vite/index.ts)
 
 ## NodeServerAdapterOptions
 
@@ -89,4 +89,4 @@ string
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/node-server/vite/index.ts)
+[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/node-server/vite/index.ts)

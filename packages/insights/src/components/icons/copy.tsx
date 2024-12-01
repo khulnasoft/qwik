@@ -1,4 +1,4 @@
-import { component$, useSignal, type QRL, useStylesScoped$ } from '@khulnasoft.com/qwik';
+import { component$, useSignal, type QRL, useStylesScoped$ } from '@builder.io/qwik';
 
 interface CopyIconProps {
   class?: string;

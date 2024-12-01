@@ -1,6 +1,6 @@
 import { ElementFixture, trigger } from './element-fixture';
 import { setTestPlatform } from './platform';
-import type { JSXOutput } from '@khulnasoft.com/qwik';
+import type { JSXOutput } from '@builder.io/qwik';
 
 /**
  * CreatePlatform and CreateDocument
@@ -26,10 +26,10 @@ export const createDOM = async function ({ html }: { html?: string } = {}) {
   };
 };
 
-const getQwik = async (): Promise<typeof import('@khulnasoft.com/qwik')> => {
+const getQwik = async (): Promise<typeof import('@builder.io/qwik')> => {
   if ((globalThis as any).RUNNER !== false) {
     return await import('../core/index');
   } else {
-    return await import('@khulnasoft.com/qwik');
+    return await import('@builder.io/qwik');
   }
 };

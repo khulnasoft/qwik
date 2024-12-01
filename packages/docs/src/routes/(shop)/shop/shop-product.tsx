@@ -1,4 +1,4 @@
-import { component$, useComputed$, useContext, useSignal } from '@khulnasoft.com/qwik';
+import { component$, useComputed$, useContext, useSignal } from '@builder.io/qwik';
 import { modifyLineItemMutation } from '../mutation';
 import { SHOP_CONTEXT, fetchFromShopify, formatPrice } from '../utils';
 import type { UIProduct } from '../types';

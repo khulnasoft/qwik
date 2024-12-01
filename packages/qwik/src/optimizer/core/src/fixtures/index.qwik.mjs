@@ -30,8 +30,8 @@ import {
   _serializeData,
   _restProps,
   _fnSignal,
-} from '@khulnasoft.com/qwik';
-import { isBrowser, isServer, isDev } from '@khulnasoft.com/qwik/build';
+} from '@builder.io/qwik';
+import { isBrowser, isServer, isDev } from '@builder.io/qwik/build';
 import * as qwikCity from '@qwik-city-plan';
 import swRegister from '@qwik-city-sw-register';
 import { z } from 'zod';
