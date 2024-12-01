@@ -5,7 +5,7 @@ import { RouterHead } from './components/router-head/router-head';
 import { GlobalStore, type SiteStore } from './context';
 import './global.css';
 import { BUILDER_PUBLIC_API_KEY } from './constants';
-import { Insights } from '@builder.io/qwik-labs';
+import { Insights } from '@khulnasoft.com/qwik-labs';
 
 export const uwu = /*javascript*/ `
 ;(function () {

@@ -1,6 +1,6 @@
 import { partytownVite } from '@builder.io/partytown/utils';
 import { qwikCity } from '@builder.io/qwik-city/vite';
-import { qwikInsights } from '@builder.io/qwik-labs/vite';
+import { qwikInsights } from '@khulnasoft.com/qwik-labs/vite';
 import { qwikReact } from '@builder.io/qwik-react/vite';
 import { qwikVite } from '@builder.io/qwik/optimizer';
 import path, { resolve } from 'node:path';

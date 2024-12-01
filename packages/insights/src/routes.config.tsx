@@ -4,7 +4,7 @@
  *
  * @file
  */
-import { untypedAppUrl, omitProps } from '@builder.io/qwik-labs';
+import { untypedAppUrl, omitProps } from '@khulnasoft.com/qwik-labs';
 import { type AppLinkProps, type AppRouteParamsFunction } from './routes.gen';
 import { type QwikIntrinsicElements } from '@builder.io/qwik';
 

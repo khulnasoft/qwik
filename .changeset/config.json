@@ -9,7 +9,7 @@
   "updateInternalDependencies": "minor",
   "ignore": [
     "qwik-docs",
-    "@builder.io/qwik-labs",
+    "@khulnasoft.com/qwik-labs",
     "insights",
     "@builder.io/qwik-react",
     "@builder.io/qwik-worker",

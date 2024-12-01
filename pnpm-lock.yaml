@@ -283,7 +283,7 @@ importers:
       '@builder.io/qwik-city':
         specifier: workspace:^
         version: link:../qwik-city
-      '@builder.io/qwik-labs':
+      '@khulnasoft.com/qwik-labs':
         specifier: workspace:^
         version: link:../qwik-labs
       '@builder.io/qwik-react':
@@ -483,7 +483,7 @@ importers:
       '@builder.io/qwik-city':
         specifier: workspace:^
         version: link:../qwik-city
-      '@builder.io/qwik-labs':
+      '@khulnasoft.com/qwik-labs':
         specifier: workspace:^
         version: link:../qwik-labs
       '@builder.io/vite-plugin-macro':
