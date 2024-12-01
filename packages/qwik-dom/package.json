@@ -1,8 +1,7 @@
 {
-  "name": "@builder.io/qwik-dom",
+  "name": "@khulnasoft.com/qwik-dom",
   "description": "Server-side DOM implementation based on Mozilla's dom.js",
   "version": "2.1.19",
-  "author": "Felix Gnass <fgnass@gmail.com>",
   "files": [
     "CHANGELOG.md",
     "LICENSE",

@@ -562,7 +562,7 @@ importers:
       '@builder.io/qwik':
         specifier: workspace:^
         version: 'link:'
-      '@builder.io/qwik-dom':
+      '@khulnasoft.com/qwik-dom':
         specifier: workspace:^
         version: link:../qwik-dom
       ignore:

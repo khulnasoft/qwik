@@ -7,29 +7,12 @@
     "qwik": "./qwik-cli.cjs"
   },
   "bugs": "https://github.com/KhulnaSoft/qwik/issues",
-  "contributors": [
-    {
-      "name": "Miško Hevery",
-      "email": "misko@hevery.com",
-      "url": "https://github.com/KhulnaSoft/qwik"
-    },
-    {
-      "name": "Adam Bradley",
-      "email": "adam@builder.io",
-      "url": "https://twitter.com/adamdbradley"
-    },
-    {
-      "name": "Manu Mtz.-Almeida",
-      "email": "manu@builder.io",
-      "url": "https://twitter.com/manucorporat"
-    }
-  ],
   "dependencies": {
     "csstype": "^3.1"
   },
   "devDependencies": {
     "@builder.io/qwik": "workspace:^",
-    "@builder.io/qwik-dom": "workspace:^",
+    "@khulnasoft.com/qwik-dom": "workspace:^",
     "image-size": "1.1.1",
     "kleur": "4.1.5",
     "ignore": "5.3.1",
