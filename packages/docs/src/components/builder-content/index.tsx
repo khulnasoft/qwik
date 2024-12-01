@@ -1,4 +1,4 @@
-import { component$, Resource, useResource$ } from '@builder.io/qwik';
+import { component$, Resource, useResource$ } from '@khulnasoft.com/qwik';
 import { useLocation } from '@khulnasoft.com/qwik-city';
 import { getBuilderSearchParams, fetchOneEntry, Content } from '@builder.io/sdk-qwik';
 import { QWIK_MODEL } from '../../constants';

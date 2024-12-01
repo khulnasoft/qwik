@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import { Form, routeAction$ } from "@khulnasoft.com/qwik-city";
 import { data } from "./data";
 

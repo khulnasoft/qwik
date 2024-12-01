@@ -1,4 +1,4 @@
-import { component$, useContextProvider, useStore } from '@builder.io/qwik';
+import { component$, useContextProvider, useStore } from '@khulnasoft.com/qwik';
 import { QwikCityProvider, RouterOutlet } from '@khulnasoft.com/qwik-city';
 import RealMetricsOptimization from './components/real-metrics-optimization/real-metrics-optimization';
 import { RouterHead } from './components/router-head/router-head';

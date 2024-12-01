@@ -14,7 +14,7 @@ export async function submoduleTesting(config: BuildConfig) {
     sourcemap: config.dev,
     bundle: true,
     target,
-    external: ['@builder.io/qwik/build'],
+    external: ['@khulnasoft.com/qwik/build'],
     platform: 'node',
     // external: [...nodeBuiltIns],
   };
@@ -22,7 +22,7 @@ export async function submoduleTesting(config: BuildConfig) {
   const esm = build({
     ...opts,
     format: 'esm',
-    banner: { js: getBanner('@builder.io/qwik/testing', config.distVersion) },
+    banner: { js: getBanner('@khulnasoft.com/qwik/testing', config.distVersion) },
     outExtension: { '.js': '.mjs' },
     plugins: [
       importPath(/^@builder\.io\/qwik$/, '../core.mjs'),
@@ -41,7 +41,7 @@ export async function submoduleTesting(config: BuildConfig) {
     format: 'cjs',
     outExtension: { '.js': '.cjs' },
     banner: {
-      js: getBanner('@builder.io/qwik/testing', config.distVersion),
+      js: getBanner('@khulnasoft.com/qwik/testing', config.distVersion),
     },
     plugins: [
       importPath(/^@builder\.io\/qwik$/, '../core.cjs'),
@@ -65,7 +65,7 @@ export async function submoduleTesting(config: BuildConfig) {
 
 async function generateTestingPackageJson(config: BuildConfig) {
   const pkg: PackageJSON = {
-    name: '@builder.io/qwik/testing',
+    name: '@khulnasoft.com/qwik/testing',
     version: config.distVersion,
     main: 'index.mjs',
     types: 'index.d.ts',

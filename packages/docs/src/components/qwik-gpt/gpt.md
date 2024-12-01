@@ -10,7 +10,7 @@
 - Content projection is done by the `<Slot/>` component. Slots can be named, and can be projected into using the `q:slot` attribute.
 
 ```tsx
-import { component$, $, useSignal, useVisibleTask$ } from '@builder.io/qwik';
+import { component$, $, useSignal, useVisibleTask$ } from '@khulnasoft.com/qwik';
 import US_PRESIDENTS from './us-presidents.json';
 import { MyOtherComponent } from './my-other-component';
 
@@ -91,7 +91,7 @@ Qwik comes with a file-based router, which is similar to Next.js. The router is 
 To link to other routes, you can use the `Link` component, it is like `<a>` but allows for SPA navigation.
 
 ```tsx title="src/routes/user/[userID]/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$, useLocation, Link } from '@khulnasoft.com/qwik-city';
 
 export const useUserData = routeLoader$(async (requestEvent) => {

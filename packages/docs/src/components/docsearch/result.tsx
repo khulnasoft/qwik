@@ -1,4 +1,4 @@
-import { Slot, component$, useContext, useSignal, useStore, useTask$ } from '@builder.io/qwik';
+import { Slot, component$, useContext, useSignal, useStore, useTask$ } from '@khulnasoft.com/qwik';
 // import { QwikGPT } from '../qwik-gpt';
 import { SearchContext } from './context';
 import { AiResultOpenContext, type DocSearchState } from './doc-search';

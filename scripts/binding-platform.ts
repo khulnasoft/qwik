@@ -57,7 +57,7 @@ export async function copyPlatformBindingWasm(config: BuildConfig) {
 
   let buildVersion = '0.0.0';
   try {
-    const releaseDataUrl = `https://data.jsdelivr.com/v1/package/npm/@builder.io/qwik`;
+    const releaseDataUrl = `https://data.jsdelivr.com/v1/package/npm/@khulnasoft.com/qwik`;
     const releaseRsp = await fetch(releaseDataUrl);
     const releases = (await releaseRsp.json()) as any;
     buildVersion = releases.tags.latest;

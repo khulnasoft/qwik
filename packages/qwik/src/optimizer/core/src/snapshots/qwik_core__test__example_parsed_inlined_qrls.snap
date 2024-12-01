@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { componentQrl, inlinedQrl, useStore, jsxs, jsx, useLexicalScope } from '@builder.io/qwik';
+import { componentQrl, inlinedQrl, useStore, jsxs, jsx, useLexicalScope } from '@khulnasoft.com/qwik';
 
 export const App = /*#__PURE__*/ componentQrl(inlinedQrl(()=>{
     useStyles$(inlinedQrl(STYLES, "STYLES_odz7dfdfdM"));
@@ -43,9 +43,9 @@ export const STYLES = ".red { color: red; }";
 
 ============================= test.tsx ==
 
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { componentQrl, inlinedQrl, useStore, useLexicalScope } from '@builder.io/qwik';
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { componentQrl, inlinedQrl, useStore, useLexicalScope } from '@khulnasoft.com/qwik';
 export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ inlinedQrl(()=>{
     useStyles$(/*#__PURE__*/ inlinedQrl(STYLES, "s_odz7dfdfdM"));
     useStyles$(/*#__PURE__*/ inlinedQrl(STYLES, "s_odzdfdfdM"));

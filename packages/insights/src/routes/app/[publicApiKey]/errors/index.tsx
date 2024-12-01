@@ -1,4 +1,4 @@
-import { type ReadonlySignal, component$ } from '@builder.io/qwik';
+import { type ReadonlySignal, component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 import { getDB, errorTable, type ErrorRow } from '~/db';
 import { eq, sql } from 'drizzle-orm';

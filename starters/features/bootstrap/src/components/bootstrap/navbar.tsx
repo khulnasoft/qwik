@@ -1,4 +1,4 @@
-import { component$, useOn, $ } from "@builder.io/qwik";
+import { component$, useOn, $ } from "@khulnasoft.com/qwik";
 import { Link } from "@khulnasoft.com/qwik-city";
 export const Navbar = component$(() => {
   useOn(

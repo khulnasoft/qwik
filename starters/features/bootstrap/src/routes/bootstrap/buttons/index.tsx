@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import type { DocumentHead } from "@khulnasoft.com/qwik-city";
 import { Button } from "~/components/bootstrap";
 import { colorVariantsList } from "~/constants/data";

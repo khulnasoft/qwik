@@ -236,7 +236,7 @@ pnpm link ../qwik/packages/qwik-city
 
 Other package managers probably need to first be told about the packages. For example, with `bun` you need to `cd ../qwik/packages/qwik` and `bun link`, repeat for `qwik-city`. Then in your app run `bun link @builder.io/qwik @khulnasoft.com/qwik-city`.
 
-If you can't use package linking, just copy the contents of `packages/qwik` into your projects' `node_modules/@builder.io/qwik` folder, and/or the contents of `packages/qwik-city` into your projects' `node_modules/@khulnasoft.com/qwik-city` folder.
+If you can't use package linking, just copy the contents of `packages/qwik` into your projects' `node_modules/@khulnasoft.com/qwik` folder, and/or the contents of `packages/qwik-city` into your projects' `node_modules/@khulnasoft.com/qwik-city` folder.
 
 ### Working on the docs site
 

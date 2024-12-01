@@ -1,4 +1,4 @@
-import { component$, useVisibleTask$, useStore } from "@builder.io/qwik";
+import { component$, useVisibleTask$, useStore } from "@khulnasoft.com/qwik";
 import type { RequestHandler } from "@khulnasoft.com/qwik-city";
 
 export default component$(() => {

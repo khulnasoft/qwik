@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { component$, useStore, useTask$ } from '@builder.io/qwik';
+import { component$, useStore, useTask$ } from '@khulnasoft.com/qwik';
 
 interface AppStore {
   count: number;

@@ -1,4 +1,4 @@
-import { component$, useSignal, useTask$ } from '@builder.io/qwik';
+import { component$, useSignal, useTask$ } from '@khulnasoft.com/qwik';
 
 export default component$(() => {
   const text = useSignal('');

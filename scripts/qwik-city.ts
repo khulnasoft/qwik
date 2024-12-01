@@ -102,8 +102,8 @@ async function buildVite(config: BuildConfig) {
     format: 'esm',
     external,
     alias: {
-      '@builder.io/qwik': 'noop',
-      '@builder.io/qwik/optimizer': 'noop',
+      '@khulnasoft.com/qwik': 'noop',
+      '@khulnasoft.com/qwik/optimizer': 'noop',
     },
     plugins: [serviceWorkerRegisterBuild(swRegisterCode)],
   });
@@ -653,8 +653,8 @@ async function buildStaticNode(config: BuildConfig) {
   const entryPoints = [join(config.srcQwikCityDir, 'static', 'node', 'index.ts')];
 
   const external = [
-    '@builder.io/qwik',
-    '@builder.io/qwik/optimizer',
+    '@khulnasoft.com/qwik',
+    '@khulnasoft.com/qwik/optimizer',
     '@khulnasoft.com/qwik-city',
     'fs',
     'http',
@@ -708,18 +708,18 @@ const ADAPTER_EXTERNALS = [
   'vite',
   'fs',
   'path',
-  '@builder.io/qwik',
-  '@builder.io/qwik/server',
-  '@builder.io/qwik/optimizer',
+  '@khulnasoft.com/qwik',
+  '@khulnasoft.com/qwik/server',
+  '@khulnasoft.com/qwik/optimizer',
   '@khulnasoft.com/qwik-city',
   '@khulnasoft.com/qwik-city/static',
   '@khulnasoft.com/qwik-city/middleware/request-handler',
 ];
 
 const MIDDLEWARE_EXTERNALS = [
-  '@builder.io/qwik',
-  '@builder.io/qwik/optimizer',
-  '@builder.io/qwik/server',
+  '@khulnasoft.com/qwik',
+  '@khulnasoft.com/qwik/optimizer',
+  '@khulnasoft.com/qwik/server',
   '@khulnasoft.com/qwik-city',
   '@khulnasoft.com/qwik-city/static',
   '@qwik-city-plan',

@@ -69,7 +69,7 @@ export async function setReleaseVersion(config: BuildConfig) {
   console.log(`🔥 Set release npm version: ${config.distVersion}`);
 
   // check this @builder.io/qwik version isn't already published
-  await checkExistingNpmVersion('@builder.io/qwik', config.distVersion);
+  await checkExistingNpmVersion('@khulnasoft.com/qwik', config.distVersion);
 
   // check this @khulnasoft.com/qwik-city version isn't already published
   await checkExistingNpmVersion('@khulnasoft.com/qwik-city', config.distVersion);
@@ -78,7 +78,7 @@ export async function setReleaseVersion(config: BuildConfig) {
 export async function prepareReleaseVersion(config: BuildConfig) {
   const rootPkg = await readPackageJson(config.rootDir);
 
-  const answers = await releaseVersionPrompt('@builder.io/qwik', rootPkg.version);
+  const answers = await releaseVersionPrompt('@khulnasoft.com/qwik', rootPkg.version);
   if (!semver.valid(answers.version)) {
     panic(`Invalid version`);
   }

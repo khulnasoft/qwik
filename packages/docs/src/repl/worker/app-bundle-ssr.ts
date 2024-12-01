@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import type { InputOptions } from 'rollup';
-import type { Diagnostic, QwikRollupPluginOptions } from '@builder.io/qwik/optimizer';
+import type { Diagnostic, QwikRollupPluginOptions } from '@khulnasoft.com/qwik/optimizer';
 import type { ReplInputOptions, ReplResult } from '../types';
 import { replCss, replResolver } from './repl-plugins';
 import { getInputs, getOutput } from './app-bundle-client';

@@ -6,7 +6,7 @@
 
 /// <reference types="node" />
 
-import type { RenderOptions } from '@builder.io/qwik/server';
+import type { RenderOptions } from '@khulnasoft.com/qwik/server';
 
 // @public
 export function generate(opts: StaticGenerateOptions): Promise<StaticGenerateResult>;

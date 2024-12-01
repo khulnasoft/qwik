@@ -1,4 +1,4 @@
-import { component$, Slot } from "@builder.io/qwik";
+import { component$, Slot } from "@khulnasoft.com/qwik";
 import { routeLoader$, type RequestHandler } from "@khulnasoft.com/qwik-city";
 import { isUserAuthenticated } from "../auth/auth";
 

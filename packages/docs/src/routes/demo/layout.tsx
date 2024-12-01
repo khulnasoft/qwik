@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-import { component$, Slot } from '@builder.io/qwik';
-import { useStyles$ } from '@builder.io/qwik';
+import { component$, Slot } from '@khulnasoft.com/qwik';
+import { useStyles$ } from '@khulnasoft.com/qwik';
 import STYLES from './demo-reset.css?inline';
 
 export default component$(() => {

@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { component$, useClientMount$, useStore, useTask$ } from '@builder.io/qwik';
+import { component$, useClientMount$, useStore, useTask$ } from '@khulnasoft.com/qwik';
 import mongo from 'mongodb';
 import redis from 'redis';
 import threejs from 'threejs';
@@ -47,17 +47,17 @@ export const Parent = component$(() => {
 
 import "./keep";
 import "../keep2";
-import { componentQrl } from "@builder.io/qwik";
-import { useClientMountQrl } from "@builder.io/qwik";
-import { _noopQrl } from "@builder.io/qwik";
-import { useTaskQrl } from "@builder.io/qwik";
-import { inlinedQrl } from "@builder.io/qwik";
-import { _fnSignal } from "@builder.io/qwik";
-import { _IMMUTABLE } from "@builder.io/qwik";
-import { useLexicalScope } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { useStore } from '@builder.io/qwik';
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { useClientMountQrl } from "@khulnasoft.com/qwik";
+import { _noopQrl } from "@khulnasoft.com/qwik";
+import { useTaskQrl } from "@khulnasoft.com/qwik";
+import { inlinedQrl } from "@khulnasoft.com/qwik";
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _IMMUTABLE } from "@khulnasoft.com/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { useStore } from '@khulnasoft.com/qwik';
 export const Parent = /*#__PURE__*/ componentQrl(/*#__PURE__*/ inlinedQrl(()=>{
     const state = useStore({
         text: ''

@@ -10,8 +10,8 @@ import {
 } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { getNotFound } from '@qwik-city-not-found-paths';
 import { isStaticPath } from '@qwik-city-static-paths';
-import { _deserializeData, _serializeData, _verifySerializable } from '@builder.io/qwik';
-import { setServerPlatform } from '@builder.io/qwik/server';
+import { _deserializeData, _serializeData, _verifySerializable } from '@khulnasoft.com/qwik';
+import { setServerPlatform } from '@khulnasoft.com/qwik/server';
 
 // @khulnasoft.com/qwik-city/middleware/netlify-edge
 

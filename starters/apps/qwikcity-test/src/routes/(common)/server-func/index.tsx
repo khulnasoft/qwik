@@ -5,7 +5,7 @@ import {
   useResource$,
   useSignal,
   useTask$,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 import { routeLoader$, server$ } from "@khulnasoft.com/qwik-city";
 import { delay } from "../actions/login";
 

@@ -1,4 +1,4 @@
-import { component$, useStyles$, useTask$ } from "@builder.io/qwik";
+import { component$, useStyles$, useTask$ } from "@khulnasoft.com/qwik";
 import { Link } from "@khulnasoft.com/qwik-city";
 import { useUserLoader } from "../../routes/layout";
 import { useRootLoader } from "../../routes/plugin@header";

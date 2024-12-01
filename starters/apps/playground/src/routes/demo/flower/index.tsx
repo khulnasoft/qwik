@@ -3,7 +3,7 @@ import {
   useVisibleTask$,
   useStore,
   useStylesScoped$,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 import { type DocumentHead, useLocation } from "@khulnasoft.com/qwik-city";
 import styles from "./flower.css?inline";
 

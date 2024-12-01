@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import { qwikVite } from '@builder.io/qwik/optimizer';
+import { qwikVite } from '@khulnasoft.com/qwik/optimizer';
 import dtsPlugin from 'vite-plugin-dts';
 
 export default defineConfig(() => {

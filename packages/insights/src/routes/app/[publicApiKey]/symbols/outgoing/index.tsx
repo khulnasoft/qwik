@@ -1,4 +1,4 @@
-import { type ReadonlySignal, component$ } from '@builder.io/qwik';
+import { type ReadonlySignal, component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 import { getDB } from '~/db';
 import { type OutgoingEdge, dbGetOutgoingEdges } from '~/db/sql-edges';

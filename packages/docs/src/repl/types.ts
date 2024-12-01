@@ -3,8 +3,8 @@ import type {
   QwikManifest,
   QwikRollupPluginOptions,
   TransformModule,
-} from '@builder.io/qwik/optimizer';
-import type { NoSerialize } from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik/optimizer';
+import type { NoSerialize } from '@khulnasoft.com/qwik';
 
 export interface ReplAppInput {
   buildId: number;

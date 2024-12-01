@@ -3,7 +3,7 @@ import {
   useSignal,
   useResource$,
   Resource,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 
 export default component$(() => {
   const name = useSignal<string>();

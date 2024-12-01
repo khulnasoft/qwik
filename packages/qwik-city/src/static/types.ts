@@ -1,5 +1,5 @@
-import type { StreamWriter } from '@builder.io/qwik';
-import type { RenderOptions } from '@builder.io/qwik/server';
+import type { StreamWriter } from '@khulnasoft.com/qwik';
+import type { RenderOptions } from '@khulnasoft.com/qwik/server';
 import type { ServerRenderOptions } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 
 export interface System {

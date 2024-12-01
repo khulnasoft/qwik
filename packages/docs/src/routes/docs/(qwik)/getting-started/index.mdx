@@ -128,7 +128,7 @@ Start by serving a page at a particular route. This basic app serves a random da
 
 <CodeSandbox src="/src/routes/demo/getting-started/01-route/index.tsx" style={{ height: '6em' }}>
 ```tsx {3-5} title="src/routes/joke/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export default component$(() => {
   return <section class="section bright">A Joke!</section>;
@@ -152,7 +152,7 @@ Use the external JSON API at https://icanhazdadjoke.com to load random jokes. Yo
 
 <CodeSandbox src="/src/routes/demo/getting-started/02-loading-data/index.tsx" style={{ height: '6em' }}>
 ```tsx /routeLoader$/ /useDadJoke/#a title="src/routes/joke/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 
 export const useDadJoke = routeLoader$(async () => {
@@ -246,7 +246,7 @@ For reference, the complete code snippet for this section is as follows:
 
 <CodeSandbox src="/src/routes/demo/getting-started/03-posting-data/index.tsx" style={{ height: '8em' }}>
 ```tsx {21,25-29} /favoriteJokeAction/ title="src/routes/joke/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$, Form, routeAction$ } from '@khulnasoft.com/qwik-city';
 
 export const useDadJoke = routeLoader$(async () => {
@@ -294,7 +294,7 @@ To declare state:
 
 1. Import `useSignal` from `qwik`.
    ```tsx /useSignal/
-   import { component$, useSignal } from "@builder.io/qwik";
+   import { component$, useSignal } from "@khulnasoft.com/qwik";
    ```
 2. Declare the component's state using `useSignal()`.
    ```tsx /useSignal/
@@ -316,7 +316,7 @@ For reference, the complete code snippet for this section is as follows:
 
 <CodeSandbox src="/src/routes/demo/getting-started/04-state/index.tsx" style={{ height: '10em' }} maxHeight={500}>
 ```tsx /isFavoriteSignal/ title="src/routes/joke/index.tsx"
-import { component$, useSignal } from '@builder.io/qwik';
+import { component$, useSignal } from '@khulnasoft.com/qwik';
 import { routeLoader$, Form, routeAction$ } from '@khulnasoft.com/qwik-city';
 
 export const useDadJoke = routeLoader$(async () => {
@@ -369,7 +369,7 @@ In Qwik, a [task](/docs/components/tasks/#usetask) is work that needs to happen 
 
 1. Import `useTask$` from `qwik` and `$server` from `qwik-city`.
    ```tsx /useTask\$/ /\$server/
-   import { component$, useSignal, useTask$ } from "@builder.io/qwik";
+   import { component$, useSignal, useTask$ } from "@khulnasoft.com/qwik";
    import {
      routeLoader$,
      Form,
@@ -416,7 +416,7 @@ For reference, the complete code snippet for this section is as follows:
 
 <CodeSandbox src="/src/routes/demo/getting-started/05-tasks/index.tsx" style={{ height: '10em' }} maxHeight={500}>
 ```tsx {28-34} title="src/routes/joke/index.tsx"
-import { component$, useSignal, useTask$ } from '@builder.io/qwik';
+import { component$, useSignal, useTask$ } from '@khulnasoft.com/qwik';
 import {
   routeLoader$,
   Form,
@@ -498,7 +498,7 @@ To add styles:
     ```
 3. Import `useStylesScoped$` from `qwik`.
    ```tsx /useStylesScoped$/
-   import { component$, useSignal, useStylesScoped$, useTask$ } from "@builder.io/qwik";
+   import { component$, useSignal, useStylesScoped$, useTask$ } from "@khulnasoft.com/qwik";
 4. Tell the component to load the styles:
    ```tsx
    useStylesScoped$(styles);
@@ -519,7 +519,7 @@ import {
   useSignal,
   useStylesScoped$,
   useTask$,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 import {
   routeLoader$,
   Form,

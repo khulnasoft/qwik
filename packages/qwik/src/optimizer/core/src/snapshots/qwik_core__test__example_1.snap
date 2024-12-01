@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { $, component, onRender } from '@builder.io/qwik';
+import { $, component, onRender } from '@khulnasoft.com/qwik';
 
 export const renderHeader = $(() => {
     return (
@@ -20,11 +20,11 @@ const renderHeader = component($(() => {
 
 ============================= test.tsx_renderHeader_zBbHWn4e8Cg.tsx (ENTRY POINT)==
 
-import { qrl } from "@builder.io/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 export const renderHeader_zBbHWn4e8Cg = ()=>{
     return <div onClick={/*#__PURE__*/ qrl(()=>import("./test.tsx_renderHeader_div_onClick_fV2uzAL99u4"), "renderHeader_div_onClick_fV2uzAL99u4")}/>;
 };
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";wCAG8B;IAC1B,QACK,IAAI;AAEb\"}")
@@ -54,7 +54,7 @@ export const renderHeader_component_U6Kkv07sbpQ = ()=>{
     console.log("mount");
     return render;
 };
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\"kDAQiC;IAC/B,QAAQ,GAAG,CAAC;IACZ,OAAO;AACT\"}")
@@ -80,8 +80,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 */
 ============================= test.tsx ==
 
-import { qrl } from "@builder.io/qwik";
-import { component } from '@builder.io/qwik';
+import { qrl } from "@khulnasoft.com/qwik";
+import { component } from '@khulnasoft.com/qwik';
 export const renderHeader = /*#__PURE__*/ qrl(()=>import("./test.tsx_renderHeader_zBbHWn4e8Cg"), "renderHeader_zBbHWn4e8Cg");
 const renderHeader = component(/*#__PURE__*/ qrl(()=>import("./test.tsx_renderHeader_component_U6Kkv07sbpQ"), "renderHeader_component_U6Kkv07sbpQ"));
 
@@ -90,7 +90,7 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 ============================= test.tsx_renderHeader_div_onClick_fV2uzAL99u4.tsx (ENTRY POINT)==
 
 export const renderHeader_div_onClick_fV2uzAL99u4 = (ctx)=>console.log(ctx);
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\"oDAKwB,CAAC,MAAQ,QAAQ,GAAG,CAAC\"}")

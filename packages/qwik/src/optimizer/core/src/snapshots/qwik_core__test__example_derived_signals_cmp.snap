@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { component$, useStore, mutable } from '@builder.io/qwik';
+import { component$, useStore, mutable } from '@khulnasoft.com/qwik';
 
 import {dep} from './file';
 import {Cmp} from './cmp';
@@ -49,12 +49,12 @@ export const App = component$(() => {
 
 ============================= test.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { _IMMUTABLE } from "@builder.io/qwik";
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { inlinedQrl } from "@builder.io/qwik";
-import { useStore, mutable } from '@builder.io/qwik';
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { _IMMUTABLE } from "@khulnasoft.com/qwik";
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { inlinedQrl } from "@khulnasoft.com/qwik";
+import { useStore, mutable } from '@khulnasoft.com/qwik';
 import { dep } from './file';
 import { Cmp } from './cmp';
 const App_component_ckEPmXZlub0 = ()=>{

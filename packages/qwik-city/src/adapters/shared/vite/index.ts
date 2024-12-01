@@ -1,6 +1,6 @@
 import type { Plugin, UserConfig } from 'vite';
 import type { QwikCityPlugin } from '@khulnasoft.com/qwik-city/vite';
-import type { QwikVitePlugin } from '@builder.io/qwik/optimizer';
+import type { QwikVitePlugin } from '@khulnasoft.com/qwik/optimizer';
 import type {
   StaticGenerateOptions,
   StaticGenerateRenderOptions,

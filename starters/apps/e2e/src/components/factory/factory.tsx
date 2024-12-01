@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import { factory$ } from "./utils";
 
 export const A = factory$(() => {

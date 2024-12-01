@@ -6,9 +6,9 @@ expression: output
 ==INPUT==
 
 
-import { componentQrl, inlinedQrl, useLexicalScope, useHostElement, useStore, useTaskQrl, noSerialize, SkipRerender, implicit$FirstArg } from '@builder.io/qwik';
-import { jsx, Fragment } from '@builder.io/qwik/jsx-runtime';
-import { isBrowser, isServer } from '@builder.io/qwik/build';
+import { componentQrl, inlinedQrl, useLexicalScope, useHostElement, useStore, useTaskQrl, noSerialize, SkipRerender, implicit$FirstArg } from '@khulnasoft.com/qwik';
+import { jsx, Fragment } from '@khulnasoft.com/qwik/jsx-runtime';
+import { isBrowser, isServer } from '@khulnasoft.com/qwik/build';
 
 function qwikifyQrl(reactCmpQrl) {
     return /*#__PURE__*/ componentQrl(inlinedQrl((props)=>{
@@ -99,11 +99,11 @@ export { qwikify$, qwikifyQrl, renderToString };
         
 ============================= ../node_modules/@khulnasoft.com/qwik-react/index.qwik.mjs ==
 
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxBranch } from "@builder.io/qwik";
-import { componentQrl, inlinedQrl, useLexicalScope, useHostElement, useStore, useTaskQrl, noSerialize, SkipRerender, implicit$FirstArg } from '@builder.io/qwik';
-import { Fragment } from '@builder.io/qwik/jsx-runtime';
-import { isBrowser, isServer } from '@builder.io/qwik/build';
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxBranch } from "@khulnasoft.com/qwik";
+import { componentQrl, inlinedQrl, useLexicalScope, useHostElement, useStore, useTaskQrl, noSerialize, SkipRerender, implicit$FirstArg } from '@khulnasoft.com/qwik';
+import { Fragment } from '@khulnasoft.com/qwik/jsx-runtime';
+import { isBrowser, isServer } from '@khulnasoft.com/qwik/build';
 function qwikifyQrl(reactCmpQrl) {
     return /*#__PURE__*/ componentQrl(/*#__PURE__*/ inlinedQrl((props)=>{
         _jsxBranch();

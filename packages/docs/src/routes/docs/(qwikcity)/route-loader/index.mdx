@@ -27,7 +27,7 @@ Please note that route loaders should be exported only from `layout.tsx` or `ind
 > If you want to manage common reusable routeLoaders$ it is essential that this function is re-exported from within 'layout.tsx' or 'index.tsx file of the existing route otherwise it will not run or throw exception. For more information [check this section](/docs/(qwikcity)/re-exporting-loaders/index.mdx).
 
 ```tsx /routeLoader$/ /useProductData/#a title="src/routes/product/[productId]/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 
 export const useProductDetails = routeLoader$(async (requestEvent) => {
@@ -54,7 +54,7 @@ Multiple `routeLoader$`s are allowed across the whole application, and they can 
 
 
 ```tsx title="src/routes/layout.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 import { Footer } from '../components/footer.tsx';
 
@@ -76,7 +76,7 @@ export default component$(() => {
 ```
 
 ```tsx title="src/components/footer.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 // Import the loader from the layout
 import { useProductData } from '../routes/layout.tsx';
@@ -91,7 +91,7 @@ export const Footer = component$(() => {
 The above example shows using `useProductData()` in two different components across different files. This is intentional behavior.
 
 ```tsx title="src/routes/admin/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 
 export const useLoginStatus = routeLoader$(async ({ cookie }) => {
@@ -184,7 +184,7 @@ In addition, the `fail` function allows `routeLoader$` to override the HTTP stat
 This is useful when the loader needs to return an "error" value that is not `undefined`, but it also needs to indicate that the data failed to load.
 
 ```tsx /requestEvent.fail/ /errorMessage/#a title="src/routes/product/[productId]/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 
 export const useProductDetails = routeLoader$(async (requestEvent) => {
@@ -216,7 +216,7 @@ export default component$(() => {
 In the server-side execution environment, it's crucial to convert relative URLs to absolute URLs for proper functionality. This can be achieved by prefixing the relative URL with the `origin` from the `useLocation()` function.
 
 ```tsx /location.url.origin + relativeUrl/ title="Make Absolute URL"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { useLocation } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {

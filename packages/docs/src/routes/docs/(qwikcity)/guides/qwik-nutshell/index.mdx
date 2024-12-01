@@ -29,8 +29,8 @@ Qwik components are very similar to React components. They are functions that re
 
 
 ```tsx title="src/components/my-other-component/index.tsx"
-import { component$, Slot } from '@builder.io/qwik';
-import type { ClassList } from '@builder.io/qwik'
+import { component$, Slot } from '@khulnasoft.com/qwik';
+import type { ClassList } from '@khulnasoft.com/qwik'
 
 export const MyOtherComponent = component$((props: { class?: ClassList }) => { // ✅
   return <div class={class}><Slot /></div>;
@@ -38,7 +38,7 @@ export const MyOtherComponent = component$((props: { class?: ClassList }) => { /
 ```
 
 ```tsx
-import { component$, useSignal } from '@builder.io/qwik';
+import { component$, useSignal } from '@khulnasoft.com/qwik';
 
 // Other components can be imported and used in JSX.
 import { MyOtherComponent } from './my-other-component';
@@ -83,7 +83,7 @@ export const MyComponent = component$((props: MyComponentProps) => {
 Like in React, you can render a list of items using the `map` function, however every item in the list must have a unique `key` property. The `key` must be a string, or number and must be unique within the list.
 
 ```tsx
-import { component$, useSignal } from '@builder.io/qwik';
+import { component$, useSignal } from '@khulnasoft.com/qwik';
 import { US_PRESIDENTS } from './presidents';
 
 export const PresidentsList = component$(() => {
@@ -105,7 +105,7 @@ export const PresidentsList = component$(() => {
 Event handlers can be reused across JSX nodes. This is done by creating a handler using the `$(...handler...)`.
 
 ```tsx
-import { $, component$, useSignal } from '@builder.io/qwik';
+import { $, component$, useSignal } from '@khulnasoft.com/qwik';
 
 interface MyComponentProps {
   step: number;
@@ -134,11 +134,11 @@ export const MyComponent = component$(() => {
 
 ### Content projection
 
-Content projection is done by the `<Slot/>` component, which is exported from `@builder.io/qwik`. Slots can be named, and can be projected into using the `q:slot` attribute.
+Content projection is done by the `<Slot/>` component, which is exported from `@khulnasoft.com/qwik`. Slots can be named, and can be projected into using the `q:slot` attribute.
 
 ```tsx
 // File: src/components/Button/Button.tsx
-import { component$, Slot } from '@builder.io/qwik';
+import { component$, Slot } from '@khulnasoft.com/qwik';
 import styles from './Button.module.css';
 
 export const Button = component$(() => {
@@ -190,7 +190,7 @@ To use CSS modules, simply create a `.module.css` file. For example, `src/compon
 Then, import the CSS module in your component.
 
 ```tsx title="src/components/MyComponent/MyComponent.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import styles from './MyComponent.module.css';
 
 export default component$(() => {
@@ -211,7 +211,7 @@ The `$(...)` function and any function that end with `$` are special in Qwik, su
 
 ```tsx
 // Valid examples of `$` functions.
-import { $, component$, useSignal } from '@builder.io/qwik';
+import { $, component$, useSignal } from '@khulnasoft.com/qwik';
 import { importedFunction } from './my-other-module';
 
 export function exportedFunction() {
@@ -245,7 +245,7 @@ Here are some examples of invalid `$` functions.
 
 ```tsx
 // Invalid examples of `$` functions.
-import { $, component$, useSignal } from '@builder.io/qwik';
+import { $, component$, useSignal } from '@khulnasoft.com/qwik';
 import { importedVariable } from './my-other-module';
 
 export default component$(() => {
@@ -309,7 +309,7 @@ In practice, `useSignal` and `useStore` are very similar -- `useSignal(0) === us
 - When you want a reactive object that you can easily add properties to.
 
 ```tsx
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const Counter = component$(() => {
   // The `useStore` hook is used to create a reactive store.
@@ -352,7 +352,7 @@ export const Counter = component$(() => {
 `useTask$` is used to create an async task. Tasks are useful to implement side effects, running heavy computation and async code as part of the rendering lifecycle. `useTask$` tasks are executed before the first render, and subsequently whenever a tracked signal or store changes, the task is re-executed.
 
 ```tsx
-import { component$, useSignal, useTask$ } from '@builder.io/qwik';
+import { component$, useSignal, useTask$ } from '@khulnasoft.com/qwik';
 
 export const Counter = component$(() => {
   const page = useSignal(0);
@@ -403,7 +403,7 @@ export const Counter = component$(() => {
 `useVisibleTask$` is used to create a task that happens right AFTER the component is first mounted in the DOM. It's similar to `useTask$` except that it only runs on the client, and it's executed after the first render. Because it's executed after the render, it's ok to inspect the DOM, or use browser APIs.
 
 ```tsx
-import { component$, useSignal, useVisibleTask$ } from '@builder.io/qwik';
+import { component$, useSignal, useVisibleTask$ } from '@khulnasoft.com/qwik';
 
 export const Clock = component$(() => {
   const time = useSignal(0);
@@ -444,7 +444,7 @@ Qwik comes with a file-based router, which is similar to Next.js, but with a few
 
 ```tsx title="src/routes/home/index.tsx"
 
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export default component$(() => {
   return <h1>Home</h1>;
@@ -459,7 +459,7 @@ You can create dynamic routes by adding a folder with `[param]` in the route pat
 
 ```tsx title="src/routes/user/[userID]/index.tsx"
 
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { useLocation } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
@@ -493,7 +493,7 @@ To link to other routes, you can use the `Link` component exported from `@khulna
 
 ```tsx title="src/routes/index.tsx"
 
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { Link } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
@@ -513,7 +513,7 @@ The recommended way to load data from the server is to use the `routeLoader$()` 
 
 ```tsx title="src/routes/user/[userID]/index.tsx"
 
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 
 // The `routeLoader$()` function is used to create a data loader that will be executed on the server before the route is rendered.
@@ -562,7 +562,7 @@ Qwik provides the `routeAction$()` API exported from `@khulnasoft.com/qwik-city`
 
 ```tsx title="src/routes/user/[userID]/index.tsx"
 
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeAction$, Form, zod$, z } from '@khulnasoft.com/qwik-city';
 
 // The `routeAction$()` function is used to create a data loader that will be executed on the server when the form is submitted.
@@ -615,8 +615,8 @@ Since Qwik executes the same code on the server and in the browser, you cannot u
 If you want to access browser APIs, such as `window`, `document`, `localStorage`, `sessionStorage`, `webgl` etc, you need to check if the code is running in the browser before accessing the browser APIs.
 
 ```tsx
-import { component$, useTask$, useVisibleTask$, useSignal } from '@builder.io/qwik';
-import { isBrowser } from '@builder.io/qwik/build';
+import { component$, useTask$, useVisibleTask$, useSignal } from '@khulnasoft.com/qwik';
+import { isBrowser } from '@khulnasoft.com/qwik/build';
 
 export default component$(() => {
   const ref = useSignal<Element>();
@@ -665,9 +665,9 @@ JSX handlers such as `onClick$` and `onInput$` are only executed on the client. 
 Sometimes you need to run code only on the server, such as fetching data or accessing a database. To solve this problem, Qwik provides a few APIs to run code only on the server.
 
 ```tsx
-import { component$, useTask$ } from '@builder.io/qwik';
-import { server$, routeLoader$ } from '@builder.io/qwik/qwik-city';
-import { isServer } from '@builder.io/qwik/build';
+import { component$, useTask$ } from '@khulnasoft.com/qwik';
+import { server$, routeLoader$ } from '@khulnasoft.com/qwik/qwik-city';
+import { isServer } from '@khulnasoft.com/qwik/build';
 
 
 export const useGetProducts = routeLoader$((requestEvent) => {
@@ -729,7 +729,7 @@ The `server$()` is a special way to declare functions that only run on the serve
 
 ### `isServer` & `isBrowser` conditionals
 
-Instead of `if(typeof window !== 'undefined')`, it is recommended to use the `isServer` and `isBrowser` boolean helpers exported from `@builder.io/qwik/build` to ensure your code only runs in the browser. They contain slightly more robust checks to better detect the browser environment.
+Instead of `if(typeof window !== 'undefined')`, it is recommended to use the `isServer` and `isBrowser` boolean helpers exported from `@khulnasoft.com/qwik/build` to ensure your code only runs in the browser. They contain slightly more robust checks to better detect the browser environment.
 
 Here is the source code for reference:
 
@@ -746,7 +746,7 @@ export const isServer: boolean = !isBrowser;
 Here is how you import these for reference:
 
 ```tsx
-import {isServer, isBrowser} from '@builder.io/qwik/build';
+import {isServer, isBrowser} from '@khulnasoft.com/qwik/build';
 
 // inside component$
 

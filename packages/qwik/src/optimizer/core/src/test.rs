@@ -90,7 +90,7 @@ fn test_input_fn(input: TestInput) -> Result<TransformOutput, anyhow::Error> {
 fn example_1() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component, onRender } from '@builder.io/qwik';
+import { $, component, onRender } from '@khulnasoft.com/qwik';
 
 export const renderHeader = $(() => {
     return (
@@ -111,7 +111,7 @@ const renderHeader = component($(() => {
 fn example_2() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 export const Header = component$(() => {
     console.log("mount");
     return (
@@ -128,7 +128,7 @@ export const Header = component$(() => {
 fn example_3() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 export const App = () => {
     const Header = component$(() => {
         console.log("mount");
@@ -148,7 +148,7 @@ export const App = () => {
 fn example_4() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 export function App() {
     const Header = component$(() => {
         console.log("mount");
@@ -168,7 +168,7 @@ export function App() {
 fn example_5() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 export const Header = component$(() => {
     return (
         <>
@@ -187,7 +187,7 @@ export const Header = component$(() => {
 fn example_6() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 export const sym1 = $((ctx) => console.log("1"));
 "#
 		.to_string(),
@@ -199,7 +199,7 @@ export const sym1 = $((ctx) => console.log("1"));
 fn example_7() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 export const Header = component$(() => {
     console.log("mount");
@@ -223,7 +223,7 @@ const App = component$(() => {
 fn example_8() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 export const Header = component$(() => {
     return $((hola) => {
@@ -245,7 +245,7 @@ export const Header = component$(() => {
 fn example_9() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 const Header = $((decl1, {decl2}, [decl3]) => {
     const {decl4, key: decl5} = this;
     let [decl6, ...decl7] = stuff;
@@ -268,7 +268,7 @@ fn example_10() {
 	test_input!(TestInput {
 		filename: "project/test.tsx".to_string(),
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 const Header = $((decl1, {decl2}, [decl3]) => {
 
     const hola = ident1.no;
@@ -298,7 +298,7 @@ fn example_11() {
 	test_input!(TestInput {
 		filename: "project/test.tsx".to_string(),
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 import {foo, bar as bbar} from "../state";
 import * as dep2 from "dep2";
 import dep3 from "dep3/something";
@@ -327,7 +327,7 @@ export const App = component$(() => {
 fn example_functional_component() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, useStore } from '@builder.io/qwik';
+import { $, component$, useStore } from '@khulnasoft.com/qwik';
 const Header = component$(() => {
     const thing = useStore();
     const {foo, bar} = foo();
@@ -347,7 +347,7 @@ const Header = component$(() => {
 fn example_functional_component_2() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, useStore } from '@builder.io/qwik';
+import { $, component$, useStore } from '@khulnasoft.com/qwik';
 export const useCounter = () => {
     return useStore({count: 0});
 }
@@ -387,7 +387,7 @@ export const App = component$((props) => {
 fn example_functional_component_capture_props() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, useStore } from '@builder.io/qwik';
+import { $, component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$(({count, rest: [I2, {I3, v1: [I4], I5=v2, ...I6}, I7=v3, ...I8]}) => {
     const state = useStore({count: 0});
@@ -414,7 +414,7 @@ export const App = component$(({count, rest: [I2, {I3, v1: [I4], I5=v2, ...I6}, 
 fn example_multi_capture() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 export const Foo = component$(({foo}) => {
     const arg0 = 20;
@@ -448,7 +448,7 @@ export const Bar = component$(({bar}) => {
 fn example_dead_code() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { deps } from 'deps';
 
 export const Foo = component$(({foo}) => {
@@ -472,7 +472,7 @@ export const Foo = component$(({foo}) => {
 fn example_with_tagname() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 export const Foo = component$(() => {
     return $(() => {
@@ -494,7 +494,7 @@ export const Foo = component$(() => {
 fn example_with_style() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, useStyles$ } from '@builder.io/qwik';
+import { $, component$, useStyles$ } from '@khulnasoft.com/qwik';
 
 export const Foo = component$(() => {
     useStyles$('.class {}');
@@ -514,7 +514,7 @@ export const Foo = component$(() => {
 fn example_props_optimization() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, useTask$ } from '@builder.io/qwik';
+import { $, component$, useTask$ } from '@khulnasoft.com/qwik';
 import { CONST } from 'const';
 export const Works = component$(({
     count,
@@ -567,7 +567,7 @@ export const NoWorks3 = component$(({count, stuff = hola()}) => {
 fn example_use_optimization() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, useTask$ } from '@builder.io/qwik';
+import { $, component$, useTask$ } from '@khulnasoft.com/qwik';
 import { CONST } from 'const';
 export const Works = component$((props) => {
     const {countNested} = useStore({value:{count:0}}).value;
@@ -595,7 +595,7 @@ export const Works = component$((props) => {
 fn example_optimization_issue_3561() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export const Issue3561 = component$(() => {
     const props = useStore({
@@ -629,7 +629,7 @@ export const Issue3561 = component$(() => {
 fn example_optimization_issue_4386() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export const FOO_MAPPING = {
     A: 1,
@@ -657,7 +657,7 @@ export const FOO_MAPPING = {
 fn example_optimization_issue_3542() {
 	test_input!(TestInput {
         code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export const AtomStatus = component$(({ctx,atom})=>{
     let status = atom.status;
@@ -685,7 +685,7 @@ export const AtomStatus = component$(({ctx,atom})=>{
 fn example_optimization_issue_3795() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export const Issue3795 = component$(() => {
     let base = "foo";
@@ -710,7 +710,7 @@ export const Issue3795 = component$(() => {
 fn example_drop_side_effects() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { server$ } from '@khulnasoft.com/qwik-city';
 import { clientSupabase } from 'supabase';
 import { Client } from 'openai';
@@ -754,7 +754,7 @@ export default component$(() => {
 fn example_reg_ctx_name_segments() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, server$ } from '@builder.io/qwik';
+import { $, component$, server$ } from '@khulnasoft.com/qwik';
 import { foo } from './foo';
 export const Works = component$((props) => {
     const text = 'hola';
@@ -780,7 +780,7 @@ export const Works = component$((props) => {
 fn example_reg_ctx_name_segments_inlined() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, server$ } from '@builder.io/qwik';
+import { $, component$, server$ } from '@khulnasoft.com/qwik';
 export const Works = component$((props) => {
     const text = 'hola';
     return (
@@ -801,7 +801,7 @@ export const Works = component$((props) => {
 fn example_reg_ctx_name_segments_hoisted() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, server$, useStyle$ } from '@builder.io/qwik';
+import { $, component$, server$, useStyle$ } from '@khulnasoft.com/qwik';
 
 export const Works = component$((props) => {
     useStyle$(STYLES);
@@ -825,7 +825,7 @@ const STYLES = '.class {}';
 fn example_lightweight_functional() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 export const Foo = component$(({color}) => {
     return (
@@ -859,7 +859,7 @@ export const ButtonArrow = ({text, color}) => {
 fn example_invalid_references() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 const I1 = 12;
 const [I2, {I3, v1: [I4], I5=v2, ...I6}, I7=v3, ...I8] = obj;
@@ -887,7 +887,7 @@ export const App = component$(({count}) => {
 fn example_invalid_segment_expr1() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, useStyles$ } from '@builder.io/qwik';
+import { $, component$, useStyles$ } from '@khulnasoft.com/qwik';
 import css1 from './global.css';
 import css2 from './style.css';
 
@@ -913,7 +913,7 @@ export const App = component$(() => {
 fn example_capture_imports() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStyles$ } from '@builder.io/qwik';
+import { component$, useStyles$ } from '@khulnasoft.com/qwik';
 import css1 from './global.css';
 import css2 from './style.css';
 import css3 from './style.css';
@@ -934,7 +934,7 @@ export const App = component$(() => {
 fn example_capturing_fn_class() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 export const App = component$(() => {
     function hola() {
@@ -963,7 +963,7 @@ export const App = component$(() => {
 fn example_renamed_exports() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ as Component, $ as onRender, useStore } from '@builder.io/qwik';
+import { component$ as Component, $ as onRender, useStore } from '@khulnasoft.com/qwik';
 
 export const App = Component((props) => {
     const state = useStore({thing: 0});
@@ -985,7 +985,7 @@ fn example_exports() {
 	test_input!(TestInput {
 		filename: "project/test.tsx".to_string(),
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 export const [a, {b, v1: [c], d=v2, ...e}, f=v3, ...g] = obj;
 
@@ -1032,7 +1032,7 @@ export const cache = patternCache[cacheKey] || (patternCache[cacheKey]={});
 fn example_jsx() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, h, Fragment } from '@builder.io/qwik';
+import { $, component$, h, Fragment } from '@khulnasoft.com/qwik';
 
 export const Lightweight = (props) => {
     return (
@@ -1083,7 +1083,7 @@ export const Foo = component$((props) => {
 fn example_jsx_listeners() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 export const Foo = component$(() => {
 
@@ -1126,8 +1126,8 @@ export const Foo = component$(() => {
 fn example_qwik_conflict() {
 	test_input!(TestInput {
 		code: r#"
-import { $, component$, useStyles } from '@builder.io/qwik';
-import { qrl } from '@builder.io/qwik/what';
+import { $, component$, useStyles } from '@khulnasoft.com/qwik';
+import { qrl } from '@khulnasoft.com/qwik/what';
 
 export const hW = 12;
 export const handleWatch = 42;
@@ -1170,7 +1170,7 @@ fn example_fix_dynamic_import() {
 	test_input!(TestInput {
 		filename: "project/folder/test.tsx".to_string(),
 		code: r#"
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 import thing from "../state";
 
 export function foo() {
@@ -1196,7 +1196,7 @@ export const Header = component$(() => {
 fn example_custom_inlined_functions() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, $, useStore, wrap, useEffect } from '@builder.io/qwik';
+import { component$, $, useStore, wrap, useEffect } from '@khulnasoft.com/qwik';
 
 export const useMemoQrl = (qrt) => {
     useEffect(qrt);
@@ -1231,7 +1231,7 @@ export const Lightweight = (props) => {
 fn example_missing_custom_inlined_functions() {
 	test_input!(TestInput {
         code: r#"
-import { component$ as Component, $ as onRender, useStore, wrap, useEffect } from '@builder.io/qwik';
+import { component$ as Component, $ as onRender, useStore, wrap, useEffect } from '@khulnasoft.com/qwik';
 
 
 export const useMemo$ = (qrt) => {
@@ -1259,7 +1259,7 @@ export const App = component$((props) => {
 fn example_skip_transform() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ as Component, $ as onRender } from '@builder.io/qwik';
+import { component$ as Component, $ as onRender } from '@khulnasoft.com/qwik';
 
 export const handler = $(()=>console.log('hola'));
 
@@ -1281,7 +1281,7 @@ export const App = component$((props) => {
 fn example_explicit_ext_transpile() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, $, useStyles$ } from '@builder.io/qwik';
+import { component$, $, useStyles$ } from '@khulnasoft.com/qwik';
 
 export const App = component$((props) => {
     useStyles$('hola');
@@ -1302,7 +1302,7 @@ export const App = component$((props) => {
 fn example_explicit_ext_no_transpile() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, $, useStyles$ } from '@builder.io/qwik';
+import { component$, $, useStyles$ } from '@khulnasoft.com/qwik';
 
 export const App = component$((props) => {
     useStyles$('hola');
@@ -1346,7 +1346,7 @@ export const App2 = qwikify$(() => (
 fn example_prod_node() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export const Foo = component$(() => {
     return (
@@ -1368,7 +1368,7 @@ export const Foo = component$(() => {
 fn example_use_client_effect() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useBrowserVisibleTask$, useStore, useStyles$ } from '@builder.io/qwik';
+import { component$, useBrowserVisibleTask$, useStore, useStyles$ } from '@khulnasoft.com/qwik';
 
 export const Child = component$(() => {
     const state = useStore({
@@ -1404,7 +1404,7 @@ export const Child = component$(() => {
 fn example_inlined_entry_strategy() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useBrowserVisibleTask$, useStore, useStyles$ } from '@builder.io/qwik';
+import { component$, useBrowserVisibleTask$, useStore, useStyles$ } from '@khulnasoft.com/qwik';
 import { thing } from './sibling';
 import mongodb from 'mongodb';
 
@@ -1437,7 +1437,7 @@ export const Child = component$(() => {
 fn example_default_export() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { sibling } from './sibling';
 
 export default component$(() => {
@@ -1462,7 +1462,7 @@ export default component$(() => {
 fn example_default_export_index() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export default component$(() => {
     return (
@@ -1483,7 +1483,7 @@ export default component$(() => {
 fn example_default_export_invalid_ident() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export default component$(() => {
     return (
@@ -1503,7 +1503,7 @@ export default component$(() => {
 fn example_parsed_inlined_qrls() {
 	test_input!(TestInput {
 		code: r#"
-import { componentQrl, inlinedQrl, useStore, jsxs, jsx, useLexicalScope } from '@builder.io/qwik';
+import { componentQrl, inlinedQrl, useStore, jsxs, jsx, useLexicalScope } from '@khulnasoft.com/qwik';
 
 export const App = /*#__PURE__*/ componentQrl(inlinedQrl(()=>{
     useStyles$(inlinedQrl(STYLES, "STYLES_odz7dfdfdM"));
@@ -1550,7 +1550,7 @@ export const STYLES = ".red { color: red; }";
 fn example_use_server_mount() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useTask$, useStore, useStyles$ } from '@builder.io/qwik';
+import { component$, useTask$, useStore, useStyles$ } from '@khulnasoft.com/qwik';
 import mongo from 'mongodb';
 import redis from 'redis';
 
@@ -1601,7 +1601,7 @@ export const Child = component$(() => {
 fn example_manual_chunks() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useTask$, useStore, useStyles$ } from '@builder.io/qwik';
+import { component$, useTask$, useStore, useStyles$ } from '@khulnasoft.com/qwik';
 import mongo from 'mongodb';
 import redis from 'redis';
 
@@ -1656,7 +1656,7 @@ export const Child = component$(() => {
 fn example_strip_exports_unused() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import mongodb from 'mongodb';
 
 export const onGet = () => {
@@ -1682,7 +1682,7 @@ export default component$(()=> {
 fn example_strip_exports_used() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useResource$ } from '@builder.io/qwik';
+import { component$, useResource$ } from '@khulnasoft.com/qwik';
 import mongodb from 'mongodb';
 
 export const onGet = () => {
@@ -1711,8 +1711,8 @@ export default component$(()=> {
 fn example_strip_server_code() {
 	test_input!(TestInput {
         code: r#"
-import { component$, serverLoader$, serverStuff$, $, client$, useStore, useTask$ } from '@builder.io/qwik';
-import { isServer } from '@builder.io/qwik/build';
+import { component$, serverLoader$, serverStuff$, $, client$, useStore, useTask$ } from '@khulnasoft.com/qwik';
+import { isServer } from '@khulnasoft.com/qwik/build';
 import mongo from 'mongodb';
 import redis from 'redis';
 import { handler } from 'serverless';
@@ -1817,7 +1817,7 @@ export const { onRequest, logout, getSession, signup } = auth$({
 fn example_strip_client_code() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useClientMount$, useStore, useTask$ } from '@builder.io/qwik';
+import { component$, useClientMount$, useStore, useTask$ } from '@khulnasoft.com/qwik';
 import mongo from 'mongodb';
 import redis from 'redis';
 import threejs from 'threejs';
@@ -1869,7 +1869,7 @@ export const Parent = component$(() => {
 fn issue_150() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, $ } from '@builder.io/qwik';
+import { component$, $ } from '@khulnasoft.com/qwik';
 import { hola } from 'sdfds';
 
 export const Greeter = component$(() => {
@@ -1900,7 +1900,7 @@ const d = $(()=>console.log('thing'));
 fn example_input_bind() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, $ } from '@builder.io/qwik';
+import { component$, $ } from '@khulnasoft.com/qwik';
 
 export const Greeter = component$(() => {
     const value = useSignal(0);
@@ -1931,7 +1931,7 @@ export const Greeter = component$(() => {
 fn example_import_assertion() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, $ } from '@builder.io/qwik';
+import { component$, $ } from '@khulnasoft.com/qwik';
 import json from "./foo.json" assert { type: "json" };
 
 export const Greeter = component$(() => {
@@ -1951,7 +1951,7 @@ fn support_windows_paths() {
 		filename: r"components\apps\apps.tsx".to_string(),
 		src_dir: r"C:\users\apps".to_string(),
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 export const Greeter = component$(() => <div/>)
 "#
 		.to_string(),
@@ -2004,7 +2004,7 @@ export const Root = () => {
 fn issue_964() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export const App = component$(() => {
     console.log(function*(lo: any, t: any) {
@@ -2025,7 +2025,7 @@ export const App = component$(() => {
 fn example_immutable_analysis() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore, $ } from '@builder.io/qwik';
+import { component$, useStore, $ } from '@khulnasoft.com/qwik';
 import importedValue from 'v';
 import styles from './styles.module.css';
 
@@ -2086,7 +2086,7 @@ export const App = component$((props) => {
 fn example_ts_enums_issue_1341() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 enum Thing {
     A,
@@ -2113,7 +2113,7 @@ export const App = component$(() => {
 fn example_ts_enums_no_transpile() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export enum Thing {
     A,
@@ -2141,7 +2141,7 @@ export const App = component$(() => {
 fn example_ts_enums() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export enum Thing {
     A,
@@ -2169,7 +2169,7 @@ fn special_jsx() {
 	test_input!(TestInput {
 		code: r#"
 // don't transpile jsx with non-plain-object props
-import { jsx } from '@builder.io/qwik';
+import { jsx } from '@khulnasoft.com/qwik';
 
 export const App = () => {
     const props = {}
@@ -2187,7 +2187,7 @@ export const App = () => {
 fn example_dev_mode() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$(() => {
     return (
@@ -2209,7 +2209,7 @@ export const App = component$(() => {
 fn example_dev_mode_inlined() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$(() => {
     return (
@@ -2232,7 +2232,7 @@ export const App = component$(() => {
 fn example_transpile_jsx_only() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$((props) => {
     return (
@@ -2254,7 +2254,7 @@ export const App = component$((props) => {
 fn example_spread_jsx() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { useDocumentHead, useLocation } from '@khulnasoft.com/qwik-city';
 
 /**
@@ -2297,7 +2297,7 @@ export const RouterHead = component$(() => {
 fn example_export_issue() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 const App = component$(() => {
     return (
@@ -2328,7 +2328,7 @@ export default App;
 fn example_jsx_keyed() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$((props: Stuff) => {
     return (
@@ -2354,7 +2354,7 @@ export const App = component$((props: Stuff) => {
 fn example_jsx_keyed_dev() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$((props: Stuff) => {
     return (
@@ -2383,7 +2383,7 @@ export const App = component$((props: Stuff) => {
 fn example_mutable_children() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore, Slot, Fragment } from '@builder.io/qwik';
+import { component$, useStore, Slot, Fragment } from '@khulnasoft.com/qwik';
 import Image from './image.jpg?jsx';
 
 export function Fn1(props: Stuff) {
@@ -2491,7 +2491,7 @@ export const AppStatic = component$((props: Stuff) => {
 fn example_immutable_function_components() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore, Slot } from '@builder.io/qwik';
+import { component$, useStore, Slot } from '@khulnasoft.com/qwik';
 
 export const App = component$((props: Stuff) => {
     return (
@@ -2513,7 +2513,7 @@ export const App = component$((props: Stuff) => {
 fn example_transpile_ts_only() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$((props: Stuff) => {
     return (
@@ -2536,7 +2536,7 @@ export const App = component$((props: Stuff) => {
 fn example_class_name() {
 	test_input!(TestInput {
 		code: r#"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export const App2 = component$(() => {
     const signal = useSignal();
@@ -2568,7 +2568,7 @@ export const App2 = component$(() => {
 fn example_preserve_filenames() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$((props) => {
     return (
@@ -2592,7 +2592,7 @@ export const App = component$((props) => {
 fn example_preserve_filenames_segments() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$((props: Stuff) => {
     foo();
@@ -2619,8 +2619,8 @@ export const foo = () => console.log('foo');
 fn example_build_server() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
-import { isServer, isBrowser } from '@builder.io/qwik/build';
+import { component$, useStore } from '@khulnasoft.com/qwik';
+import { isServer, isBrowser } from '@khulnasoft.com/qwik/build';
 import { mongodb } from 'mondodb';
 import { threejs } from 'threejs';
 
@@ -2662,7 +2662,7 @@ export const App = component$(() => {
 fn example_derived_signals_div() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore, mutable } from '@builder.io/qwik';
+import { component$, useStore, mutable } from '@khulnasoft.com/qwik';
 
 import {dep} from './file';
 import styles from './styles.module.css';
@@ -2726,7 +2726,7 @@ export const App = component$((props) => {
 fn example_issue_4438() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useSignal } from '@builder.io/qwik';
+import { component$, useSignal } from '@khulnasoft.com/qwik';
 
 export const App = component$(() => {
     const toggle = useSignal(false);
@@ -2750,7 +2750,7 @@ export const App = component$(() => {
 fn example_derived_signals_children() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore, mutable } from '@builder.io/qwik';
+import { component$, useStore, mutable } from '@khulnasoft.com/qwik';
 
 import {dep} from './file';
 
@@ -2805,7 +2805,7 @@ export const App = component$(() => {
 fn example_derived_signals_multiple_children() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore, mutable } from '@builder.io/qwik';
+import { component$, useStore, mutable } from '@khulnasoft.com/qwik';
 
 import {dep} from './file';
 
@@ -2851,7 +2851,7 @@ export const App = component$(() => {
 fn example_derived_signals_complext_children() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore, mutable } from '@builder.io/qwik';
+import { component$, useStore, mutable } from '@khulnasoft.com/qwik';
 
 import {dep} from './file';
 
@@ -2883,7 +2883,7 @@ export const App = component$(() => {
 fn example_derived_signals_cmp() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore, mutable } from '@builder.io/qwik';
+import { component$, useStore, mutable } from '@khulnasoft.com/qwik';
 
 import {dep} from './file';
 import {Cmp} from './cmp';
@@ -2936,7 +2936,7 @@ export const App = component$(() => {
 fn example_issue_33443() {
 	test_input!(TestInput {
         code: r#"
-import { component$, useSignal } from '@builder.io/qwik';
+import { component$, useSignal } from '@khulnasoft.com/qwik';
 
 export const Issue3742 = component$(({description = '', other}: any) => {
     const counter = useSignal(0);
@@ -2963,7 +2963,7 @@ export const Issue3742 = component$(({description = '', other}: any) => {
 fn example_getter_generation() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$(() => {
     const store = useStore({
@@ -3007,9 +3007,9 @@ export const Cmp = component$((props) => {
 fn example_qwik_react() {
 	test_input!(TestInput {
         code: r#"
-import { componentQrl, inlinedQrl, useLexicalScope, useHostElement, useStore, useTaskQrl, noSerialize, SkipRerender, implicit$FirstArg } from '@builder.io/qwik';
-import { jsx, Fragment } from '@builder.io/qwik/jsx-runtime';
-import { isBrowser, isServer } from '@builder.io/qwik/build';
+import { componentQrl, inlinedQrl, useLexicalScope, useHostElement, useStore, useTaskQrl, noSerialize, SkipRerender, implicit$FirstArg } from '@khulnasoft.com/qwik';
+import { jsx, Fragment } from '@khulnasoft.com/qwik/jsx-runtime';
+import { isBrowser, isServer } from '@khulnasoft.com/qwik/build';
 
 function qwikifyQrl(reactCmpQrl) {
     return /*#__PURE__*/ componentQrl(inlinedQrl((props)=>{
@@ -3110,9 +3110,9 @@ export { qwikify$, qwikifyQrl, renderToString };
 fn example_qwik_react_inline() {
 	test_input!(TestInput {
         code: r#"
-import { componentQrl, inlinedQrl, useLexicalScope, useHostElement, useStore, useTaskQrl, noSerialize, SkipRerender, implicit$FirstArg } from '@builder.io/qwik';
-import { jsx, Fragment } from '@builder.io/qwik/jsx-runtime';
-import { isBrowser, isServer } from '@builder.io/qwik/build';
+import { componentQrl, inlinedQrl, useLexicalScope, useHostElement, useStore, useTaskQrl, noSerialize, SkipRerender, implicit$FirstArg } from '@khulnasoft.com/qwik';
+import { jsx, Fragment } from '@khulnasoft.com/qwik/jsx-runtime';
+import { isBrowser, isServer } from '@khulnasoft.com/qwik/build';
 
 function qwikifyQrl(reactCmpQrl) {
     return /*#__PURE__*/ componentQrl(inlinedQrl((props)=>{
@@ -3224,8 +3224,8 @@ fn example_qwik_sdk_inline() {
 #[test]
 fn relative_paths() {
 	let dep = r#"
-import { componentQrl, inlinedQrl, useStore, useLexicalScope } from "@builder.io/qwik";
-import { jsx, jsxs } from "@builder.io/qwik/jsx-runtime";
+import { componentQrl, inlinedQrl, useStore, useLexicalScope } from "@khulnasoft.com/qwik";
+import { jsx, jsxs } from "@khulnasoft.com/qwik/jsx-runtime";
 import { state } from './sibling';
 
 const useData = () => {
@@ -3261,7 +3261,7 @@ export const App = /*#__PURE__*/ componentQrl(inlinedQrl(()=>{
 
 "#;
 	let code = r#"
-import { component$, $ } from '@builder.io/qwik';
+import { component$, $ } from '@khulnasoft.com/qwik';
 import { state } from './sibling';
 
 export const Local = component$(() => {
@@ -3307,7 +3307,7 @@ export const Local = component$(() => {
 #[test]
 fn consistent_hashes() {
 	let code = r#"
-import { component$, $ } from '@builder.io/qwik';
+import { component$, $ } from '@khulnasoft.com/qwik';
 import mongo from 'mongodb';
 
 export const Greeter = component$(() => {
@@ -3453,7 +3453,7 @@ export const Greeter = component$(() => {
 fn issue_5008() {
 	test_input!(TestInput {
 		code: r#"
-        import { component$, useStore } from "@builder.io/qwik";
+        import { component$, useStore } from "@khulnasoft.com/qwik";
 
         export default component$(() => {
         const store = useStore([{ value: 0 }]);
@@ -3481,7 +3481,7 @@ fn issue_5008() {
 fn example_of_synchronous_qrl() {
 	test_input!(TestInput {
 		code: r#"
-        import { sync$, component$ } from "@builder.io/qwik";
+        import { sync$, component$ } from "@khulnasoft.com/qwik";
 
         export default component$(() => {
         return (
@@ -3509,7 +3509,7 @@ fn example_of_synchronous_qrl() {
 fn example_noop_dev_mode() {
 	test_input!(TestInput {
 		code: r#"
-import { component$, useStore, serverStuff$, $ } from '@builder.io/qwik';
+import { component$, useStore, serverStuff$, $ } from '@khulnasoft.com/qwik';
 
 export const App = component$(() => {
     const stuff = useStore();
@@ -3548,7 +3548,7 @@ export const App = component$(() => {
 fn lib_mode_fn_signal() {
 	test_input!(TestInput {
 		code: r#"
-    import { component$ } from '@builder.io/qwik';
+    import { component$ } from '@khulnasoft.com/qwik';
 export const Counter = component$(() => {
   const count = useSignal(0);
 
@@ -3573,7 +3573,7 @@ fn impure_template_fns() {
 	// Should not mark the template function as static
 	test_input!(TestInput {
 		code: r#"
-		import { component$, useSignal } from '@builder.io/qwik';
+		import { component$, useSignal } from '@khulnasoft.com/qwik';
 		const useFoo = (count) => {
 			const tag = (s) => {
 				const value = typeof s === "string" ? s : s[0];
@@ -3605,7 +3605,7 @@ fn impure_template_fns() {
 // fn example_of_synchronous_qrl_that_cant_be_serialized() {
 //     test_input!(TestInput {
 //         code: r#"
-//         import { sync$, component$ } from "@builder.io/qwik";
+//         import { sync$, component$ } from "@khulnasoft.com/qwik";
 
 //         export default component$(() => {
 //         return (

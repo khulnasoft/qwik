@@ -85,7 +85,7 @@ async function validateStarter(
   assertRightQwikDepsVersions(appPkgJson, qwikVersion, starterId);
 
   // Ensure that npm will use an existing version
-  appPkgJson.devDependencies['@builder.io/qwik'] = 'latest';
+  appPkgJson.devDependencies['@khulnasoft.com/qwik'] = 'latest';
   appPkgJson.devDependencies['@khulnasoft.com/qwik-city'] = 'latest';
   appPkgJson.devDependencies['eslint-plugin-qwik'] = 'latest';
   writeFileSync(appPkgJsonPath, JSON.stringify(appPkgJson, null, 2));
@@ -116,7 +116,7 @@ async function validateStarter(
 
   // console.log(`${emoji} ${projectName}: npm run build`);
   // if (app) {
-  //   await execa('node', ['./node_modules/@builder.io/qwik/qwik.cjs', 'build'], {
+  //   await execa('node', ['./node_modules/@khulnasoft.com/qwik/qwik.cjs', 'build'], {
   //     cwd: appDir,
   //     stdout: 'inherit',
   //   });
@@ -149,7 +149,7 @@ async function validateStarter(
 
 function assertRightQwikDepsVersions(appPkgJson: any, qwikVersion: string, starterType: string) {
   assert.strictEqual(
-    appPkgJson.devDependencies['@builder.io/qwik'].includes(qwikVersion),
+    appPkgJson.devDependencies['@khulnasoft.com/qwik'].includes(qwikVersion),
     true,
     `Qwik version mismatch for "${starterType}" starter`
   );

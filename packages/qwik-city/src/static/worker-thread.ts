@@ -10,7 +10,7 @@ import type { ServerRequestEvent } from '@khulnasoft.com/qwik-city/middleware/re
 import { requestHandler } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { pathToFileURL } from 'node:url';
 import { WritableStream } from 'node:stream/web';
-import { _deserializeData, _serializeData, _verifySerializable } from '@builder.io/qwik';
+import { _deserializeData, _serializeData, _verifySerializable } from '@khulnasoft.com/qwik';
 
 export async function workerThread(sys: System) {
   const ssgOpts = sys.getOptions();

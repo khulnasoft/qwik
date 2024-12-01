@@ -1,4 +1,4 @@
-import { component$, useSignal } from "@builder.io/qwik";
+import { component$, useSignal } from "@khulnasoft.com/qwik";
 import type { DocumentHead } from "@khulnasoft.com/qwik-city";
 import { MUIButton, MUISlider, TableApp } from "~/integrations/react/mui";
 

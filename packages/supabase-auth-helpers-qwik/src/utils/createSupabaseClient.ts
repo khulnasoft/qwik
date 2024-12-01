@@ -97,7 +97,7 @@ export function createBrowserClient<
  *
  * ```ts
  * import { createBrowserClient } from '@supabase/auth-helpers-remix';
- * import { useVisibleTask$ } from '@builder.io/qwik';
+ * import { useVisibleTask$ } from '@khulnasoft.com/qwik';
  *
  * useVisibleTask$(() => {
  *   const supabaseClient = createBrowserClient(

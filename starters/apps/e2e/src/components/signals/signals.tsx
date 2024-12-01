@@ -14,7 +14,7 @@ import {
   Resource,
   useComputed$,
   createComputed$,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 import { delay } from "../resource/resource";
 import {
   TestAC,
@@ -27,7 +27,7 @@ import {
   TestCStr,
   TestCWithFlag,
 } from "./utils/utils";
-import { isBrowser } from "@builder.io/qwik/build";
+import { isBrowser } from "@khulnasoft.com/qwik/build";
 
 export const Signals = component$(() => {
   const rerender = useSignal(0);

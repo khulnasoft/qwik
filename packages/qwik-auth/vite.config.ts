@@ -1,4 +1,4 @@
-import { qwikVite } from '@builder.io/qwik/optimizer';
+import { qwikVite } from '@khulnasoft.com/qwik/optimizer';
 import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
@@ -14,9 +14,9 @@ export default defineConfig(() => {
       },
       rollupOptions: {
         external: [
-          '@builder.io/qwik',
+          '@khulnasoft.com/qwik',
           '@khulnasoft.com/qwik-city',
-          '@builder.io/qwik/build',
+          '@khulnasoft.com/qwik/build',
           '@auth/core',
         ],
       },

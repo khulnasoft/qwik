@@ -1,5 +1,5 @@
 ---
-'@builder.io/qwik': patch
+'@khulnasoft.com/qwik': patch
 ---
 
 FIX: `stoppropagation` functionality

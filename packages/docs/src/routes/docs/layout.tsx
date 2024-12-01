@@ -1,4 +1,4 @@
-import { component$, Slot, useContext, useStyles$ } from '@builder.io/qwik';
+import { component$, Slot, useContext, useStyles$ } from '@khulnasoft.com/qwik';
 import { useContent, useLocation } from '@khulnasoft.com/qwik-city';
 import { ContentNav } from '../../components/content-nav/content-nav';
 import Contributors from '../../components/contributors';

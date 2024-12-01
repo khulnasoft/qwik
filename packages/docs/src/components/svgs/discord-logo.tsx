@@ -1,4 +1,4 @@
-import type { PropsOf } from '@builder.io/qwik';
+import type { PropsOf } from '@khulnasoft.com/qwik';
 
 type DiscordLogoProps = {
   width: number;

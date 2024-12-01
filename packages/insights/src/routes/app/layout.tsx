@@ -1,4 +1,4 @@
-import { Slot, component$ } from '@builder.io/qwik';
+import { Slot, component$ } from '@khulnasoft.com/qwik';
 import { type RequestHandler } from '@khulnasoft.com/qwik-city';
 import { dbGetInsightUser, type InsightsUser } from '~/db/sql-user';
 import type { SessionData } from '../layout';

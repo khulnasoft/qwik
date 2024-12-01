@@ -1,4 +1,4 @@
-import { component$, sync$, useContext, useOnDocument, useStyles$ } from '@builder.io/qwik';
+import { component$, sync$, useContext, useOnDocument, useStyles$ } from '@khulnasoft.com/qwik';
 import { type ContentMenu, useContent, useLocation, routeLoader$ } from '@khulnasoft.com/qwik-city';
 import { GlobalStore } from '../../context';
 import { CloseIcon } from '../svgs/close-icon';

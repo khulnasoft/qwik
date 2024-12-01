@@ -4,7 +4,7 @@ This repo contains build artifacts that are generated as part of the continues b
 
 Currently supported artifacts:
 
-- [`@builder.io/qwik`](https://github.com/QwikDev/qwik-build)
+- [`@khulnasoft.com/qwik`](https://github.com/QwikDev/qwik-build)
 - [`@khulnasoft.com/qwik-city`](https://github.com/QwikDev/qwik-city-build)
 - [`@khulnasoft.com/qwik-labs`](https://github.com/QwikDev/qwik-labs-build)
 
@@ -27,7 +27,7 @@ To install a specific build artifact change you `package.json` like so (not all 
 ```json
 {
   "dependencies": {
-    "@builder.io/qwik": "github:QwikDev/qwik-build#SHA",
+    "@khulnasoft.com/qwik": "github:QwikDev/qwik-build#SHA",
     "@khulnasoft.com/qwik-city": "github:QwikDev/qwik-city-build#SHA",
     "@khulnasoft.com/qwik-labs": "github:QwikDev/qwik-labs-build#SHA"
   }
@@ -37,11 +37,11 @@ To install a specific build artifact change you `package.json` like so (not all 
 Where `#SHA` is one of the following:
 
 - `#SHA` - Install a specific build SHA. You can get the SHA from:
-  - [`@builder.io/qwik`](https://github.com/QwikDev/qwik-build/commits/) commits
+  - [`@khulnasoft.com/qwik`](https://github.com/QwikDev/qwik-build/commits/) commits
   - [`@khulnasoft.com/qwik-city`](https://github.com/QwikDev/qwik-city-build/commits/) commits
   - [`@khulnasoft.com/qwik-labs`](https://github.com/QwikDev/qwik-labs-build/commits/) commits
 - `#build/name` (or `#main`) - Install a specific `build/*` (or `#main`) branch:
-  - [`@builder.io/qwik`](https://github.com/QwikDev/qwik-build/branches/) branches
+  - [`@khulnasoft.com/qwik`](https://github.com/QwikDev/qwik-build/branches/) branches
   - [`@khulnasoft.com/qwik-city`](https://github.com/QwikDev/qwik-city-build/branches/) branches
   - [`@khulnasoft.com/qwik-labs`](https://github.com/QwikDev/qwik-labs-build/branches/) branches
     > NOTE: Package managers will treat any SHA in the lock file which is on the branch as valid, and so they will not auto upgrade to the latest. For this reason this is not recommended.

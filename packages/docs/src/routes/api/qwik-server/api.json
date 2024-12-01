@@ -1,6 +1,6 @@
 {
   "id": "qwik-server",
-  "package": "@builder.io/qwik/server",
+  "package": "@khulnasoft.com/qwik/server",
   "members": [
     {
       "name": "getQwikLoaderScript",

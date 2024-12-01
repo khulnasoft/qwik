@@ -37,8 +37,8 @@ import {
   _serializeData,
   _restProps,
   _fnSignal,
-} from '@builder.io/qwik';
-import { isBrowser, isServer, isDev } from '@builder.io/qwik/build';
+} from '@khulnasoft.com/qwik';
+import { isBrowser, isServer, isDev } from '@khulnasoft.com/qwik/build';
 import * as qwikCity from '@qwik-city-plan';
 import swRegister from '@qwik-city-sw-register';
 import { z } from 'zod';
@@ -1119,13 +1119,13 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs_RouterOutlet_component_AKetNByE5TM.mjs ==
 
 import { _auto_ContentInternalContext as ContentInternalContext } from "./index.qwik.mjs";
-import { SkipRender } from "@builder.io/qwik";
-import { _jsxBranch } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { eventQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
-import { useContext } from "@builder.io/qwik";
-import { useOnDocument } from "@builder.io/qwik";
+import { SkipRender } from "@khulnasoft.com/qwik";
+import { _jsxBranch } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { eventQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
+import { useContext } from "@khulnasoft.com/qwik";
+import { useOnDocument } from "@khulnasoft.com/qwik";
 export const RouterOutlet_component_AKetNByE5TM = ()=>{
     _jsxBranch();
     useOnDocument('qinit', eventQrl(/*#__PURE__*/ qrl(()=>import("./index.qwik.mjs_RouterOutlet_component_useOnDocument_event_KnNE9eL0qfc.mjs"), "RouterOutlet_component_useOnDocument_event_KnNE9eL0qfc")));
@@ -1191,13 +1191,13 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 */
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs_QwikCityProvider_component_goto_event_cBcjROynRVg.mjs ==
 
-import { _getContextElement } from "@builder.io/qwik";
-import { isBrowser } from "@builder.io/qwik/build";
+import { _getContextElement } from "@khulnasoft.com/qwik";
+import { isBrowser } from "@khulnasoft.com/qwik/build";
 import { _auto_loadClientData as loadClientData } from "./index.qwik.mjs";
 import { _auto_loadRoute as loadRoute } from "./index.qwik.mjs";
 import * as qwikCity from "@qwik-city-plan";
 import { _auto_toPath as toPath } from "./index.qwik.mjs";
-import { useLexicalScope } from "@builder.io/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 export const QwikCityProvider_component_goto_event_cBcjROynRVg = async (path, forceReload)=>{
     const [actionState2, navPath2, routeLocation2] = useLexicalScope();
     if (path === void 0) {
@@ -1241,19 +1241,19 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs_QwikCityProvider_component_useTask_02wMImzEAbk.mjs ==
 
 import { _auto_CLIENT_DATA_CACHE as CLIENT_DATA_CACHE } from "./index.qwik.mjs";
-import { _getContextElement } from "@builder.io/qwik";
+import { _getContextElement } from "@khulnasoft.com/qwik";
 import { _auto_clientNavigate as clientNavigate } from "./index.qwik.mjs";
-import { getLocale } from "@builder.io/qwik";
-import { isBrowser } from "@builder.io/qwik/build";
+import { getLocale } from "@khulnasoft.com/qwik";
+import { isBrowser } from "@khulnasoft.com/qwik/build";
 import { _auto_isSameOriginDifferentPathname as isSameOriginDifferentPathname } from "./index.qwik.mjs";
-import { isServer } from "@builder.io/qwik/build";
+import { isServer } from "@khulnasoft.com/qwik/build";
 import { _auto_loadClientData as loadClientData } from "./index.qwik.mjs";
 import { _auto_loadRoute as loadRoute } from "./index.qwik.mjs";
-import { noSerialize } from "@builder.io/qwik";
+import { noSerialize } from "@khulnasoft.com/qwik";
 import * as qwikCity from "@qwik-city-plan";
 import { _auto_resolveHead as resolveHead } from "./index.qwik.mjs";
 import { _auto_toPath as toPath } from "./index.qwik.mjs";
-import { useLexicalScope } from "@builder.io/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 export const QwikCityProvider_component_useTask_02wMImzEAbk = ({ track })=>{
     const [actionState2, content2, contentInternal2, documentHead2, env2, loaderState2, navPath2, props2, routeLocation2, url2] = useLexicalScope();
     async function run() {
@@ -1321,7 +1321,7 @@ export const QwikCityProvider_component_useTask_02wMImzEAbk = ({ track })=>{
     if (isServer) return promise;
     else return;
 };
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs\"],\"names\":[],\"mappings\":\";;;;;;;;;;;;;;8DAycQ,CAAC,EAAE,KAAK,EAAE;IACR,MAAM,CACJ,cACA,UACA,kBACA,eACA,MACA,cACA,UACA,QACA,gBACA,KACD,GAAG;IACJ,eAAe;QACb,MAAM,CAAC,MAAM,OAAO,GAAG,MAAM,IAAM;gBAAC,SAAS,KAAK;gBAAE,aAAa,KAAK;aAAC;QACvE,MAAM,SAAS,UAAU;QACzB,IAAI;QACJ,IAAI;QACJ,IAAI,cAAc;QAClB,IAAI,UAAU;YACZ,WAAW,IAAI,IAAI,MAAM,eAAe,GAAG;YAC3C,cAAc,KAAK,WAAW;YAC9B,iBAAiB,KAAK,QAAQ;QAChC,OAAO;YACL,WAAW,IAAI,IAAI,MAAM;YACzB,IAAI,SAAS,QAAQ,CAAC,QAAQ,CAAC,MAC7B;gBAAA,IAAI,CAAC,SAAS,aAAa,EAAE,SAAS,QAAQ,GAAG,SAAS,QAAQ,CAAC,KAAK,CAAC,GAAG;YAAG,OAC1E,IAAI,SAAS,aAAa,EAAE,SAAS,QAAQ,IAAI;YACxD,IAAI,mBAAmB,UACrB,SAAS,MAAM,EACf,SAAS,KAAK,EACd,SAAS,YAAY,EACrB,SAAS,QAAQ;YAEnB,MAAM,UAAU;YAChB,MAAM,WAAY,iBAAiB,MAAM,eACvC,UACA,SACA,MACA;YAEF,IAAI,CAAC,UAAU;gBACb,SAAS,cAAc,GAAG,OAAO;gBACjC;YACF;YACA,MAAM,UAAU,SAAS,IAAI;YAC7B,MAAM,SAAS,IAAI,IAAI,SAAS,SAAS,IAAI;YAC7C,IAAI,OAAO,QAAQ,KAAK,SAAS,QAAQ,EAAE;gBACzC,WAAW;gBACX,mBAAmB,UACjB,SAAS,MAAM,EACf,SAAS,KAAK,EACd,SAAS,YAAY,EACrB,SAAS,QAAQ;YAErB;YACA,cAAc,MAAM;QACtB;QACA,IAAI,aAAa;YACf,MAAM,CAAC,QAAQ,MAAM,KAAK,GAAG;YAC7B,MAAM,iBAAiB;YACvB,MAAM,aAAa,cAAc,CAAC,eAAe,MAAM,GAAG,EAAE;YAC5D,eAAe,GAAG,GAAG;YACrB,eAAe,MAAM,GAAG;gBACtB,GAAG,MAAM;YACX;YACA,SAAS,cAAc,GAAG,OAAO;YACjC,MAAM,eAAe,YACnB,gBACA,gBACA,gBACA;YAEF,SAAS,QAAQ,GAAG,WAAW,QAAQ;YACvC,SAAS,IAAI,GAAG;YAChB,iBAAiB,KAAK,GAAG,YAAY;YACrC,cAAc,KAAK,GAAG,aAAa,KAAK;YACxC,cAAc,IAAI,GAAG,aAAa,IAAI;YACtC,cAAc,MAAM,GAAG,aAAa,MAAM;YAC1C,cAAc,KAAK,GAAG,aAAa,KAAK;YACxC,cAAc,WAAW,GAAG,aAAa,WAAW;YACpD,IAAI,WAAW;gBACb,IACE,CAAC,OAAO,cAAc,IAAI,IAAI,KAC9B,8BAA8B,OAAO,QAAQ,EAAE,OAE/C,SAAS,qBAAqB,GAAG;gBACnC,MAAM,UAAU,gBAAgB;gBAChC,IAAI,SAAS,OAAO,MAAM,CAAC,cAAc;gBACzC,kBAAkB,KAAK;gBACvB,eAAe,QAAQ,UAAU;gBACjC,eAAe,YAAY,GAAG;YAChC;QACF;IACF;IACA,MAAM,UAAU;IAChB,IAAI,UAAU,OAAO;SAChB;AACP\"}")
@@ -1354,20 +1354,20 @@ import { _auto_RouteActionContext as RouteActionContext } from "./index.qwik.mjs
 import { _auto_RouteLocationContext as RouteLocationContext } from "./index.qwik.mjs";
 import { _auto_RouteNavigateContext as RouteNavigateContext } from "./index.qwik.mjs";
 import { _auto_RouteStateContext as RouteStateContext } from "./index.qwik.mjs";
-import { Slot } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { _weakSerialize } from "@builder.io/qwik";
+import { Slot } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _weakSerialize } from "@khulnasoft.com/qwik";
 import { _auto_createDocumentHead as createDocumentHead } from "./index.qwik.mjs";
-import { eventQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { eventQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 import { _auto_toPath as toPath } from "./index.qwik.mjs";
-import { useContextProvider } from "@builder.io/qwik";
+import { useContextProvider } from "@khulnasoft.com/qwik";
 import { _auto_useQwikCityEnv as useQwikCityEnv } from "./index.qwik.mjs";
-import { useServerData } from "@builder.io/qwik";
-import { useSignal } from "@builder.io/qwik";
-import { useStore } from "@builder.io/qwik";
-import { useStylesQrl } from "@builder.io/qwik";
-import { useTaskQrl } from "@builder.io/qwik";
+import { useServerData } from "@khulnasoft.com/qwik";
+import { useSignal } from "@khulnasoft.com/qwik";
+import { useStore } from "@khulnasoft.com/qwik";
+import { useStylesQrl } from "@khulnasoft.com/qwik";
+import { useTaskQrl } from "@khulnasoft.com/qwik";
 export const QwikCityProvider_component_TxCFOy819ag = (props)=>{
     useStylesQrl(/*#__PURE__*/ qrl(()=>import("./index.qwik.mjs_QwikCityProvider_component_useStyles_RPDJAz33WLA.mjs"), "QwikCityProvider_component_useStyles_RPDJAz33WLA"));
     const env = useQwikCityEnv();
@@ -1487,13 +1487,13 @@ import { _auto_DocumentHeadContext as DocumentHeadContext } from "./index.qwik.m
 import { _auto_RouteLocationContext as RouteLocationContext } from "./index.qwik.mjs";
 import { _auto_RouteNavigateContext as RouteNavigateContext } from "./index.qwik.mjs";
 import { _auto_RouteStateContext as RouteStateContext } from "./index.qwik.mjs";
-import { Slot } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
+import { Slot } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
 import { _auto_createDocumentHead as createDocumentHead } from "./index.qwik.mjs";
-import { qrl } from "@builder.io/qwik";
-import { useContextProvider } from "@builder.io/qwik";
-import { useSignal } from "@builder.io/qwik";
-import { useStore } from "@builder.io/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
+import { useContextProvider } from "@khulnasoft.com/qwik";
+import { useSignal } from "@khulnasoft.com/qwik";
+import { useStore } from "@khulnasoft.com/qwik";
 export const QwikCityMockProvider_component_WmYC5H00wtI = (props)=>{
     const urlEnv = props.url ?? 'http://localhost/';
     const url = new URL(urlEnv);
@@ -1576,7 +1576,7 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 */
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs_Link_component_a_onClick_kzjavhDI3L0.mjs ==
 
-import { useLexicalScope } from "@builder.io/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 export const Link_component_a_onClick_kzjavhDI3L0 = (_, elm)=>{
     const [nav2, reload2] = useLexicalScope();
     if (elm.href) nav2(elm.href, reload2);
@@ -1606,14 +1606,14 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 */
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs_Link_component_8gdLBszqbaM.mjs ==
 
-import { Slot } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxS } from "@builder.io/qwik";
-import { eventQrl } from "@builder.io/qwik";
+import { Slot } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxS } from "@khulnasoft.com/qwik";
+import { eventQrl } from "@khulnasoft.com/qwik";
 import { _auto_getClientNavPath as getClientNavPath } from "./index.qwik.mjs";
 import { _auto_getPrefetchDataset as getPrefetchDataset } from "./index.qwik.mjs";
-import { qrl } from "@builder.io/qwik";
-import { untrack } from "@builder.io/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
+import { untrack } from "@khulnasoft.com/qwik";
 import { useLocation } from "./index.qwik.mjs";
 import { useNavigate } from "./index.qwik.mjs";
 export const Link_component_8gdLBszqbaM = (props)=>{
@@ -1666,9 +1666,9 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 */
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs_routeActionQrl_action_submit_A5bZC7WO00A.mjs ==
 
-import { isServer } from "@builder.io/qwik/build";
-import { noSerialize } from "@builder.io/qwik";
-import { useLexicalScope } from "@builder.io/qwik";
+import { isServer } from "@khulnasoft.com/qwik/build";
+import { noSerialize } from "@khulnasoft.com/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 export const routeActionQrl_action_submit_A5bZC7WO00A = (input = {})=>{
     const [currentAction2, id2, loc2, state2] = useLexicalScope();
     if (isServer) throw new Error(`Actions can not be invoked within the server during SSR.
@@ -1739,13 +1739,13 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 */
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs_serverQrl_stuff_wOIPfiQ04l4.mjs ==
 
-import { _deserializeData } from "@builder.io/qwik";
-import { _getContextElement } from "@builder.io/qwik";
-import { _serializeData } from "@builder.io/qwik";
+import { _deserializeData } from "@khulnasoft.com/qwik";
+import { _getContextElement } from "@khulnasoft.com/qwik";
+import { _serializeData } from "@khulnasoft.com/qwik";
 import { _auto_getSSETransformer as getSSETransformer } from "./index.qwik.mjs";
-import { isServer } from "@builder.io/qwik/build";
+import { isServer } from "@khulnasoft.com/qwik/build";
 import { _auto_streamAsyncIterator as streamAsyncIterator } from "./index.qwik.mjs";
-import { useLexicalScope } from "@builder.io/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 import { _auto_useQwikCityEnv as useQwikCityEnv } from "./index.qwik.mjs";
 export const serverQrl_stuff_wOIPfiQ04l4 = async (...args)=>{
     const [qrl2] = useLexicalScope();
@@ -1812,7 +1812,7 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 */
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs_GetForm_component_form_onSubmit_p9MSze0ojs4.mjs ==
 
-import { useLexicalScope } from "@builder.io/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 export const GetForm_component_form_onSubmit_p9MSze0ojs4 = async (_, form)=>{
     const [nav2] = useLexicalScope();
     const formData = new FormData(form);
@@ -1857,12 +1857,12 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 */
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs_GetForm_component_Nk9PlpjQm9Y.mjs ==
 
-import { Slot } from "@builder.io/qwik";
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxS } from "@builder.io/qwik";
-import { _restProps } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { Slot } from "@khulnasoft.com/qwik";
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxS } from "@khulnasoft.com/qwik";
+import { _restProps } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 import { useNavigate } from "./index.qwik.mjs";
 export const GetForm_component_Nk9PlpjQm9Y = (props)=>{
     const rest = _restProps(props, [
@@ -1913,9 +1913,9 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/node_modules/@khulnasoft.com/qwik
 */
 ============================= ../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs ==
 
-import { qrl } from "@builder.io/qwik";
-import { createContextId, componentQrl, _jsxBranch, useContext, _jsxC, withLocale, _deserializeData, noSerialize, useServerData, useStore, _getContextElement, _jsxS, _jsxQ, _wrapSignal, implicit$FirstArg } from '@builder.io/qwik';
-import { isServer, isDev } from '@builder.io/qwik/build';
+import { qrl } from "@khulnasoft.com/qwik";
+import { createContextId, componentQrl, _jsxBranch, useContext, _jsxC, withLocale, _deserializeData, noSerialize, useServerData, useStore, _getContextElement, _jsxS, _jsxQ, _wrapSignal, implicit$FirstArg } from '@khulnasoft.com/qwik';
+import { isServer, isDev } from '@khulnasoft.com/qwik/build';
 import swRegister from '@qwik-city-sw-register';
 import { z } from 'zod';
 import { z as z2 } from 'zod';

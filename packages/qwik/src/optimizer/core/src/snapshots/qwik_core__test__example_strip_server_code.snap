@@ -6,8 +6,8 @@ expression: output
 ==INPUT==
 
 
-import { component$, serverLoader$, serverStuff$, $, client$, useStore, useTask$ } from '@builder.io/qwik';
-import { isServer } from '@builder.io/qwik/build';
+import { component$, serverLoader$, serverStuff$, $, client$, useStore, useTask$ } from '@khulnasoft.com/qwik';
+import { isServer } from '@khulnasoft.com/qwik/build';
 import mongo from 'mongodb';
 import redis from 'redis';
 import { handler } from 'serverless';
@@ -50,8 +50,8 @@ export const Parent = component$(() => {
 
 ============================= test.tsx_Parent_component_useTask_gDH1EtUWqBU.js (ENTRY POINT)==
 
-import { useLexicalScope } from "@builder.io/qwik";
-import { isServer } from "@builder.io/qwik/build";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
+import { isServer } from "@khulnasoft.com/qwik/build";
 import mongo from "mongodb";
 import redis from "redis";
 export const Parent_component_useTask_gDH1EtUWqBU = async ()=>{
@@ -60,7 +60,7 @@ export const Parent_component_useTask_gDH1EtUWqBU = async ()=>{
     state.text = await mongo.users();
     redis.set(state.text);
 };
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;;;oDAaa;;IACL,IAAI,CAAC,UAAU;IACf,MAAM,IAAI,GAAG,MAAM,MAAM,KAAK;IAC9B,MAAM,GAAG,CAAC,MAAM,IAAI\"}")
@@ -86,8 +86,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 */
 ============================= test.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 export const Parent = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./test.tsx_Parent_component_0TaiDayHrlo"), "Parent_component_0TaiDayHrlo"));
 
 
@@ -97,7 +97,7 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 export const Parent_component_serverStuff_a_2ca3HLDC7yc = ()=>{
 // from $(), should not be removed
 };
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\"0DAqBoB;AACR,kCAAkC;AACtC\"}")
@@ -151,14 +151,14 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 */
 ============================= test.tsx_Parent_component_0TaiDayHrlo.js (ENTRY POINT)==
 
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { _noopQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
-import { serverLoaderQrl } from "@builder.io/qwik";
-import { serverStuffQrl } from "@builder.io/qwik";
-import { useStore } from "@builder.io/qwik";
-import { useTaskQrl } from "@builder.io/qwik";
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { _noopQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
+import { serverLoaderQrl } from "@khulnasoft.com/qwik";
+import { serverStuffQrl } from "@khulnasoft.com/qwik";
+import { useStore } from "@khulnasoft.com/qwik";
+import { useTaskQrl } from "@khulnasoft.com/qwik";
 export const Parent_component_0TaiDayHrlo = ()=>{
     const state = useStore({
         text: ''
@@ -230,7 +230,7 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 export const Parent_component_useTask_1_P8oRQhHsurk = ()=>{
 // Code
 };
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\"sDAgCa;AACL,OAAO;AACX\"}")

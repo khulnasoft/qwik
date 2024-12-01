@@ -1,5 +1,12 @@
 import { useContent, useLocation } from '@khulnasoft.com/qwik-city';
-import { component$, useContext, $, useStyles$, useOnDocument, useSignal } from '@builder.io/qwik';
+import {
+  component$,
+  useContext,
+  $,
+  useStyles$,
+  useOnDocument,
+  useSignal,
+} from '@khulnasoft.com/qwik';
 import { ChatIcon } from '../svgs/chat-icon';
 import { GithubLogo } from '../svgs/github-logo';
 import { TwitterLogo } from '../svgs/twitter-logo';

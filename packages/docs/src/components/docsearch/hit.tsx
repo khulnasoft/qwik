@@ -1,4 +1,4 @@
-import { component$, Slot } from '@builder.io/qwik';
+import { component$, Slot } from '@khulnasoft.com/qwik';
 import type { InternalDocSearchHit, StoredDocSearchHit } from './types';
 
 interface HitProps {

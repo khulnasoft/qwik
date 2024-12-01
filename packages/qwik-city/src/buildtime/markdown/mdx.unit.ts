@@ -26,8 +26,8 @@ describe('mdx', async () => {
 
     expect(result).toMatchInlineSnapshot(`
       {
-        "code": "import { jsx } from '@builder.io/qwik';
-      import {Fragment as _Fragment, jsx as _jsx, jsxs as _jsxs} from "@builder.io/qwik/jsx-runtime";
+        "code": "import { jsx } from '@khulnasoft.com/qwik';
+      import {Fragment as _Fragment, jsx as _jsx, jsxs as _jsxs} from "@khulnasoft.com/qwik/jsx-runtime";
       export const headings = [{
         "text": "Hello",
         "id": "hello",
@@ -95,8 +95,8 @@ export default function Layout({ children: content }) {
 
     expect(result).toMatchInlineSnapshot(`
       {
-        "code": "import { jsx } from '@builder.io/qwik';
-      import {Fragment as _Fragment, jsx as _jsx, jsxs as _jsxs} from "@builder.io/qwik/jsx-runtime";
+        "code": "import { jsx } from '@khulnasoft.com/qwik';
+      import {Fragment as _Fragment, jsx as _jsx, jsxs as _jsxs} from "@khulnasoft.com/qwik/jsx-runtime";
       export const headings = [{
         "text": "Hello",
         "id": "hello",

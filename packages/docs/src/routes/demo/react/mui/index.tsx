@@ -1,4 +1,4 @@
-import { component$, useSignal } from '@builder.io/qwik';
+import { component$, useSignal } from '@khulnasoft.com/qwik';
 import { Example } from './react';
 
 export default component$(() => {

@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import { Link } from "@khulnasoft.com/qwik-city";
 
 export default component$(() => (

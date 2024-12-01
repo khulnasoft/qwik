@@ -5,7 +5,7 @@ import type {
   Signal,
   ValueOrPromise,
   ReadonlySignal,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 import type {
   RequestEvent,
   RequestEventAction,

@@ -1,4 +1,4 @@
-import { component$, Resource } from "@builder.io/qwik";
+import { component$, Resource } from "@khulnasoft.com/qwik";
 import { type DocumentHead, routeLoader$ } from "@khulnasoft.com/qwik-city";
 import { delay } from "../actions/login";
 

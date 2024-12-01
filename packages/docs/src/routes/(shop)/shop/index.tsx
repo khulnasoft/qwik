@@ -1,4 +1,4 @@
-import { component$, useContext, useStyles$ } from '@builder.io/qwik';
+import { component$, useContext, useStyles$ } from '@khulnasoft.com/qwik';
 import styles from '../shop.css?inline';
 import { SHOP_CONTEXT } from '../utils';
 import type { DocumentHead } from '@khulnasoft.com/qwik-city';

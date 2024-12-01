@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { component$ as Component, $ as onRender, useStore, wrap, useEffect } from '@builder.io/qwik';
+import { component$ as Component, $ as onRender, useStore, wrap, useEffect } from '@khulnasoft.com/qwik';
 
 
 export const useMemo$ = (qrt) => {
@@ -25,9 +25,9 @@ export const App = component$((props) => {
 
 ============================= test.js ==
 
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { useStore, useEffect } from '@builder.io/qwik';
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { useStore, useEffect } from '@khulnasoft.com/qwik';
 export const useMemo$ = (qrt)=>{
     useEffect(qrt);
 };

@@ -3,7 +3,7 @@ import {
   useSignal,
   useStylesScoped$,
   useVisibleTask$,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 import { useLocation } from '@khulnasoft.com/qwik-city';
 
 const AUDIO_SRC =

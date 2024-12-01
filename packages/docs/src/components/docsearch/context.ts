@@ -1,3 +1,3 @@
-import { createContextId } from '@builder.io/qwik';
+import { createContextId } from '@khulnasoft.com/qwik';
 
 export const SearchContext = createContextId<any>('docsearch');

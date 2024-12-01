@@ -1,4 +1,4 @@
-import { Slot, component$ } from '@builder.io/qwik';
+import { Slot, component$ } from '@khulnasoft.com/qwik';
 import { Link, useLocation, type RequestHandler } from '@khulnasoft.com/qwik-city';
 import { EdgeIcon } from '~/components/icons/edge';
 import { EditIcon } from '~/components/icons/edit';

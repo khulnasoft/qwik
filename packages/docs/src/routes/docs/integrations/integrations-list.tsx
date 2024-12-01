@@ -1,4 +1,4 @@
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { useContent } from '@khulnasoft.com/qwik-city';
 
 export const IntegrationsList = component$(() => {

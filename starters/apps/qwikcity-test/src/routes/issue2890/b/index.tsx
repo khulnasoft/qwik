@@ -1,4 +1,4 @@
-import { component$, useVisibleTask$, useSignal } from "@builder.io/qwik";
+import { component$, useVisibleTask$, useSignal } from "@khulnasoft.com/qwik";
 import { routeLoader$ } from "@khulnasoft.com/qwik-city";
 
 export const useUndefined = routeLoader$(() => {

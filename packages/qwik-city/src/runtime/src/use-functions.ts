@@ -5,7 +5,7 @@ import {
   useServerData,
   useVisibleTask$,
   type QRL,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 import {
   ContentContext,
   DocumentHeadContext,

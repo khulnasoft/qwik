@@ -24,7 +24,7 @@ A good default is to use [stale-while-revalidate](https://web.dev/stale-while-re
 For instance, we can add an `onGet` export to our root [layout](/docs/(qwikcity)/layout/index.mdx) (`src/routes/layout.tsx`) like so, to apply good caching defaults site-wide:
 
 ```tsx title="src/routes/layout.tsx"
-import { component$, Slot } from "@builder.io/qwik";
+import { component$, Slot } from "@khulnasoft.com/qwik";
 import type { RequestHandler } from "@khulnasoft.com/qwik-city";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {

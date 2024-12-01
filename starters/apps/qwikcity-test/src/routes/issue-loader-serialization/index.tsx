@@ -3,9 +3,9 @@ import {
   useVisibleTask$,
   useSignal,
   useTask$,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 import { routeLoader$ } from "@khulnasoft.com/qwik-city";
-import { isBrowser } from "@builder.io/qwik/build";
+import { isBrowser } from "@khulnasoft.com/qwik/build";
 
 export const useCmp1 = routeLoader$(
   () => {

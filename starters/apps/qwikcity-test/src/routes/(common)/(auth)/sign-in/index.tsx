@@ -2,7 +2,7 @@
  * Simple Auth For Testing Only!!!
  */
 
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import {
   type DocumentHead,
   Form,

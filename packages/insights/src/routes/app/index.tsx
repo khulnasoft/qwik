@@ -1,4 +1,4 @@
-import { component$, useSignal, type ReadonlySignal, useComputed$ } from '@builder.io/qwik';
+import { component$, useSignal, type ReadonlySignal, useComputed$ } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 import { inArray } from 'drizzle-orm';
 import AppCard from '~/components/app-card';

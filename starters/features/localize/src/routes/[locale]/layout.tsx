@@ -1,4 +1,4 @@
-import { component$, Slot } from "@builder.io/qwik";
+import { component$, Slot } from "@khulnasoft.com/qwik";
 import type { RequestHandler } from "@khulnasoft.com/qwik-city";
 import { extractLang, useI18n } from "~/routes/[locale]/i18n-utils";
 

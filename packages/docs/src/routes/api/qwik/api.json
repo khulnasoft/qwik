@@ -1,6 +1,6 @@
 {
   "id": "qwik",
-  "package": "@builder.io/qwik",
+  "package": "@khulnasoft.com/qwik",
   "members": [
     {
       "name": "_qrlSync",

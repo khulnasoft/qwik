@@ -1,5 +1,5 @@
 import { routeAction$, routeLoader$, Form } from "@khulnasoft.com/qwik-city";
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 
 export const useLoader = routeLoader$(
   ({ query }) => `${query.has("redirected")}`,

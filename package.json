@@ -96,7 +96,7 @@
   },
   "devDependencies": {
     "@builder.io/partytown": "0.10.2",
-    "@builder.io/qwik": "workspace:^",
+    "@khulnasoft.com/qwik": "workspace:^",
     "@khulnasoft.com/qwik-city": "workspace:^",
     "@changesets/cli": "2.27.7",
     "@changesets/get-github-info": "0.6.0",

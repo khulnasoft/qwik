@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import { routeLoader$ } from "@khulnasoft.com/qwik-city";
 import { drizzle } from "drizzle-orm/better-sqlite3";
 import Database from "better-sqlite3";

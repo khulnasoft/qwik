@@ -1,4 +1,4 @@
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { type DocumentHead } from '@khulnasoft.com/qwik-city';
 import BuilderContentComp from '../components/builder-content';
 import { Footer } from '../components/footer/footer';

@@ -14,7 +14,7 @@ import { ssrDevMiddleware, staticDistMiddleware } from './dev-server';
 import { transformMenu } from '../markdown/menu';
 import { generateQwikCityEntries } from '../runtime-generation/generate-entries';
 import { patchGlobalThis } from '../../middleware/node/node-fetch';
-import type { QwikVitePlugin } from '@builder.io/qwik/optimizer';
+import type { QwikVitePlugin } from '@khulnasoft.com/qwik/optimizer';
 import fs from 'node:fs';
 import {
   generateServiceWorkerRegister,
@@ -115,7 +115,7 @@ function qwikCityPlugin(userOpts?: QwikCityVitePluginOptions): any {
           server.middlewares.use(staticDistMiddleware(server));
         }
         // qwik city middleware injected BEFORE vite internal middlewares
-        // and BEFORE @builder.io/qwik/optimizer/vite middlewares
+        // and BEFORE @khulnasoft.com/qwik/optimizer/vite middlewares
         // handles only known user defined routes
         server.middlewares.use(ssrDevMiddleware(ctx, server));
       };
@@ -167,7 +167,7 @@ function qwikCityPlugin(userOpts?: QwikCityVitePluginOptions): any {
         const isSwRegister = id.endsWith(QWIK_CITY_SW_REGISTER);
 
         if (isSerializer) {
-          return `export {_deserializeData, _serializeData, _verifySerializable} from '@builder.io/qwik'`;
+          return `export {_deserializeData, _serializeData, _verifySerializable} from '@khulnasoft.com/qwik'`;
         }
         if (isCityPlan || isSwRegister) {
           if (!ctx.isDevServer && ctx.isDirty) {

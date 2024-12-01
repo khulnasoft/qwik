@@ -4,7 +4,7 @@ import {
   useResource$,
   Resource,
   useSignal,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 interface ContainerProps {
   url: string;

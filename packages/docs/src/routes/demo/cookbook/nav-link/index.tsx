@@ -1,4 +1,4 @@
-import { Slot, component$ } from '@builder.io/qwik';
+import { Slot, component$ } from '@khulnasoft.com/qwik';
 import { Link, useLocation, type LinkProps } from '@khulnasoft.com/qwik-city';
 
 type NavLinkProps = LinkProps & { activeClass?: string };

@@ -1,6 +1,6 @@
 {
   "id": "qwik-testing",
-  "package": "@builder.io/qwik/testing",
+  "package": "@khulnasoft.com/qwik/testing",
   "members": [
     {
       "name": "createDOM",

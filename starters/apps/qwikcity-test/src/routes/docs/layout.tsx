@@ -1,4 +1,4 @@
-import { component$, Slot, useStyles$ } from "@builder.io/qwik";
+import { component$, Slot, useStyles$ } from "@khulnasoft.com/qwik";
 import type { DocumentHead } from "@khulnasoft.com/qwik-city";
 import { Breadcrumbs } from "../../components/breadcrumbs/breadcrumbs";
 import { ContentNav } from "../../components/content-nav/content-nav";

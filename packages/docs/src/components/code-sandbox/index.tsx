@@ -1,4 +1,4 @@
-import { component$, useContext, useStylesScoped$, Slot, useSignal } from '@builder.io/qwik';
+import { component$, useContext, useStylesScoped$, Slot, useSignal } from '@khulnasoft.com/qwik';
 import CSS from './index.css?inline';
 import { GlobalStore } from '../../context';
 import { EditIcon } from '../svgs/edit-icon';

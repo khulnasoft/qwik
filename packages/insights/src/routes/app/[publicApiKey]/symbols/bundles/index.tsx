@@ -1,4 +1,4 @@
-import { component$, useStore, type ReadonlySignal, type JSXOutput } from '@builder.io/qwik';
+import { component$, useStore, type ReadonlySignal, type JSXOutput } from '@khulnasoft.com/qwik';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 import { BundleCmp } from '~/components/bundle';
 import { BundleIcon } from '~/components/icons/bundle';

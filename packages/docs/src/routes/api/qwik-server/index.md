@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik/server API Reference
+title: \@khulnasoft.com/qwik/server API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik/server
+# [API](/api) &rsaquo; @khulnasoft.com/qwik/server
 
 ## getQwikLoaderScript
 

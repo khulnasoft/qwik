@@ -1,4 +1,4 @@
-import { component$, Slot, useStyles$ } from "@builder.io/qwik";
+import { component$, Slot, useStyles$ } from "@khulnasoft.com/qwik";
 import type { RequestEvent } from "@khulnasoft.com/qwik-city";
 import styles from "./layout.css?inline";
 

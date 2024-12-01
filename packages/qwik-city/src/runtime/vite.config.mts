@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import { qwikVite } from '@builder.io/qwik/optimizer';
+import { qwikVite } from '@khulnasoft.com/qwik/optimizer';
 
 export default defineConfig(() => {
   return {

@@ -74,7 +74,7 @@
 
 - - built files are now under dist/ or lib/. All tools that respect package export maps should just work. (by [@wmertens](https://github.com/wmertens) in [#6715](https://github.com/KhulnaSoft/qwik/pull/6715))
     If you have trouble with Typescript, ensure that you use `moduleResolution: "Bundler"` in your `tsconfig.json`.
-  - `@builder.io/qwik` no longer depends on `undici`
+  - `@khulnasoft.com/qwik` no longer depends on `undici`
 
 - During dev mode, qwik-city will no longer serve files from `dist/`, which are very likely to be stale/incorrect. Furthermore, query parameters are taken into account when serving files (like production servers would do). (by [@wmertens](https://github.com/wmertens) in [#6694](https://github.com/KhulnaSoft/qwik/pull/6694))
 

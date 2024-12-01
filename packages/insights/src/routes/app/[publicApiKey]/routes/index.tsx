@@ -1,4 +1,4 @@
-import { component$, type ReadonlySignal } from '@builder.io/qwik';
+import { component$, type ReadonlySignal } from '@khulnasoft.com/qwik';
 import { routeLoader$, useLocation } from '@khulnasoft.com/qwik-city';
 import { RoutesIcon } from '~/components/icons/routes';
 import { getDB } from '~/db';

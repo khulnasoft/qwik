@@ -1,5 +1,5 @@
 import { type ContentMenu, useContent, useLocation } from '@khulnasoft.com/qwik-city';
-import { component$, useStyles$ } from '@builder.io/qwik';
+import { component$, useStyles$ } from '@khulnasoft.com/qwik';
 import styles from './content-nav.css?inline';
 
 export const ContentNav = component$(() => {

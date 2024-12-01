@@ -10,7 +10,7 @@ import {
   useContext,
   useStyles$,
   type ResourceReturn,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 export interface WeatherData {
   name: string;

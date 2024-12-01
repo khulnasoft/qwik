@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import { routeAction$, zod$, z } from "@khulnasoft.com/qwik-city";
 import type { ValidatorErrorType } from "packages/qwik-city/src/runtime/src/types";
 

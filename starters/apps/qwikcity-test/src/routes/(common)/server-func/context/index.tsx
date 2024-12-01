@@ -1,4 +1,4 @@
-import { component$, useSignal, useTask$ } from "@builder.io/qwik";
+import { component$, useSignal, useTask$ } from "@khulnasoft.com/qwik";
 import { server$ } from "@khulnasoft.com/qwik-city";
 import { delay } from "../../actions/login";
 

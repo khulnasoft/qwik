@@ -1,4 +1,4 @@
-import { type QwikIntrinsicElements } from '@builder.io/qwik';
+import { type QwikIntrinsicElements } from '@khulnasoft.com/qwik';
 
 export function ManifestIcon(props: QwikIntrinsicElements['svg'], key: string) {
   return (

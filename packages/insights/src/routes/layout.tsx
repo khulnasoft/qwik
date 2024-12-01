@@ -1,4 +1,4 @@
-import { Slot, component$ } from '@builder.io/qwik';
+import { Slot, component$ } from '@khulnasoft.com/qwik';
 
 import { PopupManager } from '~/components/popup-manager';
 import { routeLoader$ } from '@khulnasoft.com/qwik-city';

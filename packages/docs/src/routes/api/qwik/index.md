@@ -4203,7 +4203,7 @@ export type QwikInitEvent = CustomEvent<{}>;
 The interface holds available attributes of both native DOM elements and custom Qwik elements. An example showing how to define a customizable wrapper component:
 
 ```tsx
-import { component$, Slot, type QwikIntrinsicElements } from "@builder.io/qwik";
+import { component$, Slot, type QwikIntrinsicElements } from "@khulnasoft.com/qwik";
 
 type WrapperProps = {
   attributes?: QwikIntrinsicElements["div"];

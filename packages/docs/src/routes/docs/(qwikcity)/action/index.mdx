@@ -37,7 +37,7 @@ created_at: '2023-03-20T23:45:13Z'
 Actions can be declared using `routeAction$()` or `globalAction$()` exported from `@khulnasoft.com/qwik-city`.
 
 ```tsx {4,16} /useAddUser/ /firstName/#a /lastName/#b /email/#c title="src/routes/layout.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeAction$, Form } from '@khulnasoft.com/qwik-city';
 
 export const useAddUser = routeAction$(async (data, requestEvent) => {
@@ -79,7 +79,7 @@ export default component$(() => {
 The best way to call an action is using the `<Form/>` component exported in `@khulnasoft.com/qwik-city`.
 
 ```tsx title="src/routes/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeAction$, Form } from '@khulnasoft.com/qwik-city';
 
 export const useAddUser = routeAction$(async (user) => {
@@ -115,7 +115,7 @@ When JS is enabled, the `<Form/>` component will intercept the form submission a
 Actions can also be triggered programmatically using the `action.submit()` method (i.e. you don't need a `<Form/>` component). However, you can trigger the action from a button click or any other event, just like you would do with a function.
 
 ```tsx {18} title="src/routes/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeAction$ } from '@khulnasoft.com/qwik-city';
 
 export const useAddUser = routeAction$(async (user) => {
@@ -154,7 +154,7 @@ But when using actions programmatically, you can still upload files by passing a
 
 ```tsx title="src/routes/index.tsx"
 
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeAction$ } from '@khulnasoft.com/qwik-city';
 
 export const useUploadFile = routeAction$(async ({file}) => {
@@ -201,7 +201,7 @@ The `onSubmitCompleted$` event handler can be used after an action is successful
 Here's an example of the `onSubmitCompleted$` handler used to edit an item in a EditForm component of a todo app.
 
 ```tsx title="src/components/EditForm.tsx"
-import { component$, type Signal, useSignal } from '@builder.io/qwik';
+import { component$, type Signal, useSignal } from '@khulnasoft.com/qwik';
 import { Form } from '@khulnasoft.com/qwik-city';
 import { type ListItem, useEditFromListAction } from '../../routes/index';
 
@@ -258,7 +258,7 @@ Qwik comes with built-in support for [Zod](https://zod.dev/), a TypeScript-first
 Actions + [Zod](https://zod.dev/) allows to create type safe forms, where the data is validated server side before the action is executed.
 
 ```tsx {16-20} /firstName/#a /lastName/#b title="src/routes/index.tsx"
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeAction$, zod$, z, Form } from '@khulnasoft.com/qwik-city';
 
 export const useAddUser = routeAction$(
@@ -393,7 +393,7 @@ Failures are stored in the `action.value` property, just like the success value.
 The `fieldErrors` become a dot notation object. See [Complex forms](/docs/advanced/complex-forms) for more information.
 
 ```tsx
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { Form } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
@@ -416,7 +416,7 @@ Thanks to Typescript type discrimination, you can use the `action.value.failed` 
 When an action is triggered, the previous state is stored in the `action.formData` property. This is useful to display a loading state while the action is running.
 
 ```tsx {12} /action.formData/
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { routeAction$, Form, zod$, z } from '@khulnasoft.com/qwik-city';
 
 export const useAddUser = routeAction$(async (user) => {

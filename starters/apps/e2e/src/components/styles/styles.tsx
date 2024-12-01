@@ -5,7 +5,7 @@ import {
   Slot,
   useSignal,
   Fragment,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 import parent from "./parent.css?inline";
 import parent2 from "./parent2.css?inline";
 import child from "./child.css?inline";

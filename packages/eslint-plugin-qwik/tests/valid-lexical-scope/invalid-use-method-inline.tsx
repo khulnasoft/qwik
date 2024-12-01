@@ -1,5 +1,5 @@
 // Expect error: { "messageId": "referencesOutside" }
-import { component$, useTask$ } from '@builder.io/qwik';
+import { component$, useTask$ } from '@khulnasoft.com/qwik';
 
 export const HelloWorld = component$(() => {
   function useMethod() {

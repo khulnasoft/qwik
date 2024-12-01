@@ -47,7 +47,7 @@ import {
   type VirtualElement,
 } from './virtual-element';
 
-import { isBrowser } from '@builder.io/qwik/build';
+import { isBrowser } from '@khulnasoft.com/qwik/build';
 import {
   getProxyTarget,
   getSubscriptionManager,

@@ -4,19 +4,19 @@
 
 ```ts
 
-import { Component } from '@builder.io/qwik';
+import { Component } from '@khulnasoft.com/qwik';
 import { Cookie } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { CookieOptions } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { CookieValue } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { DeferReturn } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type { EnvGetter } from '@khulnasoft.com/qwik-city/middleware/request-handler';
-import { JSXNode } from '@builder.io/qwik';
-import { JSXOutput } from '@builder.io/qwik';
-import { QRL } from '@builder.io/qwik';
-import { QRLEventHandlerMulti } from '@builder.io/qwik';
-import { QwikIntrinsicElements } from '@builder.io/qwik';
-import { QwikJSX } from '@builder.io/qwik';
-import type { ReadonlySignal } from '@builder.io/qwik';
+import { JSXNode } from '@khulnasoft.com/qwik';
+import { JSXOutput } from '@khulnasoft.com/qwik';
+import { QRL } from '@khulnasoft.com/qwik';
+import { QRLEventHandlerMulti } from '@khulnasoft.com/qwik';
+import { QwikIntrinsicElements } from '@khulnasoft.com/qwik';
+import { QwikJSX } from '@khulnasoft.com/qwik';
+import type { ReadonlySignal } from '@khulnasoft.com/qwik';
 import { RequestEvent } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { RequestEventAction } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { RequestEventBase } from '@khulnasoft.com/qwik-city/middleware/request-handler';
@@ -25,7 +25,7 @@ import { RequestEventLoader } from '@khulnasoft.com/qwik-city/middleware/request
 import { RequestHandler } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type { ResolveSyncValue } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type * as v from 'valibot';
-import type { ValueOrPromise } from '@builder.io/qwik';
+import type { ValueOrPromise } from '@khulnasoft.com/qwik';
 import { z } from 'zod';
 import type * as z_2 from 'zod';
 

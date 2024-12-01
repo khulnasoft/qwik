@@ -1,4 +1,4 @@
-import { component$, useStyles$, type FunctionComponent } from '@builder.io/qwik';
+import { component$, useStyles$, type FunctionComponent } from '@khulnasoft.com/qwik';
 import type { DocumentHead } from '@khulnasoft.com/qwik-city';
 import { Link } from '@khulnasoft.com/qwik-city';
 import ImgQwikNewsletter from '~/media/ecosystem/qwik-newsletter.svg?jsx';

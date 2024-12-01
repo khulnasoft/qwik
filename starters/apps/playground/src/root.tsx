@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import { isDev } from "@builder.io/qwik/build";
+import { component$ } from "@khulnasoft.com/qwik";
+import { isDev } from "@khulnasoft.com/qwik/build";
 import {
   QwikCityProvider,
   RouterOutlet,

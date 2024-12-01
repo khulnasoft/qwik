@@ -4,7 +4,7 @@ import {
   useTask$,
   useContext,
   useSignal,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 import { type TodoItem, TODOS } from "../../state/state";
 

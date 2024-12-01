@@ -25,12 +25,6 @@ importers:
       '@builder.io/partytown':
         specifier: 0.10.2
         version: 0.10.2
-      '@builder.io/qwik':
-        specifier: workspace:^
-        version: link:packages/qwik
-      '@khulnasoft.com/qwik-city':
-        specifier: workspace:^
-        version: link:packages/qwik-city
       '@changesets/cli':
         specifier: 2.27.7
         version: 2.27.7
@@ -46,6 +40,12 @@ importers:
       '@eslint/eslintrc':
         specifier: 3.1.0
         version: 3.1.0
+      '@khulnasoft.com/qwik':
+        specifier: workspace:^
+        version: link:packages/qwik
+      '@khulnasoft.com/qwik-city':
+        specifier: workspace:^
+        version: link:packages/qwik-city
       '@mdx-js/mdx':
         specifier: 3.0.1
         version: 3.0.1
@@ -277,7 +277,19 @@ importers:
       '@builder.io/partytown':
         specifier: 0.10.2
         version: 0.10.2
-      '@builder.io/qwik':
+      '@builder.io/sdk-qwik':
+        specifier: 0.14.31
+        version: 0.14.31
+      '@docsearch/css':
+        specifier: 3.6.1
+        version: 3.6.1
+      '@emotion/react':
+        specifier: 11.13.0
+        version: 11.13.0(@types/react@18.3.3)(react@18.3.1)
+      '@emotion/styled':
+        specifier: 11.13.0
+        version: 11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: link:../qwik
       '@khulnasoft.com/qwik-city':
@@ -289,21 +301,9 @@ importers:
       '@khulnasoft.com/qwik-react':
         specifier: workspace:^
         version: link:../qwik-react
-      '@builder.io/sdk-qwik':
-        specifier: 0.14.31
-        version: 0.14.31(@builder.io/qwik@packages+qwik)
-      '@docsearch/css':
-        specifier: 3.6.1
-        version: 3.6.1
-      '@emotion/react':
-        specifier: 11.13.0
-        version: 11.13.0(@types/react@18.3.3)(react@18.3.1)
-      '@emotion/styled':
-        specifier: 11.13.0
-        version: 11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
       '@modular-forms/qwik':
         specifier: 0.23.1
-        version: 0.23.1(@khulnasoft.com/qwik-city@packages+qwik-city)(@builder.io/qwik@packages+qwik)
+        version: 0.23.1
       '@mui/material':
         specifier: 5.16.4
         version: 5.16.4(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -315,7 +315,7 @@ importers:
         version: 6.20.4(@mui/material@5.16.4(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mui/system@5.16.4(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@qwik-ui/headless':
         specifier: 0.5.0
-        version: 0.5.0(@builder.io/qwik@packages+qwik)
+        version: 0.5.0
       '@supabase/supabase-js':
         specifier: 2.44.4
         version: 2.44.4
@@ -336,7 +336,7 @@ importers:
         version: 0.0.42
       '@unpic/qwik':
         specifier: 0.0.38
-        version: 0.0.38(@builder.io/qwik@packages+qwik)
+        version: 0.0.38
       algoliasearch:
         specifier: 4.16.0
         version: 4.16.0
@@ -431,7 +431,7 @@ importers:
         specifier: ^3.3.5
         version: 3.3.5
     devDependencies:
-      '@builder.io/qwik':
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: link:../qwik
       '@khulnasoft.com/qwik-city':
@@ -460,7 +460,7 @@ importers:
         version: 0.14.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@modular-forms/qwik':
         specifier: ^0.23.1
-        version: 0.23.1(@khulnasoft.com/qwik-city@packages+qwik-city)(@builder.io/qwik@packages+qwik)
+        version: 0.23.1
       '@typescript/analyze-trace':
         specifier: ^0.10.1
         version: 0.10.1
@@ -477,7 +477,10 @@ importers:
         specifier: 0.36.4
         version: 0.36.4(@libsql/client@0.14.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))(@opentelemetry/api@1.8.0)(@types/react@18.3.3)(better-sqlite3@9.6.0)(bun-types@1.1.17)(react@18.3.1)
     devDependencies:
-      '@builder.io/qwik':
+      '@builder.io/vite-plugin-macro':
+        specifier: 0.0.7
+        version: 0.0.7(@types/node@20.14.11)(rollup@4.19.0)(terser@5.31.3)
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: link:../qwik
       '@khulnasoft.com/qwik-city':
@@ -486,9 +489,6 @@ importers:
       '@khulnasoft.com/qwik-labs':
         specifier: workspace:^
         version: link:../qwik-labs
-      '@builder.io/vite-plugin-macro':
-        specifier: 0.0.7
-        version: 0.0.7(@types/node@20.14.11)(rollup@4.19.0)(terser@5.31.3)
       '@netlify/edge-functions':
         specifier: 2.10.0
         version: 2.10.0
@@ -559,7 +559,7 @@ importers:
         specifier: ^3.1
         version: 3.1.3
     devDependencies:
-      '@builder.io/qwik':
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: 'link:'
       '@khulnasoft.com/qwik-dom':
@@ -584,7 +584,7 @@ importers:
         specifier: ^0.30.0
         version: 0.30.0
     devDependencies:
-      '@builder.io/qwik':
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: link:../qwik
       '@khulnasoft.com/qwik-city':
@@ -633,7 +633,7 @@ importers:
       '@azure/functions':
         specifier: 3.5.1
         version: 3.5.1
-      '@builder.io/qwik':
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: link:../qwik
       '@microsoft/api-extractor':
@@ -713,7 +713,7 @@ importers:
 
   packages/qwik-labs:
     devDependencies:
-      '@builder.io/qwik':
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: link:../qwik
       '@types/eslint':
@@ -755,7 +755,7 @@ importers:
 
   packages/qwik-react:
     devDependencies:
-      '@builder.io/qwik':
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: link:../qwik
       '@types/react':
@@ -779,7 +779,7 @@ importers:
 
   packages/qwik-worker:
     devDependencies:
-      '@builder.io/qwik':
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: link:../qwik
       vite:
@@ -795,7 +795,7 @@ importers:
         specifier: ^0.6.3
         version: 0.6.3(@supabase/supabase-js@2.44.4)
     devDependencies:
-      '@builder.io/qwik':
+      '@khulnasoft.com/qwik':
         specifier: workspace:^
         version: link:../qwik
       '@khulnasoft.com/qwik-city':
@@ -990,7 +990,7 @@ packages:
   '@builder.io/sdk-qwik@0.14.31':
     resolution: {integrity: sha512-b8BlVdDZdrHfMCxpZgTax3R4Ort+RU+EXs+YKg/2Yvkw2cWje4r1hA8TzXj1ocRUGkjiHzbSKApgoOrVTOno0g==}
     peerDependencies:
-      '@builder.io/qwik': '>=1.0.0'
+      '@khulnasoft.com/qwik': '>=1.0.0'
 
   '@builder.io/vite-plugin-macro@0.0.7':
     resolution: {integrity: sha512-tDdYnRtkxtZ3KRZMdUAetwEXPYQLQWIMtvbFY9klVKQII1P3IooAobByqNiHPy8W0EcLe8ZDVq2cK8z8RNtiHQ==}
@@ -2642,8 +2642,8 @@ packages:
   '@modular-forms/qwik@0.23.1':
     resolution: {integrity: sha512-oiXMdbH0HNotc9LMUwoEwZSJkY7/SObyQCgAZHsAPIQOyQrDhG2W8rEJVy0zFtSOCxk6NZjLiMcXfcI5glKU8A==}
     peerDependencies:
-      '@builder.io/qwik': ^1.4.0
-      '@khulnasoft.com/qwik-city': ^1.4.0
+      '@khulnasoft.com/qwik': ^1.4.0
+      '@builder.io/qwik-city': ^1.4.0
 
   '@mui/core-downloads-tracker@5.16.8':
     resolution: {integrity: sha512-DARxShbBsWz6azwkTmv05rR7rJfcd9cXFsQtbcr24A+5esQBSnK2N3cbg/izlvuMGxonfWaysz/ae+6Ij9RAHQ==}
@@ -3133,7 +3133,7 @@ packages:
     resolution: {integrity: sha512-hplG9Dw5VR+k4N70TjchrCG2Sw/U4mNBLmed6EEgjkxg/zQrDaEfpw/2IzXSBqr2k98QFrKehJjvetLszmkPDQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      '@builder.io/qwik': ^1.5.5
+      '@khulnasoft.com/qwik': ^1.5.5
 
   '@rollup/pluginutils@5.1.3':
     resolution: {integrity: sha512-Pnsb6f32CD2W3uCaLZIzDmeFyQ2b8UWMFI7xtwUezpcGBDVDW6y9XgAWIlARiGAo6eNF5FK5aQTr0LFyNyqq5A==}
@@ -3695,7 +3695,7 @@ packages:
     resolution: {integrity: sha512-5I3M9a6VGrw9KF5B7GHxpvwU3VyRfJ1qCWNSlcdLxw8S6m0lapOXL5oJq0gnRlde7csMfyE12oogmtp8nAibbw==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
-      '@builder.io/qwik': '*'
+      '@khulnasoft.com/qwik': '*'
 
   '@vercel/nft@0.27.7':
     resolution: {integrity: sha512-FG6H5YkP4bdw9Ll1qhmbxuE8KwW2E/g8fJpM183fWQLeVDGqzeywMIeJ9h2txdWZ03psgWMn6QymTxaDLmdwUg==}
@@ -10311,9 +10311,8 @@ snapshots:
 
   '@builder.io/partytown@0.10.2': {}
 
-  '@builder.io/sdk-qwik@0.14.31(@builder.io/qwik@packages+qwik)':
+  '@builder.io/sdk-qwik@0.14.31':
     dependencies:
-      '@builder.io/qwik': link:packages/qwik
       isolated-vm: 5.0.1
 
   '@builder.io/vite-plugin-macro@0.0.7(@types/node@20.14.11)(rollup@4.19.0)(terser@5.31.3)':
@@ -11634,10 +11633,7 @@ snapshots:
 
   '@microsoft/tsdoc@0.14.2': {}
 
-  '@modular-forms/qwik@0.23.1(@khulnasoft.com/qwik-city@packages+qwik-city)(@builder.io/qwik@packages+qwik)':
-    dependencies:
-      '@builder.io/qwik': link:packages/qwik
-      '@khulnasoft.com/qwik-city': link:packages/qwik-city
+  '@modular-forms/qwik@0.23.1': {}
 
   '@mui/core-downloads-tracker@5.16.8': {}
 
@@ -12251,9 +12247,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@qwik-ui/headless@0.5.0(@builder.io/qwik@packages+qwik)':
+  '@qwik-ui/headless@0.5.0':
     dependencies:
-      '@builder.io/qwik': link:packages/qwik
       '@floating-ui/core': 1.6.8
       '@floating-ui/dom': 1.6.12
       '@oddbird/popover-polyfill': 0.4.3
@@ -12888,9 +12883,7 @@ snapshots:
     dependencies:
       unpic: 3.20.0
 
-  '@unpic/qwik@0.0.38(@builder.io/qwik@packages+qwik)':
-    dependencies:
-      '@builder.io/qwik': link:packages/qwik
+  '@unpic/qwik@0.0.38': {}
 
   '@vercel/nft@0.27.7(rollup@4.19.0)(supports-color@9.4.0)':
     dependencies:

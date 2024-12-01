@@ -1,4 +1,4 @@
-import { component$, Slot, useStore, useStyles$, useTask$ } from '@builder.io/qwik';
+import { component$, Slot, useStore, useStyles$, useTask$ } from '@khulnasoft.com/qwik';
 import type { RequestHandler } from '@khulnasoft.com/qwik-city';
 import { useLocation } from '@khulnasoft.com/qwik-city';
 import { Repl } from '../../repl/repl';
@@ -124,7 +124,7 @@ export const ensureDefaultFiles = (appFiles: ReplModuleInput[]) => {
   const files: ReplModuleInput[] = JSON.parse(JSON.stringify(appFiles));
 
   const DEFAULT_ENTRY_SERVER = `
-import { renderToString, RenderOptions } from '@builder.io/qwik/server';
+import { renderToString, RenderOptions } from '@khulnasoft.com/qwik/server';
 import { Root } from './root';
 
 export default function (opts: RenderOptions) {

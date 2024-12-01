@@ -5,20 +5,20 @@
 ```ts
 
 import type { Action } from '@khulnasoft.com/qwik-city';
-import type { _deserializeData } from '@builder.io/qwik';
+import type { _deserializeData } from '@khulnasoft.com/qwik';
 import type { EnvGetter as EnvGetter_2 } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type { FailReturn } from '@khulnasoft.com/qwik-city';
 import type { Loader as Loader_2 } from '@khulnasoft.com/qwik-city';
 import type { QwikCityPlan } from '@khulnasoft.com/qwik-city';
-import type { QwikIntrinsicElements } from '@builder.io/qwik';
-import type { Render } from '@builder.io/qwik/server';
-import type { RenderOptions } from '@builder.io/qwik/server';
+import type { QwikIntrinsicElements } from '@khulnasoft.com/qwik';
+import type { Render } from '@khulnasoft.com/qwik/server';
+import type { RenderOptions } from '@khulnasoft.com/qwik/server';
 import type { RequestEvent as RequestEvent_2 } from '@khulnasoft.com/qwik-city';
 import type { RequestHandler as RequestHandler_2 } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type { ResolveSyncValue as ResolveSyncValue_2 } from '@khulnasoft.com/qwik-city/middleware/request-handler';
-import type { _serializeData } from '@builder.io/qwik';
-import type { ValueOrPromise } from '@builder.io/qwik';
-import type { _verifySerializable } from '@builder.io/qwik';
+import type { _serializeData } from '@khulnasoft.com/qwik';
+import type { ValueOrPromise } from '@khulnasoft.com/qwik';
+import type { _verifySerializable } from '@khulnasoft.com/qwik';
 
 // @public (undocumented)
 export class AbortMessage {

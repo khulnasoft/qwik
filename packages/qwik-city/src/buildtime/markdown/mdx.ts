@@ -45,7 +45,7 @@ export async function createMdxTransformer(ctx: BuildContext): Promise<MdxTransf
 
   const options: CompileOptions = {
     SourceMapGenerator,
-    jsxImportSource: '@builder.io/qwik',
+    jsxImportSource: '@khulnasoft.com/qwik',
     ...userMdxOpts,
     elementAttributeNameCase: 'html',
     remarkPlugins: [
@@ -69,7 +69,7 @@ export async function createMdxTransformer(ctx: BuildContext): Promise<MdxTransf
       const file = new VFile({ value: code, path: id });
       const compiled = await compile(file, options);
       const output = String(compiled.value);
-      const addImport = `import { jsx } from '@builder.io/qwik';\n`;
+      const addImport = `import { jsx } from '@khulnasoft.com/qwik';\n`;
       const newDefault = `
 const WrappedMdxContent = () => {
   const content = _createMdxContent({});

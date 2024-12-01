@@ -1,5 +1,5 @@
 import { useLocation } from '@khulnasoft.com/qwik-city';
-import { component$, useStyles$, useContext, useVisibleTask$ } from '@builder.io/qwik';
+import { component$, useStyles$, useContext, useVisibleTask$ } from '@khulnasoft.com/qwik';
 import { DocSearch } from '../docsearch/doc-search';
 import { CloseIcon } from '../svgs/close-icon';
 import { DiscordLogo } from '../svgs/discord-logo';

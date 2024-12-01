@@ -1,4 +1,4 @@
-import { Resource, component$, useResource$, useStore } from '@builder.io/qwik';
+import { Resource, component$, useResource$, useStore } from '@khulnasoft.com/qwik';
 import { server$, useLocation } from '@khulnasoft.com/qwik-city';
 import { and, eq } from 'drizzle-orm';
 import { getDB, symbolDetailTable } from '~/db';

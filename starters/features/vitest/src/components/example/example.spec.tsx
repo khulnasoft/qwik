@@ -1,4 +1,4 @@
-import { createDOM } from "@builder.io/qwik/testing";
+import { createDOM } from "@khulnasoft.com/qwik/testing";
 import { test, expect } from "vitest";
 import { ExampleTest } from "./example";
 

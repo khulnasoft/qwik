@@ -1,4 +1,4 @@
-import { type QwikIntrinsicElements, Slot, component$ } from '@builder.io/qwik';
+import { type QwikIntrinsicElements, Slot, component$ } from '@khulnasoft.com/qwik';
 
 type ButtonProps = QwikIntrinsicElements['button'] & {
   theme?: 'primary' | 'secondary' | 'danger' | 'success' | 'warning' | 'info' | 'github';

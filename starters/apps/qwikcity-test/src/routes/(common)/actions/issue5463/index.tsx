@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import { Form, globalAction$, zod$ } from "@khulnasoft.com/qwik-city";
 
 export const useDotNotationAction = globalAction$(

@@ -10,16 +10,16 @@ import type { EnvGetter } from '@khulnasoft.com/qwik-city/middleware/request-han
 import { Http2ServerRequest } from 'http2';
 import { IncomingMessage } from 'http';
 import { NodeRequestNextFunction } from '@khulnasoft.com/qwik-city/middleware/node';
-import type { QwikIntrinsicElements } from '@builder.io/qwik';
-import type { QwikManifest } from '@builder.io/qwik/optimizer';
+import type { QwikIntrinsicElements } from '@khulnasoft.com/qwik';
+import type { QwikManifest } from '@khulnasoft.com/qwik/optimizer';
 import type { RequestHandler } from '@khulnasoft.com/qwik-city/middleware/request-handler';
-import type { ResolvedManifest } from '@builder.io/qwik/optimizer';
+import type { ResolvedManifest } from '@khulnasoft.com/qwik/optimizer';
 import type { ResolveSyncValue } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type { ServerRenderOptions } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { ServerResponse } from 'http';
-import type { SnapshotResult } from '@builder.io/qwik';
-import type { StreamWriter } from '@builder.io/qwik';
-import type { SymbolMapperFn } from '@builder.io/qwik/optimizer';
+import type { SnapshotResult } from '@khulnasoft.com/qwik';
+import type { StreamWriter } from '@khulnasoft.com/qwik';
+import type { SymbolMapperFn } from '@khulnasoft.com/qwik/optimizer';
 
 // Warning: (ae-forgotten-export) The symbol "AwsOpt" needs to be exported by the entry point index.d.ts
 //

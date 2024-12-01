@@ -2,7 +2,9 @@
   "$schema": "https://unpkg.com/@changesets/config@3.0.1/schema.json",
   "changelog": ["./changelog-github-custom.cjs", { "repo": "KhulnaSoft/qwik" }],
   "commit": false,
-  "fixed": [["@builder.io/qwik", "@khulnasoft.com/qwik-city", "eslint-plugin-qwik", "create-qwik"]],
+  "fixed": [
+    ["@khulnasoft.com/qwik", "@khulnasoft.com/qwik-city", "eslint-plugin-qwik", "create-qwik"]
+  ],
   "linked": [],
   "access": "public",
   "baseBranch": "upcoming",

@@ -1,4 +1,4 @@
-import { Slot, component$, useSignal } from "@builder.io/qwik";
+import { Slot, component$, useSignal } from "@khulnasoft.com/qwik";
 import {
   Link,
   useNavigate,

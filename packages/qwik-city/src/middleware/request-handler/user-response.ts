@@ -5,7 +5,7 @@ import { ErrorResponse, getErrorHtml, minimalHtmlResponse } from './error-handle
 import { AbortMessage, RedirectMessage } from './redirect-handler';
 import type { LoadedRoute } from '../../runtime/src/types';
 import { encoder } from './resolve-request-handlers';
-import type { QwikManifest, ResolvedManifest } from '@builder.io/qwik/optimizer';
+import type { QwikManifest, ResolvedManifest } from '@khulnasoft.com/qwik/optimizer';
 
 export interface QwikCityRun<T> {
   response: Promise<T | null>;

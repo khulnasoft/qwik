@@ -1,3 +1,3 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 
 export default component$(() => <div id="route">should render</div>);

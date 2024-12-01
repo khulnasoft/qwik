@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { $, component$ } from '@builder.io/qwik';
+import { $, component$ } from '@khulnasoft.com/qwik';
 
 export const Foo = component$(() => {
 
@@ -66,8 +66,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 */
 ============================= test.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 export const Foo = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./test.tsx_Foo_component_HTDRsvUbLiE"), "Foo_component_HTDRsvUbLiE"), {
     tagName: "my-foo"
 });
@@ -76,7 +76,7 @@ export const Foo = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./te
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AAGA,OAAO,MAAM,oBAAM,iHA0BhB;IACC,SAAS;AACb,GAAG\"}")
 ============================= test.tsx_Foo_component_HTDRsvUbLiE.js (ENTRY POINT)==
 
-import { qrl } from "@builder.io/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 export const Foo_component_HTDRsvUbLiE = ()=>{
     return /*#__PURE__*/ qrl(()=>import("./test.tsx_Foo_component_1_DvU6FitWglY"), "Foo_component_1_DvU6FitWglY");
 };
@@ -131,8 +131,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 */
 ============================= test.tsx_Foo_component_1_DvU6FitWglY.js (ENTRY POINT)==
 
-import { _jsxQ } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 export const Foo_component_1_DvU6FitWglY = ()=>{
     const handler = /*#__PURE__*/ qrl(()=>import("./test.tsx_Foo_component_handler_H10xZtD0e7w"), "Foo_component_handler_H10xZtD0e7w");
     return /*#__PURE__*/ _jsxQ("div", null, {
@@ -151,7 +151,7 @@ export const Foo_component_1_DvU6FitWglY = ()=>{
         custom$: /*#__PURE__*/ qrl(()=>import("./test.tsx_Foo_component_div_custom_pyHnxab17ms"), "Foo_component_div_custom_pyHnxab17ms")
     }, null, 3, "u6_0");
 };
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;2CAKa;IACL,MAAM;IACN,qBACI,MAAC;QACG,QAAQ;QACR,iBAAiB;QACjB,iBAAiB;QAEjB,WAAS;QACT,oBAAkB;QAClB,oBAAkB;QAPtB,eAkBE;QAlBF,wBAkBE;QAlBF,wBAkBE;QALE,UAAU;QAbd,qBAcuB;QAdvB,mBAeqB;QAEjB,OAAO;;AAGnB\"}")
@@ -360,7 +360,7 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
 ============================= test.tsx_Foo_component_handler_H10xZtD0e7w.js (ENTRY POINT)==
 
 export const Foo_component_handler_H10xZtD0e7w = ()=>console.log('reused');
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\"iDAM0B,IAAM,QAAQ,GAAG,CAAC\"}")

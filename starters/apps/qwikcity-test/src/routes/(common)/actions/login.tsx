@@ -1,4 +1,4 @@
-import { component$, useSignal } from "@builder.io/qwik";
+import { component$, useSignal } from "@khulnasoft.com/qwik";
 import { zod$, z, Form, globalAction$ } from "@khulnasoft.com/qwik-city";
 import styles from "./actions.module.css";
 

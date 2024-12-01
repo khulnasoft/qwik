@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik/testing API Reference
+title: \@khulnasoft.com/qwik/testing API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik/testing
+# [API](/api) &rsaquo; @khulnasoft.com/qwik/testing
 
 ## createDOM
 
@@ -13,7 +13,7 @@ createDOM: ({ html }?: { html?: string }) =>
   Promise<{
     render: (
       jsxElement: JSXOutput,
-    ) => Promise<import("@builder.io/qwik").RenderResult>;
+    ) => Promise<import("@khulnasoft.com/qwik").RenderResult>;
     screen: HTMLElement;
     userEvent: (
       queryOrElement: string | Element | keyof HTMLElementTagNameMap | null,
@@ -52,6 +52,6 @@ _(Optional)_
 </tbody></table>
 **Returns:**
 
-Promise&lt;{ render: (jsxElement: JSXOutput) =&gt; Promise&lt;import("@builder.io/qwik").RenderResult&gt;; screen: HTMLElement; userEvent: (queryOrElement: string \| Element \| keyof HTMLElementTagNameMap \| null, eventNameCamel: string \| keyof WindowEventMap, eventPayload?: any) =&gt; Promise&lt;void&gt;; }&gt;
+Promise&lt;{ render: (jsxElement: JSXOutput) =&gt; Promise&lt;import("@khulnasoft.com/qwik").RenderResult&gt;; screen: HTMLElement; userEvent: (queryOrElement: string \| Element \| keyof HTMLElementTagNameMap \| null, eventNameCamel: string \| keyof WindowEventMap, eventPayload?: any) =&gt; Promise&lt;void&gt;; }&gt;
 
 [Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik/src/testing/library.ts)

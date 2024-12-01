@@ -1,5 +1,5 @@
 import type { Plugin } from 'rollup';
-import type { QwikRollupPluginOptions } from '@builder.io/qwik/optimizer';
+import type { QwikRollupPluginOptions } from '@khulnasoft.com/qwik/optimizer';
 import type { QwikWorkerGlobal } from './repl-service-worker';
 import type { MinifyOptions } from 'terser';
 import type { ReplInputOptions } from '../types';
@@ -20,13 +20,13 @@ export const replResolver = (options: ReplInputOptions, buildMode: 'client' | 's
         return id;
       }
       if (
-        id === '@builder.io/qwik' ||
-        id === '@builder.io/qwik/jsx-runtime' ||
-        id === '@builder.io/qwik/jsx-dev-runtime'
+        id === '@khulnasoft.com/qwik' ||
+        id === '@khulnasoft.com/qwik/jsx-runtime' ||
+        id === '@khulnasoft.com/qwik/jsx-dev-runtime'
       ) {
         return '\0qwikCore';
       }
-      if (id === '@builder.io/qwik/server') {
+      if (id === '@khulnasoft.com/qwik/server') {
         return '\0qwikServer';
       }
       // Simple relative file resolution
@@ -57,13 +57,13 @@ export const replResolver = (options: ReplInputOptions, buildMode: 'client' | 's
       }
       if (id === '\0qwikCore') {
         if (options.buildMode === 'production') {
-          const rsp = await depResponse('@builder.io/qwik', '/core.min.mjs');
+          const rsp = await depResponse('@khulnasoft.com/qwik', '/core.min.mjs');
           if (rsp) {
             return rsp.text();
           }
         }
 
-        const rsp = await depResponse('@builder.io/qwik', '/core.mjs');
+        const rsp = await depResponse('@khulnasoft.com/qwik', '/core.mjs');
         if (rsp) {
           return rsp.text();
         }

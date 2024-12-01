@@ -3,7 +3,7 @@ import {
   useSignal,
   useStylesScoped$,
   useTask$,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 import {
   routeLoader$,
   Form,

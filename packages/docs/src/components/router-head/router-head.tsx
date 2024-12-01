@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { useDocumentHead, useLocation } from '@khulnasoft.com/qwik-city';
 import { Social } from './social';
 import { Vendor } from './vendor';

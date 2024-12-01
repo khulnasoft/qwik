@@ -1,4 +1,4 @@
-import { component$, useSignal, useTask$ } from '@builder.io/qwik';
+import { component$, useSignal, useTask$ } from '@khulnasoft.com/qwik';
 import { routeAction$, routeLoader$, useLocation, z, zod$, Form } from '@khulnasoft.com/qwik-city';
 import { formAction$, useForm, zodForm$, type InitialValues } from '@modular-forms/qwik';
 import { eq } from 'drizzle-orm';

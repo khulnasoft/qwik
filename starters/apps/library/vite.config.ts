@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import pkg from "./package.json";
-import { qwikVite } from "@builder.io/qwik/optimizer";
+import { qwikVite } from "@khulnasoft.com/qwik/optimizer";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 const { dependencies = {}, peerDependencies = {} } = pkg as any;
