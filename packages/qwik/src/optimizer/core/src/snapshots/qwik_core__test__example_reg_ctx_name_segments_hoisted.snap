@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-import { $, component$, server$, useStyle$ } from '@builder.io/qwik';
+import { $, component$, server$, useStyle$ } from '@khulnasoft.com/qwik';
 
 export const Works = component$((props) => {
     useStyle$(STYLES);
@@ -20,12 +20,12 @@ const STYLES = '.class {}';
 
 ============================= test.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { useStyleQrl } from "@builder.io/qwik";
-import { inlinedQrl } from "@builder.io/qwik";
-import { serverQrl } from "@builder.io/qwik";
-import { _regSymbol } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { useStyleQrl } from "@khulnasoft.com/qwik";
+import { inlinedQrl } from "@khulnasoft.com/qwik";
+import { serverQrl } from "@khulnasoft.com/qwik";
+import { _regSymbol } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
 const Works_component_div_onClick_server_OsNoEFc5SM4 = /*#__PURE__*/ _regSymbol(()=>console.log('in server', 'hola'), "OsNoEFc5SM4");
 const Works_component_t45qL4vNGv0 = (props)=>{
     useStyleQrl(/*#__PURE__*/ inlinedQrl(STYLES, "Works_component_useStyle_i40UL9JyQpg"));

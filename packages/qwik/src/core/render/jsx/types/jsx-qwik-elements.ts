@@ -12,7 +12,7 @@ export type { QwikIntrinsicAttributes } from './jsx-qwik-attributes';
  * example showing how to define a customizable wrapper component:
  *
  * ```tsx
- * import { component$, Slot, type QwikIntrinsicElements } from "@builder.io/qwik";
+ * import { component$, Slot, type QwikIntrinsicElements } from "@khulnasoft.com/qwik";
  *
  * type WrapperProps = {
  *   attributes?: QwikIntrinsicElements["div"];

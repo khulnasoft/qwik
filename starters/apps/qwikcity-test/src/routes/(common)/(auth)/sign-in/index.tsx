@@ -2,14 +2,14 @@
  * Simple Auth For Testing Only!!!
  */
 
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import {
   type DocumentHead,
   Form,
   type RequestHandler,
   globalAction$,
   zod$,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 import { isUserAuthenticated, signIn } from "../../../../auth/auth";
 import { z } from "zod";
 

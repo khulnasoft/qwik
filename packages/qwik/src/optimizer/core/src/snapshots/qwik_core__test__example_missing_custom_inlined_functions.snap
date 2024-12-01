@@ -1,12 +1,12 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 1231
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { component$ as Component, $ as onRender, useStore, wrap, useEffect } from '@builder.io/qwik';
+import { component$ as Component, $ as onRender, useStore, wrap, useEffect } from '@khulnasoft.com/qwik';
 
 
 export const useMemo$ = (qrt) => {
@@ -25,9 +25,9 @@ export const App = component$((props) => {
 
 ============================= test.js ==
 
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { useStore, useEffect } from '@builder.io/qwik';
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { useStore, useEffect } from '@khulnasoft.com/qwik';
 export const useMemo$ = (qrt)=>{
     useEffect(qrt);
 };
@@ -44,7 +44,7 @@ export const App = component$((props)=>{
 });
 
 
-Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AACA,SAAiD,QAAQ,EAAQ,SAAS,QAAQ,mBAAmB;AAGrG,OAAO,MAAM,WAAW,CAAC;IACrB,UAAU;AACd,EAAE;AAEF,OAAO,MAAM,MAAM,WAAW,CAAC;IAC3B,MAAM,QAAQ,SAAS;QAAC,OAAO;IAAC;IAChC,SAAS;QACL,QAAQ,GAAG,CAAC,MAAM,KAAK;IAC3B;IACA,OAAO,EAAE,kBACL,MAAC,mCAAK,GAAM,KAAK;;;AAEzB,GAAG\"}")
+Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AACA,SAAiD,QAAQ,EAAQ,SAAS,QAAQ,uBAAuB;AAGzG,OAAO,MAAM,WAAW,CAAC;IACrB,UAAU;AACd,EAAE;AAEF,OAAO,MAAM,MAAM,WAAW,CAAC;IAC3B,MAAM,QAAQ,SAAS;QAAC,OAAO;IAAC;IAChC,SAAS;QACL,QAAQ,GAAG,CAAC,MAAM,KAAK;IAC3B;IACA,OAAO,EAAE,kBACL,MAAC,mCAAK,GAAM,KAAK;;;AAEzB,GAAG\"}")
 == DIAGNOSTICS ==
 
 [
@@ -55,8 +55,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
     "message": "Found 'useMemo$' but did not find the corresponding 'useMemoQrl' exported in the same file. Please check that it is exported and spelled correctly",
     "highlights": [
       {
-        "lo": 252,
-        "hi": 260,
+        "lo": 256,
+        "hi": 264,
         "startLine": 11,
         "startCol": 5,
         "endLine": 11,

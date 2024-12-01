@@ -1,4 +1,4 @@
-import { type QwikIntrinsicElements } from '@builder.io/qwik';
+import { type QwikIntrinsicElements } from '@khulnasoft.com/qwik';
 
 export const SymbolIcon = function MaterialSymbolsFunction(
   props: QwikIntrinsicElements['svg'],

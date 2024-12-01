@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import { Link, type DocumentHead } from "@builder.io/qwik-city";
+import { component$ } from "@khulnasoft.com/qwik";
+import { Link, type DocumentHead } from "@khulnasoft.com/qwik-city";
 
 export default component$(() => {
   return (

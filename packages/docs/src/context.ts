@@ -1,4 +1,4 @@
-import { createContextId } from '@builder.io/qwik';
+import { createContextId } from '@khulnasoft.com/qwik';
 import type { ThemePreference } from './components/theme-toggle/theme-toggle';
 
 export interface SiteStore {

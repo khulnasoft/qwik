@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/middleware/azure-swa API Reference
+title: \@khulnasoft.com/qwik-city/middleware/azure-swa API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/middleware/azure-swa
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/middleware/azure-swa
 
 ## createQwikCity
 

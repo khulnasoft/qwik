@@ -1,5 +1,5 @@
-import { cloudflarePagesAdapter } from "@builder.io/qwik-city/adapters/cloudflare-pages/vite";
-import { extendConfig } from "@builder.io/qwik-city/vite";
+import { cloudflarePagesAdapter } from "@khulnasoft.com/qwik-city/adapters/cloudflare-pages/vite";
+import { extendConfig } from "@khulnasoft.com/qwik-city/vite";
 import baseConfig from "../../vite.config";
 
 export default extendConfig(baseConfig, () => {

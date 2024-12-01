@@ -6,7 +6,7 @@ import {
   $,
   type QwikJSX,
   type QRLEventHandlerMulti,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 import type { ActionStore } from './types';
 import { useNavigate } from './use-functions';
 

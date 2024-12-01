@@ -68,17 +68,17 @@ export async function setReleaseVersion(config: BuildConfig) {
 
   console.log(`🔥 Set release npm version: ${config.distVersion}`);
 
-  // check this @builder.io/qwik version isn't already published
-  await checkExistingNpmVersion('@builder.io/qwik', config.distVersion);
+  // check this @khulnasoft.com/qwik version isn't already published
+  await checkExistingNpmVersion('@khulnasoft.com/qwik', config.distVersion);
 
-  // check this @builder.io/qwik-city version isn't already published
-  await checkExistingNpmVersion('@builder.io/qwik-city', config.distVersion);
+  // check this @khulnasoft.com/qwik-city version isn't already published
+  await checkExistingNpmVersion('@khulnasoft.com/qwik-city', config.distVersion);
 }
 
 export async function prepareReleaseVersion(config: BuildConfig) {
   const rootPkg = await readPackageJson(config.rootDir);
 
-  const answers = await releaseVersionPrompt('@builder.io/qwik', rootPkg.version);
+  const answers = await releaseVersionPrompt('@khulnasoft.com/qwik', rootPkg.version);
   if (!semver.valid(answers.version)) {
     panic(`Invalid version`);
   }
@@ -164,10 +164,10 @@ export async function publish(config: BuildConfig) {
   const npmPublishArgs = ['publish', '--tag', distTag, '--access', 'public'];
 
   const qwikCityDir = join(config.packagesDir, 'qwik-city');
-  // publish @builder.io/qwik-city (dry-run)
+  // publish @khulnasoft.com/qwik-city (dry-run)
   await run('npm', npmPublishArgs, true, true, { cwd: qwikCityDir });
 
-  // publish @builder.io/qwik (dry-run)
+  // publish @khulnasoft.com/qwik (dry-run)
   await run('npm', npmPublishArgs, true, true, { cwd: qwikDir });
 
   // looks like the npm publish --dry-run was successful and

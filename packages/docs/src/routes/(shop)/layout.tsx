@@ -1,7 +1,7 @@
-import { $, component$, Slot, useContextProvider, useStore, useTask$ } from '@builder.io/qwik';
+import { $, component$, Slot, useContextProvider, useStore, useTask$ } from '@khulnasoft.com/qwik';
 import { Header } from '../../components/header/header';
 import { Footer } from '../../components/footer/footer';
-import { routeLoader$, type RequestHandler } from '@builder.io/qwik-city';
+import { routeLoader$, type RequestHandler } from '@khulnasoft.com/qwik-city';
 import {
   COOKIE_CART_ID_KEY,
   fetchFromShopify,

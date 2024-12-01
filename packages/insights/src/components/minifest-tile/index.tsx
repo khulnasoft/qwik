@@ -1,5 +1,5 @@
 import { ManifestIcon } from '../icons/manifest';
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 
 export const ManifestTile = component$<{ hash: string }>(({ hash }) => {
   return (

@@ -1,5 +1,5 @@
-import { staticAdapter } from "@builder.io/qwik-city/adapters/static/vite";
-import { extendConfig } from "@builder.io/qwik-city/vite";
+import { staticAdapter } from "@khulnasoft.com/qwik-city/adapters/static/vite";
+import { extendConfig } from "@khulnasoft.com/qwik-city/vite";
 import baseConfig from "../../vite.config";
 
 export default extendConfig(baseConfig, () => {

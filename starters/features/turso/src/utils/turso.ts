@@ -1,4 +1,4 @@
-import type { RequestEventBase } from "@builder.io/qwik-city";
+import type { RequestEventBase } from "@khulnasoft.com/qwik-city";
 import { createClient, type Client } from "@libsql/client/web";
 
 export function tursoClient(requestEvent: RequestEventBase): Client {

@@ -1,4 +1,4 @@
-import { component$, useStyles$, useStore } from "@builder.io/qwik";
+import { component$, useStyles$, useStore } from "@khulnasoft.com/qwik";
 import { Footer } from "../footer/footer";
 import { Header } from "../header/header";
 import { Body } from "../body/body";

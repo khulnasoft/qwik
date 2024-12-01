@@ -1,12 +1,12 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 2936
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { component$, useSignal } from '@builder.io/qwik';
+import { component$, useSignal } from '@khulnasoft.com/qwik';
 
 export const Issue3742 = component$(({description = '', other}: any) => {
     const counter = useSignal(0);
@@ -24,12 +24,12 @@ export const Issue3742 = component$(({description = '', other}: any) => {
   
 ============================= test.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { _fnSignal } from "@builder.io/qwik";
-import { useLexicalScope } from "@builder.io/qwik";
-import { inlinedQrl } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { useSignal } from '@builder.io/qwik';
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
+import { inlinedQrl } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { useSignal } from '@khulnasoft.com/qwik';
 const Issue3742_component_div_button_onClick_a504K2BCEXg = ()=>{
     const [counter] = useLexicalScope();
     return counter.value++;
@@ -53,7 +53,7 @@ const Issue3742_component_svSy0PlWTAw = (props)=>{
 export const Issue3742 = /*#__PURE__*/ componentQrl(/*#__PURE__*/ inlinedQrl(Issue3742_component_svSy0PlWTAw, "Issue3742_component_svSy0PlWTAw"));
 
 
-Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;;;;AACA,SAAqB,SAAS,QAAQ,mBAAmB;2DAS/B;;WAAM,QAAQ,KAAK;;wCAPT;IAChC,MAAM,UAAU,UAAU;IAC1B,qBACE,MAAC;QACC,KAAK,sBAAE,AAAC,IAJsB,eAAc,OAIrB,oBAJyB,QAIC,CAAC,MAAM,EAAE,GAAQ,KAAK,CAAC,CAAC,GAAG,CAAC,IAAI,EAAE,GAAQ,KAAK,CAAC,CAAC;;;;;QACnG;sBAEC,MAAC;YAAO,QAAQ;;;WAAyB;;AAK/C;AAZF,OAAO,MAAM,0BAAY,2GAYpB\"}")
+Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;;;;AACA,SAAqB,SAAS,QAAQ,uBAAuB;2DASnC;;WAAM,QAAQ,KAAK;;wCAPT;IAChC,MAAM,UAAU,UAAU;IAC1B,qBACE,MAAC;QACC,KAAK,sBAAE,AAAC,IAJsB,eAAc,OAIrB,oBAJyB,QAIC,CAAC,MAAM,EAAE,GAAQ,KAAK,CAAC,CAAC,GAAG,CAAC,IAAI,EAAE,GAAQ,KAAK,CAAC,CAAC;;;;;QACnG;sBAEC,MAAC;YAAO,QAAQ;;;WAAyB;;AAK/C;AAZF,OAAO,MAAM,0BAAY,2GAYpB\"}")
 == DIAGNOSTICS ==
 
 []

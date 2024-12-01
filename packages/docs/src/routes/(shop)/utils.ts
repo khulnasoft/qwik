@@ -1,6 +1,6 @@
-import { createContextId } from '@builder.io/qwik';
+import { createContextId } from '@khulnasoft.com/qwik';
 import type { Product, ShopApp } from './types';
-import type { Cookie } from '@builder.io/qwik-city';
+import type { Cookie } from '@khulnasoft.com/qwik-city';
 import type { CookieOptions } from 'express';
 
 export const COOKIE_CART_ID_KEY = 'cartid';

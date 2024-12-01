@@ -1,12 +1,12 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 2383
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { component$, useStore, Slot, Fragment } from '@builder.io/qwik';
+import { component$, useStore, Slot, Fragment } from '@khulnasoft.com/qwik';
 import Image from './image.jpg?jsx';
 
 export function Fn1(props: Stuff) {
@@ -103,14 +103,14 @@ export const AppStatic = component$((props: Stuff) => {
 
 ============================= test.js ==
 
-import { _jsxQ } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxBranch } from "@builder.io/qwik";
-import { componentQrl } from "@builder.io/qwik";
-import { inlinedQrl } from "@builder.io/qwik";
-import { _fnSignal } from "@builder.io/qwik";
-import { Fragment as _Fragment } from "@builder.io/qwik/jsx-runtime";
-import { Slot, Fragment } from '@builder.io/qwik';
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxBranch } from "@khulnasoft.com/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { inlinedQrl } from "@khulnasoft.com/qwik";
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { Fragment as _Fragment } from "@khulnasoft.com/qwik/jsx-runtime";
+import { Slot, Fragment } from '@khulnasoft.com/qwik';
 import Image from './image.jpg?jsx';
 export function Fn1(props) {
     _jsxBranch();
@@ -211,7 +211,7 @@ const AppStatic_component_gYRXqF3G5nE = (props)=>{
 export const AppStatic = /*#__PURE__*/ componentQrl(/*#__PURE__*/ inlinedQrl(AppStatic_component_gYRXqF3G5nE, "AppStatic_component_gYRXqF3G5nE"));
 
 
-Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;;;;;;AACA,SAA+B,IAAI,EAAE,QAAQ,QAAQ,mBAAmB;AACxE,OAAO,WAAW,kBAAkB;AAEpC,OAAO,SAAS,IAAI,KAAY;;IAC5B,qBACI;kBACI,cAAA,MAAC,mBAAK,OAAO,kBAAI,MAAC,iBAAE,gCAAQ,MAAC;sBAAM;;;AAG/C;AAEA,OAAO,SAAS,IAAI,KAAY;;IAC5B,qBACI,MAAC;QAAK,KAAK,KAAK,kBAAI,MAAC;sBAAe,MAAC;;AAE7C;AAEA,OAAO,SAAS,IAAI,KAAY;;IAC5B,IAAI,KAAK,KAAK,EACV,qBACI,MAAC;IAGT,qBACI,MAAC;AAET;AAEA,OAAO,SAAS,IAAI,KAAY;;IAC5B,IAAI,KAAK,KAAK,EACV,qBACI,MAAC;IAGT,qBACI,MAAC;AAET;AAEA,OAAO,MAAM,QAAQ,CAAC,+CAAiB,MAAC,mBAAK,OAAO,kBAAI,MAAC,iBAAE,gCAAQ,MAAC;kBAAM;iCAAiB;0CAErD,CAAC;;IACnC,qBACI;kBACI,cAAA,MAAC,mBAAK,OAAO,kBAAI,MAAC,iBAAE,iCAAQ,MAAC;sBAAM;;;AAG/C;AANA,OAAO,MAAM,4BAAc,+GAMxB;0CACmC,CAAC;;IACnC,qBACI,MAAC;QAAK,KAAK,KAAK,kBAAI,MAAC;sBAAe,MAAC;;AAE7C;AAJA,OAAO,MAAM,4BAAc,+GAIxB;0CAEmC,CAAC;;IACnC,IAAI,KAAK,KAAK,EACV,qBACI,MAAC;IAGT,qBACI,MAAC;AAET;AATA,OAAO,MAAM,4BAAc,+GASxB;0CAEmC,CAAC;;IACnC,IAAI,KAAK,KAAK,EACV,qBACI,MAAC;IAGT,qBACI,MAAC;AAET;AATA,OAAO,MAAM,4BAAc,+GASxB;wCAEiC,CAAC;;IACjC,qBACI;;0BACI,MAAC;gBAAI;gBAAQ,IAAI,IAAI;;0BACrB,MAAC,mBAAK,OAAO,kBAAI,MAAC,iBAAE,iCAAQ,MAAC,iBAAE;0BAE/B,MAAC,mBAAK,KAAK,KAAK,kBAAI,MAAC;0BACrB,MAAC,mBAAK,KAAK,KAAK,kBAAI,MAAC;0BAAS,cAAA,MAAC;;0BAC/B,MAAC,mBAAK,KAAK,KAAK,kBAAI;0BAAE,cAAA,MAAC;;0BACvB,MAAC,mBAAK,KAAK,KAAK,kBAAI,MAAC;0BACrB,MAAC;gBAAI;gBAAQ,IAAI,IAAI;;0BACrB,MAAC,mBAAI;0BACL,MAAC;gBAAI;gCAAQ,GAAM,KAAK;;;;0BACxB,MAAC;gBAAI;gBAAQ;;0BACb,MAAC;gBAAI;gBAAQ;;;;AAGzB;AAjBA,OAAO,MAAM,0BAAY,2GAiBtB\"}")
+Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;;;;;;AACA,SAA+B,IAAI,EAAE,QAAQ,QAAQ,uBAAuB;AAC5E,OAAO,WAAW,kBAAkB;AAEpC,OAAO,SAAS,IAAI,KAAY;;IAC5B,qBACI;kBACI,cAAA,MAAC,mBAAK,OAAO,kBAAI,MAAC,iBAAE,gCAAQ,MAAC;sBAAM;;;AAG/C;AAEA,OAAO,SAAS,IAAI,KAAY;;IAC5B,qBACI,MAAC;QAAK,KAAK,KAAK,kBAAI,MAAC;sBAAe,MAAC;;AAE7C;AAEA,OAAO,SAAS,IAAI,KAAY;;IAC5B,IAAI,KAAK,KAAK,EACV,qBACI,MAAC;IAGT,qBACI,MAAC;AAET;AAEA,OAAO,SAAS,IAAI,KAAY;;IAC5B,IAAI,KAAK,KAAK,EACV,qBACI,MAAC;IAGT,qBACI,MAAC;AAET;AAEA,OAAO,MAAM,QAAQ,CAAC,+CAAiB,MAAC,mBAAK,OAAO,kBAAI,MAAC,iBAAE,gCAAQ,MAAC;kBAAM;iCAAiB;0CAErD,CAAC;;IACnC,qBACI;kBACI,cAAA,MAAC,mBAAK,OAAO,kBAAI,MAAC,iBAAE,iCAAQ,MAAC;sBAAM;;;AAG/C;AANA,OAAO,MAAM,4BAAc,+GAMxB;0CACmC,CAAC;;IACnC,qBACI,MAAC;QAAK,KAAK,KAAK,kBAAI,MAAC;sBAAe,MAAC;;AAE7C;AAJA,OAAO,MAAM,4BAAc,+GAIxB;0CAEmC,CAAC;;IACnC,IAAI,KAAK,KAAK,EACV,qBACI,MAAC;IAGT,qBACI,MAAC;AAET;AATA,OAAO,MAAM,4BAAc,+GASxB;0CAEmC,CAAC;;IACnC,IAAI,KAAK,KAAK,EACV,qBACI,MAAC;IAGT,qBACI,MAAC;AAET;AATA,OAAO,MAAM,4BAAc,+GASxB;wCAEiC,CAAC;;IACjC,qBACI;;0BACI,MAAC;gBAAI;gBAAQ,IAAI,IAAI;;0BACrB,MAAC,mBAAK,OAAO,kBAAI,MAAC,iBAAE,iCAAQ,MAAC,iBAAE;0BAE/B,MAAC,mBAAK,KAAK,KAAK,kBAAI,MAAC;0BACrB,MAAC,mBAAK,KAAK,KAAK,kBAAI,MAAC;0BAAS,cAAA,MAAC;;0BAC/B,MAAC,mBAAK,KAAK,KAAK,kBAAI;0BAAE,cAAA,MAAC;;0BACvB,MAAC,mBAAK,KAAK,KAAK,kBAAI,MAAC;0BACrB,MAAC;gBAAI;gBAAQ,IAAI,IAAI;;0BACrB,MAAC,mBAAI;0BACL,MAAC;gBAAI;gCAAQ,GAAM,KAAK;;;;0BACxB,MAAC;gBAAI;gBAAQ;;0BACb,MAAC;gBAAI;gBAAQ;;;;AAGzB;AAjBA,OAAO,MAAM,0BAAY,2GAiBtB\"}")
 == DIAGNOSTICS ==
 
 []

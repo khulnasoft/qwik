@@ -14,9 +14,9 @@ import {
   Slot,
   type QRL,
   type JSXOutput,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 import { delay } from "../streaming/demo";
-import { isServer } from "@builder.io/qwik/build";
+import { isServer } from "@khulnasoft.com/qwik/build";
 
 export const Render = component$(() => {
   const rerender = useSignal(0);

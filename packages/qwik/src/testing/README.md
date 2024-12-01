@@ -1,10 +1,10 @@
-### @builder.io/qwik/testing
+### @khulnasoft.com/qwik/testing
 
 ```ts
 //vite.config.ts
 import { defineConfig } from 'vite';
-import { qwikVite } from '@builder.io/qwik/optimizer';
-import { qwikCity } from '@builder.io/qwik-city/vite';
+import { qwikVite } from '@khulnasoft.com/qwik/optimizer';
+import { qwikCity } from '@khulnasoft.com/qwik-city/vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig(() => {
@@ -21,7 +21,7 @@ export default defineConfig(() => {
 ```jsx
 // card.test.tsx
 
-import { createDOM } from '@builder.io/qwik/testing';
+import { createDOM } from '@khulnasoft.com/qwik/testing';
 import { test, expect } from 'vitest';
 import Card from './card.tsx';
 

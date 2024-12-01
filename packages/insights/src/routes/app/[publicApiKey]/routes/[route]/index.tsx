@@ -1,5 +1,5 @@
-import { component$, type ReadonlySignal } from '@builder.io/qwik';
-import { routeLoader$, useLocation } from '@builder.io/qwik-city';
+import { component$, type ReadonlySignal } from '@khulnasoft.com/qwik';
+import { routeLoader$, useLocation } from '@khulnasoft.com/qwik-city';
 import Histogram from '~/components/histogram';
 import { RoutesIcon } from '~/components/icons/routes';
 import { SymbolTile } from '~/components/symbol-tile';

@@ -1,4 +1,4 @@
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { ShopCart } from './shop-cart';
 import { ShopIcon } from './shop-icon';
 

@@ -1,4 +1,4 @@
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export default component$(() => {
   const state = useStore({ count: 0, name: 'Qwik' });

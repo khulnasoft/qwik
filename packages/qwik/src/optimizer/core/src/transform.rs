@@ -176,11 +176,13 @@ impl<'a> QwikTransform<'a> {
 					import.source.as_ref(),
 					import.specifier.as_ref(),
 				) {
-					(ImportKind::Named, "@builder.io/qwik", "jsx") => Some(id.clone()),
-					(ImportKind::Named, "@builder.io/qwik", "jsxs") => Some(id.clone()),
-					(ImportKind::Named, "@builder.io/qwik", "jsxDEV") => Some(id.clone()),
-					(ImportKind::Named, "@builder.io/qwik/jsx-runtime", _) => Some(id.clone()),
-					(ImportKind::Named, "@builder.io/qwik/jsx-dev-runtime", _) => Some(id.clone()),
+					(ImportKind::Named, "@khulnasoft.com/qwik", "jsx") => Some(id.clone()),
+					(ImportKind::Named, "@khulnasoft.com/qwik", "jsxs") => Some(id.clone()),
+					(ImportKind::Named, "@khulnasoft.com/qwik", "jsxDEV") => Some(id.clone()),
+					(ImportKind::Named, "@khulnasoft.com/qwik/jsx-runtime", _) => Some(id.clone()),
+					(ImportKind::Named, "@khulnasoft.com/qwik/jsx-dev-runtime", _) => {
+						Some(id.clone())
+					}
 					_ => None,
 				}
 			})
@@ -198,15 +200,15 @@ impl<'a> QwikTransform<'a> {
 				) {
 					(
 						ImportKind::Named,
-						"@builder.io/qwik/jsx-runtime" | "@builder.io/qwik/jsx-dev-runtime",
+						"@khulnasoft.com/qwik/jsx-runtime" | "@khulnasoft.com/qwik/jsx-dev-runtime",
 						"Fragment",
 					) => Some(id.clone()),
 					(
 						ImportKind::Named,
-						"@builder.io/qwik",
+						"@khulnasoft.com/qwik",
 						"Fragment" | "RenderOnce" | "HTMLFragment",
 					) => Some(id.clone()),
-					(ImportKind::Named, "@builder.io/qwik-city", "Link") => Some(id.clone()),
+					(ImportKind::Named, "@khulnasoft.com/qwik-city", "Link") => Some(id.clone()),
 					(_, source, _) => {
 						if source.ends_with("?jsx") || source.ends_with(".md") {
 							Some(id.clone())

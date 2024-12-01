@@ -1,12 +1,12 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 2354
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@khulnasoft.com/qwik';
 
 export const App = component$((props: Stuff) => {
     return (
@@ -22,12 +22,12 @@ export const App = component$((props: Stuff) => {
 
 ============================= project/index.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { qrlDEV } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrlDEV } from "@khulnasoft.com/qwik";
 export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrlDEV(()=>import("./index.tsx_App_component_KGLYFBhvJc0.js"), "App_component_KGLYFBhvJc0", {
     file: "/src/project/project/index.tsx",
-    lo: 90,
-    hi: 348,
+    lo: 94,
+    hi: 352,
     displayName: "index.tsx_App_component"
 }));
 
@@ -35,10 +35,10 @@ export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrlDEV(()=>import(".
 Some("{\"version\":3,\"sources\":[\"/src/project/project/index.tsx\"],\"names\":[],\"mappings\":\";;AAGA,OAAO,MAAM,oBAAM;;;;;IAUhB\"}")
 ============================= project/index.tsx_App_component_KGLYFBhvJc0.js (ENTRY POINT)==
 
-import { Fragment as _Fragment } from "@builder.io/qwik/jsx-runtime";
-import { _IMMUTABLE } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
+import { Fragment as _Fragment } from "@khulnasoft.com/qwik/jsx-runtime";
+import { _IMMUTABLE } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
 export const App_component_KGLYFBhvJc0 = (props)=>{
     return /*#__PURE__*/ _jsxC(_Fragment, {
         children: [
@@ -102,8 +102,8 @@ Some("{\"version\":3,\"sources\":[\"/src/project/project/index.tsx\"],\"names\":
   "ctxName": "component$",
   "captures": false,
   "loc": [
-    90,
-    348
+    94,
+    352
   ]
 }
 */

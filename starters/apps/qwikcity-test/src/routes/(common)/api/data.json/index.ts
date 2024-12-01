@@ -1,4 +1,4 @@
-import type { RequestHandler } from "@builder.io/qwik-city";
+import type { RequestHandler } from "@khulnasoft.com/qwik-city";
 import os from "node:os";
 import url from "node:url";
 import path from "node:path";

@@ -3,7 +3,7 @@ import {
   useStyles$,
   useStore,
   useContextProvider,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 import { Footer } from "../footer/footer";
 import { Header } from "../header/header";
 import { Body } from "../body/body";

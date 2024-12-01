@@ -1,4 +1,4 @@
-import { Fragment, jsx, type JSXNode } from '@builder.io/qwik';
+import { Fragment, jsx, type JSXNode } from '@khulnasoft.com/qwik';
 import {
   flattenPrefetchResources,
   getMostReferenced,

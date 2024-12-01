@@ -1,12 +1,12 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 1437
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { sibling } from './sibling';
 
 export default component$(() => {
@@ -19,8 +19,8 @@ export default component$(() => {
 
 ============================= src/routes/_repl/[id]/[[...slug]].js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 export default /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./[[...slug]].tsx_slug_component_0AM8HPnkNs4.js"), "slug_component_0AM8HPnkNs4"));
 
 
@@ -47,15 +47,15 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/src/routes/_repl/[id]/[[...sl
   "ctxName": "onClick$",
   "captures": false,
   "loc": [
-    157,
-    192
+    161,
+    196
   ]
 }
 */
 ============================= src/routes/_repl/[id]/[[...slug]].tsx_slug_component_0AM8HPnkNs4.js ==
 
-import { _jsxQ } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 export const slug_component_0AM8HPnkNs4 = ()=>{
     return /*#__PURE__*/ _jsxQ("div", null, {
         onClick$: /*#__PURE__*/ qrl(()=>import("./[[...slug]].tsx_slug_component_div_onClick_xevvy0Qc7pA.js"), "slug_component_div_onClick_xevvy0Qc7pA")
@@ -79,8 +79,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/src/routes/_repl/[id]/[[...sl
   "ctxName": "component$",
   "captures": false,
   "loc": [
-    113,
-    218
+    117,
+    222
   ]
 }
 */

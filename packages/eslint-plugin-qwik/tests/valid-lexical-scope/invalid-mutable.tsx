@@ -1,5 +1,5 @@
 // Expect error: { "messageId": "mutableIdentifier" }
-import { component$, $, useSignal } from '@builder.io/qwik';
+import { component$, $, useSignal } from '@khulnasoft.com/qwik';
 
 export const HelloWorld = component$(() => {
   let startX: number | undefined = 0;

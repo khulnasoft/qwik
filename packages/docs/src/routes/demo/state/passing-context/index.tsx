@@ -4,7 +4,7 @@ import {
   useContext,
   useContextProvider,
   useStore,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 
 // Declare a context ID
 export const CTX = createContextId<{ count: number }>('stuff');

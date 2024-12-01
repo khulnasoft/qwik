@@ -114,11 +114,11 @@ const isExpiredNpmData = (npmData: NpmData | null) => {
   return true;
 };
 
-const QWIK_NPM_DATA = `https://data.jsdelivr.com/v1/package/npm/@builder.io/qwik`;
+const QWIK_NPM_DATA = `https://data.jsdelivr.com/v1/package/npm/@khulnasoft.com/qwik`;
 
 const NPM_STORAGE_KEY = `qwikNpmData`;
 
-// https://data.jsdelivr.com/v1/package/npm/@builder.io/qwik
+// https://data.jsdelivr.com/v1/package/npm/@khulnasoft.com/qwik
 interface NpmData {
   tags: { latest: string; next: string };
   versions: string[];

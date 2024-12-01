@@ -1,6 +1,6 @@
-import { component$, useStyles$, type FunctionComponent } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
-import { Link } from '@builder.io/qwik-city';
+import { component$, useStyles$, type FunctionComponent } from '@khulnasoft.com/qwik';
+import type { DocumentHead } from '@khulnasoft.com/qwik-city';
+import { Link } from '@khulnasoft.com/qwik-city';
 import ImgQwikNewsletter from '~/media/ecosystem/qwik-newsletter.svg?jsx';
 import styles from '../ecosystem.css?inline';
 import data from '../ecosystem.json';

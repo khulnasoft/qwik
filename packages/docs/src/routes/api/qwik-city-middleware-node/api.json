@@ -1,6 +1,6 @@
 {
   "id": "qwik-city-middleware-node",
-  "package": "@builder.io/qwik-city/middleware/node",
+  "package": "@khulnasoft.com/qwik-city/middleware/node",
   "members": [
     {
       "name": "createQwikCity",

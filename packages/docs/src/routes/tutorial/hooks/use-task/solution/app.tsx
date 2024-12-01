@@ -1,4 +1,4 @@
-import { component$, useTask$, useStore } from '@builder.io/qwik';
+import { component$, useTask$, useStore } from '@khulnasoft.com/qwik';
 
 export default component$(() => {
   const store = useStore({

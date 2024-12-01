@@ -4,7 +4,7 @@ import {
   useStore,
   createContextId,
   useContextProvider,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 export const LOGS = createContextId<{ content: string }>("qwik.logs.resource");
 

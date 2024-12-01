@@ -1,10 +1,10 @@
-import { Slot, component$, useContext, useSignal, useStore, useTask$ } from '@builder.io/qwik';
+import { Slot, component$, useContext, useSignal, useStore, useTask$ } from '@khulnasoft.com/qwik';
 // import { QwikGPT } from '../qwik-gpt';
 import { SearchContext } from './context';
 import { AiResultOpenContext, type DocSearchState } from './doc-search';
 import { Snippet } from './snippet';
 import type { InternalDocSearchHit } from './types';
-import { Link } from '@builder.io/qwik-city';
+import { Link } from '@khulnasoft.com/qwik-city';
 
 export const Result = component$(
   ({ state, item }: { state: DocSearchState; item: InternalDocSearchHit }) => {

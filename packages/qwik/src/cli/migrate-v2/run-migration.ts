@@ -13,7 +13,7 @@ export async function runV2Migration(app: AppCommand) {
   intro(
     `✨  ${bgMagenta(' This command will migrate your Qwik application from v1 to v2')}\n` +
       `This includes the following: \n` +
-      `  - "@builder.io/qwik", "@builder.io/qwik-city" and "@builder.io/qwik-react" packages will be rescoped to "@qwik.dev/core", "@qwik.dev/router" and "@qwik.dev/react" respectively \n` +
+      `  - "@khulnasoft.com/qwik", "@khulnasoft.com/qwik-city" and "@khulnasoft.com/qwik-react" packages will be rescoped to "@qwik.dev/core", "@qwik.dev/router" and "@qwik.dev/react" respectively \n` +
       `  - related dependencies will be updated \n\n` +
       `${bold(bgRed('Warning: migration tool is experimental and will migrate your application to the "alpha" release of Qwik V2'))}`
   );
@@ -38,13 +38,13 @@ export async function runV2Migration(app: AppCommand) {
         ['createQwikCity', 'createQwikRouter'],
         ['QwikCityNodeRequestOptions', 'QwikRouterNodeRequestOptions'],
       ],
-      '@builder.io/qwik-city'
+      '@khulnasoft.com/qwik-city'
     );
 
-    replacePackage('@builder.io/qwik-city', '@qwik.dev/router');
-    replacePackage('@builder.io/qwik-react', '@qwik.dev/react');
-    // "@builder.io/qwik" should be the last one because it's name is a substring of the package names above
-    replacePackage('@builder.io/qwik', '@qwik.dev/core');
+    replacePackage('@khulnasoft.com/qwik-city', '@qwik.dev/router');
+    replacePackage('@khulnasoft.com/qwik-react', '@qwik.dev/react');
+    // "@khulnasoft.com/qwik" should be the last one because it's name is a substring of the package names above
+    replacePackage('@khulnasoft.com/qwik', '@qwik.dev/core');
 
     if (installedTsMorph) {
       await removeTsMorphFromPackageJson();

@@ -1,4 +1,4 @@
-import { component$, useSignal } from "@builder.io/qwik";
+import { component$, useSignal } from "@khulnasoft.com/qwik";
 
 export const Counter = component$(() => {
   const count = useSignal(0);

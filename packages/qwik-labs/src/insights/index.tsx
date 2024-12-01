@@ -1,4 +1,4 @@
-import { component$, sync$ } from '@builder.io/qwik';
+import { component$, sync$ } from '@khulnasoft.com/qwik';
 import { z } from 'zod';
 
 export interface InsightsPayload {

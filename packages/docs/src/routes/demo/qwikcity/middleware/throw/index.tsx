@@ -1,4 +1,4 @@
-import { type RequestHandler } from '@builder.io/qwik-city';
+import { type RequestHandler } from '@khulnasoft.com/qwik-city';
 
 export const onRequest: RequestHandler = async ({ next, sharedMap, json }) => {
   const log: string[] = [];

@@ -1,4 +1,4 @@
-import { routeLoader$ } from '@builder.io/qwik-city';
+import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 export { useFormLoader };
 const useFormLoader = routeLoader$(() => {
   return null;

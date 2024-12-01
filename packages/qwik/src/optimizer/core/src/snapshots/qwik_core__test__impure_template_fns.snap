@@ -6,7 +6,7 @@ expression: output
 ==INPUT==
 
 
-		import { component$, useSignal } from '@builder.io/qwik';
+		import { component$, useSignal } from '@khulnasoft.com/qwik';
 		const useFoo = (count) => {
 			const tag = (s) => {
 				const value = typeof s === "string" ? s : s[0];
@@ -29,12 +29,12 @@ expression: output
 		
 ============================= test.tsx_test_component_LUXeXe0DQrg.ts (ENTRY POINT)==
 
-import { Fragment as _Fragment } from "@builder.io/qwik/jsx-runtime";
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { Fragment as _Fragment } from "@khulnasoft.com/qwik/jsx-runtime";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 import { _auto_useFoo as useFoo } from "./test";
-import { useSignal } from "@builder.io/qwik";
+import { useSignal } from "@khulnasoft.com/qwik";
 export const test_component_LUXeXe0DQrg = ()=>{
     const count = useSignal(0);
     const foo = useFoo(count);
@@ -68,14 +68,14 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "component$",
   "captures": false,
   "loc": [
-    259,
-    476
+    263,
+    480
   ]
 }
 */
 ============================= test.tsx_test_component_Fragment_button_onClick_eF3QEzgQWcY.ts (ENTRY POINT)==
 
-import { useLexicalScope } from "@builder.io/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 export const test_component_Fragment_button_onClick_eF3QEzgQWcY = ()=>{
     const [count] = useLexicalScope();
     return count.value++;
@@ -98,15 +98,15 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "onClick$",
   "captures": true,
   "loc": [
-    420,
-    439
+    424,
+    443
   ]
 }
 */
 ============================= test.ts ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 const useFoo = (count)=>{
     const tag = (s)=>{
         const value = typeof s === "string" ? s : s[0];

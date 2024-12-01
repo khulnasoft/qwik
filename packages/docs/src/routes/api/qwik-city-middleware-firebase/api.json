@@ -1,6 +1,6 @@
 {
   "id": "qwik-city-middleware-firebase",
-  "package": "@builder.io/qwik-city/middleware/firebase",
+  "package": "@khulnasoft.com/qwik-city/middleware/firebase",
   "members": [
     {
       "name": "createQwikCity",

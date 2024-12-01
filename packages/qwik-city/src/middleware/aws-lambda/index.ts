@@ -1,5 +1,5 @@
-import { createQwikCity as createQwikCityNode } from '@builder.io/qwik-city/middleware/node';
-import type { ServerRenderOptions } from '@builder.io/qwik-city/middleware/request-handler';
+import { createQwikCity as createQwikCityNode } from '@khulnasoft.com/qwik-city/middleware/node';
+import type { ServerRenderOptions } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type { QwikCityPlan } from 'packages/qwik-city/src/runtime/src/types';
 import type { QwikManifest, Render } from 'packages/qwik/src/server/types';
 

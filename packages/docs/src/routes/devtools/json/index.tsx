@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@builder.io/qwik-city';
+import type { RequestHandler } from '@khulnasoft.com/qwik-city';
 import { devtoolsJsonSRC } from '@khulnasoft.com/qwik-labs';
 
 export const onGet: RequestHandler = async ({ send, headers, cacheControl }) => {

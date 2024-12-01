@@ -5,7 +5,7 @@ expression: output
 ---
 ============================= ../../node_modules/dep/dist/lib.mjs_App_component_div_p_button_onClick_8dWUa0cJAr4.js (ENTRY POINT)==
 
-import { useLexicalScope } from "@builder.io/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 export const App_component_div_p_button_onClick_8dWUa0cJAr4 = ()=>{
     const [store] = useLexicalScope();
     return store.count++;
@@ -28,16 +28,16 @@ Some("{\"version\":3,\"sources\":[\"node_modules/dep/dist/lib.mjs\"],\"sourceRoo
   "ctxName": "onClick$",
   "captures": true,
   "loc": [
-    706,
-    838
+    714,
+    846
   ]
 }
 */
 ============================= ../../node_modules/dep/dist/lib.mjs_App_component_AkbU84a8zes.js (ENTRY POINT)==
 
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 import { _auto_useData as useData } from "./lib.mjs";
 export const App_component_AkbU84a8zes = ()=>{
     const store = useData();
@@ -73,15 +73,15 @@ Some("{\"version\":3,\"sources\":[\"node_modules/dep/dist/lib.mjs\"],\"sourceRoo
   "ctxName": "component$",
   "captures": false,
   "loc": [
-    315,
-    1037
+    323,
+    1045
   ]
 }
 */
 ============================= ../../node_modules/dep/dist/lib.mjs ==
 
-import { qrl } from "@builder.io/qwik";
-import { componentQrl, useStore } from "@builder.io/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
+import { componentQrl, useStore } from "@khulnasoft.com/qwik";
 const useData = ()=>{
     return useStore({
         count: 0
@@ -91,10 +91,10 @@ export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./li
 export { useData as _auto_useData };
 
 
-Some("{\"version\":3,\"sources\":[\"node_modules/dep/dist/lib.mjs\"],\"sourceRoot\":\"/path/to/app/\",\"names\":[],\"mappings\":\";AACA,SAAS,YAAY,EAAc,QAAQ,QAAyB,mBAAmB;AAIvF,MAAM,UAAU;IACZ,OAAO,SAAS;QACZ,OAAO;IACX;AACJ;AAEA,OAAO,MAAM,MAAM,WAAW,GAAG,mHAuBA\"}")
+Some("{\"version\":3,\"sources\":[\"node_modules/dep/dist/lib.mjs\"],\"sourceRoot\":\"/path/to/app/\",\"names\":[],\"mappings\":\";AACA,SAAS,YAAY,EAAc,QAAQ,QAAyB,uBAAuB;AAI3F,MAAM,UAAU;IACZ,OAAO,SAAS;QACZ,OAAO;IACX;AACJ;AAEA,OAAO,MAAM,MAAM,WAAW,GAAG,mHAuBA\"}")
 ============================= components/main.tsx_Local_component_jJ0v28bs0p8.js (ENTRY POINT)==
 
-import { _jsxQ } from "@builder.io/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
 import { state } from "./sibling";
 export const Local_component_jJ0v28bs0p8 = ()=>{
     return /*#__PURE__*/ _jsxQ("div", null, null, state, 3, "zp_0");
@@ -117,15 +117,15 @@ Some("{\"version\":3,\"sources\":[\"src/thing/components/main.tsx\"],\"sourceRoo
   "ctxName": "component$",
   "captures": false,
   "loc": [
-    120,
-    175
+    124,
+    179
   ]
 }
 */
 ============================= components/main.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 export const Local = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./main.tsx_Local_component_jJ0v28bs0p8.js"), "Local_component_jJ0v28bs0p8"));
 
 

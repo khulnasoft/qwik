@@ -13,7 +13,7 @@
 import {
   renderToStream,
   type RenderToStreamOptions,
-} from "@builder.io/qwik/server";
+} from "@khulnasoft.com/qwik/server";
 import { manifest } from "@qwik-client-manifest";
 import Root from "./root";
 import { extractBase } from "./routes/[locale]/i18n-utils";

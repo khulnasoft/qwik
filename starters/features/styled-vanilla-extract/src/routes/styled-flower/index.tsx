@@ -3,8 +3,8 @@ import {
   FunctionComponent,
   useVisibleTask$,
   useStore,
-} from "@builder.io/qwik";
-import { DocumentHead, useLocation } from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik";
+import { DocumentHead, useLocation } from "@khulnasoft.com/qwik-city";
 import { Host, odd, pride, Range, Square } from "./flower.css";
 
 type StoredInputProps<

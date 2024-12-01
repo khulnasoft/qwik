@@ -4,10 +4,10 @@ import {
   useContext,
   useStylesScoped$,
   useTask$,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 import { PortalCloseAPIContextId, PortalAPI } from './portal-provider';
 import PopupExampleCSS from './popup-example.css?inline';
-import { useLocation } from '@builder.io/qwik-city';
+import { useLocation } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
   // Retrieve the portal API

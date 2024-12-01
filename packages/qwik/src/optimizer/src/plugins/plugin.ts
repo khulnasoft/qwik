@@ -828,7 +828,7 @@ export function createPlugin(optimizerOptions: OptimizerOptions = {}) {
 
   function getQwikBuildModule(isServer: boolean, _target: QwikBuildTarget) {
     const isDev = opts.buildMode === 'development';
-    return `// @builder.io/qwik/build
+    return `// @khulnasoft.com/qwik/build
 export const isServer = ${JSON.stringify(isServer)};
 export const isBrowser = ${JSON.stringify(!isServer)};
 export const isDev = ${JSON.stringify(isDev)};
@@ -959,15 +959,15 @@ const TRANSFORM_EXTS = {
  */
 export const TRANSFORM_REGEX = /\.qwik\.[mc]?js$/;
 
-export const QWIK_CORE_ID = '@builder.io/qwik';
+export const QWIK_CORE_ID = '@khulnasoft.com/qwik';
 
-export const QWIK_BUILD_ID = '@builder.io/qwik/build';
+export const QWIK_BUILD_ID = '@khulnasoft.com/qwik/build';
 
-export const QWIK_JSX_RUNTIME_ID = '@builder.io/qwik/jsx-runtime';
+export const QWIK_JSX_RUNTIME_ID = '@khulnasoft.com/qwik/jsx-runtime';
 
-export const QWIK_JSX_DEV_RUNTIME_ID = '@builder.io/qwik/jsx-dev-runtime';
+export const QWIK_JSX_DEV_RUNTIME_ID = '@khulnasoft.com/qwik/jsx-dev-runtime';
 
-export const QWIK_CORE_SERVER = '@builder.io/qwik/server';
+export const QWIK_CORE_SERVER = '@khulnasoft.com/qwik/server';
 
 export const QWIK_CLIENT_MANIFEST_ID = '@qwik-client-manifest';
 

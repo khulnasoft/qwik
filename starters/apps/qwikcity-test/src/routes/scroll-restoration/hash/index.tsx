@@ -1,5 +1,5 @@
-import { component$, useStylesScoped$ } from "@builder.io/qwik";
-import { Link } from "@builder.io/qwik-city";
+import { component$, useStylesScoped$ } from "@khulnasoft.com/qwik";
+import { Link } from "@khulnasoft.com/qwik-city";
 
 export default component$(() => {
   useStylesScoped$(`

@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/vite/bun-server API Reference
+title: \@khulnasoft.com/qwik-city/vite/bun-server API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/vite/bun-server
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/vite/bun-server
 
 ## bunServerAdapter
 

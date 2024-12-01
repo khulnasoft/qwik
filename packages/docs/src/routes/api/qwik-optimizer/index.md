@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik/optimizer API Reference
+title: \@khulnasoft.com/qwik/optimizer API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik/optimizer
+# [API](/api) &rsaquo; @khulnasoft.com/qwik/optimizer
 
 ## basename
 

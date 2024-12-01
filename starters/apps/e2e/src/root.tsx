@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import type { FunctionComponent } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
+import type { FunctionComponent } from "@khulnasoft.com/qwik";
 import { Async } from "./components/async/async";
 import { Attributes } from "./components/attributes/attributes";
 import { BroadcastEvents } from "./components/broadcast-events/broadcast-event";

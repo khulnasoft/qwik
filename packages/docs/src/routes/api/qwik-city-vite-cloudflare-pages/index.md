@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/vite/cloudflare-pages API Reference
+title: \@khulnasoft.com/qwik-city/vite/cloudflare-pages API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/vite/cloudflare-pages
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/vite/cloudflare-pages
 
 ## cloudflarePagesAdapter
 

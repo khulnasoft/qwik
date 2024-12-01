@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/static API Reference
+title: \@khulnasoft.com/qwik-city/static API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/static
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/static
 
 ## generate
 

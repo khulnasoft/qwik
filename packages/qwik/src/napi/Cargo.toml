@@ -1,5 +1,5 @@
 [package]
-authors = ["Manu Mtz.-Almeida <manu@builder.io>"]
+authors = ["Manu Mtz.-Almeida <manu@khulnasoft.com>"]
 name = "qwik_napi"
 version = "0.1.0"
 edition = "2021"

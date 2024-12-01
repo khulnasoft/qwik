@@ -4,7 +4,7 @@ import {
   Slot,
   useContextProvider,
   useStore,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 export type SomeContextType = {
   value: string;

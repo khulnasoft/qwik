@@ -1,13 +1,13 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 2254
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { component$ } from '@builder.io/qwik';
-import { useDocumentHead, useLocation } from '@builder.io/qwik-city';
+import { component$ } from '@khulnasoft.com/qwik';
+import { useDocumentHead, useLocation } from '@khulnasoft.com/qwik-city';
 
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
@@ -40,8 +40,8 @@ export const RouterHead = component$(() => {
 });
 ============================= test.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
  */ export const RouterHead = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./test.tsx_RouterHead_component_DPA76mgIou0"), "RouterHead_component_DPA76mgIou0"));
@@ -50,14 +50,14 @@ import { qrl } from "@builder.io/qwik";
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AAIA;;CAEC,GACD,OAAO,MAAM,2BAAa,+HAyBvB\"}")
 ============================= test.tsx_RouterHead_component_DPA76mgIou0.js (ENTRY POINT)==
 
-import { Fragment as _Fragment } from "@builder.io/qwik/jsx-runtime";
-import { createElement as _createElement } from "@builder.io/qwik";
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { _jsxS } from "@builder.io/qwik";
-import { useDocumentHead } from "@builder.io/qwik-city";
-import { useLocation } from "@builder.io/qwik-city";
+import { Fragment as _Fragment } from "@khulnasoft.com/qwik/jsx-runtime";
+import { createElement as _createElement } from "@khulnasoft.com/qwik";
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { _jsxS } from "@khulnasoft.com/qwik";
+import { useDocumentHead } from "@khulnasoft.com/qwik-city";
+import { useLocation } from "@khulnasoft.com/qwik-city";
 export const RouterHead_component_DPA76mgIou0 = ()=>{
     const head = useDocumentHead();
     const loc = useLocation();
@@ -112,8 +112,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "component$",
   "captures": false,
   "loc": [
-    244,
-    839
+    252,
+    847
   ]
 }
 */

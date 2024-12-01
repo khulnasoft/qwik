@@ -1,12 +1,12 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 2025
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { component$, useStore, $ } from '@builder.io/qwik';
+import { component$, useStore, $ } from '@khulnasoft.com/qwik';
 import importedValue from 'v';
 import styles from './styles.module.css';
 
@@ -77,22 +77,22 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "onEvent$",
   "captures": false,
   "loc": [
-    665,
-    691
+    669,
+    695
   ]
 }
 */
 ============================= test.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { qrl } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrl(()=>import("./test.tsx_App_component_ckEPmXZlub0"), "App_component_ckEPmXZlub0"));
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AAKA,OAAO,MAAM,oBAAM,iHA4ChB\"}")
 ============================= test.tsx_App_component_Fragment_Div_immutable4_2zF7jA3Yti0.js (ENTRY POINT)==
 
-import { useLexicalScope } from "@builder.io/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 export const App_component_Fragment_Div_immutable4_2zF7jA3Yti0 = (ev)=>{
     const [state] = useLexicalScope();
     return console.log(state.count);
@@ -115,8 +115,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "immutable4$",
   "captures": true,
   "loc": [
-    984,
-    1016
+    988,
+    1020
   ]
 }
 */
@@ -143,22 +143,22 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "transparent$",
   "captures": false,
   "loc": [
-    723,
-    751
+    727,
+    755
   ]
 }
 */
 ============================= test.tsx_App_component_ckEPmXZlub0.js (ENTRY POINT)==
 
-import { Fragment as _Fragment } from "@builder.io/qwik/jsx-runtime";
-import { _IMMUTABLE } from "@builder.io/qwik";
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
+import { Fragment as _Fragment } from "@khulnasoft.com/qwik/jsx-runtime";
+import { _IMMUTABLE } from "@khulnasoft.com/qwik";
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
 import importedValue from "v";
-import { qrl } from "@builder.io/qwik";
+import { qrl } from "@khulnasoft.com/qwik";
 import styles from "./styles.module.css";
-import { useStore } from "@builder.io/qwik";
+import { useStore } from "@khulnasoft.com/qwik";
 export const App_component_ckEPmXZlub0 = (props)=>{
     const state = useStore({
         count: 0
@@ -264,20 +264,20 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "component$",
   "captures": false,
   "loc": [
-    166,
-    1591
+    170,
+    1595
   ]
 }
 */
 ============================= test.tsx_App_component_remove_pU6yOC5P6sY.js (ENTRY POINT)==
 
-import { useLexicalScope } from "@builder.io/qwik";
+import { useLexicalScope } from "@khulnasoft.com/qwik";
 export const App_component_remove_pU6yOC5P6sY = (id)=>{
     const [state] = useLexicalScope();
     const d = state.data;
     d.splice(d.findIndex((d)=>d.id === id), 1);
 };
-export { _hW } from "@builder.io/qwik";
+export { _hW } from "@khulnasoft.com/qwik";
 
 
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";gDAQqB,CAAC;;IACd,MAAM,IAAI,MAAM,IAAI;IACpB,EAAE,MAAM,CACN,EAAE,SAAS,CAAC,CAAC,IAAM,EAAE,EAAE,KAAK,KAC5B\"}")
@@ -296,8 +296,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "$",
   "captures": true,
   "loc": [
-    267,
-    405
+    271,
+    409
   ]
 }
 */

@@ -1,12 +1,12 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 3510
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { component$, useStore, serverStuff$, $ } from '@builder.io/qwik';
+import { component$, useStore, serverStuff$, $ } from '@khulnasoft.com/qwik';
 
 export const App = component$(() => {
     const stuff = useStore();
@@ -32,12 +32,12 @@ export const App = component$(() => {
 
 ============================= test.js ==
 
-import { componentQrl } from "@builder.io/qwik";
-import { qrlDEV } from "@builder.io/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrlDEV } from "@khulnasoft.com/qwik";
 export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrlDEV(()=>import("./test.tsx_App_component_ckEPmXZlub0"), "App_component_ckEPmXZlub0", {
     file: "/hello/from/dev/test.tsx",
-    lo: 107,
-    hi: 569,
+    lo: 111,
+    hi: 573,
     displayName: "test.tsx_App_component"
 }));
 
@@ -45,11 +45,11 @@ export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrlDEV(()=>import(".
 Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AAGA,OAAO,MAAM,oBAAM;;;;;IAoBhB\"}")
 ============================= test.tsx_App_component_ckEPmXZlub0.js (ENTRY POINT)==
 
-import { _jsxC } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { _noopQrlDEV } from "@builder.io/qwik";
-import { serverStuffQrl } from "@builder.io/qwik";
-import { useStore } from "@builder.io/qwik";
+import { _jsxC } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { _noopQrlDEV } from "@khulnasoft.com/qwik";
+import { serverStuffQrl } from "@khulnasoft.com/qwik";
+import { useStore } from "@khulnasoft.com/qwik";
 export const App_component_ckEPmXZlub0 = ()=>{
     const stuff = useStore();
     serverStuffQrl(/*#__PURE__*/ _noopQrlDEV("App_component_serverStuff_ebyHaP15ytQ", {
@@ -112,8 +112,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "component$",
   "captures": false,
   "loc": [
-    107,
-    569
+    111,
+    573
   ]
 }
 */

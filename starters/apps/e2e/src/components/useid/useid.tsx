@@ -3,7 +3,7 @@ import {
   useVisibleTask$,
   useSignal,
   useId,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 export const MIN_CHILDREN = 2;
 export const MAX_CHIDREN = 5;

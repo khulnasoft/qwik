@@ -9,8 +9,8 @@ import {
   useContext,
   useContextProvider,
   $,
-} from "@builder.io/qwik";
-import { isServer } from "@builder.io/qwik/build";
+} from "@khulnasoft.com/qwik";
+import { isServer } from "@khulnasoft.com/qwik/build";
 
 interface State {
   count: number;

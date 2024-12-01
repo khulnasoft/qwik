@@ -1,10 +1,10 @@
-import { component$, useStyles$ } from "@builder.io/qwik";
+import { component$, useStyles$ } from "@khulnasoft.com/qwik";
 import {
   Link,
   useContent,
   useLocation,
   type ContentMenu,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 import styles from "./breadcrumbs.css?inline";
 
 export const Breadcrumbs = component$(() => {

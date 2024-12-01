@@ -1,12 +1,12 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 1503
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { componentQrl, inlinedQrl, useStore, jsxs, jsx, useLexicalScope } from '@builder.io/qwik';
+import { componentQrl, inlinedQrl, useStore, jsxs, jsx, useLexicalScope } from '@khulnasoft.com/qwik';
 
 export const App = /*#__PURE__*/ componentQrl(inlinedQrl(()=>{
     useStyles$(inlinedQrl(STYLES, "STYLES_odz7dfdfdM"));
@@ -43,9 +43,9 @@ export const STYLES = ".red { color: red; }";
 
 ============================= test.tsx ==
 
-import { _fnSignal } from "@builder.io/qwik";
-import { _jsxQ } from "@builder.io/qwik";
-import { componentQrl, inlinedQrl, useStore, useLexicalScope } from '@builder.io/qwik';
+import { _fnSignal } from "@khulnasoft.com/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { componentQrl, inlinedQrl, useStore, useLexicalScope } from '@khulnasoft.com/qwik';
 export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ inlinedQrl(()=>{
     useStyles$(/*#__PURE__*/ inlinedQrl(STYLES, "s_odz7dfdfdM"));
     useStyles$(/*#__PURE__*/ inlinedQrl(STYLES, "s_odzdfdfdM"));
@@ -72,7 +72,7 @@ export const App = /*#__PURE__*/ componentQrl(/*#__PURE__*/ inlinedQrl(()=>{
 export const STYLES = ".red { color: red; }";
 
 
-Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AACA,SAAS,YAAY,EAAE,UAAU,EAAE,QAAQ,EAAa,eAAe,QAAQ,mBAAmB;AAElG,OAAO,MAAM,MAAM,WAAW,GAAG,sCAAwB;IACrD,oCAAsB;IACtB,oCAAsB;IAEtB,MAAM,QAAQ,SAAS;QACnB,OAAO;IACX;IACA,OAAO,WAAW,GAAG,MAAK,mBACZ;QACN,WAAW,GAAG,MAAK,iBACL;YACN;4BACA,GAAM,KAAK;;;SACd;QAEL,WAAW,GAAG,MAAI,iBACJ,WAAW,GAAG,MAAI;YACxB,QAAQ,2BAAa;gBACjB,MAAM,CAAC,MAAM,GAAG;gBAChB,OAAO,MAAM,KAAK;YACtB;;;iBAGU;KAGrB;AAET,qBAAiC;AAEjC,OAAO,MAAM,SAAS,uBAAuB\"}")
+Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"mappings\":\";;AACA,SAAS,YAAY,EAAE,UAAU,EAAE,QAAQ,EAAa,eAAe,QAAQ,uBAAuB;AAEtG,OAAO,MAAM,MAAM,WAAW,GAAG,sCAAwB;IACrD,oCAAsB;IACtB,oCAAsB;IAEtB,MAAM,QAAQ,SAAS;QACnB,OAAO;IACX;IACA,OAAO,WAAW,GAAG,MAAK,mBACZ;QACN,WAAW,GAAG,MAAK,iBACL;YACN;4BACA,GAAM,KAAK;;;SACd;QAEL,WAAW,GAAG,MAAI,iBACJ,WAAW,GAAG,MAAI;YACxB,QAAQ,2BAAa;gBACjB,MAAM,CAAC,MAAM,GAAG;gBAChB,OAAO,MAAM,KAAK;YACtB;;;iBAGU;KAGrB;AAET,qBAAiC;AAEjC,OAAO,MAAM,SAAS,uBAAuB\"}")
 == DIAGNOSTICS ==
 
 []

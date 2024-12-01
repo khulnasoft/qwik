@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city API Reference
+title: \@khulnasoft.com/qwik-city API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city
 
 ## Action
 
@@ -1157,7 +1157,7 @@ export type FailReturn<T> = T & Failed;
 Form: <O, I>(
   { action, spaReset, reloadDocument, onSubmit$, ...rest }: FormProps<O, I>,
   key: string | null,
-) => import("@builder.io/qwik").JSXOutput;
+) => import("@khulnasoft.com/qwik").JSXOutput;
 ```
 
 <table><thead><tr><th>
@@ -1198,7 +1198,7 @@ string \| null
 </tbody></table>
 **Returns:**
 
-import("@builder.io/qwik").JSXOutput
+import("@khulnasoft.com/qwik").JSXOutput
 
 [Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/form-component.tsx)
 
@@ -1465,7 +1465,7 @@ export type JSONValue =
 ## Link
 
 ```typescript
-Link: import("@builder.io/qwik").Component<LinkProps>;
+Link: import("@khulnasoft.com/qwik").Component<LinkProps>;
 ```
 
 [Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/link-component.tsx)
@@ -1805,7 +1805,7 @@ _(Optional)_
 ## QwikCityMockProvider
 
 ```typescript
-QwikCityMockProvider: import("@builder.io/qwik").Component<QwikCityMockProps>;
+QwikCityMockProvider: import("@khulnasoft.com/qwik").Component<QwikCityMockProps>;
 ```
 
 [Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
@@ -1984,7 +1984,7 @@ Default: `true`
 ## QwikCityProvider
 
 ```typescript
-QwikCityProvider: import("@builder.io/qwik").Component<QwikCityProps>;
+QwikCityProvider: import("@khulnasoft.com/qwik").Component<QwikCityProps>;
 ```
 
 [Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx)
@@ -2160,7 +2160,7 @@ export type RouteNavigate = QRL<
 ## RouterOutlet
 
 ```typescript
-RouterOutlet: import("@builder.io/qwik").Component<unknown>;
+RouterOutlet: import("@khulnasoft.com/qwik").Component<unknown>;
 ```
 
 [Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/router-outlet-component.tsx)
@@ -2263,7 +2263,7 @@ export type ServerQRL<T extends ServerFunction> = QRL<
 
 ```typescript
 ServiceWorkerRegister: (props: { nonce?: string }) =>
-  import("@builder.io/qwik").JSXNode<"script">;
+  import("@khulnasoft.com/qwik").JSXNode<"script">;
 ```
 
 <table><thead><tr><th>
@@ -2293,7 +2293,7 @@ props
 </tbody></table>
 **Returns:**
 
-import("@builder.io/qwik").JSXNode&lt;"script"&gt;
+import("@khulnasoft.com/qwik").JSXNode&lt;"script"&gt;
 
 [Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/sw-component.tsx)
 

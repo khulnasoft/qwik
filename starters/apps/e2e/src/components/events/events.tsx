@@ -5,7 +5,7 @@ import {
   useSignal,
   useOnWindow,
   $,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 export const Events = component$(() => {
   const store = useStore({

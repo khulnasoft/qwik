@@ -1,4 +1,4 @@
-import { component$, useSignal } from '@builder.io/qwik';
+import { component$, useSignal } from '@khulnasoft.com/qwik';
 import { formAction$, useForm, zodForm$ } from '@modular-forms/qwik';
 import Container from '~/components/container';
 import { DiskIcon } from '~/components/icons/disk';

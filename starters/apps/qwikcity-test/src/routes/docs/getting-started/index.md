@@ -1,5 +1,5 @@
 ---
-title: \@builder.io/qwik Getting Started
+title: \@khulnasoft.com/qwik Getting Started
 ---
 
 # Getting Started

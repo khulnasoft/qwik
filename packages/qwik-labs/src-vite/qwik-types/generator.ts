@@ -17,7 +17,7 @@ async function generateSrcRoutesConfig(srcDir: string) {
  */
 import { untypedAppUrl, omitProps } from '@khulnasoft.com/qwik-labs';
 import { type AppLinkProps, type AppRouteParamsFunction } from './routes.gen';
-import { type QwikIntrinsicElements } from '@builder.io/qwik';
+import { type QwikIntrinsicElements } from '@khulnasoft.com/qwik';
 
 /**
  * Configure \`appUrl\` with the typed information of routes.

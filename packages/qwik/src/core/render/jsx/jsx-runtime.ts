@@ -12,7 +12,7 @@ import { isPromise } from '../../util/promises';
 import { SkipRender } from './utils.public';
 import { EMPTY_OBJ } from '../../util/flyweight';
 import { _IMMUTABLE } from '../../internal';
-import { isBrowser } from '@builder.io/qwik/build';
+import { isBrowser } from '@khulnasoft.com/qwik/build';
 import { assertString } from '../../error/assert';
 import { static_subtree } from '../execute-component';
 import type { JsxChild } from 'typescript';

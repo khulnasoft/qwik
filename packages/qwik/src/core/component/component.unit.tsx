@@ -14,7 +14,7 @@ describe('q-component', () => {
   /**
    * Applying new unit test library/layer
    *
-   * `@builder.io/qwik/testing` ==> ../../testing/library
+   * `@khulnasoft.com/qwik/testing` ==> ../../testing/library
    */
   test('should declare and render basic component', async () => {
     const { screen, render } = await createDOM();
@@ -252,7 +252,7 @@ export const Greeter = component$((props: { salutation?: string; name?: string }
 });
 
 //////////////////////////////////////////////
-// import { QComponent, component, qView, qHandler, getState, markDirty } from '@builder.io/qwik';
+// import { QComponent, component, qView, qHandler, getState, markDirty } from '@khulnasoft.com/qwik';
 
 // Component view may need additional handlers describing the component's behavior.
 export const MyCounter_update = () => {

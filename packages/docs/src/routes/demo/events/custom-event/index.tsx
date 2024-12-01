@@ -1,4 +1,4 @@
-import { component$, type QRL, Slot, useStore } from '@builder.io/qwik';
+import { component$, type QRL, Slot, useStore } from '@khulnasoft.com/qwik';
 
 export default component$(() => {
   return (

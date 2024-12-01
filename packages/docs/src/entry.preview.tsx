@@ -1,4 +1,4 @@
-import { createQwikCity } from '@builder.io/qwik-city/middleware/node';
+import { createQwikCity } from '@khulnasoft.com/qwik-city/middleware/node';
 import qwikCityPlan from '@qwik-city-plan';
 import render from './entry.ssr';
 

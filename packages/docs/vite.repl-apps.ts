@@ -1,5 +1,5 @@
 import type { Plugin } from 'vite';
-import type { TransformModuleInput } from '@builder.io/qwik/optimizer';
+import type { TransformModuleInput } from '@khulnasoft.com/qwik/optimizer';
 import { join, basename } from 'node:path';
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import type { ExampleSection } from './src/routes/examples/apps/examples-data';

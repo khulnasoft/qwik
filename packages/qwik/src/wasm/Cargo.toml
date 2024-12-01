@@ -1,5 +1,5 @@
 [package]
-authors = ["Manu <manu@builder.io>"]
+authors = ["Manu <manu@khulnasoft.com>"]
 name = "qwik-wasm"
 version = "0.1.0"
 edition = "2021"

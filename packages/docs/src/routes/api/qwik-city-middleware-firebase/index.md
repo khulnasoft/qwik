@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/middleware/firebase API Reference
+title: \@khulnasoft.com/qwik-city/middleware/firebase API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/middleware/firebase
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/middleware/firebase
 
 ## createQwikCity
 

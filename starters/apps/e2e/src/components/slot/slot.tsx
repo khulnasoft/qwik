@@ -12,7 +12,7 @@ import {
   type JSXNode,
   useVisibleTask$,
   type FunctionComponent,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 export const SlotParent = component$(() => {
   const state = useStore({

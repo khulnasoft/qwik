@@ -1,13 +1,13 @@
 ---
 source: packages/qwik/src/optimizer/core/src/test.rs
-assertion_line: 710
 expression: output
+snapshot_kind: text
 ---
 ==INPUT==
 
 
-import { component$ } from '@builder.io/qwik';
-import { server$ } from '@builder.io/qwik-city';
+import { component$ } from '@khulnasoft.com/qwik';
+import { server$ } from '@khulnasoft.com/qwik-city';
 import { clientSupabase } from 'supabase';
 import { Client } from 'openai';
 import { secret } from './secret';
@@ -37,10 +37,10 @@ export default component$(() => {
 
 ============================= test.js ==
 
-import { serverQrl } from "@builder.io/qwik-city";
-import { _noopQrlDEV } from "@builder.io/qwik";
-import { componentQrl } from "@builder.io/qwik";
-import { qrlDEV } from "@builder.io/qwik";
+import { serverQrl } from "@khulnasoft.com/qwik-city";
+import { _noopQrlDEV } from "@khulnasoft.com/qwik";
+import { componentQrl } from "@khulnasoft.com/qwik";
+import { qrlDEV } from "@khulnasoft.com/qwik";
 import { sideEffect } from './secret';
 (function() {
     console.log('run');
@@ -57,8 +57,8 @@ export const api = serverQrl(/*#__PURE__*/ _noopQrlDEV("api_server_JonPp043gH0",
 }));
 export default /*#__PURE__*/ componentQrl(/*#__PURE__*/ qrlDEV(()=>import("./test.tsx_test_component_LUXeXe0DQrg"), "test_component_LUXeXe0DQrg", {
     file: "/user/qwik/src/test.tsx",
-    lo: 522,
-    hi: 605,
+    lo: 530,
+    hi: 613,
     displayName: "test.tsx_test_component"
 }));
 
@@ -86,21 +86,21 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "onClick$",
   "captures": false,
   "loc": [
-    567,
-    584
+    575,
+    592
   ]
 }
 */
 ============================= test.tsx_test_component_LUXeXe0DQrg.js (ENTRY POINT)==
 
-import { _jsxQ } from "@builder.io/qwik";
-import { qrlDEV } from "@builder.io/qwik";
+import { _jsxQ } from "@khulnasoft.com/qwik";
+import { qrlDEV } from "@khulnasoft.com/qwik";
 export const test_component_LUXeXe0DQrg = ()=>{
     return /*#__PURE__*/ _jsxQ("button", null, {
         onClick$: /*#__PURE__*/ qrlDEV(()=>import("./test.tsx_test_component_button_onClick_DGk9xLyRokA"), "test_component_button_onClick_DGk9xLyRokA", {
             file: "/user/qwik/src/test.tsx",
-            lo: 567,
-            hi: 584,
+            lo: 575,
+            hi: 592,
             displayName: "test.tsx_test_component_button_onClick"
         })
     }, null, 3, "u6_0", {
@@ -127,8 +127,8 @@ Some("{\"version\":3,\"sources\":[\"/user/qwik/src/test.tsx\"],\"names\":[],\"ma
   "ctxName": "component$",
   "captures": false,
   "loc": [
-    522,
-    605
+    530,
+    613
   ]
 }
 */

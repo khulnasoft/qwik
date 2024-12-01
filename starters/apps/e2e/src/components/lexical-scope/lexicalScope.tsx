@@ -5,7 +5,7 @@ import {
   noSerialize,
   useSignal,
   type Signal,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 export const LexicalScope = component$(() => {
   const signal = useSignal(0);

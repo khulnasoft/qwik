@@ -1,11 +1,11 @@
 import type { QwikSerializer, ServerRequestEvent, StatusCodes } from './types';
-import type { RequestEvent, RequestHandler } from '@builder.io/qwik-city';
+import type { RequestEvent, RequestHandler } from '@khulnasoft.com/qwik-city';
 import { createRequestEvent, getRequestMode, type RequestEventInternal } from './request-event';
 import { ErrorResponse, getErrorHtml, minimalHtmlResponse } from './error-handler';
 import { AbortMessage, RedirectMessage } from './redirect-handler';
 import type { LoadedRoute } from '../../runtime/src/types';
 import { encoder } from './resolve-request-handlers';
-import type { QwikManifest, ResolvedManifest } from '@builder.io/qwik/optimizer';
+import type { QwikManifest, ResolvedManifest } from '@khulnasoft.com/qwik/optimizer';
 
 export interface QwikCityRun<T> {
   response: Promise<T | null>;

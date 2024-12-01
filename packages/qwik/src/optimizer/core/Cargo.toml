@@ -1,5 +1,5 @@
 [package]
-authors = ["Manu <manu@builder.io>"]
+authors = ["Manu <manu@khulnasoft.com>"]
 name = "qwik-core"
 version = "0.2.0"
 edition = "2021"

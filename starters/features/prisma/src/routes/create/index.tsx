@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import { routeAction$, zod$, z, Form } from "@builder.io/qwik-city";
+import { component$ } from "@khulnasoft.com/qwik";
+import { routeAction$, zod$, z, Form } from "@khulnasoft.com/qwik-city";
 import { PrismaClient } from "@prisma/client";
 
 export const useCreateUser = routeAction$(

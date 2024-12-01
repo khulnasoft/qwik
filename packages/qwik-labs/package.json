@@ -3,19 +3,19 @@
   "description": "Qwik Labs - Where you can try the latest Qwik ideas.",
   "version": "0.0.1",
   "devDependencies": {
-    "@builder.io/qwik": "workspace:^",
-    "@types/eslint": "8.56.10",
-    "@types/node": "20.14.11",
-    "@typescript-eslint/eslint-plugin": "7.16.1",
-    "@typescript-eslint/parser": "7.16.1",
-    "eslint": "8.57.0",
+    "@khulnasoft.com/qwik": "workspace:^",
+    "@types/eslint": "9.6.1",
+    "@types/node": "22.10.1",
+    "@typescript-eslint/eslint-plugin": "8.16.0",
+    "@typescript-eslint/parser": "8.16.0",
+    "eslint": "9.16.0",
     "eslint-plugin-qwik": "workspace:^",
-    "np": "10.0.1",
-    "prettier": "3.3.3",
-    "typescript": "5.4.5",
+    "np": "10.1.0",
+    "prettier": "3.4.1",
+    "typescript": "5.7.2",
     "undici": "*",
-    "vite": "5.3.5",
-    "zod": "3.22.4"
+    "vite": "6.0.1",
+    "zod": "3.23.8"
   },
   "engines": {
     "node": ">=16.8.0 <18.0.0 || >=18.11"
@@ -38,8 +38,8 @@
   ],
   "main": "./lib/index.qwik.mjs",
   "peerDependencies": {
-    "zod": "3.22.4",
-    "vite": "^5"
+    "vite": "^5",
+    "zod": "3.23.8"
   },
   "private": true,
   "qwik": "./lib/index.qwik.mjs",

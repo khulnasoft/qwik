@@ -1,6 +1,6 @@
 {
   "id": "qwik-city",
-  "package": "@builder.io/qwik-city",
+  "package": "@khulnasoft.com/qwik-city",
   "members": [
     {
       "name": "Action",
@@ -236,7 +236,7 @@
         }
       ],
       "kind": "Function",
-      "content": "```typescript\nForm: <O, I>({ action, spaReset, reloadDocument, onSubmit$, ...rest }: FormProps<O, I>, key: string | null) => import(\"@builder.io/qwik\").JSXOutput\n```\n\n\n<table><thead><tr><th>\n\nParameter\n\n\n</th><th>\n\nType\n\n\n</th><th>\n\nDescription\n\n\n</th></tr></thead>\n<tbody><tr><td>\n\n{ action, spaReset, reloadDocument, onSubmit$, ...rest }\n\n\n</td><td>\n\n[FormProps](#formprops)<!-- -->&lt;O, I&gt;\n\n\n</td><td>\n\n\n</td></tr>\n<tr><td>\n\nkey\n\n\n</td><td>\n\nstring \\| null\n\n\n</td><td>\n\n\n</td></tr>\n</tbody></table>\n**Returns:**\n\nimport(\"@builder.io/qwik\").JSXOutput",
+      "content": "```typescript\nForm: <O, I>({ action, spaReset, reloadDocument, onSubmit$, ...rest }: FormProps<O, I>, key: string | null) => import(\"@khulnasoft.com/qwik\").JSXOutput\n```\n\n\n<table><thead><tr><th>\n\nParameter\n\n\n</th><th>\n\nType\n\n\n</th><th>\n\nDescription\n\n\n</th></tr></thead>\n<tbody><tr><td>\n\n{ action, spaReset, reloadDocument, onSubmit$, ...rest }\n\n\n</td><td>\n\n[FormProps](#formprops)<!-- -->&lt;O, I&gt;\n\n\n</td><td>\n\n\n</td></tr>\n<tr><td>\n\nkey\n\n\n</td><td>\n\nstring \\| null\n\n\n</td><td>\n\n\n</td></tr>\n</tbody></table>\n**Returns:**\n\nimport(\"@khulnasoft.com/qwik\").JSXOutput",
       "editUrl": "https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/form-component.tsx",
       "mdFile": "qwik-city.form.md"
     },
@@ -376,7 +376,7 @@
         }
       ],
       "kind": "Variable",
-      "content": "```typescript\nLink: import(\"@builder.io/qwik\").Component<LinkProps>\n```",
+      "content": "```typescript\nLink: import(\"@khulnasoft.com/qwik\").Component<LinkProps>\n```",
       "editUrl": "https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/link-component.tsx",
       "mdFile": "qwik-city.link.md"
     },
@@ -530,7 +530,7 @@
         }
       ],
       "kind": "Variable",
-      "content": "```typescript\nQwikCityMockProvider: import(\"@builder.io/qwik\").Component<QwikCityMockProps>\n```",
+      "content": "```typescript\nQwikCityMockProvider: import(\"@khulnasoft.com/qwik\").Component<QwikCityMockProps>\n```",
       "editUrl": "https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx",
       "mdFile": "qwik-city.qwikcitymockprovider.md"
     },
@@ -572,7 +572,7 @@
         }
       ],
       "kind": "Variable",
-      "content": "```typescript\nQwikCityProvider: import(\"@builder.io/qwik\").Component<QwikCityProps>\n```",
+      "content": "```typescript\nQwikCityProvider: import(\"@khulnasoft.com/qwik\").Component<QwikCityProps>\n```",
       "editUrl": "https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/qwik-city-component.tsx",
       "mdFile": "qwik-city.qwikcityprovider.md"
     },
@@ -698,7 +698,7 @@
         }
       ],
       "kind": "Variable",
-      "content": "```typescript\nRouterOutlet: import(\"@builder.io/qwik\").Component<unknown>\n```",
+      "content": "```typescript\nRouterOutlet: import(\"@khulnasoft.com/qwik\").Component<unknown>\n```",
       "editUrl": "https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/router-outlet-component.tsx",
       "mdFile": "qwik-city.routeroutlet.md"
     },
@@ -768,7 +768,7 @@
         }
       ],
       "kind": "Function",
-      "content": "```typescript\nServiceWorkerRegister: (props: {\n    nonce?: string;\n}) => import(\"@builder.io/qwik\").JSXNode<\"script\">\n```\n\n\n<table><thead><tr><th>\n\nParameter\n\n\n</th><th>\n\nType\n\n\n</th><th>\n\nDescription\n\n\n</th></tr></thead>\n<tbody><tr><td>\n\nprops\n\n\n</td><td>\n\n{ nonce?: string; }\n\n\n</td><td>\n\n\n</td></tr>\n</tbody></table>\n**Returns:**\n\nimport(\"@builder.io/qwik\").JSXNode&lt;\"script\"&gt;",
+      "content": "```typescript\nServiceWorkerRegister: (props: {\n    nonce?: string;\n}) => import(\"@khulnasoft.com/qwik\").JSXNode<\"script\">\n```\n\n\n<table><thead><tr><th>\n\nParameter\n\n\n</th><th>\n\nType\n\n\n</th><th>\n\nDescription\n\n\n</th></tr></thead>\n<tbody><tr><td>\n\nprops\n\n\n</td><td>\n\n{ nonce?: string; }\n\n\n</td><td>\n\n\n</td></tr>\n</tbody></table>\n**Returns:**\n\nimport(\"@khulnasoft.com/qwik\").JSXNode&lt;\"script\"&gt;",
       "editUrl": "https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/runtime/src/sw-component.tsx",
       "mdFile": "qwik-city.serviceworkerregister.md"
     },

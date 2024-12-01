@@ -1,4 +1,4 @@
-import { renderToStream, RenderOptions } from "@builder.io/qwik/server";
+import { renderToStream, RenderOptions } from "@khulnasoft.com/qwik/server";
 import { manifest } from "@qwik-client-manifest";
 import Root from "./root";
 

@@ -1,4 +1,4 @@
-import { component$, Slot } from "@builder.io/qwik";
+import { component$, Slot } from "@khulnasoft.com/qwik";
 import Footer from "../../components/footer/footer";
 import Header from "../../components/header/header";
 

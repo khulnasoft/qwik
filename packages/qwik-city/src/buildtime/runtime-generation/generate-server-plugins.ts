@@ -1,4 +1,4 @@
-import type { QwikVitePlugin } from '@builder.io/qwik/optimizer';
+import type { QwikVitePlugin } from '@khulnasoft.com/qwik/optimizer';
 import type { BuildContext } from '../types';
 import { getImportPath } from './utils';
 

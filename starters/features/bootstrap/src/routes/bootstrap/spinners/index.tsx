@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import { component$ } from "@khulnasoft.com/qwik";
+import type { DocumentHead } from "@khulnasoft.com/qwik-city";
 import { Spinner } from "~/components/bootstrap";
 import { colorVariantsList } from "~/constants/data";
 

@@ -4,7 +4,7 @@ import {
   useResource$,
   useSignal,
   Resource,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 export const ResourceFn = component$(() => {
   const resource = useResource$(({ track }) => {

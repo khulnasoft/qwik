@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from "@khulnasoft.com/qwik";
 import { FILTERS, Todos } from "../../state/state";
 import { Item } from "../item/item";
 

@@ -1,4 +1,4 @@
-import { withLocale } from '@builder.io/qwik';
+import { withLocale } from '@khulnasoft.com/qwik';
 import type {
   ContentModule,
   RouteLocation,

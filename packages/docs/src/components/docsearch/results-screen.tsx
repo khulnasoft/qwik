@@ -1,4 +1,4 @@
-import { component$ } from '@builder.io/qwik';
+import { component$ } from '@khulnasoft.com/qwik';
 import { Result } from './result';
 import { removeHighlightTags } from './utils';
 import { SelectIcon } from './icons/SelectIcon';

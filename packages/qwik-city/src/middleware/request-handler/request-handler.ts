@@ -1,4 +1,4 @@
-import type { Render } from '@builder.io/qwik/server';
+import type { Render } from '@khulnasoft.com/qwik/server';
 import { loadRoute } from '../../runtime/src/routing';
 import type { QwikCityPlan } from '../../runtime/src/types';
 import { renderQwikMiddleware, resolveRequestHandlers } from './resolve-request-handlers';

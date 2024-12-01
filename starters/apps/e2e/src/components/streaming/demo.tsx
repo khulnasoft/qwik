@@ -4,7 +4,7 @@ import {
   SSRStream,
   useResource$,
   useStyles$,
-} from "@builder.io/qwik";
+} from "@khulnasoft.com/qwik";
 
 export function delay(time: number) {
   return new Promise<void>((resolve) => {

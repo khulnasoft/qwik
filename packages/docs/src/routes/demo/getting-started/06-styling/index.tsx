@@ -3,13 +3,13 @@ import {
   useSignal,
   useStylesScoped$,
   useTask$,
-} from '@builder.io/qwik';
+} from '@khulnasoft.com/qwik';
 import {
   routeLoader$,
   Form,
   routeAction$,
   server$,
-} from '@builder.io/qwik-city';
+} from '@khulnasoft.com/qwik-city';
 import styles from './index.css?inline';
 
 export const useDadJoke = routeLoader$(async () => {

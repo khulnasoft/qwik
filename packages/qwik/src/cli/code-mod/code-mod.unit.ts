@@ -188,46 +188,46 @@ test('add vite config', () => {
 });
 
 test('add imports to side effect default import', () => {
-  const sourceText = `import a from "@builder.io/qwik";`;
+  const sourceText = `import a from "@khulnasoft.com/qwik";`;
   const outputText = updateViteConfig(ts, sourceText, {
     imports: [
-      { namedImports: ['b'], importPath: '@builder.io/qwik' },
+      { namedImports: ['b'], importPath: '@khulnasoft.com/qwik' },
       { namedImports: ['c', 'd'], importPath: '@builder.io/sdk-react' },
     ],
   })!;
-  assert.include(outputText, 'import a, { b } from "@builder.io/qwik";');
+  assert.include(outputText, 'import a, { b } from "@khulnasoft.com/qwik";');
   assert.include(outputText, 'import { c, d } from "@builder.io/sdk-react";');
 });
 
 test('do not re-add named imports', () => {
   const sourceText = `
-    import { a } from "@builder.io/qwik";
+    import { a } from "@khulnasoft.com/qwik";
     import { b, c } from "@builder.io/sdk-react";
     `;
   const outputText = updateViteConfig(ts, sourceText, {
     imports: [
-      { namedImports: ['a'], importPath: '@builder.io/qwik' },
+      { namedImports: ['a'], importPath: '@khulnasoft.com/qwik' },
       { namedImports: ['b', 'c'], importPath: '@builder.io/sdk-react' },
     ],
   })!;
-  assert.include(outputText, 'import { a } from "@builder.io/qwik";');
+  assert.include(outputText, 'import { a } from "@khulnasoft.com/qwik";');
   assert.include(outputText, 'import { b, c } from "@builder.io/sdk-react";');
 });
 
 test('add imports to side effect import', () => {
-  const sourceText = `import "@builder.io/qwik";\nconsole.log(88);`;
+  const sourceText = `import "@khulnasoft.com/qwik";\nconsole.log(88);`;
   const outputText = updateViteConfig(ts, sourceText, {
-    imports: [{ namedImports: ['a'], importPath: '@builder.io/qwik' }],
+    imports: [{ namedImports: ['a'], importPath: '@khulnasoft.com/qwik' }],
   })!;
-  assert.include(outputText, 'import { a } from "@builder.io/qwik"');
+  assert.include(outputText, 'import { a } from "@khulnasoft.com/qwik"');
 });
 
 test('leave existing imports', () => {
-  const sourceText = `import { a } from "@builder.io/qwik";`;
+  const sourceText = `import { a } from "@khulnasoft.com/qwik";`;
   const outputText = updateViteConfig(ts, sourceText, {
-    imports: [{ namedImports: ['b'], importPath: '@builder.io/qwik' }],
+    imports: [{ namedImports: ['b'], importPath: '@khulnasoft.com/qwik' }],
   })!;
-  assert.include(outputText, 'import { a, b } from "@builder.io/qwik";');
+  assert.include(outputText, 'import { a, b } from "@khulnasoft.com/qwik";');
 });
 
 test('renamed default import with existing named import', () => {
@@ -235,11 +235,11 @@ test('renamed default import with existing named import', () => {
   const outputText = updateViteConfig(ts, sourceText, {
     imports: [
       { defaultImport: 'c', importPath: '@builder.io/sdk-react' },
-      { namedImports: ['d'], importPath: '@builder.io/qwik' },
+      { namedImports: ['d'], importPath: '@khulnasoft.com/qwik' },
     ],
   })!;
   assert.include(outputText, 'import c, { b } from "@builder.io/sdk-react";');
-  assert.include(outputText, 'import { d } from "@builder.io/qwik";');
+  assert.include(outputText, 'import { d } from "@khulnasoft.com/qwik";');
 });
 
 test('renamed default import', () => {
