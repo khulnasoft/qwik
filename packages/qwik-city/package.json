@@ -1,8 +1,8 @@
 {
-  "name": "@builder.io/qwik-city",
+  "name": "@khulnasoft.com/qwik-city",
   "description": "The meta-framework for Qwik.",
-  "version": "1.10.0",
-  "bugs": "https://github.com/QwikDev/qwik/issues",
+  "version": "1.11.0",
+  "bugs": "https://github.com/KhulnaSoft/qwik/issues",
   "dependencies": {
     "@mdx-js/mdx": "^3",
     "@types/mdx": "^2",

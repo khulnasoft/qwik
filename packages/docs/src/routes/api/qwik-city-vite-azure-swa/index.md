@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/vite/azure-swa API Reference
+title: \@khulnasoft.com/qwik-city/vite/azure-swa API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/vite/azure-swa
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/vite/azure-swa
 
 ## azureSwaAdapter
 
@@ -41,7 +41,7 @@ _(Optional)_
 
 any
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/azure-swa/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/azure-swa/vite/index.ts)
 
 ## AzureSwaAdapterOptions
 
@@ -51,4 +51,4 @@ export interface AzureSwaAdapterOptions extends ServerAdapterOptions
 
 **Extends:** ServerAdapterOptions
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/azure-swa/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/azure-swa/vite/index.ts)

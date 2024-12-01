@@ -1,5 +1,5 @@
 import { $, component$, useStyles$, useStore, useVisibleTask$, useTask$ } from '@builder.io/qwik';
-import type { RequestHandler, DocumentHead } from '@builder.io/qwik-city';
+import type { RequestHandler, DocumentHead } from '@khulnasoft.com/qwik-city';
 import { Repl } from '../../repl/repl';
 import { Header } from '../../components/header/header';
 import styles from './playground.css?inline';

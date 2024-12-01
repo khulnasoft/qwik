@@ -711,7 +711,7 @@ fn example_drop_side_effects() {
 	test_input!(TestInput {
 		code: r#"
 import { component$ } from '@builder.io/qwik';
-import { server$ } from '@builder.io/qwik-city';
+import { server$ } from '@khulnasoft.com/qwik-city';
 import { clientSupabase } from 'supabase';
 import { Client } from 'openai';
 import { secret } from './secret';
@@ -2255,7 +2255,7 @@ fn example_spread_jsx() {
 	test_input!(TestInput {
 		code: r#"
 import { component$ } from '@builder.io/qwik';
-import { useDocumentHead, useLocation } from '@builder.io/qwik-city';
+import { useDocumentHead, useLocation } from '@khulnasoft.com/qwik-city';
 
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
@@ -3099,7 +3099,7 @@ async function renderToString(rootNode, opts) {
 export { qwikify$, qwikifyQrl, renderToString };
         "#
         .to_string(),
-        filename: "../node_modules/@builder.io/qwik-react/index.qwik.mjs".to_string(),
+        filename: "../node_modules/@khulnasoft.com/qwik-react/index.qwik.mjs".to_string(),
         entry_strategy: EntryStrategy::Segment,
         explicit_extensions: true,
         ..TestInput::default()
@@ -3202,7 +3202,7 @@ async function renderToString(rootNode, opts) {
 export { qwikify$, qwikifyQrl, renderToString };
         "#
         .to_string(),
-        filename: "../node_modules/@builder.io/qwik-react/index.qwik.mjs".to_string(),
+        filename: "../node_modules/@khulnasoft.com/qwik-react/index.qwik.mjs".to_string(),
         entry_strategy: EntryStrategy::Inline,
         explicit_extensions: true,
         ..TestInput::default()
@@ -3213,7 +3213,7 @@ export { qwikify$, qwikifyQrl, renderToString };
 fn example_qwik_sdk_inline() {
 	test_input!(TestInput {
 		code: include_str!("fixtures/index.qwik.mjs").to_string(),
-		filename: "../node_modules/@builder.io/qwik-city/index.qwik.mjs".to_string(),
+		filename: "../node_modules/@khulnasoft.com/qwik-city/index.qwik.mjs".to_string(),
 		entry_strategy: EntryStrategy::Smart,
 		explicit_extensions: true,
 		// mode: EmitMode::Prod,

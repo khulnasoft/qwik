@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { Link } from "@builder.io/qwik-city";
+import { Link } from "@khulnasoft.com/qwik-city";
 
 export default component$(() => (
   <div>

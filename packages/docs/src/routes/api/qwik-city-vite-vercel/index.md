@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/vite/vercel API Reference
+title: \@khulnasoft.com/qwik-city/vite/vercel API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/vite/vercel
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/vite/vercel
 
 ## vercelEdgeAdapter
 
@@ -41,7 +41,7 @@ _(Optional)_
 
 any
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/vercel-edge/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/vercel-edge/vite/index.ts)
 
 ## VercelEdgeAdapterOptions
 
@@ -153,4 +153,4 @@ Defaults to `undefined`.
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/vercel-edge/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/vercel-edge/vite/index.ts)

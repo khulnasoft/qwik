@@ -1,5 +1,5 @@
 import { component$ } from '@builder.io/qwik';
-import { routeLoader$ } from '@builder.io/qwik-city';
+import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 
 export const useThirdPartyPaymentLoader = routeLoader$(() => {
   return { name: 'John Doe' };

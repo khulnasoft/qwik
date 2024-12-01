@@ -3,7 +3,7 @@ import {
   type DocumentHead,
   type RequestHandler,
   useLocation,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 
 export default component$(() => {
   const loc = useLocation();

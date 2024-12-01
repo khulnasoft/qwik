@@ -1,4 +1,4 @@
-import { Link } from "@builder.io/qwik-city";
+import { Link } from "@khulnasoft.com/qwik-city";
 import { component$ } from "@builder.io/qwik";
 
 export default component$((props) => {

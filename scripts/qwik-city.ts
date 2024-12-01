@@ -167,7 +167,7 @@ async function buildServiceWorker(config: BuildConfig) {
 async function buildAdapterAzureSwaVite(config: BuildConfig) {
   const entryPoints = [join(config.srcQwikCityDir, 'adapters', 'azure-swa', 'vite', 'index.ts')];
 
-  const external = ['vite', 'fs', 'path', '@builder.io/qwik-city/static'];
+  const external = ['vite', 'fs', 'path', '@khulnasoft.com/qwik-city/static'];
 
   await build({
     entryPoints,
@@ -655,7 +655,7 @@ async function buildStaticNode(config: BuildConfig) {
   const external = [
     '@builder.io/qwik',
     '@builder.io/qwik/optimizer',
-    '@builder.io/qwik-city',
+    '@khulnasoft.com/qwik-city',
     'fs',
     'http',
     'https',
@@ -711,17 +711,17 @@ const ADAPTER_EXTERNALS = [
   '@builder.io/qwik',
   '@builder.io/qwik/server',
   '@builder.io/qwik/optimizer',
-  '@builder.io/qwik-city',
-  '@builder.io/qwik-city/static',
-  '@builder.io/qwik-city/middleware/request-handler',
+  '@khulnasoft.com/qwik-city',
+  '@khulnasoft.com/qwik-city/static',
+  '@khulnasoft.com/qwik-city/middleware/request-handler',
 ];
 
 const MIDDLEWARE_EXTERNALS = [
   '@builder.io/qwik',
   '@builder.io/qwik/optimizer',
   '@builder.io/qwik/server',
-  '@builder.io/qwik-city',
-  '@builder.io/qwik-city/static',
+  '@khulnasoft.com/qwik-city',
+  '@khulnasoft.com/qwik-city/static',
   '@qwik-city-plan',
   '@qwik-city-not-found-paths',
   '@qwik-city-static-paths',

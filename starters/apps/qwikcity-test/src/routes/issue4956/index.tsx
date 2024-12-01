@@ -1,5 +1,5 @@
 import { component$, useStore, useTask$ } from "@builder.io/qwik";
-import { useLocation } from "@builder.io/qwik-city";
+import { useLocation } from "@khulnasoft.com/qwik-city";
 
 export default component$((props) => {
   const loc = useLocation();

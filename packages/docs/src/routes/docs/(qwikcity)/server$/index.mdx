@@ -32,7 +32,7 @@ Your new function will have the following signature:
 
 ```tsx
 import { component$, useSignal, $ } from '@builder.io/qwik';
-import { server$ } from '@builder.io/qwik-city';
+import { server$ } from '@khulnasoft.com/qwik-city';
 
 // By wrapping a function with `server$()` we mark it to always
 // execute on the server. This is a form of RPC mechanism.
@@ -177,7 +177,7 @@ Terminating the generator on the client side (e.g., by calling `.return()` on th
 
 ```tsx
 import { component$, useSignal, $ } from '@builder.io/qwik';
-import { server$ } from '@builder.io/qwik-city';
+import { server$ } from '@khulnasoft.com/qwik-city';
 
 export const streamFromServer = server$(
   // Async Generator Function

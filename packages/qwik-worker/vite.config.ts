@@ -16,7 +16,7 @@ export default defineConfig(() => {
       rollupOptions: {
         external: (id) => {
           if (
-            ['@builder.io/qwik', '@builder.io/qwik-city', '@builder.io/qwik/build'].includes(id)
+            ['@builder.io/qwik', '@khulnasoft.com/qwik-city', '@builder.io/qwik/build'].includes(id)
           ) {
             return true;
           }

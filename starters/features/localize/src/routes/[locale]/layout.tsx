@@ -1,5 +1,5 @@
 import { component$, Slot } from "@builder.io/qwik";
-import type { RequestHandler } from "@builder.io/qwik-city";
+import type { RequestHandler } from "@khulnasoft.com/qwik-city";
 import { extractLang, useI18n } from "~/routes/[locale]/i18n-utils";
 
 export const onRequest: RequestHandler = ({ locale, params }) => {

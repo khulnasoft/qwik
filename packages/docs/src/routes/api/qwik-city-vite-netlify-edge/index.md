@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/vite/netlify-edge API Reference
+title: \@khulnasoft.com/qwik-city/vite/netlify-edge API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/vite/netlify-edge
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/vite/netlify-edge
 
 ## netlifyEdgeAdapter
 
@@ -43,7 +43,7 @@ _(Optional)_
 
 any
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/netlify-edge/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/netlify-edge/vite/index.ts)
 
 ## NetlifyEdgeAdapterOptions
 
@@ -127,4 +127,4 @@ _(Optional)_ Manually add pathnames that should be treated as static paths and n
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/netlify-edge/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/netlify-edge/vite/index.ts)

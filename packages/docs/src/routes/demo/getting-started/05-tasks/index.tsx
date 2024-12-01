@@ -4,7 +4,7 @@ import {
   Form,
   routeAction$,
   server$,
-} from '@builder.io/qwik-city';
+} from '@khulnasoft.com/qwik-city';
 
 export const useDadJoke = routeLoader$(async () => {
   const response = await fetch('https://icanhazdadjoke.com/', {

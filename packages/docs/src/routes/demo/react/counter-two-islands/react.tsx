@@ -1,5 +1,5 @@
 /** @jsxImportSource react */
-import { qwikify$ } from '@builder.io/qwik-react';
+import { qwikify$ } from '@khulnasoft.com/qwik-react';
 
 function Button({ onClick }: { onClick: () => void }) {
   console.log('React <Button/> Render');

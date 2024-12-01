@@ -47,7 +47,7 @@ src/
 > Please note that in dev mode the Vite scripts have no nonce and will report. For this reason, the example will not add csp in dev mode.
 
 ```typescript title="src/routes/plugin@csp.ts"
-import type { RequestHandler } from "@builder.io/qwik-city";
+import type { RequestHandler } from "@khulnasoft.com/qwik-city";
 import { isDev } from "@builder.io/qwik/build";
 
 export const onRequest: RequestHandler = event => {
@@ -77,7 +77,7 @@ import {
   QwikCityProvider,
   RouterOutlet,
   ServiceWorkerRegister,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
 import { isDev } from "@builder.io/qwik/build";
 

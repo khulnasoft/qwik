@@ -9,7 +9,7 @@ import {
   zod$,
   type RequestEvent,
   type RequestEventCommon,
-} from '@builder.io/qwik-city';
+} from '@khulnasoft.com/qwik-city';
 import { isServer } from '@builder.io/qwik/build';
 import { parseString, splitCookiesString } from 'set-cookie-parser';
 
@@ -52,7 +52,7 @@ export function serverAuthQrl(authOptions: QRL<(ev: RequestEventCommon) => QwikA
 
       const data = await authAction(body, req, signInUrl, auth);
 
-      // set authjs.callback-url cookie. Fix for https://github.com/QwikDev/qwik/issues/5227
+      // set authjs.callback-url cookie. Fix for https://github.com/KhulnaSoft/qwik/issues/5227
       req.cookie.set('authjs.callback-url', callbackUrl, {
         path: '/',
       });

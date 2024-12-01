@@ -3,12 +3,12 @@ import type {
   ServerRenderOptions,
   ServerRequestEvent,
   ClientConn,
-} from '@builder.io/qwik-city/middleware/request-handler';
+} from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import {
   mergeHeadersCookies,
   requestHandler,
   _TextEncoderStream_polyfill,
-} from '@builder.io/qwik-city/middleware/request-handler';
+} from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { getNotFound } from '@qwik-city-not-found-paths';
 import { isStaticPath } from '@qwik-city-static-paths';
 import { _deserializeData, _serializeData, _verifySerializable } from '@builder.io/qwik';
@@ -18,7 +18,7 @@ import { join, extname } from 'node:path';
 
 /** @public */
 export function createQwikCity(opts: QwikCityBunOptions) {
-  // @builder.io/qwik-city/middleware/bun
+  // @khulnasoft.com/qwik-city/middleware/bun
   // still missing from bun: last check was bun version 1.1.8
   globalThis.TextEncoderStream ||= _TextEncoderStream_polyfill;
 

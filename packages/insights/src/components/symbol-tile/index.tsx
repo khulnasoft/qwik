@@ -1,5 +1,5 @@
 import { Resource, component$, useResource$, useStore } from '@builder.io/qwik';
-import { server$, useLocation } from '@builder.io/qwik-city';
+import { server$, useLocation } from '@khulnasoft.com/qwik-city';
 import { and, eq } from 'drizzle-orm';
 import { getDB, symbolDetailTable } from '~/db';
 import { SymbolIcon } from '../icons/symbol';
@@ -128,8 +128,8 @@ const serverGetSourceSnippet = server$(async function (publicApiKey: string, sym
   let url: URL | null = null;
   let rawUrl: URL | null = null;
   if (publicApiKey == '221smyuj5gl') {
-    const rawGithub = 'https://raw.githubusercontent.com/QwikDev/qwik/main/packages/docs/src/';
-    const github = 'https://github.com/QwikDev/qwik/blob/main/packages/docs/src/';
+    const rawGithub = 'https://raw.githubusercontent.com/KhulnaSoft/qwik/main/packages/docs/src/';
+    const github = 'https://github.com/KhulnaSoft/qwik/blob/main/packages/docs/src/';
     rawUrl = new URL(rawGithub);
     url = new URL(github);
     if (symbolDetail.origin.startsWith('./')) {

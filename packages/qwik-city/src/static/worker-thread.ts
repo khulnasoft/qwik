@@ -6,8 +6,8 @@ import type {
   System,
 } from './types';
 import type { ClientPageData } from '../runtime/src/types';
-import type { ServerRequestEvent } from '@builder.io/qwik-city/middleware/request-handler';
-import { requestHandler } from '@builder.io/qwik-city/middleware/request-handler';
+import type { ServerRequestEvent } from '@khulnasoft.com/qwik-city/middleware/request-handler';
+import { requestHandler } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { pathToFileURL } from 'node:url';
 import { WritableStream } from 'node:stream/web';
 import { _deserializeData, _serializeData, _verifySerializable } from '@builder.io/qwik';

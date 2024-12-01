@@ -1,4 +1,4 @@
-import type { RouteLocation } from "@builder.io/qwik-city";
+import type { RouteLocation } from "@khulnasoft.com/qwik-city";
 
 export const Vendor = ({ loc }: VendorProps) => {
   return (

@@ -93,7 +93,7 @@ src/
 
 ```tsx title="src/routes/user/[username]/index.tsx"
 import { component$ } from '@builder.io/qwik';
-import { useLocation } from '@builder.io/qwik-city';
+import { useLocation } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
   const loc = useLocation();
@@ -124,7 +124,7 @@ export default component$(() => {
 An `index.ts` file can access the HTTP request directly and return a raw HTTP response without involving any Qwik Component. This is done by exporting any of the following methods: `onRequest`, `onGet`, `onPost`, `onPut` or `onDelete` depending on how you want to handle a specific HTTP request.
 
 ```tsx title="src/routes/index.ts"
-import type { RequestHandler } from '@builder.io/qwik-city';
+import type { RequestHandler } from '@khulnasoft.com/qwik-city';
 
 export const onGet: RequestHandler = ({ json }) => {
   json(200, { message: 'Hello World' });
@@ -139,7 +139,7 @@ In Qwik City there is no clear separation between pages and endpoints. An `index
 
 ```tsx title="src/routes/index.tsx"
 import { component$ } from '@builder.io/qwik';
-import type { RequestHandler } from '@builder.io/qwik-city';
+import type { RequestHandler } from '@khulnasoft.com/qwik-city';
 
 export const onRequest: RequestHandler = ({ headers, query, json }) => {
   headers.set('Cache-Control', 'private');
@@ -238,7 +238,7 @@ However, if you need to navigate programmatically, you can use the `useNavigate(
 
 ```tsx
 import { component$ } from '@builder.io/qwik';
-import { Link, useNavigate } from '@builder.io/qwik-city';
+import { Link, useNavigate } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
   const nav = useNavigate();
@@ -251,7 +251,7 @@ export default component$(() => {
 });
 ```
 
-> The `Link` component uses the `useNavigate()` hook [internally](https://github.com/QwikDev/qwik/blob/e452582f4728cbcb7bf85d03293e757302286683/packages/qwik-city/runtime/src/link-component.tsx#L33).
+> The `Link` component uses the `useNavigate()` hook [internally](https://github.com/KhulnaSoft/qwik/blob/e452582f4728cbcb7bf85d03293e757302286683/packages/qwik-city/runtime/src/link-component.tsx#L33).
 
 ### Preventing navigation
 
@@ -264,7 +264,7 @@ You can also call the `nav()` function from the `useNavigate()` hook, without ar
 
 ```tsx
 import { component$ } from '@builder.io/qwik';
-import { Link, routeLoader$, useNavigate } from '@builder.io/qwik-city';
+import { Link, routeLoader$, useNavigate } from '@khulnasoft.com/qwik-city';
 
 export const useServerTime = routeLoader$(() => {
   // This will re-execute in the server when the page refreshes.
@@ -398,7 +398,7 @@ You can set the rewrite rules as follows in your `vite.config.ts`:
 
 ```tsx
 import { defineConfig } from 'vite';
-import { qwikCity } from '@builder.io/qwik-city/vite';
+import { qwikCity } from '@khulnasoft.com/qwik-city/vite';
 
 export default defineConfig(async () => {
   return {

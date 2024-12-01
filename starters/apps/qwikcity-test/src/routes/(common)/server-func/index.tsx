@@ -6,7 +6,7 @@ import {
   useSignal,
   useTask$,
 } from "@builder.io/qwik";
-import { routeLoader$, server$ } from "@builder.io/qwik-city";
+import { routeLoader$, server$ } from "@khulnasoft.com/qwik-city";
 import { delay } from "../actions/login";
 
 export const useGetUserAgent = routeLoader$(() => {

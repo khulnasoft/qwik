@@ -119,7 +119,7 @@ The `outDir` is a file system output directory where the static files should be 
 
 ### Javascript Runtimes
 
-For a Javascript project, it's quite common for the build's runtime to be built on top of [Node.js](https://nodejs.org/en/docs/). However, the core of Qwik City static site generation isn't tied to using only Node.js, which is why the `qwikCityGenerate()` function is imported from `@builder.io/qwik-city/static/node`. By scoping the generate function to a specific runtime, such as Node.js, this gives Qwik City the flexibility to also generate SSG from other runtimes in the future, such as [Deno](https://deno.land/) or [Bun](https://bun.sh/).
+For a Javascript project, it's quite common for the build's runtime to be built on top of [Node.js](https://nodejs.org/en/docs/). However, the core of Qwik City static site generation isn't tied to using only Node.js, which is why the `qwikCityGenerate()` function is imported from `@khulnasoft.com/qwik-city/static/node`. By scoping the generate function to a specific runtime, such as Node.js, this gives Qwik City the flexibility to also generate SSG from other runtimes in the future, such as [Deno](https://deno.land/) or [Bun](https://bun.sh/).
 
 ## Dynamic SSG Routes
 
@@ -127,7 +127,7 @@ So far, we've only discussed how to generate static HTML files for a single rout
 
 ```tsx
 import { component$ } from '@builder.io/qwik';
-import { useLocation, type StaticGenerateHandler } from '@builder.io/qwik-city';
+import { useLocation, type StaticGenerateHandler } from '@khulnasoft.com/qwik-city';
 import { loadProductIds } from './load-product-ids';
 
 export default component$(() => {

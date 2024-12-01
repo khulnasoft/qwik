@@ -3,7 +3,7 @@ import { Http2ServerRequest } from 'node:http2';
 import type {
   ServerRequestMode,
   ServerRequestEvent,
-} from '@builder.io/qwik-city/middleware/request-handler';
+} from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type { ClientConn } from '../request-handler/types';
 import type { QwikCityNodeRequestOptions } from '.';
 

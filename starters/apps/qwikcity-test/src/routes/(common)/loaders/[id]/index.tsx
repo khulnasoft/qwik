@@ -7,7 +7,7 @@ import {
   routeAction$,
   z,
   zod$,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 import { delay } from "../../actions/login";
 
 export const useDateLoader = routeLoader$(

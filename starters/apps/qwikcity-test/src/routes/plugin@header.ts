@@ -1,4 +1,4 @@
-import { routeLoader$, type RequestHandler } from "@builder.io/qwik-city";
+import { routeLoader$, type RequestHandler } from "@khulnasoft.com/qwik-city";
 
 export const useRootLoader = routeLoader$(() => {
   return {

@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import type { DocumentHead } from "@khulnasoft.com/qwik-city";
 
 import Counter from "../components/starter/counter/counter";
 import Hero from "../components/starter/hero/hero";
@@ -83,7 +83,7 @@ export default component$(() => {
               </li>
               <li>
                 <span>Open issues and contribute on </span>
-                <a href="https://github.com/QwikDev/qwik" target="_blank">
+                <a href="https://github.com/KhulnaSoft/qwik" target="_blank">
                   GitHub
                 </a>
               </li>

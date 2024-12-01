@@ -31,7 +31,7 @@ const noExternal = [
   '@builder.io/qwik',
   '@builder.io/qwik/server',
   '@builder.io/qwik/build',
-  '@builder.io/qwik-city',
+  '@khulnasoft.com/qwik-city',
 ];
 
 const excludeDeps = [
@@ -45,7 +45,7 @@ const excludeDeps = [
   '@builder.io/qwik/jsx-dev-runtime',
   '@builder.io/qwik/build',
   '@qwik-client-manifest',
-  '@builder.io/qwik-city',
+  '@khulnasoft.com/qwik-city',
 ];
 
 const getPlugin = (opts: QwikVitePluginOptions | undefined) =>

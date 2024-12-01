@@ -1,4 +1,4 @@
-import { useLocation } from '@builder.io/qwik-city';
+import { useLocation } from '@khulnasoft.com/qwik-city';
 import { component$, useStyles$, useContext, useVisibleTask$ } from '@builder.io/qwik';
 import { DocSearch } from '../docsearch/doc-search';
 import { CloseIcon } from '../svgs/close-icon';
@@ -110,7 +110,7 @@ export const Header = component$(() => {
               <ThemeToggle />
             </li>
             <li>
-              <a href="https://github.com/QwikDev/qwik" target="_blank" title="GitHub">
+              <a href="https://github.com/KhulnaSoft/qwik" target="_blank" title="GitHub">
                 <span class="lg:hidden">GitHub</span>
                 <span class="hidden lg:block">
                   <GithubLogo width={22} height={22} />

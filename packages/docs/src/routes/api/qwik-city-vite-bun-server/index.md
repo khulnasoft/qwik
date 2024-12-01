@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/vite/bun-server API Reference
+title: \@khulnasoft.com/qwik-city/vite/bun-server API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/vite/bun-server
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/vite/bun-server
 
 ## bunServerAdapter
 
@@ -43,7 +43,7 @@ _(Optional)_
 
 any
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/bun-server/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/bun-server/vite/index.ts)
 
 ## bunServerAdapterOptions
 
@@ -89,4 +89,4 @@ string
 </td></tr>
 </tbody></table>
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/bun-server/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/bun-server/vite/index.ts)

@@ -2,11 +2,11 @@ import type {
   ServerRenderOptions,
   ServerRequestEvent,
   ClientConn,
-} from '@builder.io/qwik-city/middleware/request-handler';
+} from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import {
   mergeHeadersCookies,
   requestHandler,
-} from '@builder.io/qwik-city/middleware/request-handler';
+} from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { getNotFound } from '@qwik-city-not-found-paths';
 import { isStaticPath } from '@qwik-city-static-paths';
 import { _deserializeData, _serializeData, _verifySerializable } from '@builder.io/qwik';
@@ -15,7 +15,7 @@ import { MIME_TYPES } from '../request-handler/mime-types';
 // @ts-ignore
 import { extname, fromFileUrl, join } from 'https://deno.land/std/path/mod.ts';
 
-// @builder.io/qwik-city/middleware/deno
+// @khulnasoft.com/qwik-city/middleware/deno
 
 /** @public */
 export interface NetAddr {

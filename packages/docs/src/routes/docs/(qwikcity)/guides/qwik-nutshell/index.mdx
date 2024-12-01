@@ -455,12 +455,12 @@ It is very important to export the component as the default export, otherwise th
 
 ### Route Parameters
 
-You can create dynamic routes by adding a folder with `[param]` in the route path. For example, `src/routes/user/[id]/index.tsx` will create a route at `/user/:id/`. In order to access the route parameter, you can use the `useLocation` hook exported from `@builder.io/qwik-city`.
+You can create dynamic routes by adding a folder with `[param]` in the route path. For example, `src/routes/user/[id]/index.tsx` will create a route at `/user/:id/`. In order to access the route parameter, you can use the `useLocation` hook exported from `@khulnasoft.com/qwik-city`.
 
 ```tsx title="src/routes/user/[userID]/index.tsx"
 
 import { component$ } from '@builder.io/qwik';
-import { useLocation } from '@builder.io/qwik-city';
+import { useLocation } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
   const loc = useLocation();
@@ -489,12 +489,12 @@ export interface RouteLocation {
 
 ### Linking to other routes
 
-To link to other routes, you can use the `Link` component exported from `@builder.io/qwik-city`. The `Link` component takes all the properties of the `<a>` HTMLAnchorElement. The only difference is that it will use the Qwik router to SPA navigate to the route instead of doing a full page navigation.
+To link to other routes, you can use the `Link` component exported from `@khulnasoft.com/qwik-city`. The `Link` component takes all the properties of the `<a>` HTMLAnchorElement. The only difference is that it will use the Qwik router to SPA navigate to the route instead of doing a full page navigation.
 
 ```tsx title="src/routes/index.tsx"
 
 import { component$ } from '@builder.io/qwik';
-import { Link } from '@builder.io/qwik-city';
+import { Link } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
   return (
@@ -509,12 +509,12 @@ export default component$(() => {
 
 ## Fetching / loading data
 
-The recommended way to load data from the server is to use the `routeLoader$()` function exported from `@builder.io/qwik-city`. The `routeLoader$()` function is used to create a data loader that will be executed on the server before the route is rendered. The return of `routeLoader$()` must be exported as a named export from the route file, ie, it can only be used in a `index.tsx`, inside of `src/routes/`.
+The recommended way to load data from the server is to use the `routeLoader$()` function exported from `@khulnasoft.com/qwik-city`. The `routeLoader$()` function is used to create a data loader that will be executed on the server before the route is rendered. The return of `routeLoader$()` must be exported as a named export from the route file, ie, it can only be used in a `index.tsx`, inside of `src/routes/`.
 
 ```tsx title="src/routes/user/[userID]/index.tsx"
 
 import { component$ } from '@builder.io/qwik';
-import { routeLoader$ } from '@builder.io/qwik-city';
+import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 
 // The `routeLoader$()` function is used to create a data loader that will be executed on the server before the route is rendered.
 // The return of `routeLoader$()` is a custom use hook, which can be used to access the data returned from `routeLoader$()`.
@@ -558,12 +558,12 @@ The `routeLoader$()` function takes a function that returns a promise. The promi
 
 ## Handle form submissions
 
-Qwik provides the `routeAction$()` API exported from `@builder.io/qwik-city` to handle form requests on the server. `routeAction$()` is only executed on the server when the form is submitted.
+Qwik provides the `routeAction$()` API exported from `@khulnasoft.com/qwik-city` to handle form requests on the server. `routeAction$()` is only executed on the server when the form is submitted.
 
 ```tsx title="src/routes/user/[userID]/index.tsx"
 
 import { component$ } from '@builder.io/qwik';
-import { routeAction$, Form, zod$, z } from '@builder.io/qwik-city';
+import { routeAction$, Form, zod$, z } from '@khulnasoft.com/qwik-city';
 
 // The `routeAction$()` function is used to create a data loader that will be executed on the server when the form is submitted.
 // The return of `routeAction$()` is a custom use hook, which can be used to access the data returned from `routeAction$()`.
@@ -605,7 +605,7 @@ export default component$(() => {
 });
 ```
 
-The `routeAction$()` is used on pair with the `Form` component exported from `@builder.io/qwik-city`. The `Form` component is a wrapper around the native HTML `<form>` element. The `Form` component takes an `ActionStore<T>` as the `action` property. The `ActionStore<T>` is the return value of the `routeAction$()` function.
+The `routeAction$()` is used on pair with the `Form` component exported from `@khulnasoft.com/qwik-city`. The `Form` component is a wrapper around the native HTML `<form>` element. The `Form` component takes an `ActionStore<T>` as the `action` property. The `ActionStore<T>` is the return value of the `routeAction$()` function.
 
 
 ## Run code only in the browser

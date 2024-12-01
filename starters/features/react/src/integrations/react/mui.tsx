@@ -1,6 +1,6 @@
 /** @jsxImportSource react */
 
-import { qwikify$ } from "@builder.io/qwik-react";
+import { qwikify$ } from "@khulnasoft.com/qwik-react";
 import { Button, Slider } from "@mui/material";
 import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
 

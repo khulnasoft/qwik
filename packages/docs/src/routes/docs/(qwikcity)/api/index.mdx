@@ -81,7 +81,7 @@ All starters include a `<RouterHead>` component that is responsible for generati
 
 ```tsx title="src/components/router-head/router-head.tsx"
 import { component$ } from '@builder.io/qwik';
-import { useDocumentHead } from '@builder.io/qwik-city';
+import { useDocumentHead } from '@khulnasoft.com/qwik-city';
 
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
@@ -149,7 +149,7 @@ Assume you have:
 
 ```tsx /useLocation/ title="src/routes/sku/[skuId]/index.tsx"
 import { component$ } from '@builder.io/qwik';
-import { useLocation } from '@builder.io/qwik-city';
+import { useLocation } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
   const loc = useLocation();
@@ -189,7 +189,7 @@ The `useNavigate()` hook returns a function that programmatically navigates to t
 
 ```tsx {12,21} /useNavigate/
 import { component$ } from '@builder.io/qwik';
-import { useNavigate } from '@builder.io/qwik-city';
+import { useNavigate } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
   const nav = useNavigate();
@@ -228,7 +228,7 @@ To programmatically navigate back to the previous page, use the useNavigate and 
 
 ```tsx
 import { component$ } from '@builder.io/qwik';
-import { useNavigate, useLocation } from '@builder.io/qwik-city';
+import { useNavigate, useLocation } from '@khulnasoft.com/qwik-city';
 
 export const BackButton = component$(() => {
   const nav = useNavigate();
@@ -245,13 +245,16 @@ export const BackButton = component$(() => {
 
 The fallback in the nav function ensures that if the previous URL (loc.prevUrl) is not available, the user is redirected to a default path (eg. the root path /). This is useful in scenarios where the navigation history might not include a previous URL, such as when the user directly lands on a specific page without navigating from another page within the app.
 
+> Notice that the **loc.prevUrl** is only available when the user navigates to a page using the [`useNavigate()`](#usenavigate) or [`<Link>`](/docs/cookbook/nav-link). It is not available when the user navigates to a page using [`the anchor element`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a).
+
+
 ## `routeLoader$()`
 
 The `routeLoader$()` function is used to declare a new Server Loader in the given page/middleware or layout. Qwik City will execute all the declared loaders for the given route match. Qwik Components can later reference the loaders by importing them and calling the returned custom hook function in order to retrieve the data.
 
 ```tsx
 import { component$ } from '@builder.io/qwik';
-import { routeLoader$ } from '@builder.io/qwik-city';
+import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 
 export const useGetTime = routeLoader$(async () => {
   return { time: new Date() }
@@ -318,7 +321,7 @@ If you are looking for a general example on how to integrate vitest into your Qw
 
 ```tsx title="src/components/card.spec.tsx"
 import { createDOM } from '@builder.io/qwik/testing';
-import { QwikCityMockProvider } from '@builder.io/qwik-city';
+import { QwikCityMockProvider } from '@khulnasoft.com/qwik-city';
 import { test, expect } from 'vitest';
 
 // Component with two props. Uses <Link> internally. Omitted for brevity
@@ -382,7 +385,7 @@ Since this component uses the native `<form>` element, it will work with any bro
 
 ```tsx title="src/routes/login/index.tsx"
 import { component$ } from '@builder.io/qwik';
-import { Form, routeAction$ } from '@builder.io/qwik-city';
+import { Form, routeAction$ } from '@khulnasoft.com/qwik-city';
 
 // this action will be called when the form is submitted
 export const useLoginAction = routeAction$((data, { cookies, redirect }) => {
@@ -415,7 +418,7 @@ Under the hood, the `<Link>` component uses the [`useNavigate()`](/docs/(qwikcit
 
 ```tsx
 import { component$ } from '@builder.io/qwik';
-import { useNavigate } from '@builder.io/qwik-city';
+import { useNavigate } from '@khulnasoft.com/qwik-city';
 
 export const Link = component$<LinkProps>((props) => {
   const nav = useNavigate();
@@ -438,7 +441,7 @@ export const Link = component$<LinkProps>((props) => {
 
 ```tsx
 import { component$ } from '@builder.io/qwik';
-import { Link } from '@builder.io/qwik-city';
+import { Link } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
   return (
@@ -470,7 +473,7 @@ Setting this value to `"js"` will prefetch only javascript bundles required to r
 
 ```tsx
 import { component$ } from '@builder.io/qwik';
-import { Link } from '@builder.io/qwik-city';
+import { Link } from '@khulnasoft.com/qwik-city';
 
 export default component$(() => {
   return (

@@ -86,7 +86,7 @@ async function validateStarter(
 
   // Ensure that npm will use an existing version
   appPkgJson.devDependencies['@builder.io/qwik'] = 'latest';
-  appPkgJson.devDependencies['@builder.io/qwik-city'] = 'latest';
+  appPkgJson.devDependencies['@khulnasoft.com/qwik-city'] = 'latest';
   appPkgJson.devDependencies['eslint-plugin-qwik'] = 'latest';
   writeFileSync(appPkgJsonPath, JSON.stringify(appPkgJson, null, 2));
 
@@ -153,9 +153,9 @@ function assertRightQwikDepsVersions(appPkgJson: any, qwikVersion: string, start
     true,
     `Qwik version mismatch for "${starterType}" starter`
   );
-  if (appPkgJson.devDependencies.hasOwnProperty('@builder.io/qwik-city')) {
+  if (appPkgJson.devDependencies.hasOwnProperty('@khulnasoft.com/qwik-city')) {
     assert.strictEqual(
-      appPkgJson.devDependencies['@builder.io/qwik-city'].includes(qwikVersion),
+      appPkgJson.devDependencies['@khulnasoft.com/qwik-city'].includes(qwikVersion),
       true,
       `Qwik City version mismatch for "${starterType}" starter`
     );

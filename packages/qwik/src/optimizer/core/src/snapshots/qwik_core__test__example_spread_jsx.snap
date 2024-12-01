@@ -7,7 +7,7 @@ expression: output
 
 
 import { component$ } from '@builder.io/qwik';
-import { useDocumentHead, useLocation } from '@builder.io/qwik-city';
+import { useDocumentHead, useLocation } from '@khulnasoft.com/qwik-city';
 
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
@@ -56,8 +56,8 @@ import { _fnSignal } from "@builder.io/qwik";
 import { _jsxC } from "@builder.io/qwik";
 import { _jsxQ } from "@builder.io/qwik";
 import { _jsxS } from "@builder.io/qwik";
-import { useDocumentHead } from "@builder.io/qwik-city";
-import { useLocation } from "@builder.io/qwik-city";
+import { useDocumentHead } from "@khulnasoft.com/qwik-city";
+import { useLocation } from "@khulnasoft.com/qwik-city";
 export const RouterHead_component_DPA76mgIou0 = ()=>{
     const head = useDocumentHead();
     const loc = useLocation();

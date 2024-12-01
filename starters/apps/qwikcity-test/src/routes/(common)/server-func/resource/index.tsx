@@ -1,5 +1,5 @@
 import { component$, useResource$, Resource } from "@builder.io/qwik";
-import { server$ } from "@builder.io/qwik-city";
+import { server$ } from "@khulnasoft.com/qwik-city";
 import { delay } from "../../actions/login";
 
 const serverFunctionA = server$(async function a() {

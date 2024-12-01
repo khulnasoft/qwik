@@ -4,7 +4,7 @@ import {
   Link,
   routeLoader$,
   useLocation,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 
 export const useWeatherLoader = routeLoader$(({ params, query }) => {
   return {

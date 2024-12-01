@@ -19,12 +19,15 @@
         " To get an authentication token for the database, run:",
         "   turso db tokens create <db-name>"
       ]
-    }
+    },
+    "alwaysInRoot": [
+      ".env.local"
+    ]
   },
   "dependencies": {
     "@libsql/client": "latest"
   },
   "devDependencies": {
-    "@builder.io/qwik-city": "latest"
+    "@khulnasoft.com/qwik-city": "latest"
   }
 }

@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { Form, globalAction$ } from "@builder.io/qwik-city";
+import { Form, globalAction$ } from "@khulnasoft.com/qwik-city";
 
 export const useOtherAction = globalAction$(() => {
   return {

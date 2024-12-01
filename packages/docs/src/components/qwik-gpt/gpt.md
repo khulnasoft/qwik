@@ -92,7 +92,7 @@ To link to other routes, you can use the `Link` component, it is like `<a>` but 
 
 ```tsx title="src/routes/user/[userID]/index.tsx"
 import { component$ } from '@builder.io/qwik';
-import { routeLoader$, useLocation, Link } from '@builder.io/qwik-city';
+import { routeLoader$, useLocation, Link } from '@khulnasoft.com/qwik-city';
 
 export const useUserData = routeLoader$(async (requestEvent) => {
   const { userID } = requestEvent.params;

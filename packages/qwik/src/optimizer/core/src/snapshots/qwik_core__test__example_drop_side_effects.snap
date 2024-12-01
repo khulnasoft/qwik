@@ -7,7 +7,7 @@ expression: output
 
 
 import { component$ } from '@builder.io/qwik';
-import { server$ } from '@builder.io/qwik-city';
+import { server$ } from '@khulnasoft.com/qwik-city';
 import { clientSupabase } from 'supabase';
 import { Client } from 'openai';
 import { secret } from './secret';
@@ -37,7 +37,7 @@ export default component$(() => {
 
 ============================= test.js ==
 
-import { serverQrl } from "@builder.io/qwik-city";
+import { serverQrl } from "@khulnasoft.com/qwik-city";
 import { _noopQrlDEV } from "@builder.io/qwik";
 import { componentQrl } from "@builder.io/qwik";
 import { qrlDEV } from "@builder.io/qwik";

@@ -8,7 +8,7 @@ const packageCfg = {
     packagePath: 'packages/qwik',
     distPath: 'packages/qwik/dist',
   },
-  '@builder.io/qwik-city': {
+  '@khulnasoft.com/qwik-city': {
     packagePath: 'packages/qwik-city',
     distPath: 'packages/qwik-city/lib',
   },

@@ -58,7 +58,7 @@ async function bundleCreateQwikCli(config: BuildConfig, srcCliDir: string, distC
         },
       },
     ],
-    external: ['prettier', 'typescript'],
+    external: ['prettier', 'typescript', 'ts-morph', 'semver', 'ignore'],
     define: {
       'globalThis.CODE_MOD': 'false',
       'globalThis.QWIK_VERSION': JSON.stringify(config.distVersion),
@@ -109,8 +109,8 @@ async function updateBaseVersions(config: BuildConfig, version: string) {
   console.log(`   update devDependencies["@builder.io/qwik"] = "${semverQwik}"`);
   baseAppPkg.devDependencies['@builder.io/qwik'] = semverQwik;
 
-  console.log(`   update devDependencies["@builder.io/qwik-city"] = "${semverQwik}"`);
-  baseAppPkg.devDependencies['@builder.io/qwik-city'] = semverQwik;
+  console.log(`   update devDependencies["@khulnasoft.com/qwik-city"] = "${semverQwik}"`);
+  baseAppPkg.devDependencies['@khulnasoft.com/qwik-city'] = semverQwik;
 
   console.log(`   update devDependencies["eslint-plugin-qwik"] = "${semverQwik}"`);
   baseAppPkg.devDependencies['eslint-plugin-qwik'] = semverQwik;

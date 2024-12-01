@@ -142,7 +142,7 @@ async function buildApp(
       },
       load(id) {
         if (id.endsWith(qwikCityVirtualEntry)) {
-          return `import { createQwikCity } from '@builder.io/qwik-city/middleware/node';
+          return `import { createQwikCity } from '@khulnasoft.com/qwik-city/middleware/node';
 import qwikCityPlan from '@qwik-city-plan';
 import render from '${escapeChars(resolve(appSrcDir, "entry.ssr"))}';
 const { router, notFound } = createQwikCity({
@@ -167,7 +167,7 @@ export {
         }
       },
     });
-    const qwikCityVite = await import("@builder.io/qwik-city/vite");
+    const qwikCityVite = await import("@khulnasoft.com/qwik-city/vite");
 
     plugins.push(
       qwikCityVite.qwikCity({

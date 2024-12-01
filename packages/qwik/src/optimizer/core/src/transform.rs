@@ -206,7 +206,7 @@ impl<'a> QwikTransform<'a> {
 						"@builder.io/qwik",
 						"Fragment" | "RenderOnce" | "HTMLFragment",
 					) => Some(id.clone()),
-					(ImportKind::Named, "@builder.io/qwik-city", "Link") => Some(id.clone()),
+					(ImportKind::Named, "@khulnasoft.com/qwik-city", "Link") => Some(id.clone()),
 					(_, source, _) => {
 						if source.ends_with("?jsx") || source.ends_with(".md") {
 							Some(id.clone())

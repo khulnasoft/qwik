@@ -15,7 +15,7 @@ export default defineConfig(() => {
       rollupOptions: {
         external: [
           '@builder.io/qwik',
-          '@builder.io/qwik-city',
+          '@khulnasoft.com/qwik-city',
           '@builder.io/qwik/build',
           '@auth/core',
         ],

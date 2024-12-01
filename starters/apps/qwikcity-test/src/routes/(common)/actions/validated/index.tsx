@@ -5,7 +5,7 @@ import {
   validator$,
   z,
   zod$,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 import type {
   CommonLoaderActionOptions,
   JSONObject,

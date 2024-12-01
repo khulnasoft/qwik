@@ -1,5 +1,5 @@
 import type { QwikSerializer, ServerRequestEvent, StatusCodes } from './types';
-import type { RequestEvent, RequestHandler } from '@builder.io/qwik-city';
+import type { RequestEvent, RequestHandler } from '@khulnasoft.com/qwik-city';
 import { createRequestEvent, getRequestMode, type RequestEventInternal } from './request-event';
 import { ErrorResponse, getErrorHtml, minimalHtmlResponse } from './error-handler';
 import { AbortMessage, RedirectMessage } from './redirect-handler';

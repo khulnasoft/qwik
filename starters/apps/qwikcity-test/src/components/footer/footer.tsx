@@ -1,5 +1,5 @@
 import { component$, useStyles$, useTask$ } from "@builder.io/qwik";
-import { Link } from "@builder.io/qwik-city";
+import { Link } from "@khulnasoft.com/qwik-city";
 import { useUserLoader } from "../../routes/layout";
 import { useRootLoader } from "../../routes/plugin@header";
 import styles from "./footer.css?inline";

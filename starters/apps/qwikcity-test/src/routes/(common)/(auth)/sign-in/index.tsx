@@ -9,7 +9,7 @@ import {
   type RequestHandler,
   globalAction$,
   zod$,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 import { isUserAuthenticated, signIn } from "../../../../auth/auth";
 import { z } from "zod";
 

@@ -1,5 +1,5 @@
 import { getAppInfo, getEdgeCount } from '~/db/query';
-import { routeLoader$, useLocation } from '@builder.io/qwik-city';
+import { routeLoader$, useLocation } from '@khulnasoft.com/qwik-city';
 
 import AppCard from '~/components/app-card';
 import { DashboardIcon } from '~/components/icons/dashboard';

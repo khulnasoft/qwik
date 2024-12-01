@@ -1,4 +1,4 @@
-import { routeAction$, routeLoader$, Form } from "@builder.io/qwik-city";
+import { routeAction$, routeLoader$, Form } from "@khulnasoft.com/qwik-city";
 import { component$ } from "@builder.io/qwik";
 
 export const useLoader = routeLoader$(

@@ -79,7 +79,7 @@ export const FooterLinks = component$(() => {
 export const FooterSocialLinks = component$(() => {
   const socialLinks = [
     { href: 'https://qwik.dev/chat', title: 'Discord', Logo: DiscordLogo },
-    { href: 'https://github.com/QwikDev/qwik', title: 'GitHub', Logo: GithubLogo },
+    { href: 'https://github.com/KhulnaSoft/qwik', title: 'GitHub', Logo: GithubLogo },
     { href: 'https://twitter.com/QwikDev', title: 'Twitter', Logo: TwitterLogo },
   ];
 

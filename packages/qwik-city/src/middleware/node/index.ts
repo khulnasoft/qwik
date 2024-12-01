@@ -1,8 +1,8 @@
 import type {
   ServerRenderOptions,
   ClientConn,
-} from '@builder.io/qwik-city/middleware/request-handler';
-import { requestHandler } from '@builder.io/qwik-city/middleware/request-handler';
+} from '@khulnasoft.com/qwik-city/middleware/request-handler';
+import { requestHandler } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { setServerPlatform } from '@builder.io/qwik/server';
 import { getNotFound } from '@qwik-city-not-found-paths';
 import { isStaticPath } from '@qwik-city-static-paths';
@@ -16,7 +16,7 @@ import { patchGlobalThis } from './node-fetch';
 import { _deserializeData, _serializeData, _verifySerializable } from '@builder.io/qwik';
 import type { Http2ServerRequest } from 'node:http2';
 
-// @builder.io/qwik-city/middleware/node
+// @khulnasoft.com/qwik-city/middleware/node
 
 /** @public */
 export function createQwikCity(opts: QwikCityNodeRequestOptions) {

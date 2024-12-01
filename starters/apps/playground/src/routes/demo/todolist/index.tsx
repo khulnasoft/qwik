@@ -6,7 +6,7 @@ import {
   zod$,
   z,
   Form,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 import styles from "./todolist.module.css";
 
 interface ListItem {

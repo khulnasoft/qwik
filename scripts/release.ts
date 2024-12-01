@@ -71,8 +71,8 @@ export async function setReleaseVersion(config: BuildConfig) {
   // check this @builder.io/qwik version isn't already published
   await checkExistingNpmVersion('@builder.io/qwik', config.distVersion);
 
-  // check this @builder.io/qwik-city version isn't already published
-  await checkExistingNpmVersion('@builder.io/qwik-city', config.distVersion);
+  // check this @khulnasoft.com/qwik-city version isn't already published
+  await checkExistingNpmVersion('@khulnasoft.com/qwik-city', config.distVersion);
 }
 
 export async function prepareReleaseVersion(config: BuildConfig) {
@@ -136,7 +136,7 @@ export async function commitPrepareReleaseVersion(config: BuildConfig) {
   console.log(`Next:`);
   console.log(` - Submit a PR to main with the prepared release updates`);
   console.log(` - Once merged, run the "Qwik CI" release workflow`);
-  console.log(` - https://github.com/QwikDev/qwik/actions/workflows/ci.yml`);
+  console.log(` - https://github.com/KhulnaSoft/qwik/actions/workflows/ci.yml`);
   console.log(``);
 }
 
@@ -164,7 +164,7 @@ export async function publish(config: BuildConfig) {
   const npmPublishArgs = ['publish', '--tag', distTag, '--access', 'public'];
 
   const qwikCityDir = join(config.packagesDir, 'qwik-city');
-  // publish @builder.io/qwik-city (dry-run)
+  // publish @khulnasoft.com/qwik-city (dry-run)
   await run('npm', npmPublishArgs, true, true, { cwd: qwikCityDir });
 
   // publish @builder.io/qwik (dry-run)

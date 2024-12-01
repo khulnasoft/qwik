@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/middleware/vercel-edge API Reference
+title: \@khulnasoft.com/qwik-city/middleware/vercel-edge API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/middleware/vercel-edge
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/middleware/vercel-edge
 
 ## createQwikCity
 
@@ -41,7 +41,7 @@ opts
 
 (request: Request) =&gt; Promise&lt;Response&gt;
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/middleware/vercel-edge/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/middleware/vercel-edge/index.ts)
 
 ## PlatformVercel
 
@@ -49,7 +49,7 @@ opts
 export interface PlatformVercel
 ```
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/middleware/vercel-edge/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/middleware/vercel-edge/index.ts)
 
 ## QwikCityVercelEdgeOptions
 
@@ -59,4 +59,4 @@ export interface QwikCityVercelEdgeOptions extends ServerRenderOptions
 
 **Extends:** ServerRenderOptions
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/middleware/vercel-edge/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/middleware/vercel-edge/index.ts)

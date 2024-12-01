@@ -4,7 +4,7 @@ import {
   useVisibleTask$,
   useStore,
 } from "@builder.io/qwik";
-import { DocumentHead, useLocation } from "@builder.io/qwik-city";
+import { DocumentHead, useLocation } from "@khulnasoft.com/qwik-city";
 import { Host, odd, pride, Range, Square } from "./flower.css";
 
 type StoredInputProps<

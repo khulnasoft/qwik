@@ -3,7 +3,7 @@ import {
   routeLoader$,
   validator$,
   type RequestEventAction,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 
 const dataValidator = validator$((ev) => {
   if (ev.query.get("secret") === "123") {

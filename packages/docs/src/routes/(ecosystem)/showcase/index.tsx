@@ -1,5 +1,5 @@
 import { component$, useStyles$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
+import type { DocumentHead } from '@khulnasoft.com/qwik-city';
 import pages from './generated-pages.json';
 import styles from './styles.css?inline';
 
@@ -38,7 +38,7 @@ export default component$(() => {
         <p>This page missing any great site or in need of an update?</p>
         <p>
           <a
-            href="https://github.com/QwikDev/qwik/edit/main/packages/docs/scripts/pages.json"
+            href="https://github.com/KhulnaSoft/qwik/edit/main/packages/docs/scripts/pages.json"
             target="_blank"
             class="edit-page"
           >

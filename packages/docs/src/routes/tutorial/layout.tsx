@@ -1,6 +1,6 @@
 import { component$, Slot, useStore, useStyles$, useTask$ } from '@builder.io/qwik';
-import type { RequestHandler } from '@builder.io/qwik-city';
-import { useLocation } from '@builder.io/qwik-city';
+import type { RequestHandler } from '@khulnasoft.com/qwik-city';
+import { useLocation } from '@khulnasoft.com/qwik-city';
 import { Repl } from '../../repl/repl';
 import styles from './tutorial.css?inline';
 import { TutorialContentFooter } from './tutorial-content-footer';
@@ -72,7 +72,7 @@ export default component$(() => {
               ) : null}
               <a
                 class="edit-tutorial"
-                href={`https://github.com/QwikDev/qwik/edit/main/packages/docs/src/routes/tutorial/${store.appId}`}
+                href={`https://github.com/KhulnaSoft/qwik/edit/main/packages/docs/src/routes/tutorial/${store.appId}`}
                 target="_blank"
               >
                 <EditIcon width={16} height={16} />

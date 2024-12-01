@@ -3,7 +3,7 @@ import {
   Link,
   useContent,
   useLocation,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 import { component$, useStyles$ } from "@builder.io/qwik";
 import styles from "./content-nav.css?inline";
 

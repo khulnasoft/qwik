@@ -1,16 +1,16 @@
 import type { AzureFunction, Context, HttpRequest } from '@azure/functions';
 import { setServerPlatform } from '@builder.io/qwik/server';
-import { requestHandler } from '@builder.io/qwik-city/middleware/request-handler';
+import { requestHandler } from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type {
   ServerRenderOptions,
   ServerRequestEvent,
-} from '@builder.io/qwik-city/middleware/request-handler';
+} from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import { getNotFound } from '@qwik-city-not-found-paths';
 import { _deserializeData, _serializeData, _verifySerializable } from '@builder.io/qwik';
 import { parseString } from 'set-cookie-parser';
 import { isStaticPath } from '@qwik-city-static-paths';
 
-// @builder.io/qwik-city/middleware/azure-swa
+// @khulnasoft.com/qwik-city/middleware/azure-swa
 
 interface AzureResponse {
   status: number;

@@ -19,7 +19,7 @@ jobs:
   deploy:
     name: Cloudflare Pages Deployment
     if: >
-      github.repository == 'khulnasoft/qwik' &&
+      github.repository == 'KhulnaSoft/qwik' &&
       github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:

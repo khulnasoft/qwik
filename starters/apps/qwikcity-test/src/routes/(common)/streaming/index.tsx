@@ -1,5 +1,5 @@
 import { component$, Resource } from "@builder.io/qwik";
-import { type DocumentHead, routeLoader$ } from "@builder.io/qwik-city";
+import { type DocumentHead, routeLoader$ } from "@khulnasoft.com/qwik-city";
 import { delay } from "../actions/login";
 
 export const useThing = routeLoader$(({ defer }) => {

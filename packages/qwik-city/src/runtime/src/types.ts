@@ -14,7 +14,7 @@ import type {
   RequestHandler,
   ResolveSyncValue,
   EnvGetter,
-} from '@builder.io/qwik-city/middleware/request-handler';
+} from '@khulnasoft.com/qwik-city/middleware/request-handler';
 import type * as v from 'valibot';
 import type * as z from 'zod';
 
@@ -31,7 +31,7 @@ export type {
   RequestHandler,
   ResolveSyncValue,
   ResolveValue,
-} from '@builder.io/qwik-city/middleware/request-handler';
+} from '@khulnasoft.com/qwik-city/middleware/request-handler';
 
 export interface RouteModule<BODY = unknown> {
   onDelete?: RequestHandler<BODY> | RequestHandler<BODY>[];
@@ -679,7 +679,7 @@ export type ActionStore<RETURN, INPUT, OPTIONAL extends boolean = true> = {
    * Most of the time this property should not be used directly, instead use the `Form` component:
    *
    * ```tsx
-   * import {action$, Form} from '@builder.io/qwik-city';
+   * import {action$, Form} from '@khulnasoft.com/qwik-city';
    *
    * export const useAddUser = action$(() => { ... });
    *

@@ -2,14 +2,14 @@
   "name": "@builder.io/qwik-auth",
   "description": "Qwik Auth is powered by Auth.js, a battle tested library for authentication with 3rd party providers",
   "version": "0.2.2",
-  "bugs": "https://github.com/QwikDev/qwik/issues",
+  "bugs": "https://github.com/KhulnaSoft/qwik/issues",
   "dependencies": {
     "@auth/core": "^0.30.0"
   },
   "devDependencies": {
     "@auth/core": "0.30.0",
     "@builder.io/qwik": "workspace:^",
-    "@builder.io/qwik-city": "workspace:^",
+    "@khulnasoft.com/qwik-city": "workspace:^",
     "@types/set-cookie-parser": "2.4.10",
     "set-cookie-parser": "2.6.0"
   },

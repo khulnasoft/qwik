@@ -3,7 +3,7 @@ import {
   globalAction$,
   type DocumentHead,
   routeLoader$,
-} from "@builder.io/qwik-city";
+} from "@khulnasoft.com/qwik-city";
 import { SecretForm } from "./login";
 
 export const useDateLoader = routeLoader$(() => new Date());

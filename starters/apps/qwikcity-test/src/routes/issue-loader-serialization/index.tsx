@@ -4,7 +4,7 @@ import {
   useSignal,
   useTask$,
 } from "@builder.io/qwik";
-import { routeLoader$ } from "@builder.io/qwik-city";
+import { routeLoader$ } from "@khulnasoft.com/qwik-city";
 import { isBrowser } from "@builder.io/qwik/build";
 
 export const useCmp1 = routeLoader$(

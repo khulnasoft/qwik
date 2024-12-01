@@ -1,5 +1,5 @@
 import { component$ } from '@builder.io/qwik';
-import { routeLoader$ } from '@builder.io/qwik-city';
+import { routeLoader$ } from '@khulnasoft.com/qwik-city';
 import { getDB } from '~/db';
 import { computeSymbolGraph, type Symbol } from '~/stats/edges';
 import { getSymbolDetails, getEdges } from '~/db/query';

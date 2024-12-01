@@ -1,8 +1,8 @@
 ---
-title: \@builder.io/qwik-city/vite/static API Reference
+title: \@khulnasoft.com/qwik-city/vite/static API Reference
 ---
 
-# [API](/api) &rsaquo; @builder.io/qwik-city/vite/static
+# [API](/api) &rsaquo; @khulnasoft.com/qwik-city/vite/static
 
 ## staticAdapter
 
@@ -39,7 +39,7 @@ opts
 
 any
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/static/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/static/vite/index.ts)
 
 ## StaticGenerateAdapterOptions
 
@@ -49,4 +49,4 @@ export interface StaticGenerateAdapterOptions extends Omit<StaticGenerateRenderO
 
 **Extends:** Omit&lt;StaticGenerateRenderOptions, 'outDir'&gt;
 
-[Edit this section](https://github.com/QwikDev/qwik/tree/main/packages/qwik-city/src/adapters/static/vite/index.ts)
+[Edit this section](https://github.com/KhulnaSoft/qwik/tree/main/packages/qwik-city/src/adapters/static/vite/index.ts)
